@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => '127.0.0.1',
+    'database_port' => '',
+    'database_name' => 'prestashop_learn',
+    'database_user' => 'homestead',
+    'database_password' => 'secret',
+    'database_prefix' => '',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'L9r8ykU7JMp07vSRYikkWOvoQGdsToFDtKMN5bsSHNjt8pjpwyMrOaEJsBk9SCfx',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2022-02-09',
+    'locale' => 'en-US',
+    'use_debug_toolbar' => true,
+    'cookie_key' => 'AaMdhk2mUZpCsnSKye6stDLI9e0gIonk03KFbc1B2oFrJhPWkA0aPjkxK3aaytxK',
+    'cookie_iv' => 'kmdN3oZGCxXNfHyG7PSh6RZ0GLJjV1P5',
+    'new_cookie_key' => 'def000003a79bbe4a4b5d0e959aee50d042c0f768237c1781083797a2a92a4d0bcd1d9569dbdbd835dd7fc9f702bddafdd2aa44126b4756818e98781472a8ee37dc3d3d7',
+  ),
+);
