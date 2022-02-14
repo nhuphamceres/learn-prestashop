@@ -1,0 +1,417 @@
+/*specific styles for PS 1.6*/
+
+#main .bootstrap .nav > li > a:focus {
+    background-color: transparent;
+}
+
+#main input, select {
+    display: inline;
+}
+
+#conf-priceminister label > h2 {
+    margin: 0;
+}
+
+#menudiv-informations > .pm-info p {
+    font-size: 1.1em;
+}
+
+#menudiv-informations div.pm-info p.pm-info-level-error {
+    min-height: 62px;
+    background: #FFBABA url(../img/icon-cancel.png) no-repeat 6px 6px;
+    border: 1px solid #CC0000;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+}
+
+#menudiv-informations div.pm-info p.pm-info-level-warn, #content .warn {
+    min-height: 42px;
+    background: #FEEFB3 url(../img/icon-attention.png) no-repeat 6px 6px;
+    border: 1px solid #9e6014;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+}
+
+#menudiv-informations div.pm-info p.pm-info-level-ok {
+    min-height: 50px;
+    background: #DFF2BF url(../img/icon-valid.png) no-repeat 6px 6px;
+    border: 1px solid #4F8A10;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+}
+
+#menudiv-informations p.pm-info-text-error {
+    color: red;
+    font-weight: bold;
+}
+
+#menudiv-informations p.pm-info-text-warn {
+    color: #9e6014;
+    font-weight: bold;
+}
+
+#menudiv-informations p.pm-info-text-ok {
+    color: #4F8A10;
+}
+
+.hint {
+    display: none;
+    /*position: absolute;*/
+    margin-top: 4px;
+    margin-bottom: 2px;
+    border: 1px solid #00529B;
+    padding: 15px 5px 15px 40px;
+    color: #00529B;
+    background: url('../../../img/admin/icon-info.png') no-repeat scroll 6px 5px #BDE5F8;
+    border-radius: 3px;
+    min-height: 15px;
+    z-index: 10;
+}
+
+#main .login {
+    padding: 15px;
+}
+
+label.import-method-list {
+    font-size: 1.0em;
+    color: black;
+    text-align: left;;
+    margin: -3px 10px 0 10px;
+}
+
+label.customer-account-list {
+    font-size: 1.0em;
+    color: black;
+    text-align: left;;
+    margin: -3px 10px 0 10px;
+}
+
+#shipping_per_item .shipping-option-label {
+    position: relative;
+    top: -4px;
+}
+
+.shipping-next {
+    position: relative;
+    top: -6px;
+}
+
+#main .shipping-option {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.connectivity-check {
+    margin-left: 15px;
+    position: relative;
+    top: -3px;
+    display: none;
+}
+
+.connectivity-ok {
+    color: green;
+    font-weight: bold;
+}
+
+.connectivity-error {
+    color: red;
+    font-weight: bold;
+}
+
+.connectivity-result {
+    display: inline-block;
+    font-size: 1.2em;
+    background-color: #fffefb;
+    width: 500px;
+    min-height: 16px;
+    border: 1px solid gainsboro;
+    margin: 0 5px 5px 0;
+    padding: 5px;
+}
+
+#main .menudiv-config .connectivity-button {
+    padding: 4px;
+    position: relative;
+    top: -2px;
+}
+
+.pm-required {
+    color: #F00;
+    font-weight: bold;
+    font-size: 2em;
+    position: relative;
+    margin: 0 5px 0 10px;
+    top: +6px;
+}
+
+.fashion-next {
+    position: relative;
+    top: -1px;
+    opacity: 0.5;
+    width: 16px;
+    height: 16px;
+}
+
+.condition-next {
+    position: relative;
+    top: -1px;
+    opacity: 0.5;
+    width: 16px;
+    height: 16px;
+}
+
+.condition-map input {
+    width: 200px;
+    border: 1px solid silver;
+    background-color: gainsboro;
+    opacity: 0.6;
+    padding: 2px;
+    margin: 1px;
+    margin-bottom: 2px;
+}
+
+.condition-map select {
+    width: 200px;
+    border: 1px solid silver;
+    padding: 2px;
+    margin: 1px;
+    margin-bottom: 2px;
+}
+
+#menudiv-parameters select, #menudiv-fashion select, #menudiv-fashion input, .menudiv-config input {
+    padding: 2px;
+}
+
+.menudiv-config input.login {
+    padding: 6px;
+}
+
+#conf-shipping div input {
+    max-width: 200px;
+}
+
+#main .support-informations-loader {
+    display: none;
+    position: relative;
+    top: -2px;
+    margin-left: 10px;
+}
+
+#main #support-informations-content .print_r {
+    padding-left: 50px;
+    color: sienna;
+}
+
+/* Compat mode 1.5 / 1.6
+ *
+ */
+.nobootstrap #profiles img {
+    position: relative;
+    top: 3px;
+}
+
+.nobootstrap .condition-next, .nobootstrap .fashion-next {
+    position: relative;
+    top: 3px;
+}
+
+.bootstrap .mapping-margin {
+    margin-bottom: 20px;
+}
+
+.bootstrap #conf-fashion table tbody tr td select,
+.bootstrap #conf-cron div.form-group div input {
+    max-width: none;
+}
+
+.bootstrap a.multiSelect:link, a.multiSelect:visited, a.multiSelect:hover, a.multiSelect:active {
+    height: 25px;
+}
+
+/*FOR MAPPING AND MODELS*/
+
+.inline-element {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/*mapping styles*/
+.feature-mapping {
+    display: none;
+}
+
+.feature-mapping-collapse, .feature-mapping-collapse a, .feature-mapping-collapse a:hover {
+    text-decoration: none;
+    color: navy;
+    font-size: 11px;
+}
+
+#main .attribute-group {
+    font-size: 1em;
+}
+
+.attribute-mapping {
+    display: none;
+}
+
+.attribute-mapping-collapse, .attribute-mapping-collapse a, .attribute-mapping-collapse a:hover {
+    text-decoration: none;
+    color: navy;
+    font-size: 11px;
+}
+
+.add-attr-mapping img, .del-attr-mapping img, .add-feature-mapping img, .del-feature-mapping img {
+    max-height: none !important;
+    opacity: 1 !important;
+}
+
+#main .attribute-group span img, #main .feature-group span img {
+    max-height: 16px;
+    opacity: 0.5;
+    position: relative;
+    top: -3px;
+    vertical-align: middle;
+}
+
+#main .attribute-group input, #main .feature-group input, #main .attribute-group select, #main .feature-group select {
+    padding: 2px;
+    margin: 2px;
+    position: relative;
+    top: -1px;
+    width: 250px;
+}
+
+#main .add-attr-mapping img, #main .add-feature-mapping img {
+    position: relative;
+    top: -3px;
+    border: 1px solid gainsboro;
+    padding: 4px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    -webkit-opacity: 0.7;
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+
+#main .add-attr-mapping img:hover, #main .add-feature-mapping img:hover {
+    border: 1px solid lavender;
+    background-color: lightgray;
+}
+
+#main .del-attr-mapping img, #main .del-feature-mapping img {
+    position: relative;
+    top: -3px;
+    border: 1px solid gainsboro;
+    padding: 4px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    -webkit-opacity: 0.7;
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+
+#main .del-attr-mapping img:hover, #main .del-feature-mapping img:hover {
+    border: 1px solid lavender;
+    background-color: lightgray;
+}
+
+.condition-map input {
+    width: 200px;
+    display: inline;
+    height: 27px;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555555;
+    background-color: white;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+/* Features Mapping */
+.mapping-margin > div:nth-child(2) div {
+    margin-top: 3px;
+}
+
+.mapping-margin {
+    margin-bottom: 20px;
+}
+
+.attribute-group img {
+    max-height: 1em;
+}
+
+.used-option {
+    color: navy;
+}
+
+.unused-option {
+    color: green;
+}
+
+.alert.alert-info {
+    line-height: 1.6em;
+    border: 1px solid transparent !important;
+    border-left: 3px solid #81cfe6 !important;
+}
+
+.alert.alert-info a {
+    font-weight: bold;
+}
+
+#main .cron-mode {
+    cursor: pointer;
+    border: 1px silver dotted;
+    padding: 10px;
+    height: 52px;
+}
+
+#main .cron-mode h4 {
+    float: left;
+    margin-left: 10px;
+}
+
+#main .cron-mode img {
+    float: left;
+}
+
+#main .cron-prestashop {
+    position: relative;
+    top: 5px;
+}
+
+#prestashop-cronjobs-lines {
+    display: block;
+    font-family: monospace;
+    color: black;
+    word-wrap: break-word;
+    margin: 1em 0px;
+}
+
+#cronjob-loader {
+    display: none;
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    top: 8px;
+}
+
+/*Module wide logo*/
+img.logo-wide {
+    float: right;
+    width: 350px;
+    padding-right: 20px;
+}
+/*Module circle logo*/
+img.logo-circle {
+    max-width: 32px;
+    height: 32px;
+}

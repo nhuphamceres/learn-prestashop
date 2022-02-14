@@ -1,0 +1,34 @@
+<attribute>
+    <label>Format</label>
+    <key>livreFormat</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Album</value>
+        <value>Auto édition</value>
+        <value>Beau livre</value>
+        <value>Boîte</value>
+        <value>Broché</value>
+        <value>Carte Plan</value>
+        <value>Cartonné</value>
+        <value>Catalogue d'exposition</value>
+        <value>Classeur</value>
+        <value>Coffret</value>
+        <value>Cuir</value>
+        <value>Dépliant</value>
+        <value>Etui</value>
+        <value>Livre objet</value>
+        <value>Livre-bain</value>
+        <value>Livre-CD</value>
+        <value>Livre-mousse</value>
+        <value>Livre-tissu</value>
+        <value>Poche</value>
+        <value>Présentation</value>
+        <value>Relié</value>
+        <value>Spiralé</value>
+        <value>Support magnétique</value>
+        <value>Tirage de tête</value>
+    </valueslist>
+</attribute>

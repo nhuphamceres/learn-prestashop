@@ -1,0 +1,28 @@
+<attribute>
+    <label>Origine</label>
+    <key>origine</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Afrique</value>
+        <value>Allemagne</value>
+        <value>Autriche</value>
+        <value>Belgique</value>
+        <value>Canada</value>
+        <value>Chine</value>
+        <value>Espagne</value>
+        <value>Etats-Unis</value>
+        <value>France</value>
+        <value>Italie</value>
+        <value>Japon</value>
+        <value>Luxembourg</value>
+        <value>Pologne</value>
+        <value>Portugal</value>
+        <value>République dominicaine</value>
+        <value>Royaume-Uni</value>
+        <value>Russie</value>
+        <value>Suisse</value>
+    </valueslist>
+</attribute>

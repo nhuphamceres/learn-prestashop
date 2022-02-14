@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2022-02-09 14:54:41
+/* Smarty version 3.1.39, created on 2022-02-14 09:23:02
   from 'module:pslinklistviewstemplatesh' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6203734160b2e6_03845618',
+  'unifunc' => 'content_6209bd0689cf91_23933488',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,13 +18,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6203734160b2e6_03845618 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6209bd0689cf91_23933488 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/home/vagrant/prestashop-learn/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/0e/cc/f9/0eccf99861411b844dbd7a7b20c24aa938e6363e_2.file.helpers.tpl.php',
     'uid' => '0eccf99861411b844dbd7a7b20c24aa938e6363e',
-    'call_name' => 'smarty_template_function_renderLogo_12891385146203733e79c710_50487525',
+    'call_name' => 'smarty_template_function_renderLogo_15409238836209bd04869666_91487080',
   ),
 ));
 ?><div class="col-md-6 links">
@@ -45,30 +45,30 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-product-page-prices-drop-1"
                 class="cms-page-link"
-                href="http://prestashop-learn.local/vn/prices-drop"
+                href="http://prestashop-learn.local/vn/giảm giá"
                 title="Our special products"
                             >
-              Prices drop
+              Giảm giá
             </a>
           </li>
                   <li>
             <a
                 id="link-product-page-new-products-1"
                 class="cms-page-link"
-                href="http://prestashop-learn.local/vn/new-products"
-                title="Our new products"
+                href="http://prestashop-learn.local/vn/sản phẩm mới"
+                title="Sản phẩm mới của chúng tôi"
                             >
-              New products
+              Sản phẩm mới
             </a>
           </li>
                   <li>
             <a
                 id="link-product-page-best-sales-1"
                 class="cms-page-link"
-                href="http://prestashop-learn.local/vn/best-sales"
-                title="Our best sales"
+                href="http://prestashop-learn.local/vn/bán chạy nhất"
+                title="Sản phẩm bán chạy của chúng tôi"
                             >
-              Best sales
+              Bán chạy nhất
             </a>
           </li>
               </ul>
@@ -139,30 +139,30 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-static-page-contact-2"
                 class="cms-page-link"
-                href="http://prestashop-learn.local/vn/contact-us"
-                title="Use our form to contact us"
+                href="http://prestashop-learn.local/vn/liên hệ với chúng tôi"
+                title="Sử dụng mẫu của chúng tôi để liên hệ với chúng tôi"
                             >
-              Contact us
+              Liên hệ với chúng tôi
             </a>
           </li>
                   <li>
             <a
                 id="link-static-page-sitemap-2"
                 class="cms-page-link"
-                href="http://prestashop-learn.local/vn/sitemap"
-                title="Lost ? Find what your are looking for"
+                href="http://prestashop-learn.local/vn/Sơ đồ website"
+                title="Mất ? Tìm những gì bạn đang tìm kiếm"
                             >
-              Sitemap
+              Sơ đồ web
             </a>
           </li>
                   <li>
             <a
                 id="link-static-page-stores-2"
                 class="cms-page-link"
-                href="http://prestashop-learn.local/vn/stores"
+                href="http://prestashop-learn.local/vn/cửa hàng"
                 title=""
                             >
-              Stores
+              Cửa hàng
             </a>
           </li>
               </ul>

@@ -1,0 +1,30 @@
+<attribute>
+    <label>Type de fonctionnement</label>
+    <key>typedefonctionnement</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Basculante</value>
+        <value>Battant à bras</value>
+        <value>Battant à vérin</value>
+        <value>Battant enterré</value>
+        <value>Battant intégré</value>
+        <value>Battante</value>
+        <value>Bloc baie</value>
+        <value>Capteur</value>
+        <value>Centrale</value>
+        <value>Coffre rénovation</value>
+        <value>Coffre tunnel</value>
+        <value>Coulissant - crémaillaire</value>
+        <value>Coulissant - rail autoportant</value>
+        <value>Detecteur porte - fenêtre</value>
+        <value>Enroulable</value>
+        <value>Latérale</value>
+        <value>Plafond</value>
+        <value>Roullant filaire</value>
+        <value>Roullant sans fil</value>
+        <value>Système d'alarme</value>
+    </valueslist>
+</attribute>

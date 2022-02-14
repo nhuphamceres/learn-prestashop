@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<producttypetemplateresult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                           xmlns="http://www.sandbox.priceminister.com/res/schema/producttypetemplate"
+                           xsi:schemaLocation="http://www.sandbox.priceminister.com/res/schema/producttypetemplate http://www.sandbox.priceminister.com/res/schema/producttypetemplate/producttypetemplate.2013-05-14.xsd">
+    <request>
+        <user>common-servi</user>
+        <alias>accessoire_chaussure</alias>
+
+        <scope>VALUES</scope>
+
+        <version>2013-05-14</version>
+    </request>
+    <response>
+        <prdtypelabel>Accessoires pour Chaussures</prdtypelabel>
+
+        <updatedate>2014-08-06T00:00:00</updatedate>
+
+        <attributes>
+
+
+            <product>
+
+                <attribute>
+                    <label>Identification produit</label>
+                    <key>pid</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Number</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Référence privée</label>
+                    <key>submitterreference</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Type de produit</label>
+                    <key>productType</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>1</hasvalues>
+
+                    <valueslist>
+
+                        <value>Assouplisseur</value>
+
+                        <value>Brosse</value>
+
+                        <value>Chamoisine</value>
+
+                        <value>Chausse-Pied</value>
+
+                        <value>Cirage</value>
+
+                        <value>Cireuse</value>
+
+                        <value>Coffret maison</value>
+
+                        <value>Coffret voyage</value>
+
+                        <value>Coussinet</value>
+
+                        <value>Crème</value>
+
+                        <value>Demi-semelle</value>
+
+                        <value>Désodorisant</value>
+
+                        <value>Embauchoir botte</value>
+
+                        <value>Embauchoir chaussure</value>
+
+                        <value>Eponge</value>
+
+                        <value>Extenseur</value>
+
+                        <value>Gomme</value>
+
+                        <value>Graisse</value>
+
+                        <value>Imperméabilisant</value>
+
+                        <value>Lacet</value>
+
+                        <value>Lait</value>
+
+                        <value>Lustrant</value>
+
+                        <value>Semelle</value>
+
+                        <value>Shampooing</value>
+
+                        <value>Talonnette</value>
+
+                        <value>Trousse</value>
+
+                    </valueslist>
+
+                </attribute>
+
+                <attribute>
+                    <label>Fabricant</label>
+                    <key>manufacturer</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>1</hasvalues>
+
+                    <valueslist>
+
+                        <value>Autre</value>
+
+                        <value>Baranne</value>
+
+                        <value>Buffalo</value>
+
+                        <value>Carven</value>
+
+                        <value>Chiruca</value>
+
+                        <value>Coolmax</value>
+
+                        <value>Cuiral</value>
+
+                        <value>Davidt's</value>
+
+                        <value>Famaco</value>
+
+                        <value>Hussard</value>
+
+                        <value>Javacuir</value>
+
+                        <value>Kenzo</value>
+
+                        <value>Kiwi</value>
+
+                        <value>Louis XIII</value>
+
+                        <value>Noene</value>
+
+                        <value>Ouraline</value>
+
+                        <value>Pro-shine</value>
+
+                        <value>Renomat</value>
+
+                        <value>Renov'cuir</value>
+
+                        <value>Saphir</value>
+
+                        <value>Shoe-eze</value>
+
+                        <value>Spirit of Saint Louis</value>
+
+                    </valueslist>
+
+                </attribute>
+
+                <attribute>
+                    <label>Prix d'origine</label>
+                    <key>originalPrice</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Number</valuetype>
+
+                    <units>
+
+                        <unit>&amp;euro;</unit>
+
+                    </units>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Titre de la fiche produit</label>
+                    <key>title</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Descriptif détaillé du produit</label>
+                    <key>prdEdito</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+            </product>
+
+
+            <advert>
+
+                <attribute>
+                    <label>Identification annonce</label>
+                    <key>aid</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Number</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Etat du produit</label>
+                    <key>state</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>1</hasvalues>
+
+                    <valueslist>
+
+                        <value>Neuf</value>
+
+                        <value>Comme Neuf</value>
+
+                        <value>Très Bon Etat</value>
+
+                        <value>Bon Etat</value>
+
+                        <value>Etat Correct</value>
+
+                    </valueslist>
+
+                </attribute>
+
+                <attribute>
+                    <label>Collection</label>
+                    <key>collectible</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Boolean</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Commentaire de votre annonce</label>
+                    <key>comment</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Prix de vente</label>
+                    <key>sellingPrice</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Number</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Stock</label>
+                    <key>qty</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Number</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Votre référence cachée</label>
+                    <key>sellerReference</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Votre commentaire caché (facultatif)</label>
+                    <key>privateComment</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Description personnalisée</label>
+                    <key>customizedAdvertDetail</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+            </advert>
+
+
+            <media>
+                <attribute>
+                    <label>url image</label>
+                    <key>image_url</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Text</valuetype>
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+                </attribute>
+            </media>
+
+            <campaigns>
+                <campaign>
+
+                    <attribute>
+                        <label>Identifiant de la campagne</label>
+                        <key>productsCampaignId</key>
+                        <mandatory>1</mandatory>
+                        <valuetype>Number</valuetype>
+                        <multivalued>0</multivalued>
+                        <hasvalues>0</hasvalues>
+                    </attribute>
+
+                    <attribute>
+                        <label>Prix de référence</label>
+                        <key>productsCampaignRefPrice</key>
+                        <mandatory>0</mandatory>
+                        <valuetype>Number</valuetype>
+                        <multivalued>0</multivalued>
+                        <hasvalues>0</hasvalues>
+                    </attribute>
+
+                    <attribute>
+                        <label>Pourcentage de réduction</label>
+                        <key>productsCampaignPct</key>
+                        <mandatory>0</mandatory>
+                        <valuetype>Number</valuetype>
+                        <multivalued>0</multivalued>
+                        <hasvalues>0</hasvalues>
+                    </attribute>
+
+                    <attribute>
+                        <label>Prix "promo"</label>
+                        <key>productsCampaignPrice</key>
+                        <mandatory>0</mandatory>
+                        <valuetype>Number</valuetype>
+                        <multivalued>0</multivalued>
+                        <hasvalues>0</hasvalues>
+                    </attribute>
+
+                </campaign>
+            </campaigns>
+            <shipping>
+                <shipped_by_rsl>1</shipped_by_rsl>
+                <package_weight>30</package_weight>
+                <configuration>
+                    <zone>
+                        <name>WORLD</name>
+                        <type>
+                            <name>NORMAL</name>
+                            <authorization>1</authorization>
+                            <leader_price>44.44</leader_price>
+                            <follower_price>33.33</follower_price>
+                        </type>
+                        <type>
+                            <name>RECOMMANDE</name>
+                            <authorization>1</authorization>
+                            <leader_price>22.22</leader_price>
+                            <follower_price>11.11</follower_price>
+                        </type>
+                    </zone>
+                    <zone>
+                        <name>EUROPE</name>
+                        <type>
+                            <name>NORMAL</name>
+                            <authorization>1</authorization>
+                            <leader_price>88.88</leader_price>
+                            <follower_price>77.77</follower_price>
+                        </type>
+                        <type>
+                            <name>RECOMMANDE</name>
+                            <authorization>1</authorization>
+                            <leader_price>66.66</leader_price>
+                            <follower_price>55.55</follower_price>
+                        </type>
+                    </zone>
+                    <zone>
+                        <name>FRANCE_DROM_COM</name>
+                        <type>
+                            <name>NORMAL</name>
+                            <authorization>1</authorization>
+                            <leader_price>22.22</leader_price>
+                            <follower_price>14.44</follower_price>
+                        </type>
+                        <type>
+                            <name>RECOMMANDE</name>
+                            <authorization>1</authorization>
+                            <leader_price>10.40</leader_price>
+                            <follower_price>99.99</follower_price>
+                        </type>
+                    </zone>
+                    <zone>
+                        <name>FRANCE</name>
+                        <type>
+                            <name>NORMAL</name>
+                            <authorization>1</authorization>
+                            <leader_price>33.33</leader_price>
+                            <follower_price>44.44</follower_price>
+                        </type>
+                        <type>
+                            <name>SUIVI</name>
+                            <authorization>0</authorization>
+                        </type>
+                        <type>
+                            <name>RECOMMANDE</name>
+                            <authorization>1</authorization>
+                            <leader_price>55.55</leader_price>
+                            <follower_price>11.11</follower_price>
+                        </type>
+                        <type>
+                            <name>EXPRESS_DELIVERY</name>
+                            <authorization>1</authorization>
+                            <leader_price>66.66</leader_price>
+                            <follower_price>22.22</follower_price>
+                        </type>
+                    </zone>
+                </configuration>
+            </shipping>
+        </attributes>
+    </response>
+</producttypetemplateresult>

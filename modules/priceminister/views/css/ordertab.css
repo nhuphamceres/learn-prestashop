@@ -1,0 +1,251 @@
+.tabItem {
+    display: none;
+}
+
+li > a > span > img, h3 > img {
+    vertical-align: middle !important;
+}
+
+.panel input[type="text"], .panel select {
+    max-width: 200px;
+    display: inline !important;
+}
+
+hr {
+    margin-bottom: 20px;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.ccb-title {
+    font-size: 1.2em;
+    position: relative;
+    top: +2px;
+    padding-left: 5px;
+
+}
+
+a.order_link:hover {
+    text-decoration: underline;
+}
+
+/* Update Mode */
+#conf-import h3, #conf-accept h3 {
+    text-align: center;
+    margin: 10px 0 0 0;
+    color: navy;
+}
+
+#result-import {
+    display: none;
+    width: 700px;
+    left: 80px;
+    position: relative;
+}
+
+#result-accept {
+    display: none;
+    width: 700px;
+    left: 80px;
+    position: relative;
+}
+
+#accept-orders {
+    width: 200px;
+    float: right;
+    margin-right: 15px
+}
+
+#accept-order {
+    display: none;
+    width: 200px;
+    float: right;
+    margin-right: 15px;
+}
+
+#import-orders {
+    width: 200px;
+    float: right;
+    margin-right: 15px;
+}
+
+#import-order {
+    display: none;
+    width: 200px;
+    float: right;
+    margin-right: 15px;
+}
+
+.import-dt {
+    font-size: 1.2em;
+    position: relative;
+    top: 2px;
+}
+
+.url {
+    color: navy;
+}
+
+#conf-import {
+    position: relative;
+}
+
+#import-loader {
+    display: none;
+    position: relative;
+    margin-left: 200px;
+    width: 32px;
+    height: 32px;
+    background: transparent url(../img/loading.gif) no-repeat;
+}
+
+#accept-loader {
+    display: none;
+    position: relative;
+    margin-left: 200px;
+    width: 32px;
+    height: 32px;
+    background: transparent url(../img/loading.gif) no-repeat;
+}
+
+#debug-loader {
+    display: none;
+    width: 32px;
+    height: 32px;
+    background: transparent url(../img/loading.gif) no-repeat;
+}
+
+.istatus {
+    position: relative;
+    top: -1px;
+    margin: 0 5px 0 10px;
+}
+
+#main .conf {
+    background: #DFF2BF url(../img/icon-valid.png) no-repeat scroll 6px 6px;
+    border: 1px solid #4F8A10;
+    color: #4F8A10;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    line-height: 20px;
+    padding: 13px 5px 5px 40px;
+    min-height: 28px;
+    border-radius: 3px;
+}
+
+#main .error {
+    min-height: 32px;
+    background: #FFBABA url(../img/icon-cancel.png) no-repeat 6px 6px;
+    border: 1px solid #CC0000;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+}
+
+#import-orders-success {
+    clear: both;
+    background: #DFF2BF url(../img/icon-valid.png) no-repeat scroll 6px 6px;
+    border: 1px solid #4F8A10;
+    color: #4F8A10;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    line-height: 20px;
+    padding: 5px 5px 5px 50px;
+    min-height: 28px;
+    border-radius: 3px;
+}
+
+#main #menuTab li {
+    max-width: 240px;
+}
+
+#accept-legend li, #import-legend li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+.right {
+    text-align: right;
+}
+
+.table td[rel="date"] {
+    width: 150px;
+}
+
+#conf-import .table td, #conf-accept .table td {
+    line-height: 240%;
+    cursor: pointer;
+}
+
+#conf-import .table .order-items td, #conf-accept .table .order-items td {
+    border-bottom: none;
+}
+
+#conf-import .table .order-items td[rel=checkbox], #conf-accept .table .order-items td[rel=checkbox] {
+    width: 30px;
+}
+
+#conf-import .table .order-items td[rel=sku], #conf-accept .table .order-items td[rel=sku] {
+    width: 100px;
+}
+
+#conf-import .table .order-items td[rel=itemid], #conf-accept .table .order-items td[rel=itemid] {
+    width: 100px;
+}
+
+#conf-import .table .order-items td[rel=itemstatus], #conf-accept .table .order-items td[rel=itemstatus] {
+    width: 100px;
+}
+
+#conf-accept .accept-order-button, #conf-import .import-order-button {
+    display: none;
+    width: 250px;
+    float: right;
+    margin-right: 15px;
+}
+
+.order-check {
+    position: relative;
+    top: +5px;
+    width: 20px;
+    height: 20px;
+}
+
+#conf-import .order-items, #conf-accept .order-items {
+    opacity: 0.8;
+}
+
+.order-link a {
+    cursor: pointer;
+    color: navy;
+}
+
+.order-link a:hover {
+    text-decoration: underline;
+}
+
+.imported_row2 td {
+    background-color: #EFF8DF;
+}
+
+.imported_row td {
+    background-color: #DFF2BF;
+}
+
+#main .error_row td {
+    background-color: #FFBABA;
+}
+
+/*Module wide logo*/
+img.logo-wide {
+    float: right;
+    width: 350px;
+    padding-right: 20px;
+}
+/*Module circle logo*/
+img.logo-circle {
+    max-width: 32px;
+    height: 32px;
+}

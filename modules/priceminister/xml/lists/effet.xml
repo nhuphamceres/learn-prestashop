@@ -1,0 +1,82 @@
+<attribute>
+    <label>Type de soin</label>
+    <key>effet</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>1</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Adoucissant</value>
+        <value>Anti-âge / Anti-ride</value>
+        <value>Anti-cernes</value>
+        <value>Anti-frisotis</value>
+        <value>Anti-oxydant</value>
+        <value>Anti-pelliculaire</value>
+        <value>Apaisant</value>
+        <value>Articulations</value>
+        <value>Auto-bronzant</value>
+        <value>Brillant</value>
+        <value>Chauffant</value>
+        <value>Circulation</value>
+        <value>Clarifiant</value>
+        <value>Coiffant</value>
+        <value>Confort Urinaire</value>
+        <value>Correcteur</value>
+        <value>Démaquillant</value>
+        <value>Démêlant</value>
+        <value>Déodorant</value>
+        <value>Détente et Sommeil</value>
+        <value>Détoxifiant</value>
+        <value>Digestion</value>
+        <value>Durcissant</value>
+        <value>Energisant</value>
+        <value>Equilibrant</value>
+        <value>Exfoliant</value>
+        <value>Extension à chaud</value>
+        <value>Extension à clip</value>
+        <value>Extension à froid</value>
+        <value>Fatigue</value>
+        <value>Fertilité</value>
+        <value>Fixant</value>
+        <value>Gommage</value>
+        <value>Hydratant</value>
+        <value>Hypoallergénique</value>
+        <value>Liftant</value>
+        <value>Ligne et Minceur</value>
+        <value>Lissant</value>
+        <value>Lithothérapie</value>
+        <value>Longue Tenue</value>
+        <value>Massage</value>
+        <value>Matifiant</value>
+        <value>Ménopause</value>
+        <value>Modelant</value>
+        <value>Moussant</value>
+        <value>Musculation</value>
+        <value>Nail Art</value>
+        <value>Nettoyant</value>
+        <value>Normalisant</value>
+        <value>Nourrissant</value>
+        <value>Ondulation</value>
+        <value>Oxygénant</value>
+        <value>Peeling</value>
+        <value>Prise de masse</value>
+        <value>Protecteur</value>
+        <value>Purifiant</value>
+        <value>Rafraîchissant</value>
+        <value>Rasage</value>
+        <value>Reconstituant</value>
+        <value>Régénérant</value>
+        <value>Relaxant</value>
+        <value>Réparateur</value>
+        <value>Restructurant</value>
+        <value>Revitalisant</value>
+        <value>Scintillant</value>
+        <value>Solaire</value>
+        <value>Souplesse et mobilité</value>
+        <value>Tenseur</value>
+        <value>Vision</value>
+        <value>Vitalisant</value>
+        <value>Volume</value>
+        <value>Waterproof</value>
+    </valueslist>
+</attribute>

@@ -1,0 +1,34 @@
+<attribute>
+    <label>Public</label>
+    <key>varpublic</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+
+    <valueslist>
+
+        <value>Femme</value>
+
+        <value>Future Maman</value>
+
+        <value>Homme</value>
+
+        <value>Adulte (Mixte)</value>
+
+        <value>Enfant (Fille)</value>
+
+        <value>Enfant (Garçon)</value>
+
+        <value>Enfant (Mixte)</value>
+
+        <value>Bébé (Fille)</value>
+
+        <value>Bébé (Garçon)</value>
+
+        <value>Bébé (Mixte)</value>
+
+    </valueslist>
+
+</attribute>

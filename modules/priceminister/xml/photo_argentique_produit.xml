@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<producttypetemplateresult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                           xmlns="http://pmcdn.staticpmrk.com/res/schema/producttypetemplate"
+                           xsi:schemaLocation="http://pmcdn.staticpmrk.com/res/schema/producttypetemplate http://pmcdn.staticpmrk.com/res/schema/producttypetemplate/producttypetemplate.2013-05-14.xsd">
+    <request>
+        <user>Oyoo</user>
+        <alias>photo_argentique_produit</alias>
+
+        <scope>VALUES</scope>
+
+        <version>2013-05-14</version>
+    </request>
+    <response>
+        <prdtypelabel>Appareils photo argentiques</prdtypelabel>
+
+        <updatedate>2014-08-06T00:00:00</updatedate>
+
+        <attributes>
+
+
+            <product>
+
+                <attribute>
+                    <label>Identification produit</label>
+                    <key>pid</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Number</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Référence privée</label>
+                    <key>submitterreference</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Titre de votre fiche produit</label>
+                    <key>titre</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Fabricant</label>
+                    <key>fabricant</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>1</hasvalues>
+
+                    <valueslist>
+
+                        <value>3M</value>
+
+                        <value>Agfa</value>
+
+                        <value>Alpa</value>
+
+                        <value>Alsaphot</value>
+
+                        <value>AP</value>
+
+                        <value>Argus</value>
+
+                        <value>Asaflex</value>
+
+                        <value>Bauchet</value>
+
+                        <value>Beier</value>
+
+                        <value>Birex</value>
+
+                        <value>BlueSky</value>
+
+                        <value>Bosch</value>
+
+                        <value>Bronica</value>
+
+                        <value>Canon</value>
+
+                        <value>Carena</value>
+
+                        <value>Chinon</value>
+
+                        <value>Cierpa</value>
+
+                        <value>Concord Camera</value>
+
+                        <value>Contax</value>
+
+                        <value>Cord</value>
+
+                        <value>Cosina</value>
+
+                        <value>Dacora</value>
+
+                        <value>Ferrania</value>
+
+                        <value>Fex</value>
+
+                        <value>Firstline</value>
+
+                        <value>Foca</value>
+
+                        <value>Foth</value>
+
+                        <value>Fujica</value>
+
+                        <value>Fujifilm</value>
+
+                        <value>Gaoersi</value>
+
+                        <value>Goldstein</value>
+
+                        <value>Gossen</value>
+
+                        <value>Hama</value>
+
+                        <value>Hanimex</value>
+
+                        <value>Hasselblad</value>
+
+                        <value>Hermagis</value>
+
+                        <value>Ihagee</value>
+
+                        <value>Ilford</value>
+
+                        <value>Kenko</value>
+
+                        <value>Kinax</value>
+
+                        <value>Kodak</value>
+
+                        <value>Konica Minolta Holdings</value>
+
+                        <value>Kowa</value>
+
+                        <value>Kyocera</value>
+
+                        <value>Leica</value>
+
+                        <value>Lomography</value>
+
+                        <value>Lumière</value>
+
+                        <value>Mamiya</value>
+
+                        <value>Meade</value>
+
+                        <value>Metz</value>
+
+                        <value>Minolta</value>
+
+                        <value>Minox</value>
+
+                        <value>MIOM</value>
+
+                        <value>MPP</value>
+
+                        <value>Nikon</value>
+
+                        <value>Nishika</value>
+
+                        <value>Noblex</value>
+
+                        <value>Olympus</value>
+
+                        <value>Panasonic</value>
+
+                        <value>Pentax</value>
+
+                        <value>Phokina</value>
+
+                        <value>Photax</value>
+
+                        <value>Photoflex</value>
+
+                        <value>Pioneer</value>
+
+                        <value>Plaubel</value>
+
+                        <value>Polaroid</value>
+
+                        <value>Pontiac</value>
+
+                        <value>Praktica</value>
+
+                        <value>Ricoh</value>
+
+                        <value>Rollei</value>
+
+                        <value>Sea &amp; Sea</value>
+
+                        <value>Seagull</value>
+
+                        <value>SEM</value>
+
+                        <value>Sigma</value>
+
+                        <value>Smoby</value>
+
+                        <value>Sony</value>
+
+                        <value>Traveler</value>
+
+                        <value>Vivitar</value>
+
+                        <value>Voigtländer</value>
+
+                        <value>Yashica</value>
+
+                        <value>Zeiss</value>
+
+                        <value>Zenit</value>
+
+                    </valueslist>
+
+                </attribute>
+
+                <attribute>
+                    <label>Référence fabricant</label>
+                    <key>referencefabricant</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Type d'appareil</label>
+                    <key>typedappareil</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>1</hasvalues>
+
+                    <valueslist>
+
+                        <value>Appareil ancien</value>
+
+                        <value>Compact</value>
+
+                        <value>Etanche</value>
+
+                        <value>Instantané</value>
+
+                        <value>Jetable</value>
+
+                        <value>Moyen format</value>
+
+                        <value>Réflex</value>
+
+                    </valueslist>
+
+                </attribute>
+
+                <attribute>
+                    <label>Descriptif détaillé du produit</label>
+                    <key>prdEdito</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>EAN (code barre)</label>
+                    <key>codebarres</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>1</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+            </product>
+
+
+            <advert>
+
+                <attribute>
+                    <label>Identification annonce</label>
+                    <key>aid</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Number</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Etat du produit</label>
+                    <key>state</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>1</hasvalues>
+
+                    <valueslist>
+
+                        <value>Neuf</value>
+
+                        <value>Comme Neuf</value>
+
+                        <value>Très Bon Etat</value>
+
+                        <value>Bon Etat</value>
+
+                        <value>Etat Correct</value>
+
+                        <value>Hors service</value>
+
+                    </valueslist>
+
+                </attribute>
+
+                <attribute>
+                    <label>Collection</label>
+                    <key>collectible</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Boolean</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>N° de série</label>
+                    <key>serialNumber</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Spécificités de votre annonce</label>
+                    <key>comment</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Prix de vente</label>
+                    <key>sellingPrice</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Number</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Stock</label>
+                    <key>qty</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Number</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Votre référence cachée</label>
+                    <key>sellerReference</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Votre commentaire caché (facultatif)</label>
+                    <key>privateComment</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Description personnalisée</label>
+                    <key>customizedAdvertDetail</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+            </advert>
+
+
+            <media>
+                <attribute>
+                    <label>url image</label>
+                    <key>image_url</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Text</valuetype>
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+                </attribute>
+            </media>
+
+            <campaigns>
+                <campaign>
+
+                    <attribute>
+                        <label>Identifiant de la campagne</label>
+                        <key>productsCampaignId</key>
+                        <mandatory>1</mandatory>
+                        <valuetype>Number</valuetype>
+                        <multivalued>0</multivalued>
+                        <hasvalues>0</hasvalues>
+                    </attribute>
+
+                    <attribute>
+                        <label>Prix de référence</label>
+                        <key>productsCampaignRefPrice</key>
+                        <mandatory>0</mandatory>
+                        <valuetype>Number</valuetype>
+                        <multivalued>0</multivalued>
+                        <hasvalues>0</hasvalues>
+                    </attribute>
+
+                    <attribute>
+                        <label>Pourcentage de réduction</label>
+                        <key>productsCampaignPct</key>
+                        <mandatory>0</mandatory>
+                        <valuetype>Number</valuetype>
+                        <multivalued>0</multivalued>
+                        <hasvalues>0</hasvalues>
+                    </attribute>
+
+                    <attribute>
+                        <label>Prix "promo"</label>
+                        <key>productsCampaignPrice</key>
+                        <mandatory>0</mandatory>
+                        <valuetype>Number</valuetype>
+                        <multivalued>0</multivalued>
+                        <hasvalues>0</hasvalues>
+                    </attribute>
+
+                </campaign>
+            </campaigns>
+            <shipping>
+                <package_weight>30</package_weight>
+            </shipping>
+        </attributes>
+    </response>
+</producttypetemplateresult>

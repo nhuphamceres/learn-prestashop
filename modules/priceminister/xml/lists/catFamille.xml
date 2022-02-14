@@ -1,0 +1,18 @@
+<attribute>
+    <label>Famille</label>
+    <key>catFamille</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Accessoires génériques</value>
+        <value>Batteries &amp; Percussions</value>
+        <value>Bois</value>
+        <value>Claviers</value>
+        <value>Cordes frottées</value>
+        <value>Cordes pincées</value>
+        <value>Cuivres</value>
+        <value>Guitares &amp; Basses</value>
+    </valueslist>
+</attribute>

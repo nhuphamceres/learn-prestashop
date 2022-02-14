@@ -1,0 +1,21 @@
+<attribute>
+    <label>Type de flash</label>
+    <key>typeflash</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>À serrage</value>
+        <value>Contrôleur flash macro</value>
+        <value>Flash à anneau</value>
+        <value>Flash amovible à griffe</value>
+        <value>Flash annulaire (macro)</value>
+        <value>Flash détachable</value>
+        <value>Flash externe</value>
+        <value>Flash sous-marin</value>
+        <value>Lampe-torche pour caméscope</value>
+        <value>Système de flash macro</value>
+        <value>Système flash macro sans fil</value>
+    </valueslist>
+</attribute>

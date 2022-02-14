@@ -1,0 +1,17 @@
+<attribute>
+    <label>Sous-type</label>
+    <key>soustypecuissonengergie</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Electrique</value>
+        <value>Gaz</value>
+        <value>Induction</value>
+        <value>Micro-ondes</value>
+        <value>Mixte</value>
+        <value>Vapeur</value>
+        <value>Vitro</value>
+    </valueslist>
+</attribute>

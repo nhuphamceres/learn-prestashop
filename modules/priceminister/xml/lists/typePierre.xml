@@ -1,0 +1,70 @@
+<attribute>
+    <label>Type de pierre</label>
+    <key>typePierre</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Agate</value>
+        <value>Aigue-marine</value>
+        <value>Alexandrite</value>
+        <value>Amazonite</value>
+        <value>Ambre</value>
+        <value>Améthyste</value>
+        <value>Amétrine</value>
+        <value>Ammolite</value>
+        <value>Apatite</value>
+        <value>Aventurine</value>
+        <value>Calcedoine</value>
+        <value>Camee</value>
+        <value>Chrome Diopside</value>
+        <value>Chrysoprase</value>
+        <value>Citrine</value>
+        <value>Citrine madère</value>
+        <value>Coquillage</value>
+        <value>Cornaline</value>
+        <value>Cristal</value>
+        <value>Diamant</value>
+        <value>Émeraude</value>
+        <value>Fluorite</value>
+        <value>Grenat</value>
+        <value>Héliotrope</value>
+        <value>Hématite</value>
+        <value>Jade</value>
+        <value>Jais</value>
+        <value>Jaspe</value>
+        <value>Kunzite</value>
+        <value>Labradorite</value>
+        <value>Lapis Lazuli</value>
+        <value>Lolite</value>
+        <value>Marcasite</value>
+        <value>Moissanite</value>
+        <value>Morganite</value>
+        <value>Nacre</value>
+        <value>Nacre d'ormeau</value>
+        <value>Oeil de chat</value>
+        <value>Oeil de Tigre</value>
+        <value>Onyx</value>
+        <value>Opale</value>
+        <value>Oxyde de Zirconium</value>
+        <value>Oxyde de zirconium bleu</value>
+        <value>Péridot</value>
+        <value>Perle</value>
+        <value>Pierre de Lune</value>
+        <value>Quartz</value>
+        <value>Rubis</value>
+        <value>Saphir</value>
+        <value>Saphir jaune</value>
+        <value>Sardonyx</value>
+        <value>Serpentine</value>
+        <value>Sodalite</value>
+        <value>Spinelle</value>
+        <value>Tanzanite</value>
+        <value>Topaze</value>
+        <value>Tourmaline</value>
+        <value>Tsavorite</value>
+        <value>Turquoise</value>
+        <value>Verre</value>
+    </valueslist>
+</attribute>

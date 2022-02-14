@@ -1,0 +1,214 @@
+<attribute>
+    <label>Marque voiture</label>
+    <key>marque</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+
+    <valueslist>
+
+        <value>Universel</value>
+
+        <value>Aixam</value>
+
+        <value>Alfa Romeo</value>
+
+        <value>Alpine</value>
+
+        <value>Aro</value>
+
+        <value>Arola</value>
+
+        <value>Aston Martin</value>
+
+        <value>Audi</value>
+
+        <value>Autobianchi</value>
+
+        <value>Auverland</value>
+
+        <value>Bentley</value>
+
+        <value>BMW</value>
+
+        <value>Bugatti</value>
+
+        <value>Buick</value>
+
+        <value>Cadillac</value>
+
+        <value>Carbodie</value>
+
+        <value>Caterham</value>
+
+        <value>Chatenet</value>
+
+        <value>Chevrolet</value>
+
+        <value>Chrysler</value>
+
+        <value>Citroën</value>
+
+        <value>Dacia</value>
+
+        <value>Daewoo</value>
+
+        <value>Daihatsu</value>
+
+        <value>Datsun</value>
+
+        <value>De Tomaso</value>
+
+        <value>Dodge</value>
+
+        <value>Donkervoort</value>
+
+        <value>Fiat</value>
+
+        <value>Ford</value>
+
+        <value>Ginetta</value>
+
+        <value>GMC</value>
+
+        <value>Hommell</value>
+
+        <value>Honda</value>
+
+        <value>Hummer</value>
+
+        <value>Hyundai</value>
+
+        <value>Isuzu</value>
+
+        <value>Iveco</value>
+
+        <value>Jaguar</value>
+
+        <value>JDM</value>
+
+        <value>Jeep</value>
+
+        <value>Kia</value>
+
+        <value>Lada</value>
+
+        <value>Lamborghini</value>
+
+        <value>Lancia</value>
+
+        <value>Land Rover</value>
+
+        <value>LDV</value>
+
+        <value>Lexus</value>
+
+        <value>Ligier</value>
+
+        <value>Lincoln</value>
+
+        <value>Lotus</value>
+
+        <value>Man</value>
+
+        <value>Maruti</value>
+
+        <value>Maserati</value>
+
+        <value>Matra</value>
+
+        <value>Maybach</value>
+
+        <value>Mazda</value>
+
+        <value>MEGA</value>
+
+        <value>Mercedes-Benz</value>
+
+        <value>MG</value>
+
+        <value>Micro Compact Car</value>
+
+        <value>Microcar</value>
+
+        <value>Mini</value>
+
+        <value>Mitsubishi</value>
+
+        <value>Morgan</value>
+
+        <value>Nissan</value>
+
+        <value>Oldsmobile</value>
+
+        <value>Opel</value>
+
+        <value>Peugeot</value>
+
+        <value>PGO</value>
+
+        <value>Piaggio</value>
+
+        <value>Plymouth</value>
+
+        <value>Pontiac</value>
+
+        <value>Porsche</value>
+
+        <value>Proton</value>
+
+        <value>Renault</value>
+
+        <value>Renault Trucks</value>
+
+        <value>Rolls-Royce</value>
+
+        <value>Rover</value>
+
+        <value>Saab</value>
+
+        <value>Santana</value>
+
+        <value>Seat</value>
+
+        <value>Secma</value>
+
+        <value>Simca</value>
+
+        <value>Skoda</value>
+
+        <value>Smart</value>
+
+        <value>SsangYong</value>
+
+        <value>Stutz</value>
+
+        <value>Subaru</value>
+
+        <value>Suzuki</value>
+
+        <value>Talbot</value>
+
+        <value>Toyota</value>
+
+        <value>Trabant</value>
+
+        <value>Triumph</value>
+
+        <value>TVR</value>
+
+        <value>UMM</value>
+
+        <value>Venturi</value>
+
+        <value>Volkswagen</value>
+
+        <value>Volvo</value>
+
+        <value>Westfield</value>
+
+    </valueslist>
+
+</attribute>

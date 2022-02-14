@@ -1,0 +1,19 @@
+<attribute>
+    <label>Forme</label>
+    <key>shape</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Aviateur</value>
+        <value>Carré</value>
+        <value>Masque</value>
+        <value>Mouche</value>
+        <value>Ovale</value>
+        <value>Pantos</value>
+        <value>Papillon</value>
+        <value>Ronde</value>
+        <value>Sport</value>
+    </valueslist>
+</attribute>

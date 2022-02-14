@@ -1,0 +1,37 @@
+<attribute>
+    <label>Vitesse de rotation</label>
+    <key>rotation</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>10000</value>
+        <value>10025</value>
+        <value>10500</value>
+        <value>10520</value>
+        <value>12000</value>
+        <value>15000</value>
+        <value>15037</value>
+        <value>3200</value>
+        <value>3600</value>
+        <value>3800</value>
+        <value>3990</value>
+        <value>4000</value>
+        <value>4200</value>
+        <value>4260</value>
+        <value>4320</value>
+        <value>4500</value>
+        <value>4900</value>
+        <value>5000</value>
+        <value>5200</value>
+        <value>5400</value>
+        <value>5700</value>
+        <value>5760</value>
+        <value>5900</value>
+        <value>5940</value>
+        <value>7200</value>
+        <value>7278</value>
+        <value>7500</value>
+    </valueslist>
+</attribute>

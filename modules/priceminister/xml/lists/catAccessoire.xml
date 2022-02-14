@@ -1,0 +1,76 @@
+<attribute>
+    <label>Accessoire</label>
+    <key>catAccessoire</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Accessoire pour pupitre</value>
+        <value>Accordeur</value>
+        <value>Adaptateur Jack</value>
+        <value>Alimentation</value>
+        <value>Ampli basse</value>
+        <value>Ampli guitare</value>
+        <value>Anche</value>
+        <value>Archet</value>
+        <value>Baffle</value>
+        <value>Baguettes</value>
+        <value>Banque de patchs</value>
+        <value>Banquette piano</value>
+        <value>Bec</value>
+        <value>Boîte de direct</value>
+        <value>Bottlenecks</value>
+        <value>Câble jack</value>
+        <value>Câble MIDI</value>
+        <value>Câble XLR</value>
+        <value>Capodastre</value>
+        <value>Capteur Piezo</value>
+        <value>Colophane</value>
+        <value>Convertisseur</value>
+        <value>Cordes basse</value>
+        <value>Cordes contrebasse</value>
+        <value>Cordes guitare</value>
+        <value>Cordes harpe</value>
+        <value>Cordes pour instruments ethniques</value>
+        <value>Cordes violon</value>
+        <value>Cordes violoncelle</value>
+        <value>Couvre bec</value>
+        <value>Diapason</value>
+        <value>Ecouvillon</value>
+        <value>Embouchure</value>
+        <value>Epaulière</value>
+        <value>Flycase</value>
+        <value>Foot switch</value>
+        <value>Gants batterie</value>
+        <value>Housse</value>
+        <value>Lampe ampli</value>
+        <value>Ligature</value>
+        <value>Médiator</value>
+        <value>Mentonnière</value>
+        <value>Métronome</value>
+        <value>Micro</value>
+        <value>Micro basse</value>
+        <value>Micro guitare</value>
+        <value>Pad d'entraînement</value>
+        <value>Peaux</value>
+        <value>Pédale batterie</value>
+        <value>Pédale d'effets</value>
+        <value>Pédale de sustain</value>
+        <value>Pièces détachées</value>
+        <value>Pied de batterie</value>
+        <value>Pied de clavier</value>
+        <value>Pied de guitare</value>
+        <value>Pied de micro</value>
+        <value>Préampli instrument</value>
+        <value>Produits d'entretien</value>
+        <value>Pupitre</value>
+        <value>Rack</value>
+        <value>Repose-pied</value>
+        <value>Sampler</value>
+        <value>Sangle</value>
+        <value>Siège</value>
+        <value>Sourdine</value>
+        <value>Stand</value>
+    </valueslist>
+</attribute>

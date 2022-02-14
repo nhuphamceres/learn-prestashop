@@ -1,0 +1,75 @@
+<attribute>
+    <label>Matière</label>
+    <key>matiere</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Acacia</value>
+        <value>Acier</value>
+        <value>Acrylique</value>
+        <value>Aluminium</value>
+        <value>Ardoise</value>
+        <value>Bambou</value>
+        <value>Béton</value>
+        <value>Bois</value>
+        <value>Bois massif</value>
+        <value>Bois plaquage - panneaux particules</value>
+        <value>Bouleau</value>
+        <value>Caoutchouc</value>
+        <value>Carton</value>
+        <value>Cerisier</value>
+        <value>Chêne</value>
+        <value>Coton</value>
+        <value>Croûte de cuir</value>
+        <value>Cuir</value>
+        <value>Ebène</value>
+        <value>Fer forgé</value>
+        <value>Fibre de verre</value>
+        <value>Fonte</value>
+        <value>Frêne</value>
+        <value>Hêtre</value>
+        <value>Inox</value>
+        <value>Kubu</value>
+        <value>Laine</value>
+        <value>Laiton</value>
+        <value>Laqué</value>
+        <value>Latex</value>
+        <value>Manguier</value>
+        <value>Marbre</value>
+        <value>MDF</value>
+        <value>Mélamine</value>
+        <value>Merisier</value>
+        <value>Métal</value>
+        <value>Métal et verre</value>
+        <value>Mousse</value>
+        <value>Noyer</value>
+        <value>Nylon</value>
+        <value>Orme</value>
+        <value>Osier</value>
+        <value>Panneau de particule</value>
+        <value>Papier</value>
+        <value>Pin</value>
+        <value>Plastique</value>
+        <value>Plexiglas</value>
+        <value>Poirier</value>
+        <value>Polypropylène</value>
+        <value>Résine</value>
+        <value>Ressorts classiques</value>
+        <value>Ressorts ensachés</value>
+        <value>Rotin</value>
+        <value>Sapin</value>
+        <value>Simili cuir</value>
+        <value>Synthétique</value>
+        <value>Teck</value>
+        <value>Terre cuite</value>
+        <value>Textilène</value>
+        <value>Tissu</value>
+        <value>Toile</value>
+        <value>Veau pleine fleur</value>
+        <value>Velours</value>
+        <value>Verre</value>
+        <value>Vinyle</value>
+    </valueslist>
+</attribute>

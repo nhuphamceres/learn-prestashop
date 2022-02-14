@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<producttypesresult
+        schemaLocation="http://pmcdn.staticpmrk.com/res/schema/producttypes http://pmcdn.staticpmrk.com/res/schema/producttypes/producttypes.2011-11-29.xsd">
+    <request>
+        <user>Chaussmoi</user>
+        <version>2011-11-29</version>
+    </request>
+    <response>
+        <producttypetemplate>
+            <alias>mev_livre_livre_ancien</alias>
+            <label>Livres</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_lot_livres</alias>
+            <label>Lot de Livres et de Revues</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>revues_produit</alias>
+            <label>Revues</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_papet</alias>
+            <label>Fournitures papeterie</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_cd_produit</alias>
+            <label>CD</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>vinyles_produit</alias>
+            <label>Vinyles</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_instrument</alias>
+            <label>Instruments et accessoires de musique</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>k7_md_ld_produit</alias>
+            <label>Cassettes, Mini-disques, Laser Discs...</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_partitions_4g</alias>
+            <label>Partitions et recueils de chansons</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_lot_musique</alias>
+            <label>Lots de musique (disques - instruments etc...)</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>goodies_produit</alias>
+            <label>Collection, Goodies</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>video_produit</alias>
+            <label>Blu-ray - DVD - VHS</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_lot_videos</alias>
+            <label>Lot de Vidéos</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>jeux_video_produit</alias>
+            <label>Jeux vidéo</label>
+            <updatedate>2015-06-09T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_lot_jeux_video</alias>
+            <label>Lots de consoles et jeux vidéo</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>consoles_produit</alias>
+            <label>Consoles</label>
+            <updatedate>2015-04-20T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>acc_jv_produit</alias>
+            <label>Accessoires jeux vidéo</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_carte_de_jeux</alias>
+            <label>Cartes de jeux</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>figurines_produit</alias>
+            <label>Figurines de collection</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>jeux_de_role_produit</alias>
+            <label>Jeux de rôle et jeux de figurines</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>formulaire_accessoires_mobiles</alias>
+            <label>Accessoires mobiles et tablettes</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>formulaire_accessoires_pda</alias>
+            <label>Accessoires PDA</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>calculator_produit</alias>
+            <label>Calculatrices</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_gps</alias>
+            <label>GPS</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mobile_produit</alias>
+            <label>Mobiles</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>pda_produit</alias>
+            <label>PDA &amp; Tablettes</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_recepteur</alias>
+            <label>Récepteurs de Radiomessagerie</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_repondeur</alias>
+            <label>Répondeurs</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_tel_fixe</alias>
+            <label>Téléphones fixes</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_composant_adaptateur_mem</alias>
+            <label>Adaptateurs mémoire</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_composant_alimentation</alias>
+            <label>Onduleurs et Périphériques d'alimentation</label>
+            <updatedate>2014-08-25T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_composant_boitier_pc</alias>
+            <label>Boitiers d'ordinateur</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_composant_carte_graphique</alias>
+            <label>Carte graphique</label>
+            <updatedate>2015-03-17T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_composant_carte_mere</alias>
+            <label>Carte mère</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_composant_carte_son</alias>
+            <label>Carte son</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_composant_carte_tv</alias>
+            <label>Carte TV</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_composant_disque_dur</alias>
+            <label>Disques durs</label>
+            <updatedate>2015-05-05T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_composant_lecteur_disque</alias>
+            <label>Lecteurs / Graveurs</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_composant_ram</alias>
+            <label>Mémoire RAM</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_composant_carte_acquisition</alias>
+            <label>Montage &amp; acquisition</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_composant_processeur</alias>
+            <label>Processeur</label>
+            <updatedate>2015-06-09T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_composant_ventilateur</alias>
+            <label>Ventilateur boitier</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_composant_ventirad</alias>
+            <label>Ventilateur Processeur</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_composant_watercooling</alias>
+            <label>Watercooling</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_accessoires_ordinateurs</alias>
+            <label>Accessoires pour Ordinateurs</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_consommable</alias>
+            <label>Consommables imprimante</label>
+            <updatedate>2015-01-30T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_ecran</alias>
+            <label>Ecran</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>imprimante_produit</alias>
+            <label>Imprimantes</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_logiciel</alias>
+            <label>Logiciels</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_mat_periph</alias>
+            <label>Matériel périphérique et accessoires</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_memoire_flash</alias>
+            <label>Clé USB - Carte mémoire</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>pcbureau_produit</alias>
+            <label>Ordinateurs de bureau</label>
+            <updatedate>2015-06-09T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>laptop_produit</alias>
+            <label>Ordinateurs portables</label>
+            <updatedate>2015-06-09T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_autre_peripherique_stockage</alias>
+            <label>Périphériques / Accessoires de stockage</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>reseau_produit</alias>
+            <label>Périphériques réseau</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>scan_produit</alias>
+            <label>Scanners</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_cd_dvd_vierge</alias>
+            <label>Supports vierges (CD - DVD - Blu-ray - ...)</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>accessoires_av_produit</alias>
+            <label>Accessoires image et son</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>amplificateurs_produit</alias>
+            <label>Amplificateurs</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>photo_numerique_produit</alias>
+            <label>Appareils photo numériques</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>photo_argentique_produit</alias>
+            <label>Appareils photo argentiques</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_audio_portable_produit</alias>
+            <label>Audio portable / MP3</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>autoradios_produit</alias>
+            <label>Autoradios</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>satellite_tnt_produit</alias>
+            <label>Câble, Satellite &amp; TNT</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>camescopes_produit</alias>
+            <label>Caméscopes</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>casques_produit</alias>
+            <label>Casques/Micros</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>chaines_hifi_produit</alias>
+            <label>Chaînes Hi-Fi</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>enceintes_produit</alias>
+            <label>Enceintes</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>enregistreurs_k7_md_produit</alias>
+            <label>Enregistreurs K7 et MD</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>filtres_produit</alias>
+            <label>Filtres</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>flash_produit</alias>
+            <label>Flash</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>jumelles_produit</alias>
+            <label>Jumelles</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>lecteurs_dvd_produit</alias>
+            <label>Lecteurs DVD</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>lecteurs_graveurs_cd_produit</alias>
+            <label>Lecteurs &amp; Graveurs CD</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>magnetoscopes_produit</alias>
+            <label>Magnétoscopes</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>objectifs_produit</alias>
+            <label>Objectifs</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>platines_vinyle_produit</alias>
+            <label>Platines Vinyle</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>projecteurs_produit</alias>
+            <label>Projecteurs</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>sonoauto_produit</alias>
+            <label>Sonorisation Automobile</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>sono_studio_produit</alias>
+            <label>Sono &amp; Matériel de Studio</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>telescopes_produit</alias>
+            <label>Télescopes</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_tv_produit</alias>
+            <label>Télévisions</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>tuners_radios_produit</alias>
+            <label>Tuners &amp; Radios</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_table_cuisine</alias>
+            <label>Art de la Table</label>
+            <updatedate>2014-09-08T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_ustensile_cuisine</alias>
+            <label>Ustensile de Cuisine</label>
+            <updatedate>2014-09-08T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>lingemaison_produit</alias>
+            <label>Linge de Maison</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mobilier_produit</alias>
+            <label>Mobilier</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>decoration_interieur</alias>
+            <label>Décoration</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>tapis</alias>
+            <label>Tapis et Moquettes</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>deco_festive</alias>
+            <label>Décoration festive</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>luminaire</alias>
+            <label>Luminaires</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>access_animalerie_pdt</alias>
+            <label>Animalerie</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mobilier_jardin</alias>
+            <label>Mobilier de jardin</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>plante_produit</alias>
+            <label>Plantes et Traitements</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>outillage_jardin_produit</alias>
+            <label>Outillage de jardin</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>piscine_piscine</alias>
+            <label>Piscine</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>bricolage_produit</alias>
+            <label>Bricolage</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>cidres</alias>
+            <label>Cidres</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>vins</alias>
+            <label>Vins</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>champagnes</alias>
+            <label>Champagnes</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_biere</alias>
+            <label>Bières</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_spiritueux</alias>
+            <label>Spiritueux</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_gastronomie</alias>
+            <label>Gastronomie</label>
+            <updatedate>2014-10-15T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_cuisson</alias>
+            <label>Cuisson</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_froid</alias>
+            <label>Froid</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_lavage</alias>
+            <label>Lavage</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_petits_appareils</alias>
+            <label>Petits appareils divers</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_petit_dejeuner</alias>
+            <label>Petit déjeuner</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_robots_mixeurs</alias>
+            <label>Robots, Mixeurs...</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_menage_repassage</alias>
+            <label>Ménage, repassage</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_couture</alias>
+            <label>Couture</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_chauffage_clim</alias>
+            <label>Chauffage et climatisation</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_soin_du_corps</alias>
+            <label>Soins du corps</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>acc_electrom_produit</alias>
+            <label>Accessoires Électroménager</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>vetement_sport</alias>
+            <label>Vêtements de sport</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>chaussure_sport</alias>
+            <label>Chaussures de sport</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>sport_produit</alias>
+            <label>Matériel de sport</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_airsoft_paintball</alias>
+            <label>Airsoft - Paintball</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>loisir_creatif</alias>
+            <label>Loisirs créatifs</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_activite_loisirs</alias>
+            <label>Activités loisirs</label>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>billetterie</alias>
+            <label>Billetterie</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_billet_transport</alias>
+            <label>Billet de transport</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>cycle_produit</alias>
+            <label>2 roues à moteur, Quad et kart</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>access_2_roues</alias>
+            <label>Équipement 2 roues</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>equipement_pilote</alias>
+            <label>Équipement du pilote</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>accessoire_auto</alias>
+            <label>Accessoires auto</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>vetement</alias>
+            <label>Vêtements</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_lot_vetement</alias>
+            <label>Lot de Vêtements</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>sac_produit</alias>
+            <label>Sacs &amp; Bagagerie</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>accessoire_mode</alias>
+            <label>Accessoires de Mode</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>lunettes</alias>
+            <label>Lunettes</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>chaussure_produit</alias>
+            <label>Chaussures</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>accessoire_chaussure</alias>
+            <label>Accessoires pour Chaussures</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>montre</alias>
+            <label>Montres</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_bijoux_declinaison</alias>
+            <label>Bijoux</label>
+            <updatedate>2014-10-20T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>parfum_produit</alias>
+            <label>Parfums</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>cosmetique_produit</alias>
+            <label>Cosmétiques et Soins du Corps</label>
+            <updatedate>2015-03-09T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_sextoys</alias>
+            <label>Espace Coquin</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_deguise</alias>
+            <label>Déguisement</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>e-cigarette</alias>
+            <label>E-cigarettes</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>e-liquide</alias>
+            <label>E-liquides</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>jouet</alias>
+            <label>Jouets</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_jeux_societe</alias>
+            <label>Jeux de société</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_jeux_plein_air</alias>
+            <label>Jeux de plein air</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_jeux_cafe</alias>
+            <label>Jeux de café</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_modelisme</alias>
+            <label>Modélisme</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_puericulture</alias>
+            <label>Puériculture</label>
+            <updatedate>2015-04-17T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_actions_titre</alias>
+            <label>Actions, Titres, Emprunts</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_affiche</alias>
+            <label>Affiches</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_autocollant</alias>
+            <label>Autocollants</label>
+            <updatedate>2015-04-17T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>autographe</alias>
+            <label>Autographes</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_buvard</alias>
+            <label>Buvards</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_calendrier</alias>
+            <label>Calendriers</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_carte_postale</alias>
+            <label>Cartes postales</label>
+            <updatedate>2015-04-17T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_factures_lettres</alias>
+            <label>Factures, Lettres, ...</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_gravure</alias>
+            <label>Gravures</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_militaria</alias>
+            <label>Militaria</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_numismatique</alias>
+            <label>Numismatique</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_objet_collection</alias>
+            <label>Objets à collectionner</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_objets_publicitaires</alias>
+            <label>Objets publicitaires</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_peinture</alias>
+            <label>Peinture</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_philatelie</alias>
+            <label>Philatélie</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_photo</alias>
+            <label>Photographies</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>mev_ticket_produit</alias>
+            <label>Tickets, Billets</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+        <producttypetemplate>
+            <alias>insolites_produit</alias>
+            <label>Les Insolites</label>
+            <updatedate>2014-08-06T00:00:00</updatedate>
+        </producttypetemplate>
+    </response>
+</producttypesresult>

@@ -1,0 +1,36 @@
+<attribute>
+    <label>Coupe</label>
+    <key>garmentCut</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+
+    <valueslist>
+
+        <value>Une pièce</value>
+
+        <value>Bas de maillot</value>
+
+        <value>Boxer</value>
+
+        <value>Deux pièces</value>
+
+        <value>Droit</value>
+
+        <value>Haut de maillot</value>
+
+        <value>Large</value>
+
+        <value>Short</value>
+
+        <value>Skinny</value>
+
+        <value>Slim</value>
+
+        <value>Slip</value>
+
+    </valueslist>
+
+</attribute>

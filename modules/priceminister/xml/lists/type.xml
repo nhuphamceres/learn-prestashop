@@ -1,0 +1,188 @@
+<attribute>
+    <label>Type d'accessoire</label>
+    <key>type</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+
+    <valueslist>
+
+        <value>Accus</value>
+
+        <value>Adaptateur</value>
+
+        <value>Adaptateur cassette</value>
+
+        <value>Adaptateur DVI</value>
+
+        <value>Adaptateur HDMI</value>
+
+        <value>Adaptateur Jack</value>
+
+        <value>Adaptateur péritel</value>
+
+        <value>Antenne TV</value>
+
+        <value>Bande magnétique</value>
+
+        <value>Batterie</value>
+
+        <value>Boite de rangement</value>
+
+        <value>Bouchon</value>
+
+        <value>Cable adaptateur</value>
+
+        <value>Câble audio</value>
+
+        <value>Câble AV</value>
+
+        <value>Câble coaxial</value>
+
+        <value>Câble composite</value>
+
+        <value>Câble d'alimentation</value>
+
+        <value>Câble d'enceinte</value>
+
+        <value>Câble data</value>
+
+        <value>Câble DVI</value>
+
+        <value>Câble HDMI</value>
+
+        <value>Câble HDMI DVI</value>
+
+        <value>Câble modulation</value>
+
+        <value>Câble optique</value>
+
+        <value>Câble peritel</value>
+
+        <value>Câble TV</value>
+
+        <value>Cadre numérique</value>
+
+        <value>Caisson étanche</value>
+
+        <value>Cassette 8 mm</value>
+
+        <value>Cassette audio</value>
+
+        <value>Cassette Betacam</value>
+
+        <value>Cassette de nettoyage</value>
+
+        <value>Cassette DV</value>
+
+        <value>Cassette Hi 8</value>
+
+        <value>Cassette MiniDV</value>
+
+        <value>Cassette VHS</value>
+
+        <value>Chargeur</value>
+
+        <value>Chargeur voiture</value>
+
+        <value>Colleuse</value>
+
+        <value>Commutateur</value>
+
+        <value>Convertisseur DAC</value>
+
+        <value>Convertisseur optique</value>
+
+        <value>Coupleur</value>
+
+        <value>Courroie</value>
+
+        <value>DAT</value>
+
+        <value>Déclencheur</value>
+
+        <value>Diapositives</value>
+
+        <value>DOS</value>
+
+        <value>Ecran de projection</value>
+
+        <value>Emetteur récepteur</value>
+
+        <value>Fiche audio</value>
+
+        <value>Fixation ventouse</value>
+
+        <value>Fond studio photo</value>
+
+        <value>Grip d'alimentation</value>
+
+        <value>Haut-parleur</value>
+
+        <value>Housse</value>
+
+        <value>Instrument de mesure</value>
+
+        <value>Lampe</value>
+
+        <value>Lentille photo</value>
+
+        <value>Lunettes 3D</value>
+
+        <value>Matériel de développement</value>
+
+        <value>Mini disc</value>
+
+        <value>Modulateur</value>
+
+        <value>Modulateur Péritel</value>
+
+        <value>Multiprise</value>
+
+        <value>Papier photo</value>
+
+        <value>Pare soleil</value>
+
+        <value>Pellicule</value>
+
+        <value>Perche</value>
+
+        <value>Pièces détachées</value>
+
+        <value>Piles</value>
+
+        <value>Porte-flash</value>
+
+        <value>Protection télécommande</value>
+
+        <value>Rallonge</value>
+
+        <value>Réflecteur</value>
+
+        <value>Répartiteur</value>
+
+        <value>Rotule</value>
+
+        <value>Sacoche</value>
+
+        <value>Station d'accueil</value>
+
+        <value>Support</value>
+
+        <value>Support mural</value>
+
+        <value>Support plafond</value>
+
+        <value>Télécommande</value>
+
+        <value>Transmetteur</value>
+
+        <value>Trépied</value>
+
+        <value>Visionneuse</value>
+
+    </valueslist>
+
+</attribute>

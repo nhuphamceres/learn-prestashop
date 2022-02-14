@@ -1,0 +1,1252 @@
+<attribute>
+    <label>Sous type</label>
+    <key>soustypeaccessoires</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Accélérateur de cache</value>
+        <value>Accélérateur de processeur</value>
+        <value>Accessoire pour ventilateur</value>
+        <value>Accessoires de nettoyage pour carte-mère</value>
+        <value>Accessoires tuning</value>
+        <value>Adaptateur à ardillons de tuyau pour tube ID de système de refroidissement par liquide de carte vidéo
+        </value>
+        <value>Adaptateur à fente de verrouillage pour la sécurité</value>
+        <value>Adaptateur d'alimentation ventilateur</value>
+        <value>Adaptateur d'extension</value>
+        <value>Adaptateur d'interface portable</value>
+        <value>Adaptateur de connexion Hyper Transport</value>
+        <value>Adaptateur de fixation pour rack</value>
+        <value>Adaptateur de hauteur de dessus d'armoire en rack</value>
+        <value>Adaptateur de logement PCIe vers PCI</value>
+        <value>Adaptateur de montage de la plaque murale</value>
+        <value>Adaptateur de poignée pistolet pour ordinateur de poche</value>
+        <value>Adaptateur de raccordement du système de refroidissement par liquide</value>
+        <value>Adaptateur de rail pour armoire</value>
+        <value>Adaptateur de stabilisateur de logements ExpressCard</value>
+        <value>Adaptateur de station d'accueil</value>
+        <value>Adaptateur de synchronisation</value>
+        <value>Adaptateur de ventilateur (60 à 80 mm)</value>
+        <value>Adaptateur de ventilateur (80 à 120 mm)</value>
+        <value>Adaptateur multifonctionnel pour rack</value>
+        <value>Adaptateur pour baie d'ordinateur portable</value>
+        <value>Adaptateur pour baie de stockage</value>
+        <value>Adaptateur pour batterie supplémentaire</value>
+        <value>Adaptateur pour emplacements PCIe x1 vers PCIe x16</value>
+        <value>Adaptateur pour emplacements PCIe x4 vers PCIe x8</value>
+        <value>Adaptateur pour logement PCIe x1 vers PCI</value>
+        <value>Adaptateur pour réplicateur de port</value>
+        <value>Adaptateur pour station</value>
+        <value>Adaptateur pour ventilateur (de 60 à 90 mm)</value>
+        <value>Affichage LCD</value>
+        <value>Affichage LCD du système</value>
+        <value>Affichage VFD du système</value>
+        <value>Air-conditioning cooling system (230V)</value>
+        <value>Alarme de sécurité</value>
+        <value>Alimentation et ventilateur</value>
+        <value>Allume-cigare du boîtier système</value>
+        <value>Ancrage de verrou</value>
+        <value>Angle externe pour gaine</value>
+        <value>Anneau de distribution de câbles</value>
+        <value>Anneau pour passage de câbles</value>
+        <value>Anneau pour passage de câbles (horizontal)</value>
+        <value>Anneau pour passage de câbles (vertical)</value>
+        <value>Anneau pour sangle de transport</value>
+        <value>Antenne</value>
+        <value>Antenne pour adaptateur réseau</value>
+        <value>Antistatic service kit</value>
+        <value>Antivol</value>
+        <value>Antivol pour câbles périphériques</value>
+        <value>Appareil de refroidissement pour armoire</value>
+        <value>Armoire d'onduleur</value>
+        <value>Armoire de rack</value>
+        <value>Armoire de sécurité du système</value>
+        <value>Armoire rack pour périphérique réseau</value>
+        <value>Armoire système format tour</value>
+        <value>Aspirateur</value>
+        <value>Attache câble</value>
+        <value>Attache cable tie</value>
+        <value>Attache crayon</value>
+        <value>Attache pour kit d'assemblage de rack</value>
+        <value>Attache pour ventilateur de processeur</value>
+        <value>Attache stylet</value>
+        <value>Attache-câble</value>
+        <value>Attache-câble de sécurité</value>
+        <value>Attaches de câble (clouées)</value>
+        <value>Attaches de câbles</value>
+        <value>Attaches de câbles (autocollantes)</value>
+        <value>Attaches pour haut-parleur</value>
+        <value>Autocollants pour touches de clavier</value>
+        <value>Bac de refroidissemnt pour processeur</value>
+        <value>Bac pour support redondant de châssis pour serveur lame</value>
+        <value>Backplane</value>
+        <value>Bague de rangement de câble de rack</value>
+        <value>Balai de câble d'arrivée</value>
+        <value>Ballast anti-basculement pour rack</value>
+        <value>Bande de température pour rack</value>
+        <value>Bande électroluminescente</value>
+        <value>Bande passe-câble à brosse pour rack</value>
+        <value>Bande thermique</value>
+        <value>Bande velcro pour gestion des câbles</value>
+        <value>Bandoulière</value>
+        <value>Barre d'agencement de câbles</value>
+        <value>Barre de mise à la terre (verticale)</value>
+        <value>Barre de sécurité de rack</value>
+        <value>Barre de stabilisation pour rack</value>
+        <value>Barre omnibus sur rack</value>
+        <value>Base de rack</value>
+        <value>Base de système à roulettes</value>
+        <value>Base pour notebook</value>
+        <value>Bloc de refroidissement d'unité centrale par eau pour système de refroidissement</value>
+        <value>Bloc papier</value>
+        <value>Bloqueur de port USB</value>
+        <value>Bobine de fibre optique</value>
+        <value>Bobine de gestion des câbles</value>
+        <value>Boîte de raccordement</value>
+        <value>Boite de rangement de supports</value>
+        <value>Boîtier à montage mural</value>
+        <value>Boîtier d'alimentation</value>
+        <value>Boîtier d'alimentation électrique</value>
+        <value>Boîtier d'alimentation redondante</value>
+        <value>Boîtier de protection pour écran d'ordinateur de poche</value>
+        <value>Boîtier de protection pour ordinateur de poche</value>
+        <value>Boîtier de sécurité notebook</value>
+        <value>Boîtier de terminal POS</value>
+        <value>Boîtier du répartiteur surface réseau</value>
+        <value>Boîtier mémoire</value>
+        <value>Boîtier pour carte fille PCI</value>
+        <value>Boîtier pour client léger</value>
+        <value>Boîtier protecteur pour ordinateur de poche</value>
+        <value>Boîtier résistant aux intempéries</value>
+        <value>Bombe de nettoyage d'écran</value>
+        <value>Boucle de sécurité</value>
+        <value>Boucle souple de guide pour câbles</value>
+        <value>Bouclier pour logements de carte</value>
+        <value>Bouton d'arrêt d'urgence</value>
+        <value>Bracelet anti-statique</value>
+        <value>Branche pour passage de câble</value>
+        <value>Bras articulé pour moniteur</value>
+        <value>Bras articulé pour ordinateur portable</value>
+        <value>Bras de fixation au sol pour rack</value>
+        <value>Bras de fixation de station d'accueil d'ordinateur de poche pour véhicule</value>
+        <value>Bras de gestion de câbles</value>
+        <value>Bras de levier pour carte fille</value>
+        <value>Bras pour moniteur</value>
+        <value>Bras pour moniteur/clavier</value>
+        <value>Bras pour système de refroidissement par liquide pour carte vidéo</value>
+        <value>Bras prolongateur pour moniteur</value>
+        <value>Brassard antistatique</value>
+        <value>Bureau pour ordinateur</value>
+        <value>Cabinet pour attaches parallèles USB</value>
+        <value>Câblage de ventilateur en rack</value>
+        <value>Câble d'arrivée</value>
+        <value>Câble de sécurité</value>
+        <value>Câble de verrouillage</value>
+        <value>Câble de verrouillage avec alarme</value>
+        <value>Câble électroluminescent</value>
+        <value>Câble pour verrouillage notebook</value>
+        <value>Cache de protection portable</value>
+        <value>Cache pour dessus d'armoire en rack</value>
+        <value>Cache pour logement de carte mémoire</value>
+        <value>Cache-fils</value>
+        <value>Cadenas de sécurité</value>
+        <value>Cadre antibruit pour alimentation ATX</value>
+        <value>Cadre de montage étagère</value>
+        <value>Cadre pour radiateur antibruit</value>
+        <value>Cage de fond de panier</value>
+        <value>Caloporteur pour système de refroidissement par liquide</value>
+        <value>Canal à câbles</value>
+        <value>Canalisation</value>
+        <value>Capot de contrôle du port arrière pour ordinateur de bureau</value>
+        <value>Capot de panneau de gestion de câbles pour rack</value>
+        <value>Capot de protection pour dispositif de baie modulaire</value>
+        <value>Capot pour ports arrière d'ordinateur de bureau</value>
+        <value>Capteur</value>
+        <value>Capteur à contact de la porte</value>
+        <value>Capteur à contact pour porte de rack</value>
+        <value>Capteur d'humidité</value>
+        <value>Capteur de contrôle de l'environnement</value>
+        <value>Capteur de fuites (rallonge)</value>
+        <value>Capteur de température PDU</value>
+        <value>Capteur de température pour rack</value>
+        <value>Capuchon pour port d'alimentation</value>
+        <value>Capuchon pour TrackPoint</value>
+        <value>Capuchons de cavalier</value>
+        <value>Carte à puce de sécurité</value>
+        <value>Carte d'échange à chaud</value>
+        <value>Carte d'interconnexion de réseaux</value>
+        <value>Carte d'inversion d'affichage</value>
+        <value>Carte de connexion E/S pour notebook</value>
+        <value>Carte de connexion pour processeur</value>
+        <value>Carte de connexion SAS 2 ports pour serveur</value>
+        <value>Carte de contrôleur pour ventilateur système</value>
+        <value>Carte de fond de panier du disque dur</value>
+        <value>Carte de lecteur de bloc d'alimentation</value>
+        <value>Carte de nettoyage de tête d'enregistreur de cartes magnétiques</value>
+        <value>Carte de proximité RF</value>
+        <value>Carte de proximité RF / bande magnétique</value>
+        <value>Carte de synchronisation UPS</value>
+        <value>Carte du fond de panier</value>
+        <value>Carte fille</value>
+        <value>Carte midplane SAS de serveur</value>
+        <value>Carte midplane SATA/SAS de serveur</value>
+        <value>Carte processeur</value>
+        <value>Carte relais pour onduleur</value>
+        <value>Carter</value>
+        <value>Cartes d'identification</value>
+        <value>Cash Drawer</value>
+        <value>Casier de caisse enregistreuse</value>
+        <value>Ceinture de l'étui pour ordinateur de poche</value>
+        <value>Ceinture et étui pour lecteur de code à barres</value>
+        <value>Ceinture pour portable</value>
+        <value>Chargeur</value>
+        <value>Chargeur de batterie</value>
+        <value>Chariot</value>
+        <value>Chariot de projection</value>
+        <value>Chariot mobile de chargeur de batterie</value>
+        <value>Chariot pour onduleur</value>
+        <value>Chariot système</value>
+        <value>Châssis</value>
+        <value>Châssis basculant pour montage mural</value>
+        <value>Châssis d'extension de mémoire</value>
+        <value>Châssis d'extension pour stockage</value>
+        <value>Châssis de montage pour rack</value>
+        <value>Châssis de rack</value>
+        <value>Châssis de rail d'alimentation</value>
+        <value>Châssis pour système</value>
+        <value>Chemin de câble au plafond</value>
+        <value>Chemin de câbles avec ouverture au fond</value>
+        <value>Chemin de câbles PDU avec ouverture au fond</value>
+        <value>Chemin de câbles pour dessus d'armoire en rack</value>
+        <value>Chemin de câbles pour PDU</value>
+        <value>Cheminée de rack</value>
+        <value>Chiffon de nettoyage</value>
+        <value>Chiffon de nettoyage humide/sec pour écran</value>
+        <value>Chiffon de nettoyage pour écran</value>
+        <value>Classeur de poche</value>
+        <value>Clé d'extration de cyclindre de verrouillage de rack</value>
+        <value>Clé de disque dur virtuel USB</value>
+        <value>Clé de mise à jour pour contrôleur RAID</value>
+        <value>Clé de sécurité</value>
+        <value>Clé de sécurité USB</value>
+        <value>Clé de verrouillage de sécurité de rack</value>
+        <value>Clé physique</value>
+        <value>Clé pour câble de verrouillable d'ordinateur portable</value>
+        <value>Clé principale de verrou de câble</value>
+        <value>Clip ceinture pour terminal portable</value>
+        <value>Clip d'adaptateur de socle d'accueil portable</value>
+        <value>Clip de fixation pour dissipateur thermique</value>
+        <value>Clip pour port de processeur</value>
+        <value>Cloison pour dessus d'armoire en rack</value>
+        <value>Collerette pour port de sortie</value>
+        <value>Colorant liquide pour système de refroidissement</value>
+        <value>Commande d'éclairage du système (détection sensible aux sons)</value>
+        <value>Commande de la vitesse du ventilateur système</value>
+        <value>Commande manuelle USB</value>
+        <value>Commutateur d'allumage/extinction à distance</value>
+        <value>Commutateur d'intrusion d'armoire système</value>
+        <value>Commutateur de réglage de la vitesse du ventilateur</value>
+        <value>Commutateur de tension</value>
+        <value>Compartiment en colonne pour monnayeur</value>
+        <value>Compartiment pour lecteur de support de stockage</value>
+        <value>Compteur de consommation électrique pour carte vidéo</value>
+        <value>Compteur de consommation électrique pour unité centrale</value>
+        <value>Conditionnement</value>
+        <value>Conduit d'air pour système de refroidissement liquide</value>
+        <value>Conduit de blindage pour câble</value>
+        <value>Conduit de ventilation</value>
+        <value>Conduit de ventilation de système de refroidissement par liquide avec ventilateur</value>
+        <value>Conduit flexible pour câble</value>
+        <value>Connecteur</value>
+        <value>Contrôle de température de l'ordinateur</value>
+        <value>Contrôle des ports pour la sécurité</value>
+        <value>Contrôleur de la qualité sonore</value>
+        <value>Contrôleur de la vitesse des ventilateurs avec 4 ventilateurs système</value>
+        <value>Contrôleur de la vitesse des ventilateurs avec ventilateur système</value>
+        <value>Contrôleur de la vitesse du ventilateur avec 2 ventilateurs système</value>
+        <value>Contrôleur de la vitesse du ventilateur avec alarme</value>
+        <value>Contrôleur du système de refroidissement par air/par liquide</value>
+        <value>Coque d'ordinateur portable</value>
+        <value>Coque protectrice pour notebook</value>
+        <value>Cordon pour ordinateur de poche</value>
+        <value>Coupleur pour canalisation</value>
+        <value>Courroie pour câble</value>
+        <value>Couvercle à abbatant</value>
+        <value>Couvercle de batterie</value>
+        <value>Couvercle de caisse enregistreuse</value>
+        <value>Couvercle de contrôle de port arrière/câble</value>
+        <value>Couvercle de protection pour PC Ultra Mobile</value>
+        <value>Couvercle de rechange pour ordinateur portable</value>
+        <value>Couvercle pour canal à câbles</value>
+        <value>Couverture pour lecteur eBook avec lampe</value>
+        <value>Crochet de montage</value>
+        <value>Crochet de sécurité à vis</value>
+        <value>Crochets de montage</value>
+        <value>Crochets de transport pour rack</value>
+        <value>Dalle d'écran</value>
+        <value>Débitmètre d'air</value>
+        <value>Dessus d'armoire en rack</value>
+        <value>Dessus d'armoire en rack avec 3 ventilateurs</value>
+        <value>Dessus d'armoire en rack avec 4 ventilateurs (230 V)</value>
+        <value>Dessus de baie (ventilé)</value>
+        <value>Dessus de baie avec 2 ventilateurs</value>
+        <value>Dessus de baie avec 4 ventilateurs</value>
+        <value>Dessus de baie avec 4 ventilateurs et un thermostat</value>
+        <value>Dessus de baie avec 6 ventilateurs</value>
+        <value>Dessus de baie avec ventilateur</value>
+        <value>Dessus de baie avec ventilateur (120 V)</value>
+        <value>Dessus de bureau antistatique</value>
+        <value>Dessus de rack avec 6 ventilateurs (208-240 V)</value>
+        <value>Détecteur d'eau</value>
+        <value>Détecteur de fuites</value>
+        <value>Détecteur de fumée</value>
+        <value>Détecteur de mouvement</value>
+        <value>Détecteur de vibrations</value>
+        <value>Dispositif d'allégement de notebook</value>
+        <value>Dispositif de diagnostic système</value>
+        <value>Dispositif de verrouillage pour écran de portable</value>
+        <value>Disquette système</value>
+        <value>Dissipateur de chaleur</value>
+        <value>Dissipateur thermique à mémoire</value>
+        <value>Dissipateur thermique arrière pour processeur</value>
+        <value>Dissipateur thermique pour carte vidéo</value>
+        <value>Dissipateur thermique pour carte vidéo avec dissipateurs thermiques pour mémoire</value>
+        <value>Dissipateur thermique pour disque dur</value>
+        <value>Dissipateur thermique pour mémoire de carte vidéo</value>
+        <value>Documentation</value>
+        <value>Dossier</value>
+        <value>Dossier-poignée/système d'appui pour PC tablette</value>
+        <value>Douille à sertir de carte-mère</value>
+        <value>Douille pour vérin à vis</value>
+        <value>Dragonne</value>
+        <value>Dragonne (réglable)</value>
+        <value>Dragonne de housse d'ordinateur portable</value>
+        <value>Dragonne-stylet pour ordinateur portable</value>
+        <value>Échangeur thermique de carte vidéo pour système de refroidissement liquide</value>
+        <value>Échangeur thermique de convertisseur de tension pour système de refroidissement</value>
+        <value>Échangeur thermique de disque dur pour système de refroidissement</value>
+        <value>Échangeur thermique de mémoire</value>
+        <value>Échangeur thermique de RAM pour système de refroidissement par liquide</value>
+        <value>Échangeur thermique de RAM vidéo pour système de refroidissement</value>
+        <value>Échangeur thermique pour puces</value>
+        <value>Échangeur thermique pour puces du système de refroidissement</value>
+        <value>Échangeur thermique UC du système de refroidissement</value>
+        <value>Échangeur thermique UC du système de refroidissement par liquide avec pompe intégrée</value>
+        <value>Échelle pour kit de gestion de câbles pour montage sur toit de rack</value>
+        <value>Éclairage de l'armoire système</value>
+        <value>Éclairage de l'armoire système (diodes électroluminescentes)</value>
+        <value>Éclairage de l'armoire système (néon)</value>
+        <value>Écran d'ordinateur portable et kit de nettoyage de la lentille du lecteur CD</value>
+        <value>Écran d'ordinateur portable, protection clavier et tampon de nettoyage</value>
+        <value>Écran LCD</value>
+        <value>Écrou pour châssis</value>
+        <value>Écrous à cage</value>
+        <value>Écrous pour rack</value>
+        <value>Effaceur d'étiquettes</value>
+        <value>Élément de configuration du cluster</value>
+        <value>Embout de tournevis sécurisé pour vis antivandales</value>
+        <value>Embout pour baguette lumineuse</value>
+        <value>Embout pour goulotte de chemin de câbles</value>
+        <value>Encadrement avant d'armoire système</value>
+        <value>Encadrement pour terminal TPV</value>
+        <value>Ensemble de tuyaux du système de refroidissement</value>
+        <value>Ensemble processeur</value>
+        <value>Ensemble ventilateur/conduit</value>
+        <value>Entrée avant de flux d'air de rack</value>
+        <value>Entretoise de câble pour rack</value>
+        <value>Espace de rangement supplémentaire de sac à dos pour ordinateur portable</value>
+        <value>Étagère à imprimante sur chariot mobile</value>
+        <value>Étagère coulissante pour rack</value>
+        <value>Étagère de montage frontal pour rack (ventilée)</value>
+        <value>Étagère de rack (en porte-à-faux)</value>
+        <value>Étagère de rack (en porte-à-faux, ventilée)</value>
+        <value>Étagère de rack pour clavier (coulissante, pivotante)</value>
+        <value>Étagère pour clavier</value>
+        <value>Étagère pour clavier (coulissante)</value>
+        <value>Étagère pour rack</value>
+        <value>Étagère pour rail (coulissante, ventilée)</value>
+        <value>Étagère rack (ventilé)</value>
+        <value>Étiquette RFID</value>
+        <value>Étiquettes</value>
+        <value>Étui</value>
+        <value>Étui avec clip ceinture pour portable</value>
+        <value>Étui de batterie</value>
+        <value>Étui de protection pour PC tablette</value>
+        <value>Étui de protection pour tablet PC</value>
+        <value>Étui et ceinture pour ordinateur de poche</value>
+        <value>Étui et sacoche pour ordinateur portable</value>
+        <value>Étui PC Ultra Mobile</value>
+        <value>Étui pour accessoires d'ordinateur portable</value>
+        <value>Étui pour batterie</value>
+        <value>Étui pour ordinateur de poche</value>
+        <value>Étui pour ordinateur de poche + stylet</value>
+        <value>Étui pour ordinateur portable</value>
+        <value>Étui pour ordinateur portable avec support</value>
+        <value>Étui pour ordinateur portable et imprimante</value>
+        <value>Etui pour Tablet PC</value>
+        <value>Étui pour Ultra Mobile PC</value>
+        <value>Étui protecteur pour jeton matériel</value>
+        <value>Étui rigide</value>
+        <value>Extension du boîtier (arrière)</value>
+        <value>Extension du kit de montage au sol</value>
+        <value>Façade disque dur</value>
+        <value>Façade FDD</value>
+        <value>Faisceau de gestion de batterie</value>
+        <value>Feuilles de nettoyage</value>
+        <value>Film adhésif dissipateur thermique pour processeur</value>
+        <value>Filtre 3D pour écran d'ordinateur protable</value>
+        <value>Filtre à air</value>
+        <value>Filtre anti-indiscrétion</value>
+        <value>Filtre de confidentialité de PC tablette</value>
+        <value>Filtre de confidentialité pour ordinateur portable</value>
+        <value>Filtre de confidentialité pour PDA</value>
+        <value>Filtre écran de sécurité</value>
+        <value>Filtre pour accélérateur de processeur</value>
+        <value>Filtre pour rack</value>
+        <value>Filtre pour système de purification d'air</value>
+        <value>Fixation à la hanche pour périphérique portable</value>
+        <value>Fixation au poignet pour périphérique portable</value>
+        <value>Fixation de montage en angle pour rail</value>
+        <value>Fixation pour disque dur</value>
+        <value>Fixation pour échangeur thermique UC du système de refroidissement liquide</value>
+        <value>Fixation pour guide pour câbles</value>
+        <value>Fixation pour montage mural</value>
+        <value>Fixation pour rack</value>
+        <value>Fixation sur bicyclette pour ordinateur de poche</value>
+        <value>Fond de panier</value>
+        <value>Fond de panier ATA de serveur</value>
+        <value>Fond de panier ATA Serial pour serveurs</value>
+        <value>Fond de panier de disque dur (capacité de 16 disques)</value>
+        <value>Fond de panier de disque dur (capacité de 4 disques)</value>
+        <value>Fond de panier de serveur ATA série 6 ports</value>
+        <value>Fond de panier de serveur SAS</value>
+        <value>Fond de panier remplaçable à chaud SAS de serveur</value>
+        <value>Fond de panier remplaçable à chaud SATA/SAS 4 ports pour serveur</value>
+        <value>Fond de panier remplaçable à chaud SATA/SAS 6 ports pour serveur</value>
+        <value>Fond de panier remplaçable à chaud SATA/SAS du serveur</value>
+        <value>Fond de panier SAS externe 4 ports du serveur</value>
+        <value>Fond de panier SAS/SATA 24 ports pour serveur</value>
+        <value>Fond de panier SATA II/SAS serveur 8 ports</value>
+        <value>Fond de panier SATA/SAS du serveur</value>
+        <value>Fond de panier SCSI du serveur</value>
+        <value>Gadget USB</value>
+        <value>Gaine de conduite d'air ovale pour rack</value>
+        <value>Gaine de gestion de câbles pour rack avec embout (horizontal)</value>
+        <value>Gaine de gestion de câbles pour rack avec embout (vertical)</value>
+        <value>Gaine pour câble</value>
+        <value>Glissières pour stockage</value>
+        <value>Gouttière de plafond pour rack</value>
+        <value>Gouttière pour passage de câble</value>
+        <value>Griffe pour agencement des câbles</value>
+        <value>Grille d'aération</value>
+        <value>Grille d'entrée d'air</value>
+        <value>Grille pour ventilateur avec filtre</value>
+        <value>Guide cloison</value>
+        <value>Guide de câbles pour rack</value>
+        <value>Guide de câbles pour rack (horizontal) avec couvercle</value>
+        <value>Guide de station d'accueil portable</value>
+        <value>Guide pour câbles</value>
+        <value>Habillage pour clavier d'ordinateur portable</value>
+        <value>Harnais</value>
+        <value>Harnais pour écran LCD de notebook</value>
+        <value>Housse</value>
+        <value>Housse d'ordinateur portable et protection d'écran</value>
+        <value>Housse de protection</value>
+        <value>Housse de protection clavier/système</value>
+        <value>Housse de protection clavier/système/moniteur</value>
+        <value>Housse de protection pour imprimante</value>
+        <value>Housse de sac à dos pour ordinateur portable</value>
+        <value>Housse pour lecteur eBook</value>
+        <value>Housse pour moniteur</value>
+        <value>Housse pour scanner de code à barre</value>
+        <value>Identification par empreintes digitales du système</value>
+        <value>Indicateur de débit du système de refroidissement par liquide</value>
+        <value>Indicateur de flux d'eau du système de refroidissement par liquide avec indicateur de température</value>
+        <value>Indicateur de la température de l'eau du système de refroidissement par liquide</value>
+        <value>Indicateur de rack</value>
+        <value>Indicateur de température / du niveau d'eau du système de refroidissement par liquide</value>
+        <value>Inhibiteur de corrosion du système de refroidissement</value>
+        <value>Insert décoratif pour ordinateur portable</value>
+        <value>Insert pour porte de rack contre les courants d'air</value>
+        <value>Insonorisateur système</value>
+        <value>Interface d'extension pour onduleur</value>
+        <value>Interface de montage pour PC tablette</value>
+        <value>Interrupteur ON/OFF</value>
+        <value>Inverter</value>
+        <value>Isolation de canalisation</value>
+        <value>Jeton matériel</value>
+        <value>Jeu d'adaptateurs de raccordement du système de refroidissement par liquide</value>
+        <value>Jeu de vis avec tournevis</value>
+        <value>Jeu de vis ventilateur du système</value>
+        <value>Kit puissance pour portable</value>
+        <value>Kit antistatique</value>
+        <value>Kit bandoulière</value>
+        <value>Kit couleur</value>
+        <value>Kit d'accessoires de batteries</value>
+        <value>Kit d'accessoires pour baie 5,25 pouces</value>
+        <value>Kit d'accessoires pour imprimante</value>
+        <value>Kit d'accessoires pour le système d'alimentation</value>
+        <value>Kit d'accessoires pour PDA</value>
+        <value>Kit d'accessoires pour portable</value>
+        <value>Kit d'accessoires pour serveur</value>
+        <value>Kit d'accessoires pour système de refroidissement à compression de vapeur</value>
+        <value>Kit d'alimentation</value>
+        <value>Kit d'amortisseurs de vibration du bloc d'alimentation</value>
+        <value>Kit d'amortisseurs de vibration du ventilateur système</value>
+        <value>Kit d'apprentissage pour ordinateur</value>
+        <value>Kit d'assemblage de rack</value>
+        <value>Kit d'éclairage</value>
+        <value>Kit d'écrous</value>
+        <value>Kit d'effacement de mémoire / processeur</value>
+        <value>Kit d'effaceur d'étiquettes</value>
+        <value>Kit d'empilage d'échelles</value>
+        <value>Kit d'entretoises de rack</value>
+        <value>Kit d'envoi de racks avec trous de fixation ronds</value>
+        <value>Kit d'exploitation câble</value>
+        <value>Kit d'extension de stockage SCSI</value>
+        <value>Kit d'extension du bus système</value>
+        <value>Kit d'extension pour rack</value>
+        <value>Kit d'insonorisation du système</value>
+        <value>Kit d'insonorisation pour ventilateur</value>
+        <value>Kit d'installation de stockage</value>
+        <value>Kit d'installation pour onduleur</value>
+        <value>Kit d'intégration</value>
+        <value>Kit d'optimisation du débit d'air du rack</value>
+        <value>Kit d'options de stabilisateur pour rack</value>
+        <value>Kit d'options de stabilisateur pour rack (très résistant)</value>
+        <value>Kit de bacs de service</value>
+        <value>Kit de baies pour rack</value>
+        <value>Kit de boulons pour rack</value>
+        <value>Kit de câblage et de montage de batterie distante</value>
+        <value>Kit de câble vertical pour DVD arrière</value>
+        <value>Kit de caches pour oeillets de toit de rack</value>
+        <value>Kit de cachetage pour rack</value>
+        <value>Kit de carte mémoire Flash PCMCIA</value>
+        <value>Kit de clé de sécurité USB</value>
+        <value>Kit de clustering</value>
+        <value>Kit de communications parallèles UPS</value>
+        <value>Kit de conception de système</value>
+        <value>Kit de conduit d'air pour rack</value>
+        <value>Kit de connexion du châssis sur rack</value>
+        <value>Kit de connexion frontale pour rack</value>
+        <value>Kit de connexion pour système de refroidissement</value>
+        <value>Kit de conversion piédestal vers rack</value>
+        <value>Kit de conversion rack vers desktop</value>
+        <value>Kit de conversion rack vers tour</value>
+        <value>Kit de conversion tour vers desktop</value>
+        <value>Kit de conversion tour vers rack</value>
+        <value>Kit de conversion "tour vers rack"</value>
+        <value>Kit de conversion de stockage</value>
+        <value>Kit de conversion pour câbles</value>
+        <value>Kit de détection d'ouverture de porte rack</value>
+        <value>Kit de détection pour système de gestion de batterie</value>
+        <value>Kit de duplexing</value>
+        <value>Kit de façades portable</value>
+        <value>Kit de fenêtre d'armoire système</value>
+        <value>Kit de film protecteur pour appareil portatif</value>
+        <value>Kit de films protecteurs pour ordinateur portable</value>
+        <value>Kit de filtre système</value>
+        <value>Kit de filtres antipoussière pour armoire système</value>
+        <value>Kit de fixation à coude pour échelles</value>
+        <value>Kit de fixation anti-sismique</value>
+        <value>Kit de fixation de station d'accueil sans fil pour voiture</value>
+        <value>Kit de fixation des cartes PCI</value>
+        <value>Kit de fixation du bloc d'alimentation</value>
+        <value>Kit de fixation pour lecteur de codes à barres</value>
+        <value>Kit de fixation pour rack</value>
+        <value>Kit de fixation sur toit</value>
+        <value>Kit de fixations pour échelle</value>
+        <value>Kit de flexibles</value>
+        <value>Kit de garniture avant pour rack</value>
+        <value>Kit de garniture vertical pour rack</value>
+        <value>Kit de gestion de câbles et de rails pour rack</value>
+        <value>Kit de gestion de câbles pour rack</value>
+        <value>Kit de gestion des câbles à anneaux en D</value>
+        <value>Kit de gestion des câbles pour rack (vertical)</value>
+        <value>Kit de gestion des câbles sur rack (horizontal)</value>
+        <value>Kit de housse d'ordinateur portable</value>
+        <value>Kit de joints d'étanchéité</value>
+        <value>Kit de localisation / langue</value>
+        <value>Kit de logos système</value>
+        <value>Kit de maintenance</value>
+        <value>Kit de matériel pour ordinateur</value>
+        <value>Kit de mise à niveau du système</value>
+        <value>Kit de mise à niveau serveur SAS</value>
+        <value>Kit de mise à niveau thermique</value>
+        <value>Kit de mise à terre pour rack</value>
+        <value>Kit de mise en oeuvre</value>
+        <value>Kit de mobilité pour portable</value>
+        <value>Kit de montage</value>
+        <value>Kit de montage au sol en rack</value>
+        <value>Kit de montage client léger sur moniteur</value>
+        <value>Kit de montage d'écran sur ordinateur de bureau</value>
+        <value>Kit de montage d'ordinateur de poche pour automobile</value>
+        <value>Kit de montage de l'armoire système</value>
+        <value>Kit de montage de lecteur à bande SAS/SATA</value>
+        <value>Kit de montage de refroidisseur de carte vidéo</value>
+        <value>Kit de montage du système sous le bureau / sur le moniteur</value>
+        <value>Kit de montage en armoire pour moniteur</value>
+        <value>Kit de montage en armoire pour panneau LCD</value>
+        <value>Kit de montage en saillie</value>
+        <value>Kit de montage en véhicule</value>
+        <value>Kit de montage extérieur pour périphérique réseau</value>
+        <value>Kit de montage moniteur/clavier pour rack</value>
+        <value>Kit de montage mural affichage/clavier</value>
+        <value>Kit de montage mural de terminal POS</value>
+        <value>Kit de montage mural pour station d'accueil</value>
+        <value>Kit de montage piédestal</value>
+        <value>Kit de montage pour armoire d'onduleur</value>
+        <value>Kit de montage pour CD-ROM</value>
+        <value>Kit de montage pour CD/disquettes</value>
+        <value>Kit de montage pour chemin de câbles</value>
+        <value>Kit de montage pour clavier</value>
+        <value>Kit de montage pour disque dur</value>
+        <value>Kit de montage pour étagèr de rack</value>
+        <value>Kit de montage pour rack de console KVM</value>
+        <value>Kit de montage pour refroidisseur de processeur</value>
+        <value>Kit de montage pour unité d'alimentation pour rack</value>
+        <value>Kit de montage pour unité de stockage</value>
+        <value>Kit de montage sous le bureau du système</value>
+        <value>Kit de montage tige</value>
+        <value>Kit de nettoyage d'écran d'ordinateur portable</value>
+        <value>Kit de nettoyage pour clavier et moniteur</value>
+        <value>Kit de nettoyage pour écran</value>
+        <value>Kit de nettoyage pour écran/clavier</value>
+        <value>Kit de nettoyage pour imprimante</value>
+        <value>Kit de nettoyage pour ordinateur portable</value>
+        <value>Kit de nettoyage pour souris</value>
+        <value>Kit de panneau latéral pour rack</value>
+        <value>Kit de panneaux décoratifs</value>
+        <value>Kit de panneaux enjoliveurs pour rack</value>
+        <value>Kit de panneaux frontaux</value>
+        <value>Kit de panneaux pour l'alimentation</value>
+        <value>Kit de panneaux vides</value>
+        <value>Kit de pièces de rechange pour onduleur</value>
+        <value>Kit de plaque de verrouillage de sécurité</value>
+        <value>Kit de portes de batterie pour portable</value>
+        <value>Kit de protection d'écran pour lecteur eBook</value>
+        <value>Kit de protection de goulotte d'écran de câble (ventilé)</value>
+        <value>Kit de protection de la recirculation de l'air chaud</value>
+        <value>Kit de protection pour ports d'ordinateur portable</value>
+        <value>Kit de protection système</value>
+        <value>Kit de rails arrières de rack</value>
+        <value>Kit de rails d'adaptateur de stockage</value>
+        <value>Kit de rails pour armoire</value>
+        <value>Kit de rails pour rack</value>
+        <value>Kit de redondance de système</value>
+        <value>Kit de refroidissement de la mémoire</value>
+        <value>Kit de refroidissement pour carte vidéo et jeu de puces</value>
+        <value>Kit de refroidissement pour échangeur thermique de carte vidéo</value>
+        <value>Kit de refroidissement pour échangeur thermique de processeur</value>
+        <value>Kit de refroidissement pour échangeur thermique de puce</value>
+        <value>Kit de remplacement à chaud SATA/SAS</value>
+        <value>Kit de ressources de configuration</value>
+        <value>Kit de rétention de câble PDU</value>
+        <value>Kit de roulettes</value>
+        <value>Kit de roulettes pour rack</value>
+        <value>Kit de roulettes pour rack (à blocage)</value>
+        <value>Kit de sécurité</value>
+        <value>Kit de sécurité SmartCard</value>
+        <value>Kit de stabilisateurs latéraux pour rack</value>
+        <value>Kit de support d'envoi des systèmes</value>
+        <value>Kit de support de rack</value>
+        <value>Kit de surveillance du courant</value>
+        <value>Kit de suspension pour échelle de goulotte de câble</value>
+        <value>Kit de système avec passe-partout de sécurité</value>
+        <value>Kit de tapis de conduction de chaleur</value>
+        <value>Kit de tournevis</value>
+        <value>Kit de tournevis de système de refroidissement par liquide pour carte vidéo</value>
+        <value>Kit de tuyaux pour système de refroidissement par liquide</value>
+        <value>Kit de ventilateur de carte vidéo</value>
+        <value>Kit de ventilation pour disque dur</value>
+        <value>Kit de ventilation pour ordinateur</value>
+        <value>Kit de ventilation pour périphérique de stockage</value>
+        <value>Kit de ventilation pour rack</value>
+        <value>Kit de ventilation pour rack (110 V)</value>
+        <value>Kit de ventilation pour rack (115 V)</value>
+        <value>Kit de ventilation pour rack (120 V)</value>
+        <value>Kit de ventilation pour rack (208/230 V)</value>
+        <value>Kit de ventilation pour rack (220 V)</value>
+        <value>Kit de ventilation pour rack (220 V) avec thermostat</value>
+        <value>Kit de ventilation pour rack (230 V)</value>
+        <value>Kit de ventilation pour rack avec thermostat</value>
+        <value>Kit de ventilation redondant enfichable à chaud</value>
+        <value>Kit de verrouillage de rack</value>
+        <value>Kit de vis de montage de carte mère</value>
+        <value>Kit de vis pour armoire système</value>
+        <value>Kit de vis pour rack</value>
+        <value>Kit de visserie</value>
+        <value>Kit de voyage pour PDA</value>
+        <value>Kit de voyage pour portable</value>
+        <value>Kit de voyants</value>
+        <value>Kit détecteur thermique</value>
+        <value>Kit écran tactile</value>
+        <value>Kit équerre de fixation murale</value>
+        <value>Kit fusible</value>
+        <value>Kit ID</value>
+        <value>Kit matériel UPS</value>
+        <value>Kit montage de supports pour unités remplaçables à chaud</value>
+        <value>Kit oreillettes</value>
+        <value>Kit pays</value>
+        <value>Kit pays pour modem</value>
+        <value>Kit poignée pour ordinateur portable</value>
+        <value>Kit pour chemin de câbles et barre de lames</value>
+        <value>Kit pour panneau d'obturation</value>
+        <value>Kit pour panneau LCD</value>
+        <value>Kit pour portes de rack</value>
+        <value>Kit sécurité pour portable</value>
+        <value>Kit serveur SAS permutable à chaud</value>
+        <value>Kit serveur SATA permutable à chaud</value>
+        <value>Kit serveur SCSI permutable à chaud</value>
+        <value>Kit socle UPS</value>
+        <value>Kit support de montage multiprise</value>
+        <value>Kit verrouillage batterie</value>
+        <value>Kit vierge processeur dual core</value>
+        <value>Lampe</value>
+        <value>Lampe d'armoire système (DEL laser)</value>
+        <value>Lampe de projecteur</value>
+        <value>Lampe pour lecteur eBook</value>
+        <value>Lampe pour rack</value>
+        <value>Le kit câble</value>
+        <value>Le kit de conversion</value>
+        <value>Le kit du panneau de dispositif de réseau</value>
+        <value>Lecteur de disquette externe pour portable</value>
+        <value>Licence</value>
+        <value>Licence du dispositif de réseau</value>
+        <value>Liquide de nettoyage</value>
+        <value>Liquide de nettoyage pour écran</value>
+        <value>Liquide du système de refroidissement</value>
+        <value>Logement de SmartCard</value>
+        <value>Loquet pour porte de rack</value>
+        <value>Lot d'accessoires de bureau</value>
+        <value>Lot d'accessoires pour notebook</value>
+        <value>Lumière pour notebook</value>
+        <value>Manuels et outils pour l'installation de racks</value>
+        <value>Masque pour écran LCD de notebook</value>
+        <value>Mécanisme de rétention pour processeur</value>
+        <value>Mémoire cache de contrôleur RAID</value>
+        <value>Mémoire cache de contrôleur RAID (512 Mo)</value>
+        <value>Meuble pour imprimante</value>
+        <value>Mini panneau de commande pour armoire système</value>
+        <value>Modem + kit de connexion GSM</value>
+        <value>Module d'affichage UPS</value>
+        <value>Module d'alimentation fond de panier</value>
+        <value>Module d'alimentation sans coupure</value>
+        <value>Module d'extension</value>
+        <value>Module de calcul GPU</value>
+        <value>Module de compensation de la température externe de la batterie</value>
+        <value>Module de continuité 32 bits mémoire Rambus RIMM</value>
+        <value>Module de continuité mémoire Rambus RIMM</value>
+        <value>Module de contrôleur pour convertisseur continu-alternatif</value>
+        <value>Module de gestion d'onduleur</value>
+        <value>Module de gestion de ventilateur de rack</value>
+        <value>Module de gestion PDU</value>
+        <value>Module de refroidissement du système</value>
+        <value>Module de régulation de tension pour processeur</value>
+        <value>Module de serveur lame factice</value>
+        <value>Module de surveillance pour onduleur</value>
+        <value>Module de ventilation</value>
+        <value>Module E/S du serveur lame</value>
+        <value>Module écologique</value>
+        <value>Module horloge</value>
+        <value>Module interrupteur/voyant</value>
+        <value>Module pour étui</value>
+        <value>Module Supercap à distance et bac de batterie</value>
+        <value>Module support du processeur</value>
+        <value>Moniteur de température et de ventilation</value>
+        <value>Moniteur de ventilation</value>
+        <value>Moniteur de ventilation avec commutateur de réglage de la vitesse</value>
+        <value>Montage des attaches de câble</value>
+        <value>Montage sur surface de passe-câble au sol</value>
+        <value>Montant</value>
+        <value>Monture pour batteries</value>
+        <value>Mousse de nettoyage</value>
+        <value>Nappe</value>
+        <value>Notebook / tablet stand</value>
+        <value>Notebook Starter Kit</value>
+        <value>Open frame rack</value>
+        <value>Option de commande de support de stockage</value>
+        <value>Option de détection des intrusions</value>
+        <value>Ordinateur portable avec plateau</value>
+        <value>Outils</value>
+        <value>Pack d'assistance pour ordinateur</value>
+        <value>Pad thermique</value>
+        <value>Panier</value>
+        <value>Panier d'E/S</value>
+        <value>Panneau arrière de rack</value>
+        <value>Panneau arrière du système</value>
+        <value>Panneau avant</value>
+        <value>Panneau avant de rack</value>
+        <value>Panneau d'agencement de câbles</value>
+        <value>Panneau d'agencement de câbles de rack</value>
+        <value>Panneau d'agencement de câbles de rack (horizontal)</value>
+        <value>Panneau d'agencement de câbles en rack (avant, horizontal)</value>
+        <value>Panneau d'agencement de câbles en rack (horizontal, d'un seul côté) avec capot</value>
+        <value>Panneau d'arrivée des câbles dans le rack (avant)</value>
+        <value>Panneau d'entrée de câbles du rack avec brosse</value>
+        <value>Panneau d'information du jeu</value>
+        <value>Panneau d'obturation pour rack</value>
+        <value>Panneau d'occultation de logement de système</value>
+        <value>Panneau de commande local de l'armoire système</value>
+        <value>Panneau de commande standard pour armoire système</value>
+        <value>Panneau de commutation PDU</value>
+        <value>Panneau de contrôle du débit d'air du rack</value>
+        <value>Panneau de gestion de câbles sur rack (vertical)</value>
+        <value>Panneau de maintenance du système</value>
+        <value>Panneau de montage sur rack</value>
+        <value>Panneau de ports de la baie de stockage</value>
+        <value>Panneau de protection pour E/S du système</value>
+        <value>Panneau de remplissage</value>
+        <value>Panneau de remplissage mémoire</value>
+        <value>Panneau de remplissage pour bloc d'alimentation</value>
+        <value>Panneau de remplissage pour lecteur de disque dur</value>
+        <value>Panneau de remplissage pour lecteur de disquette</value>
+        <value>Panneau de remplissage pour processeur</value>
+        <value>Panneau de séparateur pour rack</value>
+        <value>Panneau de surcadençage et de surveillance du système</value>
+        <value>Panneau filtrant de ventilation pour rack</value>
+        <value>Panneau fontal de sortie/entrée du système</value>
+        <value>Panneau frontal d'unité de disque</value>
+        <value>Panneau frontal ouvert du système</value>
+        <value>Panneau frontal pour lecteur de disques</value>
+        <value>Panneau gauche du système</value>
+        <value>Panneau indicateur</value>
+        <value>Panneau inférieur sur rack</value>
+        <value>Panneau intercalaire</value>
+        <value>Panneau latéral d'onduleur (gauche)</value>
+        <value>Panneau latéral de rack (droit)</value>
+        <value>Panneau latéral de rack (gauche)</value>
+        <value>Panneau latéral du système avec ouverture et ventilateur</value>
+        <value>Panneau latéral du système avec ventilateur</value>
+        <value>Panneau latéral pour ordinateur de poche</value>
+        <value>Panneau latéral pour rack</value>
+        <value>Panneau latéral système (ventilé)</value>
+        <value>Panneau latéral système avec fenêtre et ventilateur</value>
+        <value>Panneau latéral système avec ouverture</value>
+        <value>Panneau ondulateur d'affichage rétro-éclairé</value>
+        <value>Panneau passe-câble à brosse</value>
+        <value>Panneau supérieur d'évacuation pour rack</value>
+        <value>Panneau supérieur de rack (ventilé)</value>
+        <value>Panneau supérieur du système</value>
+        <value>Panneau vide</value>
+        <value>Panneau vide (arrière)</value>
+        <value>Panneau vide avec coupleur</value>
+        <value>Panneau vide pour alimentation électrique</value>
+        <value>Panneau vide pour châssis de serveur lame</value>
+        <value>Panneaux de remplissage pour rack</value>
+        <value>Parafoudre</value>
+        <value>Pare-soleil pour écran d'ordinateur portable</value>
+        <value>Partie inférieure/capot supérieur pour rack</value>
+        <value>Partition avec passe-câbles pour système de gestion de câbles aérien pour rack</value>
+        <value>Partition solide pour système de gestion de câbles aérien pour rack</value>
+        <value>Passe-câble à brosse pour porte arrière de rack</value>
+        <value>Passe-câble à brosse pour rack</value>
+        <value>Passe-câble pour faux-plancher</value>
+        <value>Passe-câble pour faux-plancher fractionné</value>
+        <value>Passe-câble pour rack</value>
+        <value>Passe-partout de sécurité</value>
+        <value>Pâte pour dissipateur thermique de processeur</value>
+        <value>Pâte thermique</value>
+        <value>Patte à velcro pour gestion des câbles</value>
+        <value>Pavillon</value>
+        <value>Peinture acrylique</value>
+        <value>Perle en ferrite</value>
+        <value>Pièce d'attache pour chemin de câbles</value>
+        <value>Pièces détachées</value>
+        <value>Pièces pour armoire</value>
+        <value>Pied de stabilisation de rail</value>
+        <value>Pieds de nivellement</value>
+        <value>Pieds de stabilisation pour rack</value>
+        <value>Pieds pour ordinateur portable</value>
+        <value>Pieds pour positionnement horizontal de client léger</value>
+        <value>Pieds pour positionnement vertical de client léger</value>
+        <value>Piétement</value>
+        <value>Pince de bureau</value>
+        <value>Pince de sécurité pour bureau</value>
+        <value>Pivot clavier/laptop</value>
+        <value>Pivot pour moniteur</value>
+        <value>Plaque</value>
+        <value>Plaque arrière de processeur</value>
+        <value>Plaque d'adaptateur de montage portable</value>
+        <value>Plaque d'adaptation pour système de refroissement par liquide de carte vidéo</value>
+        <value>Plaque d'aération murale</value>
+        <value>Plaque de filtre pour rack</value>
+        <value>Plaque de fixation pour rack échelle</value>
+        <value>Plaque de montage</value>
+        <value>Plaque de montage de l'extension du rail du châssis</value>
+        <value>Plaque de montage en rack</value>
+        <value>Plaque de protection</value>
+        <value>Plaque de protection pour processeur</value>
+        <value>Plaque de stabilisation pour rack</value>
+        <value>Plaque de verrouillage système</value>
+        <value>Plate-forme notebook</value>
+        <value>Plate-forme ordinateur portable avec tapis de souris</value>
+        <value>Plate-forme pour caisse enregistreuse</value>
+        <value>Plateau articulé pour clavier</value>
+        <value>Plateau d'alimentation</value>
+        <value>Plateau de gestion de câbles</value>
+        <value>Plateau de gestion de câbles pour rack</value>
+        <value>Plateau de gestion de câbles pour rack (arrière)</value>
+        <value>Plateau de gestion de câbles pour rack (horizontal)</value>
+        <value>Plateau de gestion de câbles pour rack (horizontal, recto verso) avec couvercle</value>
+        <value>Plateau de gestion de câbles pour rack (latéral)</value>
+        <value>Plateau de gestion de câbles pour rack (partie supérieure)</value>
+        <value>Plateau de montage pour rack</value>
+        <value>Plateau de ventilateur de rack (230 V) avec thermostat (2 ventilateurs)</value>
+        <value>Plateau de ventilateur sur rack (220/240 V) avec 2 ventilateurs</value>
+        <value>Plateau du système de refroidissement pour baie 5,25 pouces</value>
+        <value>Plateau mural</value>
+        <value>Plateau pour accessoires</value>
+        <value>Plateau pour disque dur</value>
+        <value>Plateau pour ventilateur de rack avec 4 ventilateurs</value>
+        <value>Plateau sur bras articulé pour ordinateur portable</value>
+        <value>Plateau thermoventilateur</value>
+        <value>Plateau thermoventilateur (230 V)</value>
+        <value>Plateau thermoventilateur du dispositif de réseau</value>
+        <value>Plateur pour base d'extension</value>
+        <value>Plinthe pour rack</value>
+        <value>Pochette portable</value>
+        <value>Poids stabilisateur</value>
+        <value>Poignée de châssis pour montage sur rack</value>
+        <value>Poignée de porte de rack avec verrou</value>
+        <value>Poignée de transport</value>
+        <value>Poignée petit format pour serveur lame</value>
+        <value>Poignée pistolet pour ordinateur de poche</value>
+        <value>Poignée pour rack</value>
+        <value>Poignée protectrice pour portable</value>
+        <value>Poignées en T pour serveur de rack</value>
+        <value>Pointeur laser</value>
+        <value>Pompe du système de refroidissement</value>
+        <value>Pompe et réservoir du système de refroidissement par liquide</value>
+        <value>Porte arrière d'armoire en rack</value>
+        <value>Porte arrière pour rack</value>
+        <value>Porte arrière pour rack (courte)</value>
+        <value>Porte arrière rack (avec aération)</value>
+        <value>Porte arrière rack (pleine)</value>
+        <value>Porte avant en biseau</value>
+        <value>Porte avant pour rack</value>
+        <value>Porte avant pour rack (aérée)</value>
+        <value>Porte de batterie pour PDA</value>
+        <value>Porte de rack</value>
+        <value>Porte de rack (deux vantaux, ventilée)</value>
+        <value>Porte de rack (fractionnée)</value>
+        <value>Porte de rack (ventilée)</value>
+        <value>Porte de rack (ventilée, incurvée)</value>
+        <value>Porte de rechange de l'onduleur</value>
+        <value>Porte pour armoire de câblage</value>
+        <value>Porte-câble</value>
+        <value>Porte-cartes</value>
+        <value>Porte-copie</value>
+        <value>Porte-feuille mémoire</value>
+        <value>Porte-lame</value>
+        <value>Poste mis à la terre</value>
+        <value>Prise</value>
+        <value>Processeur / transporteur de modules de mémoire</value>
+        <value>Processor / memory blank kit</value>
+        <value>Produit d'entretien</value>
+        <value>Profil supplémentaire pour porte de rack</value>
+        <value>Prolongateur de temps de fonctionnement du ventilateur</value>
+        <value>Protecteur pour écran de lecteur eBook</value>
+        <value>Protection anti-basculement renforcée</value>
+        <value>Protection au sol pour câble</value>
+        <value>Protection d'écran de tablette</value>
+        <value>Protection d'écran pour PC tablette</value>
+        <value>Protection de câble</value>
+        <value>Protection de connecteur</value>
+        <value>Protection de PC tablette</value>
+        <value>Protection pour carte de proximité RF</value>
+        <value>Protection pour clavier d'ordinateur portable</value>
+        <value>Protection pour écran</value>
+        <value>Protection pour écran d'ordinateur portable</value>
+        <value>Protection pour écran de PDA</value>
+        <value>Protection pour écran LCD</value>
+        <value>Protection pour repose-poignet d'ordinateur portable</value>
+        <value>Protection rigide</value>
+        <value>Protège-connecteur</value>
+        <value>Protège-portable</value>
+        <value>Puce de sécurité matérielle</value>
+        <value>Pupitre pliable pour PC tablette</value>
+        <value>Pupitre pour ordinateur</value>
+        <value>QPI wrap card</value>
+        <value>Raccord à compression</value>
+        <value>Raccord pour système de refroidissement par liquide</value>
+        <value>Raccord SLI pour système de refroidissement par liquide de carte vidéo</value>
+        <value>Rack</value>
+        <value>Rack (montage mural)</value>
+        <value>Rack (montage mural, ventilé)</value>
+        <value>Rack (refroidi à l'eau)</value>
+        <value>Rack (ventilé)</value>
+        <value>Rack avec unité de distribution secteur</value>
+        <value>Rack échelle</value>
+        <value>Rack enclosure cabinet</value>
+        <value>Rack ouvert</value>
+        <value>Rack pour agencement des câbles</value>
+        <value>Rack relais</value>
+        <value>Rack roof with 6 fans (208-240V)</value>
+        <value>Radiateur de système de refroidissement par liquide avec ventilateur</value>
+        <value>Radiateur du système de refroidissement</value>
+        <value>Radiateur MOSFET</value>
+        <value>Rail de rack</value>
+        <value>Récepteur infrarouge</value>
+        <value>Récepteur RDS/autoradio</value>
+        <value>Récepteur RDS/TMC avec adaptateur d'alimentation pour automobile</value>
+        <value>Rechange</value>
+        <value>Recharge de liquide nettoyant</value>
+        <value>Recharge pour crayon numérique</value>
+        <value>Recharge pour kit de nettoyage</value>
+        <value>Recharge stylo</value>
+        <value>Recouvrement pour câble</value>
+        <value>Réfrigérateur USB</value>
+        <value>Refroidisseur de carte vidéo</value>
+        <value>Refroidisseur de carte vidéo avec dissipateurs thermiques pour mémoire</value>
+        <value>Refroidisseur de carte vidéo avec ventilateur</value>
+        <value>Refroidisseur de processeur</value>
+        <value>Refroidisseur de processeur / carte mémoire avec échangeurs thermiques de mémoire</value>
+        <value>Refroidisseur de processeur avec ventilateur satellite</value>
+        <value>Refroidisseur du filtre à air du système</value>
+        <value>Refroidisseur pour disque dur</value>
+        <value>Repose-pied</value>
+        <value>Repose-poignet</value>
+        <value>Repose-poignet pour clavier</value>
+        <value>Repose-poignet vibrant et deux ventilateurs</value>
+        <value>Réservoir de système de refroidissement par liquide avec adaptateur pour baie</value>
+        <value>Réservoir du système de refroidissement</value>
+        <value>Sac à dos pour ordinateur portable</value>
+        <value>Sac de transport pour ordinateur de bureau / moniteur</value>
+        <value>Sacoche</value>
+        <value>Sacoche d'ordinateur</value>
+        <value>Sacoche et étui pour ordinateur portable</value>
+        <value>Sacoche pour accessoires d'ordinateur portable</value>
+        <value>Sacoche pour ceinture</value>
+        <value>Sacoche pour ordinateur portable / imprimante</value>
+        <value>Sacoche pour ordinateur portable avec chargeur de batterie</value>
+        <value>Sacoche pour ordinateur portable et imprimante</value>
+        <value>Sacoche pour projecteur/ordinateur portable</value>
+        <value>Sangle de retenue pour ordinateur portable</value>
+        <value>Sangle pour le cou</value>
+        <value>Sangle velcro de gestion de câbles</value>
+        <value>Sangles et attaches pour support de montage sur perche</value>
+        <value>Segment vide pour rack</value>
+        <value>Sélecteur BIOS du système</value>
+        <value>Serre-câble</value>
+        <value>Server SAS hot swap backplane</value>
+        <value>Set de touches pour clavier</value>
+        <value>Socle de notebook / tablette</value>
+        <value>Socle pour écran de TPV</value>
+        <value>Socle pour ordinateur</value>
+        <value>Sonde de calibrage</value>
+        <value>Sonde de température</value>
+        <value>Spray dépoussiérant</value>
+        <value>Spray pour décollage étiquettes</value>
+        <value>Station d'accueil au format tour</value>
+        <value>Station d'accueil pour ordinateur de poche</value>
+        <value>Station d'accueil pour ordinateur portable avec hub 4 ports USB</value>
+        <value>Station d'accueil pour ordinateur portable avec hub 4 ports USB et ventilateur</value>
+        <value>Station d'accueil pour portable</value>
+        <value>Station d'accueil pour voiture pour ordinateur de poche</value>
+        <value>Stickers</value>
+        <value>Stylet de PC tablette avec attache</value>
+        <value>Stylet PC ultra mobile</value>
+        <value>Stylet pour écran tactile</value>
+        <value>Stylet pour ordinateur de poche avec dragonne</value>
+        <value>Stylet pour ordinateur de poche avec stylo à bille intégré</value>
+        <value>Stylet pour ordinateur portable / de poche</value>
+        <value>Stylet pour tablette</value>
+        <value>Stylo numérique</value>
+        <value>Stylo numérique (avec gomme)</value>
+        <value>Stylo numérique (sensible à la pression)</value>
+        <value>Stylo pour numériseur</value>
+        <value>Support</value>
+        <value>Support au plafond</value>
+        <value>Support base CPU du notebook</value>
+        <value>Support d'alimentation</value>
+        <value>Support d'échelle</value>
+        <value>Support d'ordinateur</value>
+        <value>Support d'ordinateur portable / imprimante pour véhicule</value>
+        <value>Support d'ordinateur portable avec 2 ventilateurs de refroidissement</value>
+        <value>Support d'ordinateur portable avec concentrateur USB 1 port et ventilateur de refroidissement</value>
+        <value>Support d'ordinateur portable avec concentrateur USB 2 ports et 2 ventilateurs de refroidissement</value>
+        <value>Support d'ordinateur portable avec concentrateur USB 2 ports et ventilateur de refroidissement</value>
+        <value>Support d'ordinateur portable avec concentrateur USB 2 ports et ventilateur de refroidissement avec
+            châssis de 2,5
+        </value>
+        <value>Support d'ordinateur portable avec concentrateur USB 3 ports et 2 ventilateurs de refroidissement</value>
+        <value>Support d'ordinateur portable avec concentrateur USB 3 ports et ventilateur de refroidissement</value>
+        <value>Support d'ordinateur portable avec concentrateur USB 3 ports et ventilateur de refroidissement avec
+            station d'accueil pour disque dur et SDD 2,5
+        </value>
+        <value>Support d'ordinateur portable avec concentrateurs USB à 3 ports et 3 ventilateurs de refroidissement
+        </value>
+        <value>Support d'ordinateur portable avec haut-parleurs</value>
+        <value>Support d'ordinateur portable avec ventilateur de refroidissement et haut-parleurs stéréo</value>
+        <value>Support de fixation de station d'accueil pour lecteur de codes à barres</value>
+        <value>Support de fixation de station d'accueil pour ordinateur portable</value>
+        <value>Support de fixation portatif à bille</value>
+        <value>Support de lame de coupe pour imprimante</value>
+        <value>Support de maintien du câble</value>
+        <value>Support de montage</value>
+        <value>Support de montage de l'échangeur thermique UC du système de refroidissement liquide</value>
+        <value>Support de montage mural de l'écran</value>
+        <value>Support de montage PDU</value>
+        <value>Support de montage pour périphérique réseau</value>
+        <value>Support de montage pour processeur</value>
+        <value>Support de montage pour véhicule</value>
+        <value>Support de PC tablette pour véhicule</value>
+        <value>Support de retenue de la carte AGP</value>
+        <value>Support moniteur/clavier</value>
+        <value>Support pivotant / inclinable / rotatif</value>
+        <value>Support pivotant et inclinable</value>
+        <value>Support POS</value>
+        <value>Support pour armoire système</value>
+        <value>Support pour assistant personnel</value>
+        <value>Support pour clavier/souris</value>
+        <value>Support pour duplicateur de port</value>
+        <value>Support pour écran</value>
+        <value>Support pour imprimante</value>
+        <value>Support pour lecteur de code à barres</value>
+        <value>Support pour lecteur extractible à chaud</value>
+        <value>Support pour moniteur (double)</value>
+        <value>Support pour moniteur/ordinateur de bureau</value>
+        <value>Support pour numériseur</value>
+        <value>Support pour ordinateur de poche</value>
+        <value>Support pour ordinateur de poche pour voiture</value>
+        <value>Support pour ordinateur de poche pour voiture avec haut-parleur intégré</value>
+        <value>Support pour ordinateur portable / moniteur LCD</value>
+        <value>Support pour ordinateur portable avec concentrateur à 4 ports USB et 2 ventilateurs de refroidissement
+        </value>
+        <value>Support pour ordinateur portable avec concentrateur USB à 2 ports, ventilateur de refroidissement et
+            haut-parleurs stéréo
+        </value>
+        <value>Support pour ordinateur portable avec pavé tactile</value>
+        <value>Support pour ordinateur portable avec porte-documents</value>
+        <value>Support pour ordinateur portable avec ventilateur</value>
+        <value>Support pour ordinateur portable ou moniteur LCD</value>
+        <value>Support pour ordinateur portable/tablette Web</value>
+        <value>Support pour projecteur ou ordinateur portable</value>
+        <value>Support pour routage de câbles</value>
+        <value>Support pour stylet d'ordinateur de poche</value>
+        <value>Support pour tablette PC</value>
+        <value>Support pour ventilateur</value>
+        <value>Support réglable pour la hauteur du moniteur</value>
+        <value>Support ventilateur</value>
+        <value>Supports de fixation pour onduleur (avant)</value>
+        <value>Supports de montage pour alimentation</value>
+        <value>Suspension réglable en largeur pour armoire de sécurité du système</value>
+        <value>System cabinet nut</value>
+        <value>System security locking stand</value>
+        <value>Système d'alarme acoustique sans fil</value>
+        <value>Système d'armoire pour PC</value>
+        <value>Système de captation d'air</value>
+        <value>Système de fixation pour PC tablette</value>
+        <value>Système de gestion de câble de souris</value>
+        <value>Système de refroidissement</value>
+        <value>Système de refroidissement à air-conditionné (230 V)</value>
+        <value>Système de refroidissement à compression de vapeur</value>
+        <value>Système de refroidissement d'air conditionné à eau glacée</value>
+        <value>Système de refroidissement de baie par climatisation</value>
+        <value>Système de refroidissement de l'air</value>
+        <value>Système de refroidissement par liquide</value>
+        <value>Système de refroidissement par liquide de la carte vidéo</value>
+        <value>Système de refroidissement pour puces</value>
+        <value>Système de refroidissement thermo-électrique pour processeur</value>
+        <value>Système de refroissement externe pour armoire système</value>
+        <value>Tableau d'interconnection</value>
+        <value>Tableau de commutation d'alimentation du lecteur de disque en baie 5,25</value>
+        <value>Tableau de situation avec LED</value>
+        <value>Tablette pour clavier avec tiroir pour souris (coulissante)</value>
+        <value>Tampon de nettoyage</value>
+        <value>Tampons de nettoyage</value>
+        <value>Tampons pour châssis de système</value>
+        <value>Tapis de refroidissement pour ordinateur portable</value>
+        <value>Tapis de souris</value>
+        <value>Télécommande</value>
+        <value>Terminaison pour bus de processeur</value>
+        <value>Terminateur de carte processeur</value>
+        <value>Testeur d'alimentation ATX</value>
+        <value>Thermostat</value>
+        <value>Tige</value>
+        <value>Tige de nettoyage</value>
+        <value>Tiroir 4 ventilateurs pour ventilateur en rack (230 V)</value>
+        <value>Tiroir de caisse enregistreuse</value>
+        <value>Tiroir de rangement pour rack</value>
+        <value>Tiroir de terminal TPV</value>
+        <value>Tiroir pour chariot système</value>
+        <value>Tiroir pour clavier</value>
+        <value>Tiroir pour clavier en rack</value>
+        <value>Tiroir pour lecteur extractible à chaud</value>
+        <value>Tiroir pour ventilateur de rack (230 V)</value>
+        <value>Tiroir pour ventilateur de rack (230 V) avec thermostat (4 ventilateurs)</value>
+        <value>Tiroir pour ventilateur de rack avec thermostat (2 ventilateurs)</value>
+        <value>Tiroir pour ventilateur de rack avec thermostat (4 ventilateurs)</value>
+        <value>Tiroir pour ventilateur en rack (208/230 V)</value>
+        <value>Tiroir sécurisé pour ordinateur portable</value>
+        <value>Tiroir-caisse (comptoir) intégré du terminal TPV</value>
+        <value>Tiroir-caisse (ouverture verticale)</value>
+        <value>Tiroir-caisse électronique</value>
+        <value>Tour de bras portable</value>
+        <value>Tournevis</value>
+        <value>Trépied pour capteur de rack</value>
+        <value>Trousse à outils spécial informatique</value>
+        <value>Trousse à outils spécial informatique avec pochettes CD</value>
+        <value>Trousse d'accessoires du système</value>
+        <value>Trousse de protection</value>
+        <value>Tube de gestion des câbles</value>
+        <value>Tube du système de refroidissement</value>
+        <value>Tuyau de raccordement du système de refroidissement par liquide</value>
+        <value>Tuyauterie de refroidissement pour rack</value>
+        <value>Unité d'extension du serveur lame</value>
+        <value>Unité de commande du système de refroidissement</value>
+        <value>Unité de distribution secteur</value>
+        <value>Unité de télécommande</value>
+        <value>Unité de transfert redondante</value>
+        <value>Unité de ventilation</value>
+        <value>Unité de ventilation de porte arrière d'armoire en rack avec thermostat (6 ventilateurs)</value>
+        <value>UPS cart</value>
+        <value>Utilitaires</value>
+        <value>Valve du système de refroidissement par liquide</value>
+        <value>Ventilateur</value>
+        <value>Ventilateur carte vidéo</value>
+        <value>Ventilateur d'ordinateur portable</value>
+        <value>Ventilateur d'ordinateur portable avec 1 concentrateur de ports USB</value>
+        <value>Ventilateur d'ordinateur portable avec concentrateur USB 3 ports, 2 haut-parleurs stéréo et caisson de
+            basse
+        </value>
+        <value>Ventilateur d'ordinateur portable avec concentrateur USB 4 ports et haut-parleur stéréo</value>
+        <value>Ventilateur d'ordinateur portable avec hub USB 3 ports</value>
+        <value>Ventilateur d'ordinateur portable avec hub USB 3 ports et lecteur de carte</value>
+        <value>Ventilateur d'ordinateur portable avec hub USB 4 ports</value>
+        <value>Ventilateur dans logement de boîtier système</value>
+        <value>Ventilateur du système / kit de baffles</value>
+        <value>Ventilateur écologique</value>
+        <value>Ventilateur pour châssis de rack (montage intermédiaire)</value>
+        <value>Ventilateur pour mémoire</value>
+        <value>Ventilateur pour ordinateur portable avec hub USB 2 ports</value>
+        <value>Ventilateur pour périphérique de stockage</value>
+        <value>Ventilateur pour puces</value>
+        <value>Ventilateur UPS (12 Vcc)</value>
+        <value>Ventilateur USB avec concentrateur USB 4 ports intégré</value>
+        <value>Ventilateur USB avec diode</value>
+        <value>Vérin de calage pour pied de rack</value>
+        <value>Verrou à combinaison pour étui d'ordinateur portable</value>
+        <value>Verrou de lecteur de disque d'ordinateur portable</value>
+        <value>Verrou de lecteur de disquette</value>
+        <value>Verrou de lecteur de disquette/CD/DVD</value>
+        <value>Verrou de sécurité</value>
+        <value>Verrou de sécurité de rack</value>
+        <value>Verrou pour panneau latéral de rack</value>
+        <value>Verrouillage du système</value>
+        <value>Verrouillage grâce à un câble de sécurité</value>
+        <value>Vide thermique pour port du processeur</value>
+        <value>Vis</value>
+        <value>Vis à oreilles</value>
+        <value>Vis antibruit</value>
+        <value>Vis d'armoire système</value>
+        <value>Vis de sécurité</value>
+        <value>Vis et rondelle pour rack</value>
+        <value>Vis et rondelles pour rack</value>
+        <value>Vis, écrous et rondelles pour rack</value>
+        <value>WebCam</value>
+    </valueslist>
+</attribute>

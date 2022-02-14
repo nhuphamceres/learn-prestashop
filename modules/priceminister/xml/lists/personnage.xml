@@ -1,0 +1,254 @@
+<attribute>
+    <label>Personnage</label>
+    <key>personnage</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Abbey Bominable</value>
+        <value>Abeille</value>
+        <value>Action man</value>
+        <value>Adibou</value>
+        <value>Age de glace</value>
+        <value>Aladdin</value>
+        <value>Alf</value>
+        <value>Ane</value>
+        <value>Angry Birds</value>
+        <value>Animaux</value>
+        <value>Araignée</value>
+        <value>Ariel la petite sirène</value>
+        <value>Arthur et les Minimoys</value>
+        <value>Astérix</value>
+        <value>Avengers</value>
+        <value>Babar</value>
+        <value>Bakugan</value>
+        <value>Ballon</value>
+        <value>Bambi</value>
+        <value>Barbapapa</value>
+        <value>Barbie</value>
+        <value>Batman</value>
+        <value>Bécassine</value>
+        <value>BEN 10</value>
+        <value>Betty Boop</value>
+        <value>Beyblade metal fusion</value>
+        <value>Bigdil</value>
+        <value>Bisounours</value>
+        <value>Blanche-Neige et les Sept Nains</value>
+        <value>Bob l'éponge</value>
+        <value>Boule et Bill</value>
+        <value>Bourriquet</value>
+        <value>Bratz</value>
+        <value>Buzz l'éclair</value>
+        <value>Caliméro</value>
+        <value>Canard</value>
+        <value>Captain America</value>
+        <value>Cars</value>
+        <value>Casimir</value>
+        <value>Castor</value>
+        <value>Catcheur</value>
+        <value>Catwoman</value>
+        <value>Cerf</value>
+        <value>Charlotte aux fraises</value>
+        <value>Chat</value>
+        <value>Cheval</value>
+        <value>Chevalier</value>
+        <value>Chèvre</value>
+        <value>Chicken Little</value>
+        <value>Chien</value>
+        <value>Chucky</value>
+        <value>Clawdeen Wolf</value>
+        <value>Clown</value>
+        <value>Coccinelle</value>
+        <value>Cochon</value>
+        <value>Coq</value>
+        <value>Crabe</value>
+        <value>Crazy frog</value>
+        <value>Crocodile</value>
+        <value>Dauphin</value>
+        <value>Diable</value>
+        <value>Diddl</value>
+        <value>Digimon</value>
+        <value>Dingo</value>
+        <value>Dinosaure</value>
+        <value>Disney</value>
+        <value>Donald</value>
+        <value>Dora l'exploratrice</value>
+        <value>Draculaura</value>
+        <value>Dragon</value>
+        <value>Dromadaire</value>
+        <value>Ecureuil</value>
+        <value>Eléphant</value>
+        <value>Escargot</value>
+        <value>Extraterrestre</value>
+        <value>Folklorique</value>
+        <value>Footix</value>
+        <value>Frankenstein</value>
+        <value>Frankie Stein</value>
+        <value>Franklin la tortue</value>
+        <value>Fruit</value>
+        <value>Furby</value>
+        <value>G.I. Joe</value>
+        <value>Garfield</value>
+        <value>Girafe</value>
+        <value>Gizmo</value>
+        <value>GoBots</value>
+        <value>Gorille</value>
+        <value>Gormiti</value>
+        <value>Grenouille</value>
+        <value>Halloween</value>
+        <value>Hamster</value>
+        <value>Hamtaro</value>
+        <value>Hannah Montana</value>
+        <value>Harry Potter</value>
+        <value>Hello kitty</value>
+        <value>Hérisson</value>
+        <value>Hibou</value>
+        <value>Hippocampe</value>
+        <value>Hippopotame</value>
+        <value>Insecte</value>
+        <value>Iron Man</value>
+        <value>Jackson Jekyll</value>
+        <value>Jake et les pirates</value>
+        <value>Kangourou</value>
+        <value>Ken</value>
+        <value>Kiki</value>
+        <value>Koala</value>
+        <value>La Panthère Rose</value>
+        <value>La Reine des Neiges</value>
+        <value>Lagoona Blue</value>
+        <value>Lalaloopsy</value>
+        <value>Lapin</value>
+        <value>Lapin crétin</value>
+        <value>Le manège enchanté</value>
+        <value>Le monde de Némo</value>
+        <value>Le Roi lion</value>
+        <value>Légume</value>
+        <value>Léopard</value>
+        <value>Les 4 fantastiques</value>
+        <value>Les Gardiens de la Galaxie</value>
+        <value>Les Simpson</value>
+        <value>Licorne</value>
+        <value>Lilo et Stitch</value>
+        <value>Lion</value>
+        <value>Looney tunes</value>
+        <value>Loup</value>
+        <value>Loutre</value>
+        <value>Luciole</value>
+        <value>Luminou</value>
+        <value>Lutin</value>
+        <value>M&amp;M's</value>
+        <value>Manny et ses outils</value>
+        <value>Mario</value>
+        <value>Marmotte</value>
+        <value>Marsupilami</value>
+        <value>Maya l'abeille</value>
+        <value>Me to you</value>
+        <value>Mickey</value>
+        <value>Militaire</value>
+        <value>Mille pattes</value>
+        <value>Minnie</value>
+        <value>Mixels</value>
+        <value>Moi, Moche et Méchant</value>
+        <value>Mon petit poney</value>
+        <value>Monsieur Madame</value>
+        <value>Monsieur Patate</value>
+        <value>Monster high</value>
+        <value>Monstre</value>
+        <value>Mouton</value>
+        <value>Mr Oizo</value>
+        <value>Muppet show</value>
+        <value>My Little Pony</value>
+        <value>My Scene</value>
+        <value>Oggy et les cafards</value>
+        <value>Oiseau</value>
+        <value>One Piece</value>
+        <value>Operetta</value>
+        <value>Oui Oui</value>
+        <value>Ours</value>
+        <value>Paddington</value>
+        <value>Panda</value>
+        <value>Panthère</value>
+        <value>Papillon</value>
+        <value>Patouf</value>
+        <value>Peppa Pig</value>
+        <value>Père Noël</value>
+        <value>Perroquet</value>
+        <value>Petit ours brun</value>
+        <value>Petites Crapules</value>
+        <value>Petshop</value>
+        <value>Phoque</value>
+        <value>Pieuvre</value>
+        <value>Pimboli</value>
+        <value>Pingouin</value>
+        <value>Pirate</value>
+        <value>Planes</value>
+        <value>Poisson</value>
+        <value>Pokemon</value>
+        <value>Police</value>
+        <value>Polly Pocket</value>
+        <value>Pompier</value>
+        <value>Popples</value>
+        <value>Porcinet</value>
+        <value>Poule</value>
+        <value>Poussin</value>
+        <value>Power Rangers</value>
+        <value>Princesse</value>
+        <value>Pucca</value>
+        <value>Purrsephone</value>
+        <value>Rasta</value>
+        <value>Raton laveur</value>
+        <value>Renard</value>
+        <value>Renée la taupe</value>
+        <value>Requin</value>
+        <value>Rhinocéros</value>
+        <value>Schtroumpf</value>
+        <value>Scoobydoo</value>
+        <value>Seigneur des Anneaux</value>
+        <value>Sentai</value>
+        <value>Serpent</value>
+        <value>Shrek</value>
+        <value>Singe</value>
+        <value>Skelanimals</value>
+        <value>Snoopy</value>
+        <value>Sofia</value>
+        <value>Sonic</value>
+        <value>Souris</value>
+        <value>South park</value>
+        <value>Spectra Vondergeist</value>
+        <value>Spiderman</value>
+        <value>Star Wars</value>
+        <value>Super nana</value>
+        <value>Superman</value>
+        <value>T'Choupi</value>
+        <value>Taupe</value>
+        <value>Teddy bear</value>
+        <value>Teddy scare</value>
+        <value>Téléphone</value>
+        <value>Teletubbies</value>
+        <value>The Hobbit</value>
+        <value>Thor</value>
+        <value>Tigre</value>
+        <value>Tigrou</value>
+        <value>Titeuf</value>
+        <value>Titi</value>
+        <value>Tortue</value>
+        <value>Tortue Ninja</value>
+        <value>Totoro</value>
+        <value>Toy story</value>
+        <value>Transformers</value>
+        <value>Vache</value>
+        <value>Venus McFlytrap</value>
+        <value>Violetta</value>
+        <value>Voiture</value>
+        <value>Winnie l'ourson</value>
+        <value>Winx</value>
+        <value>Woody</value>
+        <value>Woody Woodpecker</value>
+        <value>Zèbre</value>
+        <value>Zhu Zhu Pets</value>
+        <value>Zoids</value>
+        <value>Zoobles</value>
+        <value>Zorro</value>
+    </valueslist>
+</attribute>

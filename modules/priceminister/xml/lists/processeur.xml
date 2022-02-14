@@ -1,0 +1,84 @@
+<attribute>
+    <label>Processeur</label>
+    <key>processeur</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>68030</value>
+        <value>68LC040</value>
+        <value>A6</value>
+        <value>AMD E-450</value>
+        <value>Athlon</value>
+        <value>Athlon 64 X2</value>
+        <value>Athlon II</value>
+        <value>Athlon II Neo</value>
+        <value>Athlon II X2</value>
+        <value>Athlon Neo</value>
+        <value>Athlon Neo X2</value>
+        <value>Athlon X2</value>
+        <value>Athlon XP</value>
+        <value>Athlon XP-M</value>
+        <value>Atom</value>
+        <value>C3</value>
+        <value>C7-M</value>
+        <value>Celeron</value>
+        <value>Celeron A</value>
+        <value>Celeron D</value>
+        <value>Celeron Dual Core</value>
+        <value>Celeron M</value>
+        <value>Centrino</value>
+        <value>Core 2 Duo</value>
+        <value>Core 2 Extreme</value>
+        <value>Core 2 Quad</value>
+        <value>Core 2 Solo</value>
+        <value>Core Duo</value>
+        <value>Core i3</value>
+        <value>Core i5</value>
+        <value>Core i7</value>
+        <value>Core M</value>
+        <value>Core Solo</value>
+        <value>Cortex-A8</value>
+        <value>Duron</value>
+        <value>Fusion</value>
+        <value>Geode LX 800</value>
+        <value>K6 MMX</value>
+        <value>K6-2</value>
+        <value>Mobile Athlon 64</value>
+        <value>Mobile Pentium 4</value>
+        <value>Mobile Sempron</value>
+        <value>Motorola 68030</value>
+        <value>Motorola 68LC040</value>
+        <value>Nano</value>
+        <value>Pas de processeur</value>
+        <value>Pentium</value>
+        <value>Pentium 4</value>
+        <value>Pentium 4-M</value>
+        <value>Pentium Dual Core</value>
+        <value>Pentium II</value>
+        <value>Pentium III</value>
+        <value>Pentium III E</value>
+        <value>Pentium III-M</value>
+        <value>Pentium M</value>
+        <value>Pentium MMX</value>
+        <value>Pentium Pro</value>
+        <value>Phenom II</value>
+        <value>Phenom II X3</value>
+        <value>Phenom II X4</value>
+        <value>PowerPC 603e</value>
+        <value>PowerPC 603ev</value>
+        <value>PowerPC G3</value>
+        <value>PowerPC G4</value>
+        <value>Processeur mobile Turion II</value>
+        <value>Processeur mobile Turion II Ultra</value>
+        <value>Processeur mobile Turion X2</value>
+        <value>Technologie mobile Turion 64</value>
+        <value>Technologie mobile Turion 64 X2</value>
+        <value>Technologie mobile Turion X2 Ultra</value>
+        <value>Tegra 250</value>
+        <value>Turion II Neo</value>
+        <value>Turion Neo X2 mobile processor</value>
+        <value>V series</value>
+    </valueslist>
+</attribute>

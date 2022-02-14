@@ -1,0 +1,12 @@
+<attribute>
+    <label>Connectivité</label>
+    <key>connectivite</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Filaire</value>
+        <value>Sans fil</value>
+    </valueslist>
+</attribute>

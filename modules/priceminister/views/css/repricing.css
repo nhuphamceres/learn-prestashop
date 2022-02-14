@@ -1,0 +1,143 @@
+#conf-repricing select.pm-repricing-base,
+#conf-repricing input {
+    max-width: 250px;
+}
+
+#conf-repricing select {
+    max-width: 100px;
+}
+
+#conf-repricing .pm-repricing img {
+    position: relative;
+    top: -1px;
+}
+
+#conf-repricing .new-repricing-img {
+    position: relative;
+    top: -2px;
+}
+
+#conf-repricing .pm-repricing-header {
+    position: relative;
+    border: 1px solid transparent;
+    height: 60px;
+}
+
+#conf-repricing .pm-repricing-body {
+    margin-top: 10px;
+}
+
+#conf-repricing .pm-repricing-header div {
+    position: relative;
+    padding: 10px;
+    top: 10px;
+}
+
+#conf-repricing .pm-repricing-action {
+    position: relative;
+    float: right;
+    top: -5px;
+    margin-right: 30px;
+}
+
+#conf-repricing .pm-repricing-action img {
+    margin-right: 30px;
+    padding: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+#conf-repricing .pm-repricing-action img:hover {
+    border: 1px solid navy;
+}
+
+#conf-repricing .pm-repricing-group fieldset {
+    border: 1px dotted silver;
+    padding: 15px;
+}
+
+#conf-repricing .pm-repricing-item {
+    margin-bottom: 20px;
+}
+
+#conf-repricing .pm-repricing-item .pm-required {
+    position: relative;
+    top: -10px;
+    margin-left: 20px;
+}
+
+#conf-repricing .pm-repricing-delete {
+    opacity: 0.5;
+    float: left;
+}
+
+#conf-repricing .pm-repricing-delete:hover {
+    opacity: 1;
+}
+
+#conf-repricing .pm-repricing-minimize {
+    opacity: 0.8;
+    float: right;
+}
+
+#conf-repricing .pm-repricing-minimize:hover {
+    opacity: 1;
+}
+
+#conf-repricing .pm-repricing-item label {
+    display: inline-block;
+    text-align: right;
+    min-width: 150px;
+}
+
+/* input[class] not to match with chosen */
+#conf-repricing .pm-repricing-item input[class], #conf-repricing .pm-repricing-item select {
+    display: inline-block;
+    max-width: 250px;
+    position: relative;
+    top: -25px;
+}
+
+#conf-repricing .pm-repricing-item select {
+    /*max-width: 350px;*/
+}
+
+#conf-repricing .pm-repricing-template {
+    margin: 30px;
+}
+
+#conf-repricing .pm-repricing-template input,
+#conf-repricing .pm-repricing-template select {
+    /*margin:10px;*/
+    min-width: 150px;
+    max-width: 350px;
+}
+
+#conf-repricing .pm-repricing-template .pmDefaultLabel {
+    position: relative;
+    top: 5px;
+    font-weight: normal;
+    color: silver;
+}
+
+#conf-repricing .pm-repricing-template .campaign input {
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.pm-repricing-body .chosen-container {
+    top: -10px;
+}
+
+#conf-mappings .chosen-container {
+    top: -2px;
+}
+
+.pm-repricing-body .chosen-search {
+    top: 0;
+}
+
+#conf-mappings .chosen-search input {
+    width: 236px !important;
+    background-color: transparent;
+}

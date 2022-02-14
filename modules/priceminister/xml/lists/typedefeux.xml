@@ -1,0 +1,14 @@
+<attribute>
+    <label>Types de feux</label>
+    <key>typedefeux</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>1</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Electrique</value>
+        <value>Gaz</value>
+        <value>Induction</value>
+        <value>Vitrocéramique</value>
+    </valueslist>
+</attribute>

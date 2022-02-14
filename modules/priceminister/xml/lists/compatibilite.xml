@@ -1,0 +1,12 @@
+<attribute>
+    <label>Accessoire</label>
+    <key>compatibilite</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Accessoire d'origine</value>
+        <value>Accessoire compatible</value>
+    </valueslist>
+</attribute>

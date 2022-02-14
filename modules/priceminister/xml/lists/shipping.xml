@@ -1,0 +1,18 @@
+<attribute>
+    <label>Modes de livraison</label>
+    <key>shipping</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+
+    <multivalued>1</multivalued>
+    <hasvalues>1</hasvalues>
+
+    <valueslist>
+
+        <value>Expédition</value>
+
+        <value>Retrait</value>
+
+    </valueslist>
+
+</attribute>

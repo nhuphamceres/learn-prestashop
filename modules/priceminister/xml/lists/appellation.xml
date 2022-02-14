@@ -1,0 +1,548 @@
+<attribute>
+    <label>Appellation</label>
+    <key>appellation</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Autre</value>
+        <value>1ères Côtes de Bordeaux</value>
+        <value>Absinthe</value>
+        <value>ABV</value>
+        <value>Afrique du Sud</value>
+        <value>Agenais</value>
+        <value>Ajaccio</value>
+        <value>Albenet</value>
+        <value>Alella</value>
+        <value>Alicante</value>
+        <value>Almansa</value>
+        <value>Alpes-Maritimes</value>
+        <value>Alpilles</value>
+        <value>Alsace</value>
+        <value>Alsace grand cru</value>
+        <value>Ambrée ou Rousse</value>
+        <value>Anjou</value>
+        <value>Anjou Villages</value>
+        <value>Anjou Villages Brissac</value>
+        <value>Anjou-Coteaux de la Loire</value>
+        <value>AOC Cornouaille</value>
+        <value>AOC Pays d'Auge</value>
+        <value>AOC Poiré de Domfront</value>
+        <value>Apéritifs, Digestifs</value>
+        <value>Arbois</value>
+        <value>Ardèche</value>
+        <value>Argentine</value>
+        <value>Ariège</value>
+        <value>Armagnac</value>
+        <value>Armagnac Ténarèze</value>
+        <value>Aromatisée</value>
+        <value>Assemblage</value>
+        <value>Atilio Avena</value>
+        <value>Atlantique</value>
+        <value>Aude</value>
+        <value>Australie</value>
+        <value>Auxey Duresses</value>
+        <value>Aveyron</value>
+        <value>Bandol</value>
+        <value>Banyuls</value>
+        <value>Banyuls grand cru</value>
+        <value>Barbera d'Alba</value>
+        <value>Barsac</value>
+        <value>Bâtard-Montrachet</value>
+        <value>Béarn</value>
+        <value>Beaujolais</value>
+        <value>Beaujolais-Village</value>
+        <value>Beaumes de venise</value>
+        <value>Beaune</value>
+        <value>Bellet</value>
+        <value>Bergerac</value>
+        <value>Bienvenues-Bâtard-Montrachet</value>
+        <value>Bierzo</value>
+        <value>Bitter</value>
+        <value>Blagny</value>
+        <value>Blaye</value>
+        <value>Blonde</value>
+        <value>Bois Ordinaires</value>
+        <value>Boissons Anisées</value>
+        <value>Bonnes Mares</value>
+        <value>Bonnezeaux</value>
+        <value>Bons Bois</value>
+        <value>Bordeaux</value>
+        <value>Bordeaux Supérieur</value>
+        <value>Bouches-du-Rhone</value>
+        <value>Bourbon</value>
+        <value>Bourgeuil</value>
+        <value>Bourgogne</value>
+        <value>Bourgogne aligoté</value>
+        <value>Bourgogne mousseux</value>
+        <value>Bourgogne Passe-tout-grains</value>
+        <value>Bourgueil</value>
+        <value>Bouzeron</value>
+        <value>Bouzy</value>
+        <value>Brandy</value>
+        <value>Brouilly</value>
+        <value>Brulhois</value>
+        <value>Brune</value>
+        <value>Bugey</value>
+        <value>Buzet</value>
+        <value>C.E.V</value>
+        <value>Cabardès</value>
+        <value>Cabernet d'Anjou</value>
+        <value>Cabernet de Saumur</value>
+        <value>Cachaca</value>
+        <value>Cadillac</value>
+        <value>Cahors</value>
+        <value>Calatayud</value>
+        <value>Californie</value>
+        <value>Calvados</value>
+        <value>Campo de Borja</value>
+        <value>Canon Fronsac</value>
+        <value>Cassis</value>
+        <value>Cataluña</value>
+        <value>Cava</value>
+        <value>Cérons</value>
+        <value>Cervoise</value>
+        <value>Cévennes</value>
+        <value>Chablis</value>
+        <value>Chablis Grand Cru</value>
+        <value>Chambertin</value>
+        <value>Chambertin-Clos de Bèze</value>
+        <value>Chambolle Musigny</value>
+        <value>Champagne</value>
+        <value>Champagne Blanc de Blanc</value>
+        <value>Champagne Brut</value>
+        <value>Champagne Brut Millésimé</value>
+        <value>Champagne Cuvée Prestige</value>
+        <value>Champagne Demi Sec</value>
+        <value>Champagne Extra Dry</value>
+        <value>Champagne Rosé Brut</value>
+        <value>Chapelle-Chambertin</value>
+        <value>Charentais</value>
+        <value>Charlemagne</value>
+        <value>Charmes Chambertin</value>
+        <value>Chassagne Montrachet</value>
+        <value>Château Chalon</value>
+        <value>Château Grillet</value>
+        <value>Châteaumeillant</value>
+        <value>Châteauneuf du Pape</value>
+        <value>Châtillon-en-Diois</value>
+        <value>Chautagne</value>
+        <value>Chénas</value>
+        <value>Chevalier-Montrachet</value>
+        <value>Cheverny</value>
+        <value>Chinon</value>
+        <value>Chiroubles</value>
+        <value>chorey les beaune</value>
+        <value>Chouchen</value>
+        <value>Cidre Agriculture Biologique</value>
+        <value>Cidre de Bretagne</value>
+        <value>Cidre de Normandie</value>
+        <value>Cigales</value>
+        <value>Cité de Carcassonne</value>
+        <value>Clairette de Bellegarde</value>
+        <value>Clairette de Die</value>
+        <value>Clairette du Languedoc</value>
+        <value>Clos de la Roche</value>
+        <value>Clos de Tart</value>
+        <value>Clos de Vougeot</value>
+        <value>Clos des Lambrays</value>
+        <value>Clos Saint-Denis</value>
+        <value>Cognac</value>
+        <value>Collines de la Moure</value>
+        <value>Collines Rhodaniennes</value>
+        <value>Collioure</value>
+        <value>Comté Tolosan</value>
+        <value>Comtés Rhodaniens</value>
+        <value>Conca de Barberà</value>
+        <value>Condrieu</value>
+        <value>Corbières</value>
+        <value>Corbières-Boutenac</value>
+        <value>CORNAS</value>
+        <value>Corton</value>
+        <value>Corton Charlemagne</value>
+        <value>Costers del Segre </value>
+        <value>Costières de Nîmes</value>
+        <value>Côte du Rhône Villages</value>
+        <value>Côte roannaise</value>
+        <value>Côte Rôtie</value>
+        <value>Côte Vermeille</value>
+        <value>Coteaux Bourguignons</value>
+        <value>Coteaux champenois</value>
+        <value>Coteaux d'Aix en Provence</value>
+        <value>Côteaux d'Aix-en-Provence</value>
+        <value>Coteaux d'Ancenis</value>
+        <value>Coteaux d'Ensérune</value>
+        <value>Coteaux de Coiffy</value>
+        <value>Coteaux de Die</value>
+        <value>Coteaux de Glanes</value>
+        <value>Coteaux de l'Ain</value>
+        <value>Côteaux de l'Aubance</value>
+        <value>Coteaux de l'Auxois</value>
+        <value>Coteaux de Narbonne</value>
+        <value>Coteaux de Peyriac</value>
+        <value>Côteaux de Pierrevert</value>
+        <value>Côteaux de Quercy</value>
+        <value>Coteaux de Saumur</value>
+        <value>Coteaux de Tannay</value>
+        <value>Coteaux des Baronnies</value>
+        <value>Coteaux du Cher et de l'Arnon</value>
+        <value>Coteaux du Giennois</value>
+        <value>Coteaux du Languedoc</value>
+        <value>Côteaux du Layon</value>
+        <value>Coteaux du Libron</value>
+        <value>Coteaux du Loir</value>
+        <value>Coteaux du Lyonnais</value>
+        <value>Coteaux du Pont du Gard</value>
+        <value>Coteaux du Quercy</value>
+        <value>Coteaux du Vendômois</value>
+        <value>Côteaux Varois</value>
+        <value>Coteaux varois en Provence</value>
+        <value>Côtes Catalanes</value>
+        <value>Côtes d'Auvergne</value>
+        <value>Côtes de Beaune</value>
+        <value>Côtes de Bergerac</value>
+        <value>Côtes de Blaye</value>
+        <value>Côtes de Bordeaux</value>
+        <value>Côtes de Bordeaux St Macaire</value>
+        <value>Côtes de Bourg</value>
+        <value>Côtes de Brouilly</value>
+        <value>Côtes de Castillon</value>
+        <value>Côtes de Duras</value>
+        <value>Côtes de Gascogne</value>
+        <value>Côtes de la Charité</value>
+        <value>Côtes de Meuse</value>
+        <value>Côtes de Millau</value>
+        <value>Côtes de Montravel</value>
+        <value>Côtes de Nuit Village</value>
+        <value>Côtes de Provence</value>
+        <value>Côtes de Thau</value>
+        <value>Côtes de Thongue</value>
+        <value>Côtes de Toul</value>
+        <value>Côtes du Brian</value>
+        <value>Côtes du Forez</value>
+        <value>Côtes du Jura</value>
+        <value>Côtes du Lot</value>
+        <value>Côtes du Marmandais</value>
+        <value>Côtes du Rhône</value>
+        <value>Côtes du Roussillon</value>
+        <value>Côtes du Roussillon Villages</value>
+        <value>Côtes du Tarn</value>
+        <value>Côtes du Vivarais</value>
+        <value>Cour-Cheverny</value>
+        <value>Crémant</value>
+        <value>Crémant d'Alsace</value>
+        <value>Crémant de Bordeaux</value>
+        <value>Crémant de Bourgogne</value>
+        <value>Crémant de Die</value>
+        <value>Crémant de Limoux</value>
+        <value>Crémant de Loire</value>
+        <value>Crémant du Jura</value>
+        <value>Crémants et méthode traditionnelle</value>
+        <value>Crème de fruit</value>
+        <value>Crème diverse</value>
+        <value>Criots-Bâtard-Montrachet</value>
+        <value>Crozes-Hermitage</value>
+        <value>Dominio de Valdepusa Vino de Pago</value>
+        <value>Drôme</value>
+        <value>Duché d'Uzès</value>
+        <value>Eau de Vie de Vin</value>
+        <value>Echezeaux</value>
+        <value>Empordà</value>
+        <value>Entraygues - Le Fel</value>
+        <value>Entre-deux-Mers</value>
+        <value>Espagne</value>
+        <value>Estaing</value>
+        <value>Faugères</value>
+        <value>Fiefs Vendéens</value>
+        <value>Fins Bois</value>
+        <value>Fitou</value>
+        <value>Fixin</value>
+        <value>Fleurie</value>
+        <value>Floc de Gascogne</value>
+        <value>Franche-Comté</value>
+        <value>Fronsac</value>
+        <value>Fronton</value>
+        <value>Gaillac</value>
+        <value>Gaillac premières côtes</value>
+        <value>Gard</value>
+        <value>Gers</value>
+        <value>Getariako-Txacolina</value>
+        <value>Gevrey Chambertin</value>
+        <value>Gigondas</value>
+        <value>Gin</value>
+        <value>Givry</value>
+        <value>Grand Roussillon</value>
+        <value>Grande Champagne</value>
+        <value>Grands-Echezeaux</value>
+        <value>Grappa</value>
+        <value>Graves</value>
+        <value>Graves de Vayres</value>
+        <value>Graves supérieures</value>
+        <value>Grignan les Adhemar</value>
+        <value>Griotte-Chambertin</value>
+        <value>Gros Plant du Pays Nantais</value>
+        <value>Haut Médoc</value>
+        <value>Haut-Montravel</value>
+        <value>Haut-Poitou</value>
+        <value>Haute Vallée de l'Aude</value>
+        <value>Haute Vallée de l'Orb</value>
+        <value>Haute-Marne</value>
+        <value>Haute-Vienne</value>
+        <value>Hautes-Alpes</value>
+        <value>Hermitage</value>
+        <value>Highland</value>
+        <value>Hors Bordeaux</value>
+        <value>Ile de Beauté</value>
+        <value>Irancy</value>
+        <value>Irouléguy</value>
+        <value>Isère</value>
+        <value>Islay</value>
+        <value>Italie</value>
+        <value>Jasnières</value>
+        <value>Jerez</value>
+        <value>Julienas</value>
+        <value>Jumilla</value>
+        <value>Jurançon</value>
+        <value>L'Ete Rose</value>
+        <value>L'Etoile</value>
+        <value>La Grande Rue</value>
+        <value>La Romanée</value>
+        <value>La Tâche</value>
+        <value>Label Rouge "Cidre des Pays Normands"</value>
+        <value>Label Rouge "Royal Guillevic"</value>
+        <value>Ladoix</value>
+        <value>Lalande de Pomerol</value>
+        <value>Landes</value>
+        <value>Languedoc</value>
+        <value>Latricières-Chambertin</value>
+        <value>Lavilledieu</value>
+        <value>Le Pays Cathare</value>
+        <value>Le Petit Bistro</value>
+        <value>Les Baux de Provence</value>
+        <value>Lillet</value>
+        <value>Limoncello</value>
+        <value>Limoux</value>
+        <value>Liqueur</value>
+        <value>Lirac</value>
+        <value>Listrac-Médoc</value>
+        <value>Loupiac</value>
+        <value>Lowland</value>
+        <value>Luberon</value>
+        <value>Lussac Saint Emilion</value>
+        <value>Mâcon</value>
+        <value>Madère</value>
+        <value>Madiran</value>
+        <value>Málaga-Sierras de Málaga</value>
+        <value>Malepère</value>
+        <value>Maranges</value>
+        <value>marcillac</value>
+        <value>Margaux</value>
+        <value>Marsala</value>
+        <value>Marsannay</value>
+        <value>Martini</value>
+        <value>Martinique</value>
+        <value>Maures</value>
+        <value>Maury</value>
+        <value>Mazis Chambertin</value>
+        <value>Mazoyères-Chambertin</value>
+        <value>Méditerranée</value>
+        <value>Médoc</value>
+        <value>Menetou-Salon</value>
+        <value>Mercurey</value>
+        <value>Meursault</value>
+        <value>Mezcal</value>
+        <value>Minervois</value>
+        <value>Minervois-La Livinière</value>
+        <value>Monbazillac</value>
+        <value>Mont Caume</value>
+        <value>Montagne Saint Emilion</value>
+        <value>Montagny</value>
+        <value>Montepulciano</value>
+        <value>Monthélie</value>
+        <value>Montlouis-sur-Loire</value>
+        <value>Montrachet</value>
+        <value>Montravel</value>
+        <value>Montsant </value>
+        <value>Morey Saint Denis</value>
+        <value>Morgon</value>
+        <value>Moselle</value>
+        <value>Moulin à vent</value>
+        <value>Moulis</value>
+        <value>Muscadet</value>
+        <value>Muscadet Coteaux de la Loire</value>
+        <value>Muscadet Côtes de Grandlieu</value>
+        <value>Muscadet Sèvre et Maine</value>
+        <value>Muscat</value>
+        <value>Muscat Beaumes de Venise</value>
+        <value>Muscat Cuvee Particuliere</value>
+        <value>Muscat de Lunel</value>
+        <value>Muscat de Mireval</value>
+        <value>Muscat de Rivesaltes</value>
+        <value>Muscat du Cap Corse</value>
+        <value>Muscat Saint Jean de Minervois</value>
+        <value>Musigny</value>
+        <value>Navarra</value>
+        <value>Neac</value>
+        <value>Nero d'Avola</value>
+        <value>Nuits-Saint-Georges</value>
+        <value>Orléans</value>
+        <value>Orléans-Cléry</value>
+        <value>Oustric</value>
+        <value>Pacherenc du Vic-Bilh</value>
+        <value>Palette</value>
+        <value>Panaché et Sans Alcool</value>
+        <value>Pastis</value>
+        <value>Pastis d'Antan</value>
+        <value>Patrimonio</value>
+        <value>Pauillac</value>
+        <value>Pays d'Hérault</value>
+        <value>Pays d'Oc</value>
+        <value>Pécharmant</value>
+        <value>Penedès</value>
+        <value>Périgord</value>
+        <value>Pernand-Vergelesses</value>
+        <value>Pessac-Léognan</value>
+        <value>Petit Chablis</value>
+        <value>Pierrevert</value>
+        <value>Pineau</value>
+        <value>Pinot Noir Rouge</value>
+        <value>Pinotage</value>
+        <value>Pla de Bages</value>
+        <value>Pla i Llevant</value>
+        <value>Pomerol</value>
+        <value>Pommard</value>
+        <value>Pommeau</value>
+        <value>Porto</value>
+        <value>Pouilly fuissé</value>
+        <value>Pouilly Fumé</value>
+        <value>Pouilly sur Loire</value>
+        <value>Pouilly Vinzelles</value>
+        <value>Pouilly-Loché</value>
+        <value>Priorat</value>
+        <value>Provence Blanc</value>
+        <value>Provence Rosé</value>
+        <value>Provence Rouge</value>
+        <value>Puisseguin Saint Emilion</value>
+        <value>Puligny Montrachet</value>
+        <value>Punch</value>
+        <value>Puy-de-Dôme</value>
+        <value>Quarts de Chaume</value>
+        <value>Quincy</value>
+        <value>Rasteau</value>
+        <value>Régnié</value>
+        <value>Reuilly</value>
+        <value>Rhum</value>
+        <value>Rías Baixas</value>
+        <value>Ribeira Sacra</value>
+        <value>Ribera del Duero</value>
+        <value>Richebourg</value>
+        <value>Rioja</value>
+        <value>Rivesaltes</value>
+        <value>Romanée Saint Vivant</value>
+        <value>Romanée-Conti</value>
+        <value>Rosé d'Anjou</value>
+        <value>Rosé de Loire</value>
+        <value>Rosé des Riceys</value>
+        <value>Rosette</value>
+        <value>Roussette de Savoie</value>
+        <value>Roussette du Bugey</value>
+        <value>Ruchottes-Chambertin</value>
+        <value>Rueda</value>
+        <value>Rully</value>
+        <value>Sable de Camargue</value>
+        <value>Saint Amour</value>
+        <value>Saint Aubin</value>
+        <value>Saint Bris</value>
+        <value>Saint Chinian</value>
+        <value>Saint Emilion</value>
+        <value>Saint Estèphe</value>
+        <value>Saint Georges Saint Emilion</value>
+        <value>Saint Joseph</value>
+        <value>Saint Julien</value>
+        <value>Saint Nicolas de Bourgueil</value>
+        <value>Saint Romain</value>
+        <value>Saint Vérans</value>
+        <value>Saint-Emilion grand cru</value>
+        <value>Saint-Guilhem-le-Désert</value>
+        <value>Saint-Mont</value>
+        <value>Saint-Péray</value>
+        <value>Saint-Pourçain</value>
+        <value>Saint-Sardos</value>
+        <value>Sainte Croix-du-Mont</value>
+        <value>Sainte Foy Bordeaux</value>
+        <value>Sainte-Marie-la-Blanche</value>
+        <value>Sancerre</value>
+        <value>Sangria</value>
+        <value>Santenay</value>
+        <value>Saône-et-Loire</value>
+        <value>Saumur</value>
+        <value>Saumur-Champigny</value>
+        <value>Saussignac</value>
+        <value>Sauternes</value>
+        <value>Sauvignon Blanc</value>
+        <value>Savennières</value>
+        <value>Savigny les Beaune</value>
+        <value>Schnapps</value>
+        <value>Seyssel</value>
+        <value>Sirop</value>
+        <value>Somontano </value>
+        <value>Speyside</value>
+        <value>Tavel</value>
+        <value>Tequila</value>
+        <value>Terra Alta </value>
+        <value>Thézac-Perricard</value>
+        <value>Toro</value>
+        <value>Touraine</value>
+        <value>Touraine Noble Joué</value>
+        <value>Tursan</value>
+        <value>Urfé</value>
+        <value>Utiel-Requena</value>
+        <value>Vacqueyras</value>
+        <value>Val de Loire</value>
+        <value>Valdeorras</value>
+        <value>Valencay</value>
+        <value>Vallée du Paradis</value>
+        <value>Vallée du Rappel</value>
+        <value>Vallée du Torgan</value>
+        <value>Var</value>
+        <value>Vaucluse</value>
+        <value>Ventoux</value>
+        <value>Vermouth</value>
+        <value>Vicomté d'Aumelas</value>
+        <value>Vin Blanc</value>
+        <value>Vin de Cépage</value>
+        <value>Vin de Corse</value>
+        <value>Vin de Savoie</value>
+        <value>Vin de Table</value>
+        <value>Vin des Allobroges</value>
+        <value>Vin Jaune</value>
+        <value>Vin Rosé Sec D'Espagne</value>
+        <value>Vinos de Madrid</value>
+        <value>Vins de Cahors et du lot</value>
+        <value>Vins de la Corrèze</value>
+        <value>Vins de pays</value>
+        <value>Vinsobres</value>
+        <value>Viré-Clessé</value>
+        <value>Vodka</value>
+        <value>Volnay</value>
+        <value>Vosne Romanee</value>
+        <value>Vougeot</value>
+        <value>Vouvray</value>
+        <value>VT Cádiz</value>
+        <value>VT Castilla</value>
+        <value>VT Castilla-León</value>
+        <value>VT El Terrerazo</value>
+        <value>VT Extremadura</value>
+        <value>VT Formentera</value>
+        <value>VT Mallorca</value>
+        <value>VT Ribera del Gállego-Cinco Villas</value>
+        <value>VT Ribera del Queiles</value>
+        <value>VT Zamora</value>
+        <value>Whisky</value>
+        <value>Whisky Blended</value>
+        <value>Xérès</value>
+        <value>Yecla</value>
+        <value>Yonne</value>
+    </valueslist>
+</attribute>

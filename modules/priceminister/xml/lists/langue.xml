@@ -1,0 +1,153 @@
+<attribute>
+    <label>Langue</label>
+    <key>langue</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Abkhaze</value>
+        <value>Afrikaans</value>
+        <value>Albanais</value>
+        <value>Algonquin</value>
+        <value>Alkkadien</value>
+        <value>Allemand</value>
+        <value>Allemand, moyen haut (environ 1050-1500)</value>
+        <value>Alsacien</value>
+        <value>Amharique</value>
+        <value>Anglais</value>
+        <value>Anglais Moyen</value>
+        <value>Anglo-Saxon (450-1100)</value>
+        <value>Apache</value>
+        <value>Arabe</value>
+        <value>Araméen</value>
+        <value>Argentin</value>
+        <value>Arménien</value>
+        <value>Australien</value>
+        <value>Autre</value>
+        <value>Azéri</value>
+        <value>Basque</value>
+        <value>Bengali</value>
+        <value>Berbère</value>
+        <value>Biélorusse</value>
+        <value>Bilingue</value>
+        <value>Birman</value>
+        <value>Breton</value>
+        <value>Bulgare</value>
+        <value>Cambodgien</value>
+        <value>Catalan</value>
+        <value>Caucasiennes</value>
+        <value>Celtique</value>
+        <value>Chames</value>
+        <value>Chibcha</value>
+        <value>Chinois</value>
+        <value>Cingalais</value>
+        <value>Copte</value>
+        <value>Coréen</value>
+        <value>Cornique</value>
+        <value>Corse</value>
+        <value>Créole</value>
+        <value>Croate</value>
+        <value>Danois</value>
+        <value>Ecossais</value>
+        <value>Egyptien</value>
+        <value>Esclave (Athapascan)</value>
+        <value>Espagnol</value>
+        <value>Esperanto</value>
+        <value>Estonien</value>
+        <value>Fang</value>
+        <value>Féroïen</value>
+        <value>Finnois</value>
+        <value>Français</value>
+        <value>Français moyen (1400-1600)</value>
+        <value>Frioulan</value>
+        <value>Gaélique d'Écosse</value>
+        <value>Galicien</value>
+        <value>Gallois</value>
+        <value>Gayo</value>
+        <value>Géorgien</value>
+        <value>Grebo</value>
+        <value>Grec</value>
+        <value>Grec Ancien (Jusquà 1453)</value>
+        <value>Hébreu</value>
+        <value>Hindi</value>
+        <value>Hollandais</value>
+        <value>Hongrois</value>
+        <value>Igbo</value>
+        <value>Indonésien</value>
+        <value>Inuktitut</value>
+        <value>Irlandais ancien (jusqu'à 900)</value>
+        <value>Islandais</value>
+        <value>Italien</value>
+        <value>Japonais</value>
+        <value>Javanais</value>
+        <value>Judéo-Arabe</value>
+        <value>Khmer</value>
+        <value>Lahnda</value>
+        <value>Lamba</value>
+        <value>Latin</value>
+        <value>Letton</value>
+        <value>Lituanien</value>
+        <value>Luxembourgeois</value>
+        <value>Macédonien</value>
+        <value>Malais</value>
+        <value>Malayalam</value>
+        <value>Malgache</value>
+        <value>Maltais</value>
+        <value>Marathe</value>
+        <value>Moldave</value>
+        <value>Monégasque</value>
+        <value>Mongol</value>
+        <value>Moré</value>
+        <value>Multilingue</value>
+        <value>Nahuatl</value>
+        <value>Néerlandais</value>
+        <value>Néerlandais Moyen (1100-1500)</value>
+        <value>Niçois</value>
+        <value>Norrois</value>
+        <value>Norvégien</value>
+        <value>Occitan</value>
+        <value>Occitan (avant 1500)</value>
+        <value>Occitan (Post 1500)</value>
+        <value>Ossète</value>
+        <value>Ourdou</value>
+        <value>Ouzbek</value>
+        <value>Pachto</value>
+        <value>Persan</value>
+        <value>Polonais</value>
+        <value>Portugais</value>
+        <value>Provençal</value>
+        <value>Rajasthani</value>
+        <value>Roumain</value>
+        <value>Rundi</value>
+        <value>Russe</value>
+        <value>Sami</value>
+        <value>Sanskrit</value>
+        <value>Serbe</value>
+        <value>Singhalais</value>
+        <value>Slaves</value>
+        <value>Slovaque</value>
+        <value>Slovène</value>
+        <value>Sotho</value>
+        <value>Suédois</value>
+        <value>Swahili</value>
+        <value>Syriaque</value>
+        <value>Tadjik</value>
+        <value>Tahitien</value>
+        <value>Tamacheq</value>
+        <value>Tamoul</value>
+        <value>Tchèque</value>
+        <value>Tchetchène</value>
+        <value>Thaï</value>
+        <value>Thailandais</value>
+        <value>Tibétain</value>
+        <value>Trilingue</value>
+        <value>Turc</value>
+        <value>Turc Ottoman (1500-1928)</value>
+        <value>Ukrainien</value>
+        <value>Vietnamien</value>
+        <value>Wallon</value>
+        <value>Yiddish</value>
+        <value>Yougolsave</value>
+    </valueslist>
+</attribute>

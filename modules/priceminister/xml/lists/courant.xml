@@ -1,0 +1,28 @@
+<attribute>
+    <label>Courant pictural</label>
+    <key>courant</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Art brut</value>
+        <value>Art contemporain</value>
+        <value>Art déco</value>
+        <value>Art naïf</value>
+        <value>Baroque</value>
+        <value>Constructivisme</value>
+        <value>Cubisme</value>
+        <value>Dadaïsme</value>
+        <value>Expressionnisme</value>
+        <value>Fauvisme</value>
+        <value>Graffiti</value>
+        <value>Impressionnisme</value>
+        <value>Orientalisme</value>
+        <value>Pointillisme</value>
+        <value>Pop Art</value>
+        <value>Réalisme</value>
+        <value>Romantisme</value>
+        <value>Surréalisme</value>
+    </valueslist>
+</attribute>

@@ -1,0 +1,154 @@
+<attribute>
+    <label>Fabricant</label>
+    <key>fabricant</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+
+    <valueslist>
+
+        <value>1TeK</value>
+
+        <value>Act-labs</value>
+
+        <value>Activision</value>
+
+        <value>Atomic</value>
+
+        <value>Be.ez</value>
+
+        <value>Belkin Components</value>
+
+        <value>BigBen Interactive</value>
+
+        <value>Blaze</value>
+
+        <value>Blazepro</value>
+
+        <value>BTA Tech</value>
+
+        <value>Connectix</value>
+
+        <value>Datel</value>
+
+        <value>Disney</value>
+
+        <value>Duracell</value>
+
+        <value>DynaSun</value>
+
+        <value>Eaxus</value>
+
+        <value>Edge Interactive</value>
+
+        <value>Electronic Arts</value>
+
+        <value>Freaks and Geeks</value>
+
+        <value>Fujitsu</value>
+
+        <value>Gamestar</value>
+
+        <value>Gamester</value>
+
+        <value>GameWare</value>
+
+        <value>Gravis</value>
+
+        <value>Griffin</value>
+
+        <value>Guillemot</value>
+
+        <value>Hama</value>
+
+        <value>Hasbro</value>
+
+        <value>Hip Gear</value>
+
+        <value>Hobby Tech</value>
+
+        <value>Inotech</value>
+
+        <value>Joytech</value>
+
+        <value>Komodo</value>
+
+        <value>Konami</value>
+
+        <value>König</value>
+
+        <value>Koo Interactive</value>
+
+        <value>LeapFrog</value>
+
+        <value>Leapster</value>
+
+        <value>Logic3</value>
+
+        <value>Logitech</value>
+
+        <value>Mad Catz</value>
+
+        <value>Madrics</value>
+
+        <value>Media-Tech</value>
+
+        <value>Memorex</value>
+
+        <value>Micromania</value>
+
+        <value>Microsoft</value>
+
+        <value>Monster</value>
+
+        <value>MT Logic</value>
+
+        <value>Namco</value>
+
+        <value>NEC</value>
+
+        <value>Nexus</value>
+
+        <value>Nintendo</value>
+
+        <value>Nobilis</value>
+
+        <value>Philips</value>
+
+        <value>Playseats</value>
+
+        <value>Playthru</value>
+
+        <value>Razer</value>
+
+        <value>RedOctane</value>
+
+        <value>Saitek</value>
+
+        <value>SanDisk</value>
+
+        <value>Sega</value>
+
+        <value>Sitecom</value>
+
+        <value>Sony</value>
+
+        <value>Speed-Link</value>
+
+        <value>Subsonic</value>
+
+        <value>ThrustMaster</value>
+
+        <value>Titan</value>
+
+        <value>Trust Computer Products</value>
+
+        <value>Under Control</value>
+
+        <value>Vtech</value>
+
+    </valueslist>
+
+</attribute>
