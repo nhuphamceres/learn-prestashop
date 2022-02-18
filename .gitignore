@@ -61,6 +61,7 @@ php-cs-fixer
 # Translations and emails templates
 
 translations/*
+themes/*
 mails/*
 !mails/fr/
 themes/default-bootstrap/lang/*
