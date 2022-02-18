@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<errorresponse
+        schemaLocation="http://pmcdn.staticpmrk.com/res/schema/error http://pmcdn.staticpmrk.com/res/schema/error/error.xsd">
+    <error>
+        <type>Sender</type>
+        <code>InvalidUserConnection</code>
+        <message>Unknown user or password.</message>
+        <details>
+            <detail>Incorrect login or password</detail>
+        </details>
+    </error>
+</errorresponse>

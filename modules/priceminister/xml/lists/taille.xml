@@ -1,0 +1,13 @@
+<attribute>
+    <label>Taille</label>
+    <key>taille</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Petit, de 0 à 350g</value>
+        <value>Moyen, de 350g à 1kg</value>
+        <value>Grand, + de 1kg</value>
+    </valueslist>
+</attribute>

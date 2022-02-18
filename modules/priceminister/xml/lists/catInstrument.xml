@@ -1,0 +1,86 @@
+<attribute>
+    <label>Type</label>
+    <key>catInstrument</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Accessoire</value>
+        <value>Accordéon</value>
+        <value>Alto</value>
+        <value>Banjo</value>
+        <value>Basse</value>
+        <value>Basse électro-acoustique</value>
+        <value>Basson</value>
+        <value>Batterie acoustique</value>
+        <value>Batterie électronique</value>
+        <value>Boîte à rythmes</value>
+        <value>Bongo</value>
+        <value>Caisse claire</value>
+        <value>Cajon</value>
+        <value>Cithare</value>
+        <value>Clarinette</value>
+        <value>Clavecin</value>
+        <value>Clavier arrangeur</value>
+        <value>Clavier maître</value>
+        <value>Congas</value>
+        <value>Contrebasse</value>
+        <value>Contrôleur</value>
+        <value>Cor</value>
+        <value>Cor Anglais</value>
+        <value>Cornemuse</value>
+        <value>Cymbale</value>
+        <value>Cymbalum</value>
+        <value>Derbouka</value>
+        <value>Didgeridoo</value>
+        <value>Djembe</value>
+        <value>Expandeur</value>
+        <value>Flûte à bec</value>
+        <value>Flûte de pan</value>
+        <value>Flûte traversière</value>
+        <value>Gong</value>
+        <value>Grosse caisse</value>
+        <value>Guitare à résonateur</value>
+        <value>Guitare acoustique</value>
+        <value>Guitare classique</value>
+        <value>Guitare électrique</value>
+        <value>Guitare électro-acoustique</value>
+        <value>Guitare folk</value>
+        <value>Guitare manouche</value>
+        <value>Harmonica</value>
+        <value>Harmonium</value>
+        <value>Harpe</value>
+        <value>Hautbois</value>
+        <value>Kalimba</value>
+        <value>Kazoo</value>
+        <value>Luth</value>
+        <value>Mandoline</value>
+        <value>Mélodica</value>
+        <value>Ocarina</value>
+        <value>Orgue</value>
+        <value>Oud</value>
+        <value>Pack basse</value>
+        <value>Pack guitare classique</value>
+        <value>Pack guitare électrique</value>
+        <value>Pack guitare électro-acoustique</value>
+        <value>Pack guitare folk</value>
+        <value>Percussions a main</value>
+        <value>Piano</value>
+        <value>Piano numérique</value>
+        <value>Saxhorn</value>
+        <value>Saxophone</value>
+        <value>Sitar</value>
+        <value>Synthétiseur</value>
+        <value>Tom</value>
+        <value>Trombone</value>
+        <value>Trompette</value>
+        <value>Tuba</value>
+        <value>Ukulélé</value>
+        <value>Viole</value>
+        <value>Violon</value>
+        <value>Violon électrique</value>
+        <value>Violoncelle</value>
+        <value>Xylophone</value>
+    </valueslist>
+</attribute>

@@ -1,0 +1,17 @@
+<attribute>
+    <label>Sous-catégorie</label>
+    <key>souscategorie</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>1</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>1 porte</value>
+        <value>2 portes</value>
+        <value>Americain</value>
+        <value>Armoire</value>
+        <value>Coffre</value>
+        <value>Congélateur bas</value>
+        <value>Congélateur haut</value>
+    </valueslist>
+</attribute>

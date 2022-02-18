@@ -1,0 +1,14 @@
+<attribute>
+    <label>Usage</label>
+    <key>usageskate</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Freeride</value>
+        <value>Hockey</value>
+        <value>Loisir</value>
+        <value>Urbain</value>
+    </valueslist>
+</attribute>

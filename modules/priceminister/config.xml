@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>priceminister</name>
+    <displayName><![CDATA[Rakuten France]]></displayName>
+    <version><![CDATA[4.4.13]]></version>
+    <description><![CDATA[This extension allow to manage products, orders, stock from/to Rakuten France]]></description>
+    <author><![CDATA[Common-Services]]></author>
+    <tab><![CDATA[market_place]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

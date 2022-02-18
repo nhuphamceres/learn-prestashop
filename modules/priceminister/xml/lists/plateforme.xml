@@ -1,0 +1,164 @@
+<attribute>
+    <label>Plateforme</label>
+    <key>plateforme</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+
+    <valueslist>
+
+        <value>3DO</value>
+
+        <value>Amiga</value>
+
+        <value>Amiga CD32</value>
+
+        <value>Amstrad</value>
+
+        <value>Atari 2600</value>
+
+        <value>Atari 7800</value>
+
+        <value>Atari Jaguar</value>
+
+        <value>Atari Lynx</value>
+
+        <value>Atari ST</value>
+
+        <value>Atari XL et XE</value>
+
+        <value>CDI Philips</value>
+
+        <value>Colecovision Cbs</value>
+
+        <value>Commodore</value>
+
+        <value>Dreamcast</value>
+
+        <value>Game &amp; Watch</value>
+
+        <value>Game Boy</value>
+
+        <value>Game Boy Advance</value>
+
+        <value>Game Boy Advance SP</value>
+
+        <value>Game Boy Color</value>
+
+        <value>Game Boy Micro</value>
+
+        <value>Game Master</value>
+
+        <value>GameCube</value>
+
+        <value>GBA</value>
+
+        <value>GCM</value>
+
+        <value>Gizmondo</value>
+
+        <value>GP32</value>
+
+        <value>Intellivision</value>
+
+        <value>iPhone</value>
+
+        <value>ITMC - MPT 05</value>
+
+        <value>Leapster</value>
+
+        <value>MAC</value>
+
+        <value>MB Microvision</value>
+
+        <value>MSX</value>
+
+        <value>MVS snk</value>
+
+        <value>Nec - PC engine</value>
+
+        <value>Neo-Geo cartouche</value>
+
+        <value>Neo-Geo CD</value>
+
+        <value>Neo-Geo Pocket</value>
+
+        <value>Neo-Geo Pocket Color</value>
+
+        <value>NGS</value>
+
+        <value>Nintendo 3DS</value>
+
+        <value>Nintendo 3DS XL</value>
+
+        <value>Nintendo 64</value>
+
+        <value>Nintendo DS</value>
+
+        <value>Nintendo DSi</value>
+
+        <value>Nintendo DSi XL</value>
+
+        <value>Nintendo NES</value>
+
+        <value>Nintendo Virtual Boy</value>
+
+        <value>Nokia N-gage</value>
+
+        <value>PC</value>
+
+        <value>PDC</value>
+
+        <value>Pippin</value>
+
+        <value>Playstation</value>
+
+        <value>PS Vita</value>
+
+        <value>PS2</value>
+
+        <value>PS3</value>
+
+        <value>PSP</value>
+
+        <value>Sega Game Gear</value>
+
+        <value>Sega Master System</value>
+
+        <value>Sega Megadrive</value>
+
+        <value>Sega Saturn</value>
+
+        <value>Skylanders</value>
+
+        <value>Super Nintendo - Super NES</value>
+
+        <value>Supervision</value>
+
+        <value>Thomson MO5 ou TO7-70</value>
+
+        <value>V.Smile</value>
+
+        <value>Videopac</value>
+
+        <value>Vtech Genius</value>
+
+        <value>Vtech Mobigo</value>
+
+        <value>Vtech Storio</value>
+
+        <value>Wii</value>
+
+        <value>Wii U</value>
+
+        <value>Wonderswan</value>
+
+        <value>XBOX</value>
+
+        <value>XBOX 360</value>
+
+    </valueslist>
+
+</attribute>

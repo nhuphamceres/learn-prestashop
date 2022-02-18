@@ -1,0 +1,86 @@
+<attribute>
+    <label>Type d'interface</label>
+    <key>typedinterface</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>1</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>ATA-100</value>
+        <value>ATA-133</value>
+        <value>ATA-33</value>
+        <value>ATA-66</value>
+        <value>Carte PC</value>
+        <value>CF+</value>
+        <value>CompactFlash</value>
+        <value>DDR3 LP DIMM</value>
+        <value>EIDE</value>
+        <value>EIDE/ATA-2</value>
+        <value>EIDE/ATA-3</value>
+        <value>EIDE/ATA-4</value>
+        <value>EIDE/ATAPI</value>
+        <value>EIO</value>
+        <value>eSATA</value>
+        <value>eSATA-150</value>
+        <value>eSATA-300</value>
+        <value>Ethernet 10/100</value>
+        <value>Ethernet 100Base-T</value>
+        <value>Ethernet 10Base-T/100Base-TX</value>
+        <value>Fast SCSI</value>
+        <value>Fast Wide SCSI</value>
+        <value>FATA</value>
+        <value>FC-AL</value>
+        <value>FC-AL-2</value>
+        <value>Fibre Channel</value>
+        <value>Fibre Channel 2 Gb</value>
+        <value>Fibre Channel 4 Gb</value>
+        <value>FireWire</value>
+        <value>FireWire 800</value>
+        <value>High Speed Data Link (HSDL)</value>
+        <value>IDE</value>
+        <value>IDE/ATA</value>
+        <value>IEEE 1284 (EPP/ECP)</value>
+        <value>M.2 Card</value>
+        <value>Mini carte demi-hauteur PCI Express</value>
+        <value>Mini carte PCI Express</value>
+        <value>PCI Express</value>
+        <value>PCI Express 2.0</value>
+        <value>PCI Express 2.0 x16</value>
+        <value>PCI Express 2.0 x2</value>
+        <value>PCI Express 2.0 x4</value>
+        <value>PCI Express 2.0 x4 / PCI Express x8</value>
+        <value>PCI Express 2.0 x8</value>
+        <value>PCI Express 3.0 x16</value>
+        <value>PCI Express 3.0 x4</value>
+        <value>PCI Express 3.0 x4 (NVMe)</value>
+        <value>PCI Express 3.0 x8 (NVMe)</value>
+        <value>PCI Express M.2 Card</value>
+        <value>PCI Express x4</value>
+        <value>PCI Express x8</value>
+        <value>Réseau</value>
+        <value>SATA</value>
+        <value>SCSI</value>
+        <value>SCSI-1</value>
+        <value>Serial ATA</value>
+        <value>Serial ATA-150</value>
+        <value>Serial ATA-300</value>
+        <value>Serial ATA-600</value>
+        <value>Serial Attached SCSI</value>
+        <value>Serial Attached SCSI 2</value>
+        <value>Serial Attached SCSI 3</value>
+        <value>SSA</value>
+        <value>Thunderbolt</value>
+        <value>Ultra SCSI</value>
+        <value>Ultra Wide SCSI</value>
+        <value>Ultra160 SCSI</value>
+        <value>Ultra2 SCSI</value>
+        <value>Ultra2 Wide SCSI</value>
+        <value>Ultra320 SCSI</value>
+        <value>USB</value>
+        <value>USB 2.0</value>
+        <value>USB 3.0</value>
+        <value>USB 3.1</value>
+        <value>USB 3.1 Gen1</value>
+        <value>WiFi</value>
+    </valueslist>
+</attribute>

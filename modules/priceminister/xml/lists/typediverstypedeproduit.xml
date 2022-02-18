@@ -1,0 +1,362 @@
+<attribute>
+    <label>Type</label>
+    <key>typediverstypedeproduit</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Accélérateur de cache</value>
+        <value>Accessoires de rechange pour kit de réparation de CD/DVD</value>
+        <value>Adaptateur d'extension</value>
+        <value>Adaptateur de sauvegarde des données USB</value>
+        <value>Adaptateur PC Card pour carte mémoire</value>
+        <value>Adaptateur pour baie de stockage</value>
+        <value>Adaptateur pour baie de stockage avec ventilateur</value>
+        <value>Adaptateur pour disque dur</value>
+        <value>Adaptateur pour lecteur de disquette</value>
+        <value>Adaptateur pour station</value>
+        <value>Album CD</value>
+        <value>Alimentation et ventilateur</value>
+        <value>Amortisseur de chocs</value>
+        <value>Amortisseur de chocs pour disque dur</value>
+        <value>Analyseur pour cartouche de stockage</value>
+        <value>Applicateur d'étiquettes / étiquettes de CD/DVD</value>
+        <value>Applicateur d'étiquettes pour CD/DVD</value>
+        <value>Armoire de rangement pour CD</value>
+        <value>Armoire de rangement pour ZIP</value>
+        <value>Armoire de stockage</value>
+        <value>Armoire/support pour périphériques de réseau</value>
+        <value>Assemblage du module shuttle/track robotique pour bibliothèque de stockage</value>
+        <value>Bac d'alimentation</value>
+        <value>Bac d'unité de stockage</value>
+        <value>Bac de sortie du duplicateur de CD</value>
+        <value>Backplane</value>
+        <value>Bande thermique</value>
+        <value>Blu-ray repair kit</value>
+        <value>Boîte CD-ROM/FDD/Cassette</value>
+        <value>Boite de rangement de supports</value>
+        <value>Boîte de supports de stockage</value>
+        <value>Boîte disquette</value>
+        <value>Boîte pour cartouche de stockage</value>
+        <value>Boîtier plastique mince pour stockage CD</value>
+        <value>Boîtier à système d'éjection pour CD</value>
+        <value>Boîtier antistatique</value>
+        <value>Boîtier de lecteur Flash USB</value>
+        <value>Boîtier de rangement extra-plat pour DVD</value>
+        <value>Boîtier de rangement pour mini-DVD</value>
+        <value>Boîtier de stockage pour disque Blu-ray</value>
+        <value>Boîtier de transport pour disque de stockage</value>
+        <value>Boîtier disque dur</value>
+        <value>Boîtier fin de stockage pour CD/DVD</value>
+        <value>Boîtier fin pour DVD</value>
+        <value>Boîtier mémoire</value>
+        <value>Boîtier pour CD</value>
+        <value>Boîtier pour DVD</value>
+        <value>Boîtier pour DVD vidéo</value>
+        <value>Boîtier pour vidéo disque Blu-ray</value>
+        <value>Boîtier silencieux pour disque dur</value>
+        <value>Boîtier UMD de stockage</value>
+        <value>Bombe de nettoyage</value>
+        <value>Câble de verrouillage</value>
+        <value>Cache pour lecteur</value>
+        <value>Capot de protection pour autochargeur de stockage</value>
+        <value>Capuchons de cavalier</value>
+        <value>Carrousel automatisé CD/DVD de stockage</value>
+        <value>Carte cache alimentée par batterie de secours</value>
+        <value>Carte d'échange à chaud</value>
+        <value>Carte de chargement HDD</value>
+        <value>Carte de fond de panier du disque dur</value>
+        <value>Carte de mise à niveau du contrôleur de stockage</value>
+        <value>Carte répéteur pour stockage</value>
+        <value>Carter</value>
+        <value>Cartouche de nettoyage</value>
+        <value>Chargeur automatique de cartouche</value>
+        <value>Chargeur disque</value>
+        <value>Chariot de lecteur de stockage (caddy)</value>
+        <value>Châssis d'extension pour stockage</value>
+        <value>Châssis de montage pour rack</value>
+        <value>Châssis de rack</value>
+        <value>Chiffons de nettoyage</value>
+        <value>Chiffons de nettoyage pour CD/DVD</value>
+        <value>Classeur à anneaux pour CD</value>
+        <value>Clé de mise à jour pour contrôleur RAID</value>
+        <value>Clé de sécurité</value>
+        <value>Clé de sécurité pour disque dur</value>
+        <value>Clip de boîtier pour CD</value>
+        <value>Coffre-fort pour le stockage de supports</value>
+        <value>Coffret pour CD</value>
+        <value>Coffret pour Zip</value>
+        <value>Commande au pied</value>
+        <value>Commutateur de stockage</value>
+        <value>Compartiment pour lecteur de support de stockage</value>
+        <value>Concentrateur</value>
+        <value>Conditionnement</value>
+        <value>Conteneur d'expédition</value>
+        <value>Contrôleur de stockage</value>
+        <value>Contrôleur de stockage (RAID)</value>
+        <value>Contrôleur de stockage/FireWire/USB 2.0</value>
+        <value>Contrôleur de stockage/USB 2.0</value>
+        <value>Contrôleur stockage/FireWire</value>
+        <value>Convertisseur d'interface</value>
+        <value>Convertisseur de bus</value>
+        <value>Couvercle protecteur pour boite de rangement de supports</value>
+        <value>Couvertures et insertions de CD</value>
+        <value>Démagnétiseur / dispositif d'effacement</value>
+        <value>Disque de nettoyage</value>
+        <value>Disquette</value>
+        <value>Disquette pour appareil photo numérique</value>
+        <value>Dissipateur thermique à mémoire</value>
+        <value>Diviseur pour boitier de stockage</value>
+        <value>DVD case inserts</value>
+        <value>Échangeur thermique de disque dur pour système de refroidissement</value>
+        <value>Effaceur de CD/DVD enregistrables</value>
+        <value>Effaceur de marqueur CD</value>
+        <value>Élément de remplissage de disque dur</value>
+        <value>Embout pour baie de stockage</value>
+        <value>Ensemble de stockage à roulettes</value>
+        <value>Enveloppe CD/DVD</value>
+        <value>Étagère coulissante pour rack</value>
+        <value>Étagère murale</value>
+        <value>Étagère pour rack</value>
+        <value>Étiquettes</value>
+        <value>Étiquettes code à barres</value>
+        <value>Etiquettes code à barres pour cartouches de nettoyage/données</value>
+        <value>Étiquettes de code à barres (LTO-5)</value>
+        <value>Étiquettes de code à barres pour cartouche de nettoyage</value>
+        <value>Étiquettes de code à barres pour cartouche de nettoyage (caractères verticaux)</value>
+        <value>Étiquettes de supports VXA</value>
+        <value>Étiquettes pour bandes magnétiques</value>
+        <value>Étiquettes pour CD</value>
+        <value>Étiquettes pour CD/DVD</value>
+        <value>Étiquettes pour CD/DVD/inserts/applicateur d'étiquettes</value>
+        <value>Étiquettes pour disquettes</value>
+        <value>Étiquettes pour supports LTO</value>
+        <value>Étui de protection de disque dur</value>
+        <value>Étui pour miniDVD</value>
+        <value>Étui pour unité de disque dur</value>
+        <value>Etui protecteur pour disque dur</value>
+        <value>Étui rigide</value>
+        <value>Fiche</value>
+        <value>Filtre à air</value>
+        <value>Fixation pour disque dur</value>
+        <value>Fixation pour rack</value>
+        <value>Fond de panier de disque dur (capacité de 8 disques)</value>
+        <value>Fond de panier remplaçable à chaud SATA/SAS du serveur</value>
+        <value>Glissière de guidage pour autochargeur de stockage</value>
+        <value>Glissières pour stockage</value>
+        <value>Hard drive protective case</value>
+        <value>Insert pour boîtier CD</value>
+        <value>Inserts pour boîtiers à CD</value>
+        <value>Jeu de marqueurs permanents pour CD/DVD</value>
+        <value>Jeu de marqueurs permanents pour CD/DVD avec effaceur</value>
+        <value>Kit amortisseur de vibrations pour disque dur</value>
+        <value>Kit d'accessoires de stockage</value>
+        <value>Kit d'assemblage de rack</value>
+        <value>Kit d'entretien</value>
+        <value>Kit d'étiquetage pour CD/DVD</value>
+        <value>Kit d'extension de stockage SCSI</value>
+        <value>Kit d'extension pour rack</value>
+        <value>Kit d'installation de stockage</value>
+        <value>Kit de chiffrement de stockage</value>
+        <value>Kit de clustering</value>
+        <value>Kit de connectivité de sauvegarde de grappe</value>
+        <value>Kit de connexion HVD</value>
+        <value>Kit de connexion pour stockage</value>
+        <value>Kit de connexion stockage LVD</value>
+        <value>Kit de conversion piédestal vers rack</value>
+        <value>Kit de conversion rack vers desktop</value>
+        <value>Kit de conversion rack vers tour</value>
+        <value>Kit de conversion tour vers rack</value>
+        <value>Kit de conversion "piédestal vers rack"</value>
+        <value>Kit de conversion "rack vers desktop"</value>
+        <value>Kit de conversion "rack vers tour"</value>
+        <value>Kit de conversion "tour vers rack"</value>
+        <value>Kit de conversion de stockage</value>
+        <value>Kit de conversion de stockage SCSI</value>
+        <value>Kit de disques d'installation</value>
+        <value>Kit de duplexing</value>
+        <value>Kit de fixation pour broche principale</value>
+        <value>Kit de gestion de câbles pour rack</value>
+        <value>Kit de maintenance</value>
+        <value>Kit de mise à jour de stockage</value>
+        <value>Kit de mise à niveau de la mémoire cache</value>
+        <value>Kit de mise à niveau du système</value>
+        <value>Kit de mise en oeuvre</value>
+        <value>Kit de montage</value>
+        <value>Kit de montage de lecteur à bande SAS/SATA</value>
+        <value>Kit de montage de lecteur de bandes</value>
+        <value>Kit de montage en saillie</value>
+        <value>Kit de montage FDD</value>
+        <value>Kit de montage piédestal</value>
+        <value>Kit de montage pour CD-ROM</value>
+        <value>Kit de montage pour disque dur</value>
+        <value>Kit de montage pour étagèr de rack</value>
+        <value>Kit de montage pour rack</value>
+        <value>Kit de montage pour unité de stockage</value>
+        <value>Kit de nettoyage</value>
+        <value>Kit de nettoyage CD/DVD</value>
+        <value>Kit de nettoyage de la lentille du lecteur CD</value>
+        <value>Kit de nettoyage de lentilles CD/DVD</value>
+        <value>Kit de nettoyage pour lecteur de disquette</value>
+        <value>Kit de nettoyage pour lecteur de disquette/ CD</value>
+        <value>Kit de nettoyage pour lecteur de disquette/CD/DVD</value>
+        <value>Kit de nettoyage pour lentille DVD</value>
+        <value>Kit de panneaux décoratifs</value>
+        <value>Kit de panneaux frontaux</value>
+        <value>Kit de panneaux vides</value>
+        <value>Kit de rails d'adaptateur de stockage</value>
+        <value>Kit de rails pour armoire</value>
+        <value>Kit de rails pour rack</value>
+        <value>Kit de réparation CD/DVD</value>
+        <value>Kit de réparation et de nettoyage CD/DVD</value>
+        <value>Kit de réparation pour Blu-ray</value>
+        <value>Kit de réparation pour CD rayé</value>
+        <value>Kit de sécurité pour disque dur</value>
+        <value>Kit de support de rack</value>
+        <value>Kit de transport</value>
+        <value>Kit de ventilation pour disque dur</value>
+        <value>Kit de ventilation pour ordinateur</value>
+        <value>Kit de ventilation pour périphérique de stockage</value>
+        <value>Kit de ventilation pour rack</value>
+        <value>Kit de ventilation pour rack (220 V)</value>
+        <value>Kit de ventilation redondant enfichable à chaud</value>
+        <value>Kit de visserie</value>
+        <value>Kit étiquetage pour CD</value>
+        <value>Kit étiquetage pour CD/DVD de stockage</value>
+        <value>Kit pays</value>
+        <value>Kit pays pour périphérique de stockage</value>
+        <value>Le kit câble</value>
+        <value>Le kit de conversion</value>
+        <value>Lentille CD/DVD / kit de nettoyage CD / étiquettes CD</value>
+        <value>Licence</value>
+        <value>Livret pour boîtier CD</value>
+        <value>Location Discovery Kit</value>
+        <value>Logement pour carte</value>
+        <value>Magasin de cartouche de stockage pour autochargeur (en bas à gauche)</value>
+        <value>Magasin de cartouche de stockage pour autochargeur (en haut à gauche)</value>
+        <value>Magasin de cartouche de stockage pour autochargeur (gauche)</value>
+        <value>Magasin de cartouche pour autochargeur (droite)</value>
+        <value>Magasin de cartouches pour librairie de stockage</value>
+        <value>Magasin de cartouches pour librairie de stockage (droite)</value>
+        <value>Magasin de cartouches pour librairie de stockage (gauche)</value>
+        <value>Magasin de cartouches pour librairie de stockage (inférieur gauche)</value>
+        <value>Magasin de cartouches pour librairie de stockage (supérieur gauche)</value>
+        <value>Magasin pour cartouche de stockage avec chargement automatique</value>
+        <value>Magasins de cartouches pour la bibliothèque de stockage (gauche et droite)</value>
+        <value>Mallette de rangement CD/DVD</value>
+        <value>Mallette pour CD/DVN</value>
+        <value>Marqueur de DVD</value>
+        <value>Marqueur pour CD/DVD</value>
+        <value>Marqueur pour CD/DVD/carte flash</value>
+        <value>Marqueurs de CD avec effaceur</value>
+        <value>Marqueurs pour CD/DVD</value>
+        <value>Mécanisme d'échange des cartouches de stockage</value>
+        <value>Mécanisme de défilement de bande</value>
+        <value>Mémoire cache de contrôleur RAID</value>
+        <value>Mémoire cache de contrôleur RAID (1 Go)</value>
+        <value>Mémoire cache de contrôleur RAID (512 Mo)</value>
+        <value>Mémoire cache de contrôleur RAID (flash 1 Go)</value>
+        <value>Mémoire cache de contrôleur RAID (flash 512 Mo)</value>
+        <value>Mise à niveau du processeur</value>
+        <value>Module d'E/S JBOD</value>
+        <value>Module d'extension</value>
+        <value>Module d'extension de lecteur pour bibliothèque de bandes</value>
+        <value>Module de compression</value>
+        <value>Module de gestion de l'air</value>
+        <value>Module de lecteur de disque factice</value>
+        <value>Module de remplacement du stockage en réseau</value>
+        <value>Module de service pour armoire de stockage</value>
+        <value>Module de surveillance de stockage</value>
+        <value>Module écologique</value>
+        <value>Module fond de panier pour bibliothèque de stockage</value>
+        <value>Module PVA (Power Verification and Addressing)</value>
+        <value>Montage de l'axe d'emmagasinage</value>
+        <value>Monture pour batteries</value>
+        <value>Onglet d'index</value>
+        <value>Option de récupération de serveur</value>
+        <value>Pack d'accessoires de disque dur</value>
+        <value>Page du classeur à CD</value>
+        <value>Panneau arrière</value>
+        <value>Panneau de contrôle pour bibliothèque de stockage</value>
+        <value>Panneau de ports de la baie de stockage</value>
+        <value>Panneau de remplissage</value>
+        <value>Panneau de remplissage pour lecteur de disque dur</value>
+        <value>Panneau de remplissage pour lecteur de disquette</value>
+        <value>Panneau de surcadençage et de surveillance du système</value>
+        <value>Panneau frontal pour lecteur de disques</value>
+        <value>Panneau frontal pour lecteur de disques 3,5</value>
+        <value>Panneau frontal pour lecteur de disques 3,5"</value>
+        <value>Panneau frontal pour lecteur de disques 5,25</value>
+        <value>Panneau frontal pour lecteur de disques 5,25 "</value>
+        <value>Panneau intercalaire</value>
+        <value>Panneaux de remplissage pour rack</value>
+        <value>Piétement</value>
+        <value>Plaque</value>
+        <value>Plateau pour disque dur</value>
+        <value>Plateau thermoventilateur</value>
+        <value>Pochette à disquettes</value>
+        <value>Pochette CD</value>
+        <value>Pochette CD/DVD</value>
+        <value>Pochette de protection pour support de stockage</value>
+        <value>Pochettes de protection pour supports</value>
+        <value>Poignée pistolet pour ordinateur de poche</value>
+        <value>Porte</value>
+        <value>Porte avant pour rack</value>
+        <value>Porte disque dur</value>
+        <value>Porte-clé pour lecteur flash USB</value>
+        <value>Porte-feuille mémoire</value>
+        <value>Porte-support de stockage</value>
+        <value>Portefeuille CD</value>
+        <value>Processeur</value>
+        <value>Protection de base pour boite de rangement de supports</value>
+        <value>Protection de lecteur de disque dur externe</value>
+        <value>Protection du disque dur</value>
+        <value>Rack</value>
+        <value>RAID controller cache memory (1GB)</value>
+        <value>RAID controller cache memory (2GB)</value>
+        <value>Range-disquettes</value>
+        <value>Recharge pour cartouche de nettoyage</value>
+        <value>Recharge pour kit d'étiquetage pour CD de stockage</value>
+        <value>Refroidisseur de processeur</value>
+        <value>Refroidisseur pour disque dur</value>
+        <value>Reprise sur canal de commande</value>
+        <value>Routeur de stockage</value>
+        <value>Sac pour stockage de CD-ROM/Lecteur de disquettes</value>
+        <value>Sacoche</value>
+        <value>Sacoche de transport pour unité de stockage</value>
+        <value>Sacoche pour ordinateur portable</value>
+        <value>Sangle supplémentaire pour lecteur flash</value>
+        <value>SCSI hub</value>
+        <value>Spray dépoussiérant</value>
+        <value>Station d'importation/exportation de supports de bibliothèque de stockage</value>
+        <value>Storage drive carrier (caddy)</value>
+        <value>Storage mobile rack (frame and carrier)</value>
+        <value>Stylo pour CD</value>
+        <value>Support</value>
+        <value>Support d'expansion</value>
+        <value>Support d'extension pour baie de stockage</value>
+        <value>Support de stockage</value>
+        <value>Support de stockage (baie)</value>
+        <value>Support pour lecteur extractible à chaud</value>
+        <value>Support pour ordinateur portable</value>
+        <value>Système d'éjection de CD par clip</value>
+        <value>Système de refroidissement par liquide</value>
+        <value>Tableau d'interconnection</value>
+        <value>Tableau de connexions</value>
+        <value>Tampon de nettoyage de CD</value>
+        <value>Tampon de nettoyage de disques magnéto-optiques de 3,5 pouces</value>
+        <value>Tampon de nettoyage pour CD/DVD</value>
+        <value>Tiroir pour lecteur extractible à chaud</value>
+        <value>Tiroir pour périphérique de stockage</value>
+        <value>Tiroir pour supports de stockage</value>
+        <value>Trousse d'accessoires du système</value>
+        <value>Trousse de protection</value>
+        <value>Unité d'extension de défilement de bande</value>
+        <value>Unité de ventilation</value>
+        <value>Ventilateur</value>
+        <value>Ventilateur pour périphérique de stockage</value>
+        <value>Verrou de lecteur de disquette</value>
+        <value>Verrou de sécurité</value>
+    </valueslist>
+</attribute>

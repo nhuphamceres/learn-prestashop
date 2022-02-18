@@ -1,0 +1,14 @@
+<attribute>
+    <label>Formes</label>
+    <key>formes</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Carrée</value>
+        <value>Ovale</value>
+        <value>Rectangle</value>
+        <value>Ronde</value>
+    </valueslist>
+</attribute>

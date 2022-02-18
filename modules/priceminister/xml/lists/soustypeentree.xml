@@ -1,0 +1,93 @@
+<attribute>
+    <label>Sous type</label>
+    <key>soustypeentree</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Accélérateur</value>
+        <value>Appareil de fitness ludique</value>
+        <value>Aucun(e)</value>
+        <value>Balance Board</value>
+        <value>Barre à molette</value>
+        <value>Boule de commande</value>
+        <value>Buzzer pour jeux de questions</value>
+        <value>Caméra</value>
+        <value>Chapeau multidirectionnel à 8 positions</value>
+        <value>Clavier</value>
+        <value>Clavier Application ImagePad</value>
+        <value>Clavier Application ImagePad</value>
+        <value>Clavier Application ImagePad</value>
+        <value>Clavier Application ImagePad</value>
+        <value>Clavier Application ImagePad</value>
+        <value>Clavier Application ImagePad</value>
+        <value>Clavier Application ImagePad</value>
+        <value>Clavier Application ImagePad</value>
+        <value>Clavier Touchpad</value>
+        <value>Clavier Touchpad</value>
+        <value>Clavier Touchpad</value>
+        <value>Clavier Touchpad</value>
+        <value>Clavier Touchpad</value>
+        <value>Clavier Touchpad Pointing Stick</value>
+        <value>Clavier midi</value>
+        <value>Clavier rétro-éclairé Application ImagePad</value>
+        <value>Clavier rétro-éclairé Application ImagePad</value>
+        <value>Console DJ</value>
+        <value>Contrôleur canne à pêche</value>
+        <value>Contrôleur de guitare</value>
+        <value>Contrôleur de mouvement 3D</value>
+        <value>Contrôleur jog - shuttle</value>
+        <value>Contrôleur percussions</value>
+        <value>Curseur (palet)</value>
+        <value>Déclencheur à impulsion nerveuse</value>
+        <value>DualPoint</value>
+        <value>Écran tactile</value>
+        <value>Écran tactile Stylet</value>
+        <value>Écran tactile Stylet</value>
+        <value>Écran tactile Stylet</value>
+        <value>Écriture manuscrite</value>
+        <value>Ensemble volant et pédales</value>
+        <value>Gamepad</value>
+        <value>Manche à balai</value>
+        <value>Manette de jeu d'arcade</value>
+        <value>Pack de manette de jeu</value>
+        <value>Pavé numérique</value>
+        <value>Pédales</value>
+        <value>Périphérique de contrôle multimédia</value>
+        <value>Photostyle</value>
+        <value>Pointage du projecteur</value>
+        <value>Pointing Stick</value>
+        <value>Sabre fluorescent</value>
+        <value>Simulateur de combat</value>
+        <value>Simulateur de golf</value>
+        <value>Simulateur moto</value>
+        <value>Souris</value>
+        <value>Stylet</value>
+        <value>Stylo numérique</value>
+        <value>Tableau blanc</value>
+        <value>Tableau de bord d'un simulateur de vol</value>
+        <value>Tablet Pen</value>
+        <value>Tablette graphique</value>
+        <value>Tapis de danse</value>
+        <value>Télécommande</value>
+        <value>Terminal de signature</value>
+        <value>Touchpad Clavier rétro-éclairé</value>
+        <value>Touchpad Clavier rétro-éclairé</value>
+        <value>Touchpad Clavier rétro-éclairé</value>
+        <value>Touchpad Clavier rétro-éclairé</value>
+        <value>Touchpad Clavier rétro-éclairé</value>
+        <value>Touchpad Clavier rétro-éclairé</value>
+        <value>Touchpad Clavier rétro-éclairé</value>
+        <value>Touchpad Clavier rétro-éclairé</value>
+        <value>Touchpad Clavier rétro-éclairé</value>
+        <value>Touchpad Clavier rétro-éclairé</value>
+        <value>Touchpad Clavier rétro-éclairé</value>
+        <value>Touchpad Clavier amovible</value>
+        <value>Touchpad Clavier amovible</value>
+        <value>Touchpad Clavier amovible</value>
+        <value>Touchpad Clavier rétro-éclairé</value>
+        <value>Volant</value>
+        <value>Yoke</value>
+    </valueslist>
+</attribute>

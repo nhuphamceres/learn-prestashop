@@ -1,0 +1,15 @@
+<attribute>
+    <label>Niveau de difficulté</label>
+    <key>niveaudedifficulte</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Débutant</value>
+        <value>Facile</value>
+        <value>Moyen</value>
+        <value>Difficile</value>
+        <value>Progressif</value>
+    </valueslist>
+</attribute>

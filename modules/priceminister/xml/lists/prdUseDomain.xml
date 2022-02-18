@@ -1,0 +1,20 @@
+<attribute>
+    <label>Utilisation</label>
+    <key>prdUseDomain</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+
+    <valueslist>
+
+        <value>Ville</value>
+
+        <value>Détente</value>
+
+        <value>Sport</value>
+
+    </valueslist>
+
+</attribute>

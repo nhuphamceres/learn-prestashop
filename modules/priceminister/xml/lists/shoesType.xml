@@ -1,0 +1,34 @@
+<attribute>
+    <label>Type de chaussure</label>
+    <key>shoesType</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Babouches</value>
+        <value>Ballerines</value>
+        <value>Baskets</value>
+        <value>Bottes</value>
+        <value>Bottes de Pluie</value>
+        <value>Bottines</value>
+        <value>Chaussons</value>
+        <value>Chaussure de football</value>
+        <value>Chaussure de rugby</value>
+        <value>Chaussures de sécurité</value>
+        <value>Cuissardes</value>
+        <value>Derbies</value>
+        <value>Escarpins</value>
+        <value>Espadrilles</value>
+        <value>Mocassins</value>
+        <value>Mules</value>
+        <value>Nu pied</value>
+        <value>Rangers</value>
+        <value>Richelieu</value>
+        <value>Sabots</value>
+        <value>Sandales</value>
+        <value>Santiag</value>
+        <value>Spartiate</value>
+        <value>Tongs</value>
+    </valueslist>
+</attribute>

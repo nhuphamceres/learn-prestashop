@@ -1,0 +1,16 @@
+<attribute>
+    <label>Robe</label>
+    <key>robe</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Blanc</value>
+        <value>Blonde</value>
+        <value>Brune</value>
+        <value>Multicolore</value>
+        <value>Rosé</value>
+        <value>Rouge</value>
+    </valueslist>
+</attribute>

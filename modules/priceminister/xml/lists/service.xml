@@ -1,0 +1,28 @@
+<attribute>
+    <label>Service / Organisation</label>
+    <key>service</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>1</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Armée de l'Air</value>
+        <value>Armée de terre</value>
+        <value>Artillerie</value>
+        <value>Cavalerie</value>
+        <value>Défense civile</value>
+        <value>Ecoles militaires</value>
+        <value>Forces spéciales</value>
+        <value>Gendarmerie</value>
+        <value>Génie</value>
+        <value>Infanterie</value>
+        <value>Intendance</value>
+        <value>Légion étrangère</value>
+        <value>Marine</value>
+        <value>Police</value>
+        <value>Sapeur pompier</value>
+        <value>Transmissions</value>
+        <value>Troupes aéroportées</value>
+        <value>Troupes de marine</value>
+    </valueslist>
+</attribute>

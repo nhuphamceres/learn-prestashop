@@ -1,0 +1,27 @@
+<attribute>
+    <label>Coloris</label>
+    <key>coloris</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Argenté</value>
+        <value>Beige</value>
+        <value>Blanc</value>
+        <value>Bleu</value>
+        <value>Doré</value>
+        <value>Ecru</value>
+        <value>Gris</value>
+        <value>Incolore</value>
+        <value>Jaune</value>
+        <value>Marron</value>
+        <value>Multicolore</value>
+        <value>Noir</value>
+        <value>Orange</value>
+        <value>Rose</value>
+        <value>Rouge</value>
+        <value>Vert</value>
+        <value>Violet</value>
+    </valueslist>
+</attribute>

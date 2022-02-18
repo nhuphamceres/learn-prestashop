@@ -1,0 +1,13 @@
+<attribute>
+    <label>Connecteurs</label>
+    <key>connecteurs</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>1</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Parallèle / série</value>
+        <value>Sans fil</value>
+        <value>USB</value>
+    </valueslist>
+</attribute>

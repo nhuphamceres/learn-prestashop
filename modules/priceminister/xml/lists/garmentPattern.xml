@@ -1,0 +1,38 @@
+<attribute>
+    <label>Motif</label>
+    <key>garmentPattern</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+
+    <multivalued>1</multivalued>
+    <hasvalues>1</hasvalues>
+
+    <valueslist>
+
+        <value>Animaux</value>
+
+        <value>Aucun motif</value>
+
+        <value>Cinéma</value>
+
+        <value>Comics</value>
+
+        <value>Dessin animé</value>
+
+        <value>Fantasy</value>
+
+        <value>Humour</value>
+
+        <value>Jeu vidéo</value>
+
+        <value>Logo</value>
+
+        <value>Nature</value>
+
+        <value>Série TV</value>
+
+        <value>Slogan</value>
+
+    </valueslist>
+
+</attribute>

@@ -1,0 +1,66 @@
+
+#productpm-options img {
+    position: relative;
+    top: -2px;
+}
+
+#productpm-options {
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+#productpm-options:hover {
+    padding: 5px;
+    background-color: #ffe1d3;
+    border: 1px solid silver;
+    cursor: pointer;
+}
+
+.productpm-details {
+    display: none;
+}
+
+.propagate {
+    color: navy;
+}
+
+.propagate:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+#product-informations .productpm-details input[type=checkbox] {
+    position: relative;
+    top: +5px;
+    width: 20px;
+    height: 20px;
+}
+
+#product-informations .productpm-details input[type=checkbox]:hover {
+    cursor: pointer;
+}
+
+#product-informations .productpm-details .col-left {
+    min-width: 200px;
+}
+
+/*For prestashop 1.6*/
+#product-informations tr.pm-details td:first-child {
+    padding-right: 6px;
+}
+
+#product-informations .pm-details input {
+    display: inline-block;
+}
+
+/*Module wide logo*/
+img.logo-wide {
+    float: right;
+    width: 350px;
+    padding-right: 20px;
+}
+/*Module circle logo*/
+img.logo-circle {
+    max-width: 32px;
+    height: 32px;
+}

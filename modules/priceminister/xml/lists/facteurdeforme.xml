@@ -1,0 +1,52 @@
+<attribute>
+    <label>Facteur de forme</label>
+    <key>facteurdeforme</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Carte de crédit 88 broches</value>
+        <value>Carte miniature</value>
+        <value>Carte PC</value>
+        <value>DIMM 100 broches</value>
+        <value>DIMM 144 broches</value>
+        <value>DIMM 168 broches</value>
+        <value>DIMM 184 broches</value>
+        <value>DIMM 200 broches</value>
+        <value>DIMM 208 broches</value>
+        <value>DIMM 232 broches</value>
+        <value>DIMM 240 broches</value>
+        <value>DIMM 276 broches</value>
+        <value>DIMM 278 broches</value>
+        <value>DIMM 288 broches</value>
+        <value>DIMM 90 broches</value>
+        <value>DIP 28 broches</value>
+        <value>FB-DIMM 240-pin</value>
+        <value>HCDIMM 240-pin</value>
+        <value>Intégré(e)</value>
+        <value>LRDIMM 240-pin</value>
+        <value>MicroDIMM 144 broches</value>
+        <value>MicroDIMM 172 broches</value>
+        <value>MicroDIMM 214 broches</value>
+        <value>Mini-DIMM 244 broches</value>
+        <value>Module LRDIMM 240 broches</value>
+        <value>Module LRDIMM 288 broches</value>
+        <value>PC Card</value>
+        <value>RIMM 168 broches</value>
+        <value>RIMM 184 broches</value>
+        <value>RIMM 232 broches</value>
+        <value>SIMM 30 broches</value>
+        <value>SIMM 64 broches</value>
+        <value>SIMM 72 broches</value>
+        <value>SO DIMM 100 broches</value>
+        <value>SO DIMM 144 broches</value>
+        <value>SO DIMM 200 broches</value>
+        <value>SO DIMM 204 broches</value>
+        <value>SO DIMM 260 broches</value>
+        <value>SO DIMM 72 broches</value>
+        <value>SO DIMM 84 broches</value>
+        <value>SO DIMM 88 broches</value>
+        <value>SO RIMM 160 broches</value>
+    </valueslist>
+</attribute>

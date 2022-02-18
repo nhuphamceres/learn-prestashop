@@ -1,0 +1,13 @@
+<attribute>
+    <label>Garnissage</label>
+    <key>garnissage</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Ergonomique</value>
+        <value>Naturel</value>
+        <value>Synthétique</value>
+    </valueslist>
+</attribute>

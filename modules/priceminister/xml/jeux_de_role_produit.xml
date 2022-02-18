@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<producttypetemplateresult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                           xmlns="http://www.sandbox.priceminister.com/res/schema/producttypetemplate"
+                           xsi:schemaLocation="http://www.sandbox.priceminister.com/res/schema/producttypetemplate http://www.sandbox.priceminister.com/res/schema/producttypetemplate/producttypetemplate.2013-05-14.xsd">
+    <request>
+        <user>common-servi</user>
+        <alias>jeux_de_role_produit</alias>
+
+        <scope>VALUES</scope>
+
+        <version>2013-05-14</version>
+    </request>
+    <response>
+        <prdtypelabel>Jeux de rôle et jeux de figurines</prdtypelabel>
+
+        <updatedate>2014-08-06T00:00:00</updatedate>
+
+        <attributes>
+
+
+            <product>
+
+                <attribute>
+                    <label>Identification produit</label>
+                    <key>pid</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Number</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Référence privée</label>
+                    <key>submitterreference</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Titre de votre fiche produit</label>
+                    <key>titre</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Jeu</label>
+                    <key>categorie</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>1</hasvalues>
+
+                    <valueslist>
+
+                        <value>Autre</value>
+
+                        <value>Advanced Dongeons &amp; Dragons</value>
+
+                        <value>Alkemy</value>
+
+                        <value>Anima</value>
+
+                        <value>BattleTech</value>
+
+                        <value>Berlin XVIII</value>
+
+                        <value>Bitume</value>
+
+                        <value>Blood Bowl</value>
+
+                        <value>Bloodlust</value>
+
+                        <value>Chill</value>
+
+                        <value>Confrontation</value>
+
+                        <value>Conspiracy x</value>
+
+                        <value>Crimson skies</value>
+
+                        <value>Dofus</value>
+
+                        <value>Donjons et Dragons</value>
+
+                        <value>doom</value>
+
+                        <value>Gurps</value>
+
+                        <value>HârnWorld</value>
+
+                        <value>Hawkmoon</value>
+
+                        <value>Hell Dorado</value>
+
+                        <value>Hero quest</value>
+
+                        <value>Heroclix</value>
+
+                        <value>Hurlements</value>
+
+                        <value>In Nomine Satanis / Magna Veritas</value>
+
+                        <value>Infinity</value>
+
+                        <value>James Bond</value>
+
+                        <value>JRTM</value>
+
+                        <value>L'appel de Cthulhu</value>
+
+                        <value>La Terre Creuse</value>
+
+                        <value>Le Seigneur des Anneaux</value>
+
+                        <value>Légendes</value>
+
+                        <value>Livre Des Cinq Anneaux</value>
+
+                        <value>Magic</value>
+
+                        <value>Monde des Ténèbres</value>
+
+                        <value>mordheim</value>
+
+                        <value>Necromunda</value>
+
+                        <value>Nephilim</value>
+
+                        <value>Nightprowler</value>
+
+                        <value>Parker</value>
+
+                        <value>Rackham</value>
+
+                        <value>Rolemaster</value>
+
+                        <value>Runequest</value>
+
+                        <value>Shadowrun</value>
+
+                        <value>Solitaire</value>
+
+                        <value>Star Wars</value>
+
+                        <value>Torg</value>
+
+                        <value>Traveller</value>
+
+                        <value>Trinités</value>
+
+                        <value>Vermine</value>
+
+                        <value>Wargame</value>
+
+                        <value>Warhammer</value>
+
+                        <value>Warhammer 40000</value>
+
+                        <value>wow</value>
+
+                    </valueslist>
+
+                </attribute>
+
+                <attribute>
+                    <label>Poids</label>
+                    <key>poids</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>1</hasvalues>
+
+                    <valueslist>
+
+                        <value>0 à 100 g</value>
+
+                        <value>100 à 250 g</value>
+
+                        <value>250 à 500 g</value>
+
+                        <value>500 g à 3 kg</value>
+
+                        <value>3 à 10 kg</value>
+
+                        <value>10 à 15 kg</value>
+
+                        <value>15 à 30 kg</value>
+
+                        <value>30 à 50 kg</value>
+
+                        <value>50 à 70 kg</value>
+
+                        <value>70 à 100 kg</value>
+
+                        <value>+ de 100 kg</value>
+
+                    </valueslist>
+
+                </attribute>
+
+            </product>
+
+
+            <advert>
+
+                <attribute>
+                    <label>Identification annonce</label>
+                    <key>aid</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Number</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Spécificités de votre annonce</label>
+                    <key>comment</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Etat du produit</label>
+                    <key>state</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>1</hasvalues>
+
+                    <valueslist>
+
+                        <value>Neuf</value>
+
+                        <value>Comme Neuf</value>
+
+                        <value>Très Bon Etat</value>
+
+                        <value>Bon Etat</value>
+
+                        <value>Etat Correct</value>
+
+                    </valueslist>
+
+                </attribute>
+
+                <attribute>
+                    <label>Collection</label>
+                    <key>collectible</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Boolean</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Prix de vente</label>
+                    <key>sellingPrice</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Number</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Stock</label>
+                    <key>qty</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Number</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Votre référence cachée</label>
+                    <key>sellerReference</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Votre commentaire caché (facultatif)</label>
+                    <key>privateComment</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+                <attribute>
+                    <label>Description personnalisée</label>
+                    <key>customizedAdvertDetail</key>
+                    <mandatory>0</mandatory>
+                    <valuetype>Text</valuetype>
+
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+
+                </attribute>
+
+            </advert>
+
+
+            <media>
+                <attribute>
+                    <label>url image</label>
+                    <key>image_url</key>
+                    <mandatory>1</mandatory>
+                    <valuetype>Text</valuetype>
+                    <multivalued>0</multivalued>
+                    <hasvalues>0</hasvalues>
+                </attribute>
+            </media>
+
+            <campaigns>
+                <campaign>
+
+                    <attribute>
+                        <label>Identifiant de la campagne</label>
+                        <key>productsCampaignId</key>
+                        <mandatory>1</mandatory>
+                        <valuetype>Number</valuetype>
+                        <multivalued>0</multivalued>
+                        <hasvalues>0</hasvalues>
+                    </attribute>
+
+                    <attribute>
+                        <label>Prix de référence</label>
+                        <key>productsCampaignRefPrice</key>
+                        <mandatory>0</mandatory>
+                        <valuetype>Number</valuetype>
+                        <multivalued>0</multivalued>
+                        <hasvalues>0</hasvalues>
+                    </attribute>
+
+                    <attribute>
+                        <label>Pourcentage de réduction</label>
+                        <key>productsCampaignPct</key>
+                        <mandatory>0</mandatory>
+                        <valuetype>Number</valuetype>
+                        <multivalued>0</multivalued>
+                        <hasvalues>0</hasvalues>
+                    </attribute>
+
+                    <attribute>
+                        <label>Prix "promo"</label>
+                        <key>productsCampaignPrice</key>
+                        <mandatory>0</mandatory>
+                        <valuetype>Number</valuetype>
+                        <multivalued>0</multivalued>
+                        <hasvalues>0</hasvalues>
+                    </attribute>
+
+                </campaign>
+            </campaigns>
+            <shipping>
+                <shipped_by_rsl>1</shipped_by_rsl>
+                <package_weight>30</package_weight>
+                <configuration>
+                    <zone>
+                        <name>WORLD</name>
+                        <type>
+                            <name>NORMAL</name>
+                            <authorization>1</authorization>
+                            <leader_price>44.44</leader_price>
+                            <follower_price>33.33</follower_price>
+                        </type>
+                        <type>
+                            <name>RECOMMANDE</name>
+                            <authorization>1</authorization>
+                            <leader_price>22.22</leader_price>
+                            <follower_price>11.11</follower_price>
+                        </type>
+                    </zone>
+                    <zone>
+                        <name>EUROPE</name>
+                        <type>
+                            <name>NORMAL</name>
+                            <authorization>1</authorization>
+                            <leader_price>88.88</leader_price>
+                            <follower_price>77.77</follower_price>
+                        </type>
+                        <type>
+                            <name>RECOMMANDE</name>
+                            <authorization>1</authorization>
+                            <leader_price>66.66</leader_price>
+                            <follower_price>55.55</follower_price>
+                        </type>
+                    </zone>
+                    <zone>
+                        <name>FRANCE_DROM_COM</name>
+                        <type>
+                            <name>NORMAL</name>
+                            <authorization>1</authorization>
+                            <leader_price>22.22</leader_price>
+                            <follower_price>14.44</follower_price>
+                        </type>
+                        <type>
+                            <name>RECOMMANDE</name>
+                            <authorization>1</authorization>
+                            <leader_price>10.40</leader_price>
+                            <follower_price>99.99</follower_price>
+                        </type>
+                    </zone>
+                    <zone>
+                        <name>FRANCE</name>
+                        <type>
+                            <name>NORMAL</name>
+                            <authorization>1</authorization>
+                            <leader_price>33.33</leader_price>
+                            <follower_price>44.44</follower_price>
+                        </type>
+                        <type>
+                            <name>SUIVI</name>
+                            <authorization>0</authorization>
+                        </type>
+                        <type>
+                            <name>RECOMMANDE</name>
+                            <authorization>1</authorization>
+                            <leader_price>55.55</leader_price>
+                            <follower_price>11.11</follower_price>
+                        </type>
+                        <type>
+                            <name>EXPRESS_DELIVERY</name>
+                            <authorization>1</authorization>
+                            <leader_price>66.66</leader_price>
+                            <follower_price>22.22</follower_price>
+                        </type>
+                    </zone>
+                </configuration>
+            </shipping>
+        </attributes>
+    </response>
+</producttypetemplateresult>

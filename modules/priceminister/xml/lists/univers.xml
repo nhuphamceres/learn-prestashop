@@ -1,0 +1,46 @@
+<attribute>
+    <label>Univers</label>
+    <key>univers</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+
+    <valueslist>
+
+        <value>Appareil photo</value>
+
+        <value>Autoradio</value>
+
+        <value>Camescope</value>
+
+        <value>Casque audio</value>
+
+        <value>Connecteurs AV</value>
+
+        <value>Enceinte</value>
+
+        <value>Hi-Fi</value>
+
+        <value>Imprimante</value>
+
+        <value>Lecteur CD/DVD</value>
+
+        <value>Lecteur MP3</value>
+
+        <value>Magnétophone</value>
+
+        <value>Magnétoscope</value>
+
+        <value>Platine Vinyle</value>
+
+        <value>Tablette</value>
+
+        <value>Télévision</value>
+
+        <value>Vidéoprojecteur</value>
+
+    </valueslist>
+
+</attribute>

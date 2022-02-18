@@ -1,0 +1,75 @@
+<attribute>
+    <label>Type</label>
+    <key>typecabletypedecabledestockage</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Adaptateur ATA série</value>
+        <value>Adaptateur eSATA Power Over</value>
+        <value>Adaptateur externe SCSI</value>
+        <value>Adaptateur externe Serial ATA</value>
+        <value>Adaptateur IDE / EIDE</value>
+        <value>Adaptateur interne et externe SCSI</value>
+        <value>Adaptateur interne SCSI</value>
+        <value>Adaptateur interne vers externe SCSI</value>
+        <value>Adaptateur parallèle</value>
+        <value>Adaptateur pour lecteur de disquette</value>
+        <value>Adaptateur rotatif Serial ATA</value>
+        <value>Câble bus DSSI</value>
+        <value>Câble CD / DVD</value>
+        <value>Câble CI VAX</value>
+        <value>Câble de rallonge ATA série</value>
+        <value>Câble de rallonge externe SCSI</value>
+        <value>Câble eSATA Power Over</value>
+        <value>Câble externe ATA série</value>
+        <value>Câble externe SAS (Serial Attached SCSI)</value>
+        <value>Câble externe SCSI</value>
+        <value>Câble Fibre Channel</value>
+        <value>Câble floppy</value>
+        <value>Câble IDE / EIDE</value>
+        <value>Câble interne et externe SCSI</value>
+        <value>Câble interne SCSI</value>
+        <value>Câble interne SCSI avec terminaison</value>
+        <value>Câble interne Serial Attached SCSI (SAS)</value>
+        <value>Câble interne vers externe SCSI</value>
+        <value>Câble interne vers externe série ATA</value>
+        <value>Câble interne-externe Serial Attached SCSI (SAS)</value>
+        <value>Câble parallèle</value>
+        <value>Câble Serial ATA/SAS</value>
+        <value>Câble série</value>
+        <value>Câble série ATA</value>
+        <value>Câble SSA</value>
+        <value>Changeur de genre externe SCSI</value>
+        <value>Changeur de genre série</value>
+        <value>Connecteur externe SCSI</value>
+        <value>Connecteur IDE / EIDE</value>
+        <value>Connecteur interne SCSI</value>
+        <value>Connecteur parallèle</value>
+        <value>Floppy / tape drive cable</value>
+        <value>Kit câble CD / DVD</value>
+        <value>Kit câble externe SCSI</value>
+        <value>Kit câble Fibre Channel</value>
+        <value>Kit câble floppy</value>
+        <value>Kit câble IDE / EIDE</value>
+        <value>Kit câble interne et externe SCSI</value>
+        <value>Kit câble interne SCSI</value>
+        <value>Kit câble interne vers externe SCSI</value>
+        <value>Kit câble parallèle</value>
+        <value>Kit câble série</value>
+        <value>Kit de câbles ATA série</value>
+        <value>Kit de câbles de stockage</value>
+        <value>Kit de câbles IDE / EIDE / disquette</value>
+        <value>Kit de câbles internes à externes SAS</value>
+        <value>Kit de câbles internes Serial Attached SCSI (SAS)</value>
+        <value>Kit de câbles Serial ATA / SAS</value>
+        <value>Panneau interne vers externe SCSI</value>
+        <value>Panneau interne vers externe Serial ATA</value>
+        <value>Panneau interne vers externe Serial Attached SCSI (SAS)</value>
+        <value>Terminateur externe SCSI</value>
+        <value>Terminateur interne et externe SCSI</value>
+        <value>Terminateur interne SCSI</value>
+        <value>Testeur Fibre Channel</value>
+    </valueslist>
+</attribute>

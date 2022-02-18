@@ -1,0 +1,16 @@
+<attribute>
+    <label>Label</label>
+    <key>certification</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>1</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Bio</value>
+        <value>Casher</value>
+        <value>Commerce Equitable</value>
+        <value>Fabrication artisanale</value>
+        <value>Halal</value>
+        <value>Label Rouge</value>
+    </valueslist>
+</attribute>

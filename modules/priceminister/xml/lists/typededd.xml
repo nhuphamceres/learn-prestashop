@@ -1,0 +1,16 @@
+<attribute>
+    <label>Type</label>
+    <key>typededd</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Disque dur amovible</value>
+        <value>Disque dur échangeable à chaud</value>
+        <value>Disque dur externe</value>
+        <value>Disque dur hybride</value>
+        <value>Disque dur interne</value>
+        <value>Disque dur SSD</value>
+    </valueslist>
+</attribute>

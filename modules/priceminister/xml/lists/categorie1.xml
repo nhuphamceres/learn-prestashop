@@ -1,0 +1,140 @@
+<attribute>
+    <label>Classification</label>
+    <key>categorie1</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>12 ans et +</value>
+        <value>Actualités et médias</value>
+        <value>Album jeunesse</value>
+        <value>Albums 0/6 ans</value>
+        <value>Allemand</value>
+        <value>Allemand apprentissage</value>
+        <value>Allemand import</value>
+        <value>Allemand loisir</value>
+        <value>Anglais</value>
+        <value>Anglais apprentissage</value>
+        <value>Anglais jeunesse</value>
+        <value>Anglais jeunesse import</value>
+        <value>Anglais loisir</value>
+        <value>Animaux/Nature</value>
+        <value>Art culinaire - Oenologie</value>
+        <value>Autres langues</value>
+        <value>Autres Médecines</value>
+        <value>BD jeunesse</value>
+        <value>BD tout public</value>
+        <value>Beaux arts</value>
+        <value>BTS</value>
+        <value>BTS parascolaire</value>
+        <value>CAPES - Agrégation</value>
+        <value>Carte de la France</value>
+        <value>Carte hors France</value>
+        <value>Cinéma</value>
+        <value>Collège parascolaire</value>
+        <value>Comics et manga</value>
+        <value>Comptabilité</value>
+        <value>Couple - Famille</value>
+        <value>Critique littéraire</value>
+        <value>Cuisine</value>
+        <value>Décoration</value>
+        <value>Dentaire</value>
+        <value>Développement Durable - Ecologie</value>
+        <value>Développement personnel</value>
+        <value>Développement personnel - Sagesse orientale</value>
+        <value>Dictionnaire de français</value>
+        <value>Documentaires jeunesse</value>
+        <value>Droit</value>
+        <value>Économie</value>
+        <value>Encyclopédie de poche</value>
+        <value>English Language Teaching</value>
+        <value>Enseignement primaire</value>
+        <value>Enseignement professionnel</value>
+        <value>Enseignement secondaire 1er cycle</value>
+        <value>Enseignement secondaire 2e cycle</value>
+        <value>Ésotérisme</value>
+        <value>Espagnol - Portugais</value>
+        <value>Espagnol - portugais import</value>
+        <value>Espagnol apprentissage</value>
+        <value>Espagnol loisir</value>
+        <value>Ethnologie</value>
+        <value>Faits de société</value>
+        <value>Français langue étrangère</value>
+        <value>Généralités médicales</value>
+        <value>Géographie</value>
+        <value>Gestion</value>
+        <value>Guides touristiques France</value>
+        <value>Guides touristiques Monde</value>
+        <value>Histoire ancienne</value>
+        <value>Histoire de France</value>
+        <value>Histoire et philosophie des sciences</value>
+        <value>Histoire internationale</value>
+        <value>Humour</value>
+        <value>Informatique</value>
+        <value>Internat - DCEM</value>
+        <value>Italien</value>
+        <value>Italien apprentissage</value>
+        <value>Italien import</value>
+        <value>Italien loisir</value>
+        <value>Jardinage</value>
+        <value>Langues rares</value>
+        <value>Lecture 6-9 ans</value>
+        <value>Lecture 9-12 ans</value>
+        <value>Littérature étrangère</value>
+        <value>Littérature française</value>
+        <value>Littérature jeunesse</value>
+        <value>Livres 0-3 ans</value>
+        <value>Livres 3 ans et +</value>
+        <value>Loisirs</value>
+        <value>Loisirs créatifs jeunesse</value>
+        <value>Loisirs et Jeux</value>
+        <value>Lycée parascolaire</value>
+        <value>Maternelle parascolaire</value>
+        <value>Mathématiques</value>
+        <value>Médecine vétérinaire</value>
+        <value>Mer</value>
+        <value>Montagne</value>
+        <value>Musique - danse</value>
+        <value>Occasion Scolaire</value>
+        <value>Paramédical</value>
+        <value>Pédagogie</value>
+        <value>Petits classiques parascolaire</value>
+        <value>Pharmacie</value>
+        <value>Philosophie</value>
+        <value>Photographie</value>
+        <value>Physique - Chimie</value>
+        <value>Pléiade</value>
+        <value>Poche Droit Gestion</value>
+        <value>Poches anglais importation</value>
+        <value>Poches historiques et sentimentaux</value>
+        <value>Poches littérature française</value>
+        <value>Poches littérature internationale</value>
+        <value>Poésie</value>
+        <value>Policiers</value>
+        <value>Primaire parascolaire</value>
+        <value>Psychologie - Psychanalyse</value>
+        <value>Récits de voyages</value>
+        <value>Régionalisme</value>
+        <value>Religion</value>
+        <value>Religion jeunesse</value>
+        <value>Revue de droit (Journal Officiel)</value>
+        <value>Roman historique</value>
+        <value>Santé</value>
+        <value>Science-fiction</value>
+        <value>Sciences de la vie et de la terre</value>
+        <value>Sciences historiques</value>
+        <value>Sciences PCEM</value>
+        <value>Sciences politiques</value>
+        <value>Sociologie</value>
+        <value>Spécialités médicales</value>
+        <value>Sports</value>
+        <value>Technique parascolaire</value>
+        <value>Techniques artistiques</value>
+        <value>Technologie</value>
+        <value>Théâtre</value>
+        <value>Tourisme en France</value>
+        <value>Tourisme hors France</value>
+        <value>Vins - Alcools - Boissons</value>
+    </valueslist>
+</attribute>

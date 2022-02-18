@@ -1,0 +1,17 @@
+<attribute>
+    <label>Famille de produit</label>
+    <key>familledeproduit</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Boisson</value>
+        <value>Charcuterie</value>
+        <value>Epicerie salée</value>
+        <value>Epicerie sucrée</value>
+        <value>Epices, sauces et condiments</value>
+        <value>Petit déjeuner</value>
+        <value>Produits laitiers</value>
+    </valueslist>
+</attribute>

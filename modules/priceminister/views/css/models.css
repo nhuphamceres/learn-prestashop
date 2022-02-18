@@ -1,0 +1,135 @@
+
+#conf-models .pm-model img {
+    position: relative;
+    top: -1px;
+}
+
+#conf-models .new-model-img {
+    position: relative;
+    top: -2px;
+}
+
+#conf-models .pm-model-header {
+    position: relative;
+    border: 1px solid transparent;
+    height: 60px;
+}
+
+#conf-models .pm-model-body {
+    margin-top: 10px;
+}
+
+#conf-models .pm-model-header div {
+    position: relative;
+    padding: 10px;
+    top: 10px;
+}
+
+#conf-models .pm-model-action {
+    position: relative;
+    float: right;
+    top: -5px;
+    margin-right: 30px;
+}
+
+#conf-models .pm-model-action img {
+    margin-right: 30px;
+    padding: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+#conf-models .pm-model-action img:hover {
+    border: 1px solid navy;
+}
+
+#conf-models .pm-model-group fieldset {
+    border: 1px dotted silver;
+    padding: 15px;
+}
+
+#conf-models .pm-model-item {
+    margin-bottom: 20px;
+}
+
+#conf-models .pm-model-item .pm-required {
+    position: relative;
+    top: -10px;
+    margin-left: 20px;
+}
+
+#conf-models .pm-model-delete {
+    opacity: 0.5;
+    float: left;
+}
+
+#conf-models .pm-model-delete:hover {
+    opacity: 1;
+}
+
+#conf-models .pm-model-minimize {
+    opacity: 0.8;
+    float: right;
+}
+
+#conf-models .pm-model-minimize:hover {
+    opacity: 1;
+}
+
+#conf-models .pm-model-item label {
+    display: inline-block;
+    text-align: right;
+    min-width: 150px;
+}
+
+/* input[class] not to match with chosen */
+#conf-models .pm-model-item input[class], #conf-models .pm-model-item select {
+    display: inline-block;
+    max-width: 250px;
+    position: relative;
+    top: -25px;
+}
+
+#conf-models .pm-model-item select {
+    /*max-width: 350px;*/
+}
+
+#conf-models .pm-model-template {
+    margin: 30px;
+}
+
+#conf-models .pm-model-template input,
+#conf-models .pm-model-template select {
+    /*margin:10px;*/
+    min-width: 150px;
+    max-width: 350px;
+}
+
+#conf-models .pm-model-template .pmDefaultLabel {
+    position: relative;
+    top: 5px;
+    font-weight: normal;
+    color: silver;
+}
+
+#conf-models .pm-model-template .campaign input {
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.pm-model-body .chosen-container {
+    top: -10px;
+}
+
+#conf-mappings .chosen-container {
+    top: -2px;
+}
+
+.pm-model-body .chosen-search {
+    top: 0;
+}
+
+#conf-mappings .chosen-search input {
+    width: 236px !important;
+    background-color: transparent;
+}

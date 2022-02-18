@@ -1,0 +1,25 @@
+<attribute>
+    <label>Sous-type</label>
+    <key>soustypeappareildecuisson</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Appareil à croque monsieur</value>
+        <value>Appareil à fondue</value>
+        <value>Appareil à pizza</value>
+        <value>Autocuiseur</value>
+        <value>Barbecue électrique</value>
+        <value>Cuiseur vapeur</value>
+        <value>Cuit oeuf</value>
+        <value>Friteuse</value>
+        <value>Gaufrier</value>
+        <value>Machine à Hot Dog</value>
+        <value>Pierrade</value>
+        <value>Raclette</value>
+        <value>Réchaud</value>
+        <value>Rice cooker</value>
+        <value>Wok électrique</value>
+    </valueslist>
+</attribute>

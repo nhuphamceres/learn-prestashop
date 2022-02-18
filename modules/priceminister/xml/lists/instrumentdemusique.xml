@@ -1,0 +1,49 @@
+<attribute>
+    <label>Instrument de musique</label>
+    <key>instrumentdemusique</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Autre</value>
+        <value>Accordéon</value>
+        <value>Alto</value>
+        <value>Banjo</value>
+        <value>Basse</value>
+        <value>Basson</value>
+        <value>Batterie</value>
+        <value>Caisse claire</value>
+        <value>Clarinette</value>
+        <value>Clavecin</value>
+        <value>Clavier</value>
+        <value>Contrebasse</value>
+        <value>Cor</value>
+        <value>Cor Anglais</value>
+        <value>Cornet</value>
+        <value>Cymbalum</value>
+        <value>Flûte à bec</value>
+        <value>Flûte irlandaise</value>
+        <value>Flûte traversière</value>
+        <value>Guitare</value>
+        <value>Harmonica</value>
+        <value>Harmonium</value>
+        <value>Harpe</value>
+        <value>Hautbois</value>
+        <value>Mandoline</value>
+        <value>Ondes Martenot</value>
+        <value>Orchestre</value>
+        <value>Orgue</value>
+        <value>Percussions</value>
+        <value>Piano</value>
+        <value>Saxhorn</value>
+        <value>Saxophone</value>
+        <value>Trombone</value>
+        <value>Trompette</value>
+        <value>Tuba</value>
+        <value>Viole</value>
+        <value>Violon</value>
+        <value>Violoncelle</value>
+        <value>Voix</value>
+    </valueslist>
+</attribute>

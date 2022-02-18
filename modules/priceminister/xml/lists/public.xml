@@ -1,0 +1,26 @@
+<attribute>
+    <label>Public</label>
+    <key>public</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+
+    <valueslist>
+
+        <value>Premier âge</value>
+
+        <value>Adolescent</value>
+
+        <value>Enfant (Mixte)</value>
+
+        <value>Enfant</value>
+
+        <value>Adulte</value>
+
+        <value>Famille</value>
+
+    </valueslist>
+
+</attribute>

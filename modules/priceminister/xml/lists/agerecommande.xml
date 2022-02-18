@@ -1,0 +1,32 @@
+<attribute>
+    <label>Age recommandé</label>
+    <key>agerecommande</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>1</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>à partir de 3 ans</value>
+        <value>à partir de 5 ans</value>
+        <value>à partir de 8 ans</value>
+        <value>à partir de 13 ans</value>
+        <value>à partir de 18 ans</value>
+        <value>0</value>
+        <value>1</value>
+        <value>10</value>
+        <value>12</value>
+        <value>13</value>
+        <value>14</value>
+        <value>15</value>
+        <value>16</value>
+        <value>18</value>
+        <value>2</value>
+        <value>3</value>
+        <value>4</value>
+        <value>5</value>
+        <value>6</value>
+        <value>7</value>
+        <value>8</value>
+        <value>99</value>
+    </valueslist>
+</attribute>

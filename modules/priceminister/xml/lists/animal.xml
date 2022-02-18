@@ -1,0 +1,30 @@
+<attribute>
+    <label>Animal</label>
+    <key>animal</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+
+    <valueslist>
+
+        <value>Chat</value>
+
+        <value>Cheval</value>
+
+        <value>Chien</value>
+
+        <value>Insectes</value>
+
+        <value>Oiseaux</value>
+
+        <value>Poisson</value>
+
+        <value>Reptile</value>
+
+        <value>Rongeur</value>
+
+    </valueslist>
+
+</attribute>

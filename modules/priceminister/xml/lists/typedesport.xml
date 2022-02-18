@@ -1,0 +1,80 @@
+<attribute>
+    <label>Type de sport</label>
+    <key>typedesport</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Alpinisme</value>
+        <value>Arts martiaux mixtes</value>
+        <value>Athlétisme</value>
+        <value>Badminton</value>
+        <value>Baseball</value>
+        <value>Basket Ball</value>
+        <value>Beachvolley</value>
+        <value>Bobsleigh</value>
+        <value>Bodyboard</value>
+        <value>Bowling</value>
+        <value>Boxe</value>
+        <value>Canoë-kayak</value>
+        <value>Canyoning</value>
+        <value>Chasse</value>
+        <value>Cricket</value>
+        <value>Cyclisme</value>
+        <value>Danse</value>
+        <value>Equitation</value>
+        <value>Escalade</value>
+        <value>Escrime</value>
+        <value>Fitness</value>
+        <value>Football</value>
+        <value>Football américain</value>
+        <value>Formule 1 - Formule 3 - Formule 3000</value>
+        <value>Golf</value>
+        <value>Gymnastique</value>
+        <value>Handball</value>
+        <value>Hockey sur glace</value>
+        <value>Judo</value>
+        <value>Karaté</value>
+        <value>Karting</value>
+        <value>Kendo - Aïkido</value>
+        <value>Kung Fu</value>
+        <value>Luge de vitesse</value>
+        <value>Monoski</value>
+        <value>Moto</value>
+        <value>Mountainboard</value>
+        <value>Natation</value>
+        <value>Parachutisme</value>
+        <value>Parapente</value>
+        <value>Patinage artistique</value>
+        <value>Pêche</value>
+        <value>Pétanque</value>
+        <value>Planche à voile</value>
+        <value>Plongée</value>
+        <value>Polo</value>
+        <value>Quad</value>
+        <value>Rallye</value>
+        <value>Randonnée</value>
+        <value>Roller</value>
+        <value>Rugby</value>
+        <value>Running</value>
+        <value>Saut à Ski</value>
+        <value>Skate</value>
+        <value>Ski</value>
+        <value>Ski Alpin</value>
+        <value>Ski de fond, nordique</value>
+        <value>Ski de randonnée</value>
+        <value>Ski nautique</value>
+        <value>Snowboard</value>
+        <value>Squash</value>
+        <value>Surf</value>
+        <value>Taekwondo</value>
+        <value>Télémark</value>
+        <value>Tennis</value>
+        <value>Tennis de table</value>
+        <value>Voile</value>
+        <value>Volley</value>
+        <value>Windsurf</value>
+        <value>Yoga</value>
+    </valueslist>
+</attribute>

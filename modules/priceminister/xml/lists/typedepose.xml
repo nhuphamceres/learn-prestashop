@@ -1,0 +1,13 @@
+<attribute>
+    <label>Type de pose</label>
+    <key>typedepose</key>
+    <mandatory>1</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Encastrable</value>
+        <value>Intégré</value>
+        <value>Pose libre</value>
+    </valueslist>
+</attribute>

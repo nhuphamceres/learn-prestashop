@@ -1,0 +1,13 @@
+<attribute>
+    <label>Conditionnement</label>
+    <key>conditionnement</key>
+    <mandatory>0</mandatory>
+    <valuetype>Text</valuetype>
+    <multivalued>0</multivalued>
+    <hasvalues>1</hasvalues>
+    <valueslist>
+        <value>Bouteille seule</value>
+        <value>Carton</value>
+        <value>Cubi</value>
+    </valueslist>
+</attribute>
