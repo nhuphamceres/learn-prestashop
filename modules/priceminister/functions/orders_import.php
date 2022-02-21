@@ -122,7 +122,7 @@ class PriceMinisterOrderImport extends PriceMinister
             self::$errors[] = $this->l('Wrong Token');
             die;
         }
-        
+
         $this->initConfiguration();
 
         $cron = Tools::getValue('cron', 0);
@@ -175,7 +175,7 @@ class PriceMinisterOrderImport extends PriceMinister
                 break;
         }
     }
-    
+
     protected function initConfiguration()
     {
         $orderConfig = parent::getConfig(PriceMinister::CONFIG_PM_ORDERS);
@@ -301,138 +301,142 @@ class PriceMinisterOrderImport extends PriceMinister
         }
         PriceMinisterOrderImport::$orders = array();
 
-        foreach ($sales_array as $sale) {
-            $pass = true;
-            $id_customer_order = null;
+        try {
+            foreach ($sales_array as $sale) {
+                $pass = true;
+                $id_customer_order = null;
 
-            if (!$cron && $sale->importable != '1') {
-                continue;
-            }
-
-            $id_order = null;
-            $purchaseid = trim((string)$sale->purchaseid);
-
-            PriceMinisterOrderImport::$orders[$purchaseid] = array();
-            PriceMinisterOrderImport::$orders[$purchaseid]['purchaseid'] = $purchaseid;
-            PriceMinisterOrderImport::$orders[$purchaseid]['status'] = false;
-
-            if (($mp_order = PriceMinisterOrder::checkByMpId($purchaseid))) {
-                self::$warnings[] = $this->l('This order has been already imported').' : '.$mp_order['mp_order_id'].'('.$mp_order['id_order'].')';
-                $id_order = $mp_order['id_order'];
-                continue;
-            }
-
-            PriceMinisterOrderImport::$orders[$purchaseid]['items'] = array();
-
-            foreach ($sale->items->item as $item) {
-                $sku = trim((string)$item->sku);
-                $itemid = trim((string)$item->itemid);
-                $quantity = 1;
-
-                // If is negotiation, do not accept the order
-                if ((string)$item->isnego == 'Y') {
-                    self::$messages[] = sprintf(
-                        $this->l('Order %s / Product %s : Not accepted because the item price is actually in negociation, please accept (or not) the negociation directly on RakutenFrance.'),
-                        $purchaseid,
-                        $sku
-                    );
+                if (!$cron && $sale->importable != '1') {
                     continue;
                 }
 
-                PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid] = array();
-                PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid]['itemid'] = $itemid;
-                PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid]['status'] = false;
-                PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid]['sku'] = $sku;
+                $id_order = null;
+                $purchaseid = trim((string)$sale->purchaseid);
 
-                if (!in_array((string)$item->itemstatus, array('TO_CONFIRM', 'REQUESTED'))) {
-                    self::$errors[] = 'Status Error : '.(string)$item->itemstatus;
-                    $pass = false;
-                    continue;
-                }
-                if ($item->paymentstatus != 'INCOMING') {
-                    self::$errors[] = 'Payment Status Error : '.(string)$item->paymentstatus;
-                    $pass = false;
-                    continue;
-                }
-
-                if (!($product = $this->productLoad($sku, $import_method))) {
-                    $pass = false;
-                    continue;
-                }
-
-                if (version_compare(_PS_VERSION_, '1.5', '<')) {
-                    $productQuantity = Product::getQuantity((int)$product->id, $product->id_product_attribute ? $product->id_product_attribute : null);
-                } else {
-                    $productQuantity = Product::getRealQuantity(
-                        $product->id,
-                        $product->id_product_attribute && $product->id_product_attribute != $product->id ?
-                            $product->id_product_attribute : null,
-                        $id_warehouse
-                    );
-                }
-
-                // Temp fix not stock
-                $force_import = true;
-                if (!$force_import && $productQuantity - $quantity < 0) {
-                    self::$errors[] = sprintf('%s ID: %s SKU: %s', $this->l('Not enough stock for this product'), $product->id, $sku);
-                    $pass = false;
-                    continue;
-                }
-
-                PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid]['status'] = true;
-            } // end of foreach items
-
-            if ($pass && isset(PriceMinisterOrderImport::$orders[$purchaseid]['items']) && count(PriceMinisterOrderImport::$orders[$purchaseid]['items'])) {
-                foreach (PriceMinisterOrderImport::$orders[$purchaseid]['items'] as $item) {
-                    $sale->checked = false;
-
-                    if (!$config_credentials['test']) {
-                        $config = PriceMinisterTools::Auth();
-                        $config['output'] = 'json';
-
-                        $aSales = new PM_Sales($config);
-                        $result = $aSales->acceptsale(array(
-                            'itemid' => $item['itemid'],
-                            'shippingfromcountry' => $this->psShippingFromCountry,
-                        ));
-
-                        if ($result) {
-                            $sale->checked = true;
-                        }
-                    } else {
-                        $sale->checked = true;
-                    }
-                }
-            }
-
-            if ($id_order && !empty($token_order)) {
-                $url = '?tab=AdminOrders&id_order='.$id_order.'&vieworder&token='.$token_order;
-                $order_link = '<a href="'.$url.'" title="" target="_blank" >'.$purchaseid.' ('.$id_order.')</a>';
-
-                PriceMinisterOrderImport::$orders[$purchaseid]['link'] = $order_link;
-            } else {
-                PriceMinisterOrderImport::$orders[$purchaseid]['link'] = null;
-            }
-
-            if ($pass && $sale->checked) {
-                PriceMinisterOrderImport::$orders[$purchaseid]['status'] = true;
-            } else {
+                PriceMinisterOrderImport::$orders[$purchaseid] = array();
+                PriceMinisterOrderImport::$orders[$purchaseid]['purchaseid'] = $purchaseid;
                 PriceMinisterOrderImport::$orders[$purchaseid]['status'] = false;
 
-                self::$warnings[] = sprintf('%s: %s', $this->l('Order has not been accepted'), $purchaseid);
-            }
-            $count++;
-        }
+                if (($mp_order = PriceMinisterOrder::checkByMpId($purchaseid))) {
+                    self::$warnings[] = $this->l('This order has been already imported').' : '.$mp_order['mp_order_id'].'('.$mp_order['id_order'].')';
+                    $id_order = $mp_order['id_order'];
+                    continue;
+                }
 
-        if ($count) {
-            Configuration::updateValue('PM_LAST_ACCEPT', date('Y-m-d H:i:s'));
-            if ($count == 1) {
-                self::$messages[] = $this->l('One order successfully accepted');
-            } else {
-                self::$messages[] = sprintf('%d %s', $count, $this->l('orders successfully accepted'));
+                PriceMinisterOrderImport::$orders[$purchaseid]['items'] = array();
+
+                foreach ($sale->items->item as $item) {
+                    $sku = trim((string)$item->sku);
+                    $itemid = trim((string)$item->itemid);
+                    $quantity = 1;
+
+                    // If is negotiation, do not accept the order
+                    if ((string)$item->isnego == 'Y') {
+                        self::$messages[] = sprintf(
+                            $this->l('Order %s / Product %s : Not accepted because the item price is actually in negociation, please accept (or not) the negociation directly on RakutenFrance.'),
+                            $purchaseid,
+                            $sku
+                        );
+                        continue;
+                    }
+
+                    PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid] = array();
+                    PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid]['itemid'] = $itemid;
+                    PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid]['status'] = false;
+                    PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid]['sku'] = $sku;
+
+                    if (!in_array((string)$item->itemstatus, array('TO_CONFIRM', 'REQUESTED'))) {
+                        self::$errors[] = 'Status Error : '.(string)$item->itemstatus;
+                        $pass = false;
+                        continue;
+                    }
+                    if ($item->paymentstatus != 'INCOMING') {
+                        self::$errors[] = 'Payment Status Error : '.(string)$item->paymentstatus;
+                        $pass = false;
+                        continue;
+                    }
+
+                    if (!($product = $this->productLoad($sku, $import_method))) {
+                        $pass = false;
+                        continue;
+                    }
+
+                    if (version_compare(_PS_VERSION_, '1.5', '<')) {
+                        $productQuantity = Product::getQuantity((int)$product->id, $product->id_product_attribute ? $product->id_product_attribute : null);
+                    } else {
+                        $productQuantity = Product::getRealQuantity(
+                            $product->id,
+                            $product->id_product_attribute && $product->id_product_attribute != $product->id ?
+                                $product->id_product_attribute : null,
+                            $id_warehouse
+                        );
+                    }
+
+                    // Temp fix not stock
+                    $force_import = true;
+                    if (!$force_import && $productQuantity - $quantity < 0) {
+                        self::$errors[] = sprintf('%s ID: %s SKU: %s', $this->l('Not enough stock for this product'), $product->id, $sku);
+                        $pass = false;
+                        continue;
+                    }
+
+                    PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid]['status'] = true;
+                } // end of foreach items
+
+                if ($pass && isset(PriceMinisterOrderImport::$orders[$purchaseid]['items']) && count(PriceMinisterOrderImport::$orders[$purchaseid]['items'])) {
+                    foreach (PriceMinisterOrderImport::$orders[$purchaseid]['items'] as $item) {
+                        $sale->checked = false;
+
+                        if (!$config_credentials['test']) {
+                            $config = PriceMinisterTools::Auth();
+                            $config['output'] = 'json';
+
+                            $aSales = new PM_Sales($config);
+                            $result = $aSales->acceptsale(array(
+                                'itemid' => $item['itemid'],
+                                'shippingfromcountry' => $this->psShippingFromCountry,
+                            ));
+
+                            if ($result) {
+                                $sale->checked = true;
+                            }
+                        } else {
+                            $sale->checked = true;
+                        }
+                    }
+                }
+
+                if ($id_order && !empty($token_order)) {
+                    $url = '?tab=AdminOrders&id_order='.$id_order.'&vieworder&token='.$token_order;
+                    $order_link = '<a href="'.$url.'" title="" target="_blank" >'.$purchaseid.' ('.$id_order.')</a>';
+
+                    PriceMinisterOrderImport::$orders[$purchaseid]['link'] = $order_link;
+                } else {
+                    PriceMinisterOrderImport::$orders[$purchaseid]['link'] = null;
+                }
+
+                if ($pass && $sale->checked) {
+                    PriceMinisterOrderImport::$orders[$purchaseid]['status'] = true;
+                } else {
+                    PriceMinisterOrderImport::$orders[$purchaseid]['status'] = false;
+
+                    self::$warnings[] = sprintf('%s: %s', $this->l('Order has not been accepted'), $purchaseid);
+                }
+                $count++;
             }
-        } else {
-            self::$warnings[] = $this->l('No order to accept');
+
+            if ($count) {
+                Configuration::updateValue('PM_LAST_ACCEPT', date('Y-m-d H:i:s'));
+                if ($count == 1) {
+                    self::$messages[] = $this->l('One order successfully accepted');
+                } else {
+                    self::$messages[] = sprintf('%d %s', $count, $this->l('orders successfully accepted'));
+                }
+            } else {
+                self::$warnings[] = $this->l('No order to accept');
+            }
+        } catch (ErrorException $e) {
+            self::$errors[] = $e->getMessage();
         }
     }
 
@@ -644,414 +648,418 @@ class PriceMinisterOrderImport extends PriceMinister
         }
         PriceMinisterOrderImport::$orders = array();
 
-        foreach ($sales_array as $sale) {
-            $pass = true;
-            $id_customer_order = null;
+        try {
+            foreach ($sales_array as $sale) {
+                $pass = true;
+                $id_customer_order = null;
 
-            if (!$cron && $sale->importable != '1') {
-                continue;
-            }
-
-            $id_order = null;
-            $purchaseid = trim((string)$sale->purchaseid);
-
-            PriceMinisterOrderImport::$orders[$purchaseid] = array();
-            PriceMinisterOrderImport::$orders[$purchaseid]['purchaseid'] = $purchaseid;
-            PriceMinisterOrderImport::$orders[$purchaseid]['status'] = false;
-
-            if (($mp_order = PriceMinisterOrder::checkByMpId($purchaseid))) {
-                self::$warnings[] = $this->l('This order has been already imported').' : '.$mp_order['mp_order_id'].'('.$mp_order['id_order'].')';
-                $id_order = $mp_order['id_order'];
-                continue;
-            }
-
-            /*
-            On 16/10/2012 19:22, Yan Gueguen wrote:
-            > Vous devez indiquer :
-            > -  deliveryaddress lors de commande par relais, colis standard etc..
-            > -  billingaddress lors de commande avec collissimo, chronopost ..
-            > Yan Gueguen
-            > PriceMinister
-            */
-
-            $deliveryaddress = null;
-            $billingaddress = null;
-
-            if (isset($sale->deliveryinformation->deliveryaddress)) {
-                $deliveryaddress = $sale->deliveryinformation->deliveryaddress;
-            }
-
-            if (isset($sale->deliveryinformation->billingaddress)) {
-                $billingaddress = $sale->deliveryinformation->billingaddress;
-            }
-
-            if (!$deliveryaddress) {
-                $deliveryaddress = $billingaddress;
-            }
-
-            // Customer individual account
-            //
-            if ($customer_account == PriceMinister::INDIVIDUAL_CUSTOMER_ACCOUNT) {
-                $name = PriceMinisterAddress::toEmailAddress($deliveryaddress);
-
-                if (!isset($name['firstname']) || empty($name['firstname']) || !isset($name['lastname']) || empty($name['lastname'])) {
-                    self::$errors[] = sprintf('%s: %s', $this->l('Couldn\'t add this customer'), nl2br(print_r($name, true)));
+                if (!$cron && $sale->importable != '1') {
                     continue;
                 }
 
-                $firstname = $name['firstname'];
-                $lastname = $name['lastname'];
+                $id_order = null;
+                $purchaseid = trim((string)$sale->purchaseid);
 
-                $email_address = sprintf('%s.%s@%s', $firstname, $lastname, str_replace('@', '', $customer_email_domain));
-
-                // Use buyer email instead generated email
-                if (isset($sale->deliveryinformation->purchasebuyeremail) && Validate::isEmail($sale->deliveryinformation->purchasebuyeremail)) {
-                    $email_address = $sale->deliveryinformation->purchasebuyeremail;
-                }
-
-                if (!Validate::isEmail($email_address)) {
-                    self::$errors[] = sprintf('%s (%s)', $this->l('Invalid email address'), $email_address);
-                    continue;
-                }
-                $customer = new Customer();
-                $customer->getByEmail($email_address);
-
-                if ($customer->id) {
-                    $id_customer_order = $customer->id;
-                } else {
-                    $customer->firstname = Tools::substr($firstname, 0, 32);
-                    $customer->lastname = Tools::substr($lastname, 0, 32);
-                    $customer->email = $email_address;
-                    $customer->passwd = md5(rand());
-
-                    $customer_id_group = (int)$config_parameters['customer_group'];
-                    if (!$customer_id_group) {
-                        $customer_id_group = version_compare(_PS_VERSION_, '1.5', '>=') ?
-                            (int)Configuration::get('PS_CUSTOMER_GROUP') : (int)_PS_DEFAULT_CUSTOMER_GROUP_;
-                    }
-
-                    $customer->id_default_group = $customer_id_group;
-
-                    if (!$customer->add()) {
-                        self::$errors[] = sprintf('%s/%s: %s (%s)', basename(__FILE__), __LINE__, $this->l('Couldn\'t add this customer'), $email_address);
-                        continue;
-                    } else {
-                        $id_customer_order = $customer->id;
-                    }
-                }
-            }
-
-            if (!$id_customer_order) {
-                $id_customer_order = $id_customer;
-            }
-
-            /*
-             * Matching the method with the shipping matrix
-             */
-            $shipping_method = PriceMinisterTools::cleanShippingMethod((string)$sale->deliveryinformation->shippingtype);
-
-            if (!isset($shipping_methods[$shipping_method]) || !isset($pm_carriers[$shipping_method]) || !isset($ps_carriers[$shipping_method]) || !$pm_carriers[$shipping_method] || !$ps_carriers[$shipping_method]) {
-                self::$errors[] = sprintf($this->l('The shipping matrix doesn\'t match this case: %s - Please configure your shipping matrix in your module configuration'), $shipping_method);
-                $pass = false;
-                continue;
-            }
-            $mpShipping = $shipping_method;
-
-            $carrier = new Carrier((int)$ps_carriers[$shipping_method]);
-
-            if (!Validate::isLoadedObject($carrier)) {
-                self::$errors[] = sprintf($this->l('Carrier validation failed for: %s - Please configure the carrier in your shipping matrix in your module configuration'), $shipping_method);
-                $pass = false;
-                continue;
-            }
-
-            // 2014/06/09 - Pickup Point Delivery
-            if (isset($sale->deliveryinformation->collectionpointaddress->id) && (string)$sale->deliveryinformation->collectionpointaddress->id) {
-                $deliveryinformation = $sale->deliveryinformation;
-                $ppId = trim((string)$sale->deliveryinformation->collectionpointaddress->id);
-
-                if (!($id_address = PriceMinisterAddress::pickupPointIdAddressByAlias($ppId, $id_customer_order, $deliveryinformation->collectionpointaddress))) {
-                    $id_address = PriceMinisterAddress::createAddressForPickupPoint($ppId, $id_customer_order, $deliveryinformation->collectionpointaddress);
-
-                    if (!$id_address) {
-                        self::$errors[] = sprintf('%s - data: %s', $this->l('Unable to create an Address entry for this Collection Point Address - please contact the support'), print_r($sale->deliveryinformation->collectionpointaddress, true));
-                        $pass = false;
-                        continue;
-                    }
-                }
-                $shipping_address_id = $id_address;
-            } else {
-                // Create or get address book entry
-                //
-                $shipping_address = new PriceMinisterAddress();
-                $shipping_address->id_customer = $id_customer_order;
-                $shipping_address_id = $shipping_address->lookupOrCreateAddress($deliveryaddress);
-            }
-
-            if ($billingaddress) {
-                $billing_address = new PriceMinisterAddress();
-                $billing_address->id_customer = $id_customer_order;
-                $billing_address_id = $billing_address->lookupOrCreateAddress($billingaddress);
-            } else {
-                $billing_address_id = $shipping_address_id;
-            }
-            $created_at = sprintf('%d-%02d-%02d %02d:%02d:00', Tools::substr($sale->purchasedate, 6, 4), Tools::substr($sale->purchasedate, 3, 2), Tools::substr($sale->purchasedate, 0, 2), Tools::substr($sale->purchasedate, 11, 2), Tools::substr($sale->purchasedate, 14, 2));
-
-            $itemDetails = array();
-
-            // Building Cart
-            //
-            $cart = new PSPM_Cart();
-            $cart->id_address_delivery = $shipping_address_id;
-            $cart->id_address_invoice = $billing_address_id;
-            $cart->id_carrier = $carrier->id;
-            $cart->id_currency = false;
-            $cart->id_customer = $id_customer_order;
-            $cart->id_lang = $this->id_lang;
-
-            PriceMinisterOrderImport::$orders[$purchaseid]['items'] = array();
-
-            foreach ($sale->items->item as $item) {
-                $sku = trim((string)$item->sku);
-                $itemid = trim((string)$item->itemid);
-
-                PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid] = array();
-                PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid]['itemid'] = $itemid;
-                PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid]['status'] = false;
-                PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid]['sku'] = $sku;
-                
-                if (!$this->credentials['test'] && (string)$item->paymentstatus != 'INCOMING') {
-                    self::$errors[] = 'Payment Status Error : '.(string)$item->paymentstatus;
-                    $pass = false;
-                    continue;
-                }
-
-                $product_name = (string)$item->headline;
-                $quantity = 1; // !
-                $price = (float)$item->price->amount;
-
-                // Initializing cart & currency on first item
-                //
-                if ($cart->id_currency === false) {
-                    $id_currency = Currency::getIdByIsoCode((string)$item->price->currency);
-
-                    if (!$id_currency) {
-                        self::$errors[] = 'Missing Currency:'.(string)$item->price->currency;
-                        $pass = false;
-                        continue;
-                    }
-                    $cart->id_currency = $id_currency;
-                    $cart->add();
-                }
-
-                if (!($product = $this->productLoad($sku, $import_method))) {
-                    $pass = false;
-                    continue;
-                }
-
-                // Bug Fix
-                // TODO
-                $product->id_product_attribute = $product->id_product_attribute != $product->id ?
-                    $product->id_product_attribute : null;
-
-                if (version_compare(_PS_VERSION_, '1.5', '<')) {
-                    $productQuantity = Product::getQuantity((int)$product->id, $product->id_product_attribute);
-                } else {
-                    // Looks for the product id_shop, if many, take the first one
-                    $id_shop = array_map('intval', PriceMinisterTools::arrayColumn(
-                        Product::getShopsByProduct($product->id),
-                        'id_shop'
-                    ));
-                    $id_shop = reset($id_shop);
-
-                    $productQuantity = Product::getRealQuantity(
-                        $product->id,
-                        $product->id_product_attribute && $product->id_product_attribute != $product->id ?
-                            $product->id_product_attribute : null,
-                        self::$id_warehouse,
-                        $id_shop
-                    );
-                }
-
-                // Temp fix not stock
-                $force_import = true;
-                if (!$force_import && $productQuantity - $quantity < 0) {
-                    self::$errors[] = sprintf('%s ID: %s SKU: %s', $this->l('Not enough stock for this product'), $product->id, $sku);
-                    $pass = false;
-                    continue;
-                }
-
-                // Need all parameters to be able to send the Shop
-                if ($cart->updateQty($quantity, $product->id, $product->id_product_attribute, false, 'up', 0, new Shop($id_shop)) < 0) {
-                // if ($cart->updateQty($quantity, $product->id, $product->id_product_attribute, false, 'up') < 0) {
-                    self::$errors[] = sprintf('%s : ID: %d - SKU: %d - %s', $this->l('Not enough stock for this product'), $product->id, $sku, $product_name);
-                    $pass = false;
-                    continue;
-                }
-
-                // PS 1.4 sinon 1.3
-                if (method_exists('Tax', 'getProductTaxRate')) {
-                    $product_tax_rate = (float)(Tax::getProductTaxRate($product->id, $shipping_address_id));
-                } else {
-                    $product_tax_rate = (float)(Tax::getApplicableTax($product->id_tax, $product->tax_rate, $shipping_address_id));
-                }
-
-                if (isset($itemDetails[(string)$item->itemid])) {
-                    $itemDetails[(string)$item->itemid]['qty'] += $quantity;
-                } else {
-                    $itemDetails[(string)$item->itemid] = array(
-                        'id_product' => (int)$product->id,
-                        'id_attribute' => $product->id_product_attribute,
-                        'qty' => $quantity,
-                        'price' => $price,
-                        'name' => $product_name,
-                        'itemid' => (string)$item->itemid,
-                        'tax_rate' => $product_tax_rate,
-                        'id_tax' => isset($product->id_tax) ? $product->id_tax : false,
-                        'id_address_delivery' => $shipping_address_id
-                    );
-                }
-                PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid]['status'] = true;
-            }
-
-            if (!count($itemDetails)) {
-                if ($pass) {
-                    self::$errors[] = $this->l('Cart empty, could save order').' ('.$sale->purchaseid.')';
-                    $pass = false;
-                }
-
-                if (Validate::isLoadedObject($cart)) {
-                    $cart->delete();
-                }
-
-                continue;
-            }
-
-            if (!($order_total = $this->GetOrderTotal($purchaseid, $config_credentials['test']))) {
-                if (Validate::isLoadedObject($cart)) {
-                    $cart->delete();
-                }
-
-                continue;
-            }
-            $shippingprice = $order_total['shipping'];
-
-            // Using price, shipping details etc... from the Market Place
-            //
-            $cart->pmProducts = $itemDetails;
-            $cart->pmShipping = $shippingprice;
-            $cart->pmDate = $created_at;
-
-            $mpStatusId = true;
-            $mpItems = null; // obsolete
-
-            // duplication du panier, important !!!
-            //
-            $acart = $cart;
-
-            $payment = new PriceMinisterPaymentModule();
-
-            if ($pass) {
-
-                if (!($id_order = $payment->validateMarketplaceOrder($cart->id, $status_incoming, 'Rakuten France', $purchaseid, $mpStatusId, $mpShipping, $mpItems, $acart, true, $created_at))) {
-                    $pass = false;
-                    $cart->delete();
-                }
-                $delivery_point = null;
-
-                if ($pass && isset($sale->deliveryinformation->collectionpointaddress->id) && !empty($sale->deliveryinformation->collectionpointaddress->id)) {
-                    require_once(dirname(__FILE__).'/../classes/priceminister.pickuppoint.class.php');
-
-                    $delivery_point = $sale->deliveryinformation->collectionpointaddress;
-
-                    $pickup_point = new PriceMinisterPickupPoint();
-                    $pickup_point->id = trim((string)$delivery_point->id);
-                    $pickup_point->name = trim((string)$delivery_point->name);
-                    $pickup_point->address1 = trim((string)$delivery_point->address);
-                    $pickup_point->zipcode = trim((string)$delivery_point->zipcode);
-                    $pickup_point->city = trim((string)$delivery_point->city);
-                    $pickup_point->country = trim((string)$delivery_point->country);
-
-                    $pickup_point->id_order = (int)$id_order;
-                    $pickup_point->id_customer = (int)$id_customer_order;
-                    $pickup_point->id_cart = (int)$cart->id;
-
-                    switch ($sale->deliveryinformation->shippingtype) { // Normally, if we arrived until here we are supposed to have this value
-                        case 'Point relais Mondial Relay':
-                            // $pickup_point->id = call_user_func('reset', explode('/', Tools::substr($pickup_point->id, 3)));
-                            $pickup_point->country = Tools::substr($pickup_point->country, 0, 2);
-                            $pickup_point->pickup_type = PriceMinisterPickupPoint::MONDIAL_RELAY_TYPE;
-                            $pickup_point->id_method = 0;
-
-                            if (PriceMinisterPickupPoint::tableExists(PriceMinisterPickupPoint::MONDIAL_RELAY_TABLE)) {
-                                $pickup_point->id_method = (int)Db::getInstance()->getValue(
-                                    'SELECT `id_mr_method`
-                                    FROM `'._DB_PREFIX_.'mr_method`
-                                    WHERE `id_carrier` = '.$cart->id_carrier
-                                );
-                                $pickup_point->save();
-                            }
-                            break;
-
-                        case ('So Colissimo'):
-                            $pickup_point->pickup_type = PriceMinisterPickupPoint::SO_COLISSIMO_TYPE;
-                            $pickup_point->phone = $sale->deliveryinformation->billingaddress->phonenumber1 ? $sale->deliveryinformation->billingaddress->phonenumber1 :
-                                $sale->deliveryinformation->billingaddress->phonenumber2 ? (string)$sale->deliveryinformation->billingaddress->phonenumber2 : '0661123456';
-                            $pickup_point->email = (string)$sale->deliveryinformation->purchasebuyeremail;
-
-                            if (PriceMinisterPickupPoint::tableExists(PriceMinisterPickupPoint::SO_COLISSIMO_TABLE)) {
-                                $pickup_point->save();
-                            }
-                            break;
-
-                        default:
-                            self::$errors[] = sprintf($this->l('Unknown Pickup Point Delivery Method for the order #%s'), $purchaseid);
-                            break;
-                    }
-                }
-
-                if ($pass) {
-                    $deliverypoint_id = isset($delivery_point->id) ? (string)$delivery_point->id : null;
-                    $shippingtype = isset($sale->deliveryinformation->shippingtype) ? (string)$sale->deliveryinformation->shippingtype : null;
-
-                    $params = array('id_order' => $id_order, 'mp_order_id' => $purchaseid, 'shipping_type' => $shippingtype, 'relay' => $deliverypoint_id);
-
-                    if (!$this->credentials['test'] && !PriceMinisterOrder::addOrderExt($params)) {
-                        $this->errors[] = $this->l('Unable to save extra order informations').': ('.nl2br(print_r($params, true)).')'.PHP_EOL;
-                        $error = true;
-                    }
-
-                    $count++;
-                }
-            }
-
-            if ($id_order && !empty($token_order)) {
-                $url = '?tab=AdminOrders&id_order='.$id_order.'&vieworder&token='.$token_order;
-                $order_link = '<a href="'.$url.'" title="" target="_blank" >'.$purchaseid.' ('.$id_order.')</a>';
-
-                PriceMinisterOrderImport::$orders[$purchaseid]['link'] = $order_link;
-            } else {
-                PriceMinisterOrderImport::$orders[$purchaseid]['link'] = null;
-            }
-
-            if ($pass) {
-                PriceMinisterOrderImport::$orders[$purchaseid]['status'] = true;
-            } else {
+                PriceMinisterOrderImport::$orders[$purchaseid] = array();
+                PriceMinisterOrderImport::$orders[$purchaseid]['purchaseid'] = $purchaseid;
                 PriceMinisterOrderImport::$orders[$purchaseid]['status'] = false;
 
-                self::$warnings[] = sprintf('%s: %s', $this->l('Order has not been imported'), $purchaseid);
-            }
-        }
-        if ($count) {
-            Configuration::updateValue('PM_LAST_IMPORT', date('Y-m-d H:i:s'));
+                if (($mp_order = PriceMinisterOrder::checkByMpId($purchaseid))) {
+                    self::$warnings[] = $this->l('This order has been already imported').' : '.$mp_order['mp_order_id'].'('.$mp_order['id_order'].')';
+                    $id_order = $mp_order['id_order'];
+                    continue;
+                }
 
-            if ($count == 1) {
-                self::$messages[] = $this->l('One order successfully imported');
-            } else {
-                self::$messages[] = sprintf('%d %s', $count, $this->l('orders successfully imported'));
+                /*
+                On 16/10/2012 19:22, Yan Gueguen wrote:
+                > Vous devez indiquer :
+                > -  deliveryaddress lors de commande par relais, colis standard etc..
+                > -  billingaddress lors de commande avec collissimo, chronopost ..
+                > Yan Gueguen
+                > PriceMinister
+                */
+
+                $deliveryaddress = null;
+                $billingaddress = null;
+
+                if (isset($sale->deliveryinformation->deliveryaddress)) {
+                    $deliveryaddress = $sale->deliveryinformation->deliveryaddress;
+                }
+
+                if (isset($sale->deliveryinformation->billingaddress)) {
+                    $billingaddress = $sale->deliveryinformation->billingaddress;
+                }
+
+                if (!$deliveryaddress) {
+                    $deliveryaddress = $billingaddress;
+                }
+
+                // Customer individual account
+                //
+                if ($customer_account == PriceMinister::INDIVIDUAL_CUSTOMER_ACCOUNT) {
+                    $name = PriceMinisterAddress::toEmailAddress($deliveryaddress);
+
+                    if (!isset($name['firstname']) || empty($name['firstname']) || !isset($name['lastname']) || empty($name['lastname'])) {
+                        self::$errors[] = sprintf('%s: %s', $this->l('Couldn\'t add this customer'), nl2br(print_r($name, true)));
+                        continue;
+                    }
+
+                    $firstname = $name['firstname'];
+                    $lastname = $name['lastname'];
+
+                    $email_address = sprintf('%s.%s@%s', $firstname, $lastname, str_replace('@', '', $customer_email_domain));
+
+                    // Use buyer email instead generated email
+                    if (isset($sale->deliveryinformation->purchasebuyeremail) && Validate::isEmail($sale->deliveryinformation->purchasebuyeremail)) {
+                        $email_address = $sale->deliveryinformation->purchasebuyeremail;
+                    }
+
+                    if (!Validate::isEmail($email_address)) {
+                        self::$errors[] = sprintf('%s (%s)', $this->l('Invalid email address'), $email_address);
+                        continue;
+                    }
+                    $customer = new Customer();
+                    $customer->getByEmail($email_address);
+
+                    if ($customer->id) {
+                        $id_customer_order = $customer->id;
+                    } else {
+                        $customer->firstname = Tools::substr($firstname, 0, 32);
+                        $customer->lastname = Tools::substr($lastname, 0, 32);
+                        $customer->email = $email_address;
+                        $customer->passwd = md5(rand());
+
+                        $customer_id_group = (int)$config_parameters['customer_group'];
+                        if (!$customer_id_group) {
+                            $customer_id_group = version_compare(_PS_VERSION_, '1.5', '>=') ?
+                                (int)Configuration::get('PS_CUSTOMER_GROUP') : (int)_PS_DEFAULT_CUSTOMER_GROUP_;
+                        }
+
+                        $customer->id_default_group = $customer_id_group;
+
+                        if (!$customer->add()) {
+                            self::$errors[] = sprintf('%s/%s: %s (%s)', basename(__FILE__), __LINE__, $this->l('Couldn\'t add this customer'), $email_address);
+                            continue;
+                        } else {
+                            $id_customer_order = $customer->id;
+                        }
+                    }
+                }
+
+                if (!$id_customer_order) {
+                    $id_customer_order = $id_customer;
+                }
+
+                /*
+                 * Matching the method with the shipping matrix
+                 */
+                $shipping_method = PriceMinisterTools::cleanShippingMethod((string)$sale->deliveryinformation->shippingtype);
+
+                if (!isset($shipping_methods[$shipping_method]) || !isset($pm_carriers[$shipping_method]) || !isset($ps_carriers[$shipping_method]) || !$pm_carriers[$shipping_method] || !$ps_carriers[$shipping_method]) {
+                    self::$errors[] = sprintf($this->l('The shipping matrix doesn\'t match this case: %s - Please configure your shipping matrix in your module configuration'), $shipping_method);
+                    $pass = false;
+                    continue;
+                }
+                $mpShipping = $shipping_method;
+
+                $carrier = new Carrier((int)$ps_carriers[$shipping_method]);
+
+                if (!Validate::isLoadedObject($carrier)) {
+                    self::$errors[] = sprintf($this->l('Carrier validation failed for: %s - Please configure the carrier in your shipping matrix in your module configuration'), $shipping_method);
+                    $pass = false;
+                    continue;
+                }
+
+                // 2014/06/09 - Pickup Point Delivery
+                if (isset($sale->deliveryinformation->collectionpointaddress->id) && (string)$sale->deliveryinformation->collectionpointaddress->id) {
+                    $deliveryinformation = $sale->deliveryinformation;
+                    $ppId = trim((string)$sale->deliveryinformation->collectionpointaddress->id);
+
+                    if (!($id_address = PriceMinisterAddress::pickupPointIdAddressByAlias($ppId, $id_customer_order, $deliveryinformation->collectionpointaddress))) {
+                        $id_address = PriceMinisterAddress::createAddressForPickupPoint($ppId, $id_customer_order, $deliveryinformation->collectionpointaddress);
+
+                        if (!$id_address) {
+                            self::$errors[] = sprintf('%s - data: %s', $this->l('Unable to create an Address entry for this Collection Point Address - please contact the support'), print_r($sale->deliveryinformation->collectionpointaddress, true));
+                            $pass = false;
+                            continue;
+                        }
+                    }
+                    $shipping_address_id = $id_address;
+                } else {
+                    // Create or get address book entry
+                    //
+                    $shipping_address = new PriceMinisterAddress();
+                    $shipping_address->id_customer = $id_customer_order;
+                    $shipping_address_id = $shipping_address->lookupOrCreateAddress($deliveryaddress);
+                }
+
+                if ($billingaddress) {
+                    $billing_address = new PriceMinisterAddress();
+                    $billing_address->id_customer = $id_customer_order;
+                    $billing_address_id = $billing_address->lookupOrCreateAddress($billingaddress);
+                } else {
+                    $billing_address_id = $shipping_address_id;
+                }
+                $created_at = sprintf('%d-%02d-%02d %02d:%02d:00', Tools::substr($sale->purchasedate, 6, 4), Tools::substr($sale->purchasedate, 3, 2), Tools::substr($sale->purchasedate, 0, 2), Tools::substr($sale->purchasedate, 11, 2), Tools::substr($sale->purchasedate, 14, 2));
+
+                $itemDetails = array();
+
+                // Building Cart
+                //
+                $cart = new PSPM_Cart();
+                $cart->id_address_delivery = $shipping_address_id;
+                $cart->id_address_invoice = $billing_address_id;
+                $cart->id_carrier = $carrier->id;
+                $cart->id_currency = false;
+                $cart->id_customer = $id_customer_order;
+                $cart->id_lang = $this->id_lang;
+
+                PriceMinisterOrderImport::$orders[$purchaseid]['items'] = array();
+
+                foreach ($sale->items->item as $item) {
+                    $sku = trim((string)$item->sku);
+                    $itemid = trim((string)$item->itemid);
+
+                    PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid] = array();
+                    PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid]['itemid'] = $itemid;
+                    PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid]['status'] = false;
+                    PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid]['sku'] = $sku;
+
+                    if (!$this->credentials['test'] && (string)$item->paymentstatus != 'INCOMING') {
+                        self::$errors[] = 'Payment Status Error : '.(string)$item->paymentstatus;
+                        $pass = false;
+                        continue;
+                    }
+
+                    $product_name = (string)$item->headline;
+                    $quantity = 1; // !
+                    $price = (float)$item->price->amount;
+
+                    // Initializing cart & currency on first item
+                    //
+                    if ($cart->id_currency === false) {
+                        $id_currency = Currency::getIdByIsoCode((string)$item->price->currency);
+
+                        if (!$id_currency) {
+                            self::$errors[] = 'Missing Currency:'.(string)$item->price->currency;
+                            $pass = false;
+                            continue;
+                        }
+                        $cart->id_currency = $id_currency;
+                        $cart->add();
+                    }
+
+                    if (!($product = $this->productLoad($sku, $import_method))) {
+                        $pass = false;
+                        continue;
+                    }
+
+                    // Bug Fix
+                    // TODO
+                    $product->id_product_attribute = $product->id_product_attribute != $product->id ?
+                        $product->id_product_attribute : null;
+
+                    if (version_compare(_PS_VERSION_, '1.5', '<')) {
+                        $productQuantity = Product::getQuantity((int)$product->id, $product->id_product_attribute);
+                    } else {
+                        // Looks for the product id_shop, if many, take the first one
+                        $id_shop = array_map('intval', PriceMinisterTools::arrayColumn(
+                            Product::getShopsByProduct($product->id),
+                            'id_shop'
+                        ));
+                        $id_shop = reset($id_shop);
+
+                        $productQuantity = Product::getRealQuantity(
+                            $product->id,
+                            $product->id_product_attribute && $product->id_product_attribute != $product->id ?
+                                $product->id_product_attribute : null,
+                            self::$id_warehouse,
+                            $id_shop
+                        );
+                    }
+
+                    // Temp fix not stock
+                    $force_import = true;
+                    if (!$force_import && $productQuantity - $quantity < 0) {
+                        self::$errors[] = sprintf('%s ID: %s SKU: %s', $this->l('Not enough stock for this product'), $product->id, $sku);
+                        $pass = false;
+                        continue;
+                    }
+
+                    // Need all parameters to be able to send the Shop
+                    if ($cart->updateQty($quantity, $product->id, $product->id_product_attribute, false, 'up', 0, new Shop($id_shop)) < 0) {
+                        // if ($cart->updateQty($quantity, $product->id, $product->id_product_attribute, false, 'up') < 0) {
+                        self::$errors[] = sprintf('%s : ID: %d - SKU: %d - %s', $this->l('Not enough stock for this product'), $product->id, $sku, $product_name);
+                        $pass = false;
+                        continue;
+                    }
+
+                    // PS 1.4 sinon 1.3
+                    if (method_exists('Tax', 'getProductTaxRate')) {
+                        $product_tax_rate = (float)(Tax::getProductTaxRate($product->id, $shipping_address_id));
+                    } else {
+                        $product_tax_rate = (float)(Tax::getApplicableTax($product->id_tax, $product->tax_rate, $shipping_address_id));
+                    }
+
+                    if (isset($itemDetails[(string)$item->itemid])) {
+                        $itemDetails[(string)$item->itemid]['qty'] += $quantity;
+                    } else {
+                        $itemDetails[(string)$item->itemid] = array(
+                            'id_product' => (int)$product->id,
+                            'id_attribute' => $product->id_product_attribute,
+                            'qty' => $quantity,
+                            'price' => $price,
+                            'name' => $product_name,
+                            'itemid' => (string)$item->itemid,
+                            'tax_rate' => $product_tax_rate,
+                            'id_tax' => isset($product->id_tax) ? $product->id_tax : false,
+                            'id_address_delivery' => $shipping_address_id
+                        );
+                    }
+                    PriceMinisterOrderImport::$orders[$purchaseid]['items'][$itemid]['status'] = true;
+                }
+
+                if (!count($itemDetails)) {
+                    if ($pass) {
+                        self::$errors[] = $this->l('Cart empty, could save order').' ('.$sale->purchaseid.')';
+                        $pass = false;
+                    }
+
+                    if (Validate::isLoadedObject($cart)) {
+                        $cart->delete();
+                    }
+
+                    continue;
+                }
+
+                if (!($order_total = $this->GetOrderTotal($purchaseid, $config_credentials['test']))) {
+                    if (Validate::isLoadedObject($cart)) {
+                        $cart->delete();
+                    }
+
+                    continue;
+                }
+                $shippingprice = $order_total['shipping'];
+
+                // Using price, shipping details etc... from the Market Place
+                //
+                $cart->pmProducts = $itemDetails;
+                $cart->pmShipping = $shippingprice;
+                $cart->pmDate = $created_at;
+
+                $mpStatusId = true;
+                $mpItems = null; // obsolete
+
+                // duplication du panier, important !!!
+                //
+                $acart = $cart;
+
+                $payment = new PriceMinisterPaymentModule();
+
+                if ($pass) {
+
+                    if (!($id_order = $payment->validateMarketplaceOrder($cart->id, $status_incoming, 'Rakuten France', $purchaseid, $mpStatusId, $mpShipping, $mpItems, $acart, true, $created_at))) {
+                        $pass = false;
+                        $cart->delete();
+                    }
+                    $delivery_point = null;
+
+                    if ($pass && isset($sale->deliveryinformation->collectionpointaddress->id) && !empty($sale->deliveryinformation->collectionpointaddress->id)) {
+                        require_once(dirname(__FILE__).'/../classes/priceminister.pickuppoint.class.php');
+
+                        $delivery_point = $sale->deliveryinformation->collectionpointaddress;
+
+                        $pickup_point = new PriceMinisterPickupPoint();
+                        $pickup_point->id = trim((string)$delivery_point->id);
+                        $pickup_point->name = trim((string)$delivery_point->name);
+                        $pickup_point->address1 = trim((string)$delivery_point->address);
+                        $pickup_point->zipcode = trim((string)$delivery_point->zipcode);
+                        $pickup_point->city = trim((string)$delivery_point->city);
+                        $pickup_point->country = trim((string)$delivery_point->country);
+
+                        $pickup_point->id_order = (int)$id_order;
+                        $pickup_point->id_customer = (int)$id_customer_order;
+                        $pickup_point->id_cart = (int)$cart->id;
+
+                        switch ($sale->deliveryinformation->shippingtype) { // Normally, if we arrived until here we are supposed to have this value
+                            case 'Point relais Mondial Relay':
+                                // $pickup_point->id = call_user_func('reset', explode('/', Tools::substr($pickup_point->id, 3)));
+                                $pickup_point->country = Tools::substr($pickup_point->country, 0, 2);
+                                $pickup_point->pickup_type = PriceMinisterPickupPoint::MONDIAL_RELAY_TYPE;
+                                $pickup_point->id_method = 0;
+
+                                if (PriceMinisterPickupPoint::tableExists(PriceMinisterPickupPoint::MONDIAL_RELAY_TABLE)) {
+                                    $pickup_point->id_method = (int)Db::getInstance()->getValue(
+                                        'SELECT `id_mr_method`
+                                    FROM `'._DB_PREFIX_.'mr_method`
+                                    WHERE `id_carrier` = '.$cart->id_carrier
+                                    );
+                                    $pickup_point->save();
+                                }
+                                break;
+
+                            case ('So Colissimo'):
+                                $pickup_point->pickup_type = PriceMinisterPickupPoint::SO_COLISSIMO_TYPE;
+                                $pickup_point->phone = $sale->deliveryinformation->billingaddress->phonenumber1 ? $sale->deliveryinformation->billingaddress->phonenumber1 :
+                                    $sale->deliveryinformation->billingaddress->phonenumber2 ? (string)$sale->deliveryinformation->billingaddress->phonenumber2 : '0661123456';
+                                $pickup_point->email = (string)$sale->deliveryinformation->purchasebuyeremail;
+
+                                if (PriceMinisterPickupPoint::tableExists(PriceMinisterPickupPoint::SO_COLISSIMO_TABLE)) {
+                                    $pickup_point->save();
+                                }
+                                break;
+
+                            default:
+                                self::$errors[] = sprintf($this->l('Unknown Pickup Point Delivery Method for the order #%s'), $purchaseid);
+                                break;
+                        }
+                    }
+
+                    if ($pass) {
+                        $deliverypoint_id = isset($delivery_point->id) ? (string)$delivery_point->id : null;
+                        $shippingtype = isset($sale->deliveryinformation->shippingtype) ? (string)$sale->deliveryinformation->shippingtype : null;
+
+                        $params = array('id_order' => $id_order, 'mp_order_id' => $purchaseid, 'shipping_type' => $shippingtype, 'relay' => $deliverypoint_id);
+
+                        if (!$this->credentials['test'] && !PriceMinisterOrder::addOrderExt($params)) {
+                            $this->errors[] = $this->l('Unable to save extra order informations').': ('.nl2br(print_r($params, true)).')'.PHP_EOL;
+                            $error = true;
+                        }
+
+                        $count++;
+                    }
+                }
+
+                if ($id_order && !empty($token_order)) {
+                    $url = '?tab=AdminOrders&id_order='.$id_order.'&vieworder&token='.$token_order;
+                    $order_link = '<a href="'.$url.'" title="" target="_blank" >'.$purchaseid.' ('.$id_order.')</a>';
+
+                    PriceMinisterOrderImport::$orders[$purchaseid]['link'] = $order_link;
+                } else {
+                    PriceMinisterOrderImport::$orders[$purchaseid]['link'] = null;
+                }
+
+                if ($pass) {
+                    PriceMinisterOrderImport::$orders[$purchaseid]['status'] = true;
+                } else {
+                    PriceMinisterOrderImport::$orders[$purchaseid]['status'] = false;
+
+                    self::$warnings[] = sprintf('%s: %s', $this->l('Order has not been imported'), $purchaseid);
+                }
             }
-        } else {
-            self::$warnings[] = $this->l('No order to import');
+            if ($count) {
+                Configuration::updateValue('PM_LAST_IMPORT', date('Y-m-d H:i:s'));
+
+                if ($count == 1) {
+                    self::$messages[] = $this->l('One order successfully imported');
+                } else {
+                    self::$messages[] = sprintf('%d %s', $count, $this->l('orders successfully imported'));
+                }
+            } else {
+                self::$warnings[] = $this->l('No order to import');
+            }
+        } catch (ErrorException $e) {
+            self::$errors[] = $e->getMessage();
         }
     }
 
