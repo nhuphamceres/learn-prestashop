@@ -1,0 +1,83 @@
+.qtip{
+
+    min-width: 50px!important;
+
+    font-size: 1.1em!important;
+    line-height: 1.3em!important;
+}
+#productmarketplace-options img {
+    position: relative;
+    top: -2px;
+}
+
+#productmarketplace-options:hover {
+    padding: 5px;
+    background-color: #ffe1d3;
+    border: 1px solid silver;
+    cursor: pointer;
+}
+
+.propagate {
+    color: navy;
+}
+
+.propagate:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+#cdiscount .marketplace-details input
+{
+    margin:4px;
+    padding:4px;
+	display: inline-block;
+}
+#cdiscount .marketplace-details input[type=checkbox]
+{
+    width:20px;
+    height:20px;
+    cursor:pointer;
+}
+
+/*#cdiscount .marketplace-details .column-left
+{
+    font-size:1.2em;
+    position:relative;
+    top:4px;
+}*/
+
+#cdiscount .column-left {
+  display: inline-block;
+  min-width: 140px;
+  text-align: right;
+  padding-right: 10px;  
+  float: right;
+}
+#cdiscount .column-left.tip span{
+  border-bottom: 1px dashed rgba(241, 208, 49, 0.90);
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+
+#productmarketplace-options img:nth-child(1)
+{
+    position: relative;
+    top: -2px;
+
+    width:24px;
+    height:24px;
+}
+
+#productmarketplace-options
+{
+    padding:5px;
+    font-size:1.2em;
+}
+/*For prestashop 1.6*/
+#product-informations tr.marketplace-details td:first-child {
+    padding-right: 6px;
+}
+
+#product-informations .marketplace-details input {
+    display: inline-block;
+}

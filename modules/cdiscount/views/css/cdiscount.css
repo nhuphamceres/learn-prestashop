@@ -1,0 +1,1372 @@
+/* Fix models and profiles tab when edit on of them, page as the same width so the buttons don't move */
+
+hr {
+    overflow-y: scroll
+}
+#menuTab li a:focus
+{
+    background-color: transparent;
+}
+#content:not(.bootstrap) label.control-label {
+    padding: 0
+}
+
+#conf-cdiscount {
+    font-size: 1.1em;
+    line-height: 140%;
+}
+
+#conf-cdiscount ul li {
+    line-height: 160%
+}
+
+#conf-cdiscount > div:nth-child(1) > label > h2 {
+    float: left;
+    margin: 0;
+}
+
+#content:not(.bootstrap) #tabList input {
+    padding: 5px
+}
+
+#content:not(.bootstrap) #tabList select {
+    padding: 4px
+}
+
+#connection-check {
+    width: 212px;
+    padding: 5px 0;
+}
+
+#main input.button {
+    padding: 4px
+}
+
+#tabList {
+    padding: 20px;
+    clear: left
+}
+
+.tabItem {
+    display: none
+}
+
+.tabItem.selected {
+    display: block
+}
+
+.cleaner {
+    clear: both
+}
+
+hr {
+    height: 0;
+    border: 1px inset;
+}
+
+.hint {
+    display: block
+}
+
+.master-disabled {
+    color: silver;
+    background-color: #efefef;
+}
+
+.master-enabled {
+    color: black;
+    background-color: white;
+}
+
+.bcallback {
+    position: relative;
+    bottom: 10px;
+    margin-left: 20px;
+}
+
+.ecallback-disabled {
+    color: silver;
+    background-color: #efefef;
+}
+
+.check-loader {
+    position: relative;
+    top: -5px;
+    margin-left: 30px;
+}
+
+.server-response {
+    display: none;
+    width: 300px;
+    min-height: 18px;
+    padding-top: 3px;
+    padding-left: 5px;
+    border: 1px solid grey;
+    background-color: #fffefb;
+}
+
+#attribute-mapping .addnewmapping, #attribute-mapping .removemapping {
+    position: relative;
+    top: -1px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid gainsboro;
+    background-color: whitesmoke;
+}
+
+#content:not(.bootstrap) #attribute-mapping .addnewmapping, #content:not(.bootstrap) #attribute-mapping .removemapping {
+    top: -3px;
+    padding: 4px;
+}
+
+#attribute-mapping .addnewmapping:hover, #attribute-mapping .removemapping:hover {
+    background-color: gainsboro
+}
+
+.input_note {
+    font-size: .8em;
+    color: grey;
+}
+
+label {
+    padding-right: 5px
+}
+
+/* PS 1.5 */
+#conf-categories .table tr td {
+    border-bottom: none
+}
+
+.cdiscount-details {
+    width: 100%
+}
+
+.profile-obj-title {
+    position: relative;
+    top: 3px;
+    text-align: right;
+}
+
+.profile-help {
+    font-size: 1em
+}
+
+.profile-name {
+    font-weight: bold;
+    color: navy;
+}
+
+.profile-add-img {
+    vertical-align: text-bottom
+}
+
+.profile-add-img img {
+    margin-right: 30px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.profile-add-img img:hover {
+    border: 1px solid navy
+}
+
+.profile-create, .model-create {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: lavender;
+}
+
+.profile-create h2, .model-create h2 {
+    margin: 5px 30px 10px 30px;
+    padding: 10px;
+    border-bottom: 1px solid silver;
+}
+
+.profile-table {
+    width: 90%;
+    margin-left: 10px;
+}
+
+.profile-header, .model-header {
+    min-height: 60px;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    border-bottom: 1px solid gainsboro;
+    background-color: whitesmoke;
+}
+
+.profile-header .title, .model-header .title {
+    font-size: 1.2em;
+    color: navy;
+}
+
+.profile-header .type, .model-header .type {
+    font-size: 1.2em
+}
+
+.profile-obj-title, .model-obj-title {
+    position: relative;
+    top: 5px;
+    text-align: right;
+}
+
+.profile-del-img, .model-del-img {
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.profile-del-img:hover, .model-del-img:hover {
+    border: 1px solid navy
+}
+
+#content:not(.bootstrap) #model-items .model-header label, #content:not(.bootstrap) #profile-items label {
+    padding: 9px
+}
+
+.profile-edit, .model-edit {
+    position: relative;
+    top: 2px;
+}
+
+.profile-edit-img, .model-edit-img, .model-refresh-img {
+    position: relative;
+    margin-left: 15px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.profile-edit-img:hover, .model-edit-img:hover, .model-refresh-img:hover {
+    border: 1px solid navy;
+}
+
+#profile-container .profile-del {
+    position: relative;
+    top: 2px;
+}
+
+#profile-container .profile-del-img img {
+    position: relative;
+    top: 3px;
+    margin-left: 15px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+#profile-container .profile-del-img img:hover {
+    border: 1px solid navy
+}
+
+.model-obj-title {
+    position: relative;
+    top: 3px;
+    text-align: right;
+}
+
+.model-help {
+    font-size: 1em
+}
+
+.model-name {
+    font-weight: bold;
+    color: navy;
+}
+
+#model-add, #profile-add {
+    font-size: 1.3em;
+    position: relative;
+    top: 5px;
+    float: right;
+    margin-right: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+    color: green;
+}
+
+.model-add-img {
+    vertical-align: text-bottom
+}
+
+.model-add-img img {
+    margin-right: 30px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.model-add-img img:hover {
+    border: 1px solid navy
+}
+
+.profile-del-2, .model-del-2 {
+    font-size: 1.3em;
+    position: relative;
+    top: 5px;
+    float: right;
+    margin-right: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+    color: red;
+}
+
+.profile-del-2 img, .model-del-2 img {
+    margin-right: 30px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.specific-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#content:not(.bootstrap) .specific-row {
+    font-size: 1.2em
+}
+
+/*
+ * General Price Rules
+ */
+#main .price_rule-type {
+    width: 100px;
+    padding: 4px;
+    float: left;
+}
+
+#main .default-price-rule .price-rule-slash, #main .default-price-rule .price-rule-next {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+    position: relative;
+}
+
+#main .default-price-rule select {
+    padding: 4px;
+    position: relative;
+    top: 1px;
+}
+
+#main .default-price-rule {
+    float: left;
+    margin-left: 10px;
+}
+
+#main .price-rule-type {
+    float: left;
+    padding: 4px;
+    margin-right: 15px;
+    position: relative;
+    top: 2px;
+}
+
+#main .price-rule-add, #main .price-rule-remove {
+    margin-left: 10px;
+}
+
+#main .price-rule-add img, #main .price-rule-remove img {
+    position: relative;
+    border: 1px solid gainsboro;
+    padding: 4px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    -webkit-opacity: 0.7;
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+
+#main .price-rule-add img:hover, #main .price-rule-remove img:hover {
+    border: 1px solid lavender;
+    background-color: lightgray;
+}
+
+#main .price-rule input.required-price-rule {
+    border: 1px solid red;
+}
+
+.adv-ship-method {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.adv-ship-method tr td {
+    padding-right: 15px
+}
+
+.adv-ship-item-title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.adv-ship-item-line td {
+    padding-left: 30px
+}
+
+.adv-ship-sep {
+    line-height: 10px;
+    width: 150px;
+    height: 5px;
+    text-align: center;
+    text-decoration: line-through;
+    letter-spacing: 150px;
+    color: silver;
+}
+
+.adv-ship-add img {
+    padding: 1px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.adv-ship-add img:hover {
+    border: 1px solid navy
+}
+
+.adv-ship-del img {
+    padding: 1px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.adv-ship-del img:hover {
+    border: 1px solid yellow
+}
+
+#adv-ship-container .advship-readonly, .adv-ship .advship-readonly {
+    border: 1px solid #e2dfdf;
+    background-color: whitesmoke;
+}
+
+.mandatory {
+    font-size: 2em;
+    line-height: 0;
+    position: relative;
+    top: 5px;
+    color: red;
+}
+
+#model-import {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+#model-import p {
+    font-size: 12px;
+    color: red;
+}
+
+.cd-info-level-reload {
+    min-height: 48px;
+    padding: 8px 5px 5px 50px;
+    border: 1px solid #cecece;
+    border-radius: 3px;
+    background: whitesmoke url(../img/control_repeat.png) no-repeat 6px 6px;
+}
+
+/* Features Mapping */
+.addnew-feature-mapping, .remove-feature-mapping {
+    position: relative;
+    top: -1px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid gainsboro;
+    background-color: whitesmoke;
+}
+
+#content:not(.bootstrap) #feature-mapping .addnew-feature-mapping, #content:not(.bootstrap) #feature-mapping .remove-feature-mapping {
+    top: -2px;
+    padding: 3px;
+}
+
+.addnew-feature-mapping:hover, .remove-feature-mapping:hover {
+    background-color: gainsboro
+}
+
+#feature-mapping {
+    display: none
+}
+
+#size-field-mapping-collapse, #attribute-mapping-collapse,#feature-mapping-collapse {
+    font-size: 11px;
+    text-decoration: none;
+}
+
+table.cdiscount-variant {
+    min-width: 300px
+}
+
+table.cdiscount-variant thead tr {
+    font-weight: bold;
+    text-align: center;
+}
+
+table.cdiscount-variant tbody select {
+    min-width: 150px
+}
+
+.category-loader, .model-universe-loader, .model-category-loader, .model-public-loader, .model-gender-loader {
+    position: relative;
+    top: -4px;
+    left: 15px;
+    display: none;
+}
+
+.required {
+    font-family: 'Courier New', Courier;
+    font-size: 1.4em;
+    margin-left: 10px;
+    color: red;
+}
+
+.select-error {
+    color: yellow;
+    background-color: red;
+}
+
+/*
+ * Filters
+ */
+.available-manufacturers, .selected-manufacturers, .available-suppliers, .selected-suppliers, .excluded-manufacturers {
+    float: left;
+    overflow: auto;
+    width: 250px !important;
+    height: 180px !important;
+    resize: vertical;
+}
+
+.manufacturer-heading {
+    width: 600px
+}
+
+.manufacturer-heading span {
+    display: inline-block;
+    width: 260px;
+    padding: 10px;
+    text-align: center;
+}
+
+.supplier-heading {
+    width: 600px
+}
+
+.supplier-heading span {
+    display: inline-block;
+    width: 260px;
+    padding: 10px;
+    text-align: center;
+}
+
+.sep {
+    position: relative;
+    top: 35px;
+    float: left;
+    height: 200px;
+    margin: auto 10px auto 10px;
+}
+.move {
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.move:hover {
+    padding: 5px;
+    border: 1px solid silver;
+    background-color: gainsboro;
+}
+
+/*
+ * Mapping
+ */
+.mapping-next {
+    position: relative;
+    top: -1px;
+    opacity: .5;
+}
+
+.mapping-next img {
+    width: 20px
+}
+
+#attribute-mapping select, #feature-mapping select, #size-field-mapping input {
+    margin: 1px;
+    padding: 2px;
+}
+
+#attribute-mapping input, #feature-mapping input {
+    display: inline-block;
+    margin: 1px;
+    padding: 3px;
+}
+
+#content:not(.bootstrap) #attribute-mapping input, #content:not(.bootstrap) #feature-mapping input {
+    position: relative;
+    top: -2px;
+}
+
+#menudiv-orders select {
+    margin: 1px;
+    padding: 2px;
+}
+
+.carrier-info .titles tr td {
+    font-weight: bold;
+    color: navy;
+}
+
+#menudiv-transport select {
+    padding: 2px
+}
+
+.carrier-params {
+    position: relative;
+    top: -2px;
+    width: 60px;
+    margin-left: 20px;
+    padding: 1px;
+    opacity: .3;
+    border: 1px solid darkgrey;
+}
+
+.carrier-mandatory {
+    opacity: 1;
+    border: 1px solid red;
+    background-color: whitesmoke;
+}
+
+.condition-next {
+    position: relative;
+    top: -4px;
+    width: 16px;
+    height: 16px;
+    opacity: .5;
+}
+
+.condition-map input {
+    width: 200px;
+    margin: 1px;
+    margin-bottom: 2px;
+    padding: 2px;
+    opacity: .6;
+    border: 1px solid silver;
+    background-color: gainsboro;
+}
+
+.condition-map select {
+    width: 200px;
+    margin: 1px;
+    margin-bottom: 2px;
+    padding: 2px;
+    border: 1px solid silver;
+}
+
+.label-checkbox {
+    font-size: 1.2em;
+    float: none;
+    text-align: left;
+    opacity: .8;
+    color: navy;
+    /*padding: 5px;*/
+}
+
+#main .ean-policies input[type=radio], #main  .title-formats input[type=radio]{
+    margin: 5px
+}
+
+#main .ean-policies label, #main .title-formats label {
+    display: inline-block;
+    width: auto;
+    min-width: 90px;
+}
+
+#cdiscount_form {
+    font-family: Arial, Verdana, Helvetica, sans-serif
+}
+
+.table tr th:first-child, .table tr td:nth-child(1) {
+    text-align: center !important
+}
+
+#tabList .table tr th:first-child {
+    border-top: 2px solid red !important;
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+}
+
+#tabList .table tr td:nth-child(1) {
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+}
+
+#tabList .table tr:last-child td:first-child {
+    border-right: 2px solid red;
+    border-bottom: 2px solid red !important;
+    border-left: 2px solid red;
+}
+
+.info {
+    line-height: 1.8em;
+    padding: 8px 5px 5px 50px;
+}
+
+/* PS 1.6 */
+.alert.alert-info {
+    line-height: 1.6em;
+    border: 1px solid transparent !important;
+    border-left: 3px solid #81cfe6 !important;
+}
+
+.alert.alert-info a {
+    font-weight: bold
+}
+
+.bootstrap #tabList input, .bootstrap #tabList select {
+    display: inline-block
+}
+
+.bootstrap #conf-cdiscount {
+    font-size: 1.1em;
+    line-height: 140%;
+}
+
+.bootstrap #conf-cdiscount ul li {
+    line-height: 160%
+}
+
+.bootstrap #connection-check {
+    width: 200px;
+    padding: 5px 0;
+}
+
+.bootstrap .profile-table {
+    margin-top: -5px
+}
+
+.bootstrap .specific-row {
+    border: 2px solid transparent
+}
+
+.bootstrap .specific-row td:nth-child(1) {
+    padding-right: 15px
+}
+
+/* Bootstrap Override */
+.bootstrap .control-label {
+    font-weight: bold !important
+}
+
+.bootstrap .col-lg-3 h2 {
+    margin: 10px 0 0 0
+}
+
+.bootstrap .col-lg-9 {
+    margin-top: 6px
+}
+
+.bootstrap span[id$='-collapse'] a:hover {
+    text-decoration: none
+}
+
+.bootstrap #main label span.label-option {
+    font-weight: normal;
+    font-style: italic;
+    margin-left: 10px;
+    color: grey;
+}
+
+/* http://www.jotform.org/demo/checkbox-size/ */
+.bootstrap #tabList input.regular-checkbox {
+    display: none;
+}
+#main .regular-checkbox + label,#main .big-checkbox + label
+{
+    margin:0;
+    padding:0;
+}
+
+#main #tabList input.regular-checkbox {
+    display: none;
+}
+
+#main .regular-checkbox + label {
+    cursor: pointer;
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+}
+
+#main .regular-checkbox + label:active, #main .regular-checkbox:checked + label:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#main .regular-checkbox:checked + label {
+    font-size: 28px;
+    background-color: #e9ecee;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+    color: #99a1a7;
+}
+#main .regular-checkbox:checked + label:after {
+    content: '\2714';
+    position: absolute;
+    color: green;
+}
+#main .regular-checkbox:checked + label:after {
+    position: absolute;
+    top:-20px;
+}
+#main .regular-checkbox[disabled]:checked + label:after {
+    color: black;
+    opacity: 0.6;
+}
+
+#main .big-checkbox + label {
+    width:38px;
+    height:38px;
+}
+
+#main .big-checkbox:checked + label:after {
+    font-size: 50px;
+    left: 0;
+}
+
+#main .multitenant-list tr td:first-child {
+    width: 80px;
+}
+
+#main .multitenant-list tr td:nth-child(2) {
+    min-width: 150px;
+    max-width: 500px;
+    text-align: left;
+}
+
+#main .multitenant-list tr td:nth-child(3) {
+    min-width: 200px;
+    max-width: 500px;
+    text-align: right;
+}
+
+#main .multitenant-list tr td:first-child {
+    width: 80px;
+}
+
+#main .multitenant-list tr td:nth-child(2) {
+    min-width: 150px;
+    max-width: 500px;
+    text-align: left;
+}
+
+#main .multitenant-list tr td:nth-child(3) {
+    min-width: 200px;
+    max-width: 500px;
+    text-align: right;
+}
+.arrow-cat-duplicate:hover
+{
+    border:1px solid navy;
+    background-color:aliceblue;
+    opacity:1;
+}
+.arrow-cat-duplicate
+{
+    position:relative;
+    top:4px;
+    display:inline-block;
+    background: transparent url(../img/down-double-arrow.png) no-repeat 3px 3px;
+    background-size:9px 11px;
+    height:16px;
+    width: 16px;
+    border:1px solid transparent;
+    cursor:pointer;
+    opacity:0.8;
+}
+.carrier-params
+{
+    text-align: right;
+}
+
+#conf-filters select
+{
+    text-align:left;
+}
+
+#main .support-information-loader {
+    display: none;
+    position: relative;
+    top: -2px;
+    margin-left: 10px;
+}
+#main #support-information-content .print_r
+{
+    padding-left:50px;
+    color:sienna;
+}
+
+#main #menudiv-informations td
+{
+    border-left:none;
+    border-right:none;
+}
+
+#support-information-content pre
+{
+    display: block;
+    padding: 8px;
+    margin: 0 0 8.5px;
+    font-size: 11px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    line-height: 1.42857;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333333;
+    background-color: whitesmoke;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+#conf-profiles .profile-multitenant input
+{
+    width:20px;
+    height:20px;
+    padding:2px;
+    margin:2px;
+    margin-right:10px;
+}
+#conf-profiles .profile-multitenant label
+{
+    position:relative;
+    top:-5px;
+    margin-right:15px;
+}
+
+/*Configuration - Information: Download support info file*/
+#support-information-download .support-url {
+    text-decoration: none;
+}
+#support-information-download p {
+    margin-top: 10px;
+}
+#support-information-file-loader {
+    display: none;
+}
+
+#main .cd-info-level-info {
+    min-height: 32px;
+    background: #BDE5F8 url(../images/icon-info.png) no-repeat 6px 6px;
+    border: 1px solid #00529B;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+}
+
+#main .cdav-label
+{
+    position:relative;
+    top:-5px;
+    font-weight: normal;
+}
+#main .cdav-max-label
+{
+    position:relative;
+    font-weight: normal;
+}
+#main .profile-shipping-free-label, #main .model-free-label
+{
+    position:relative;
+    top:-5px;
+}
+#main .model-free-label {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#main .profile-shipping-free-select
+{
+    position:relative;
+    top:-5px;
+}
+
+#main .cron-mode
+{
+    cursor:pointer;
+    border:1px silver dotted;
+    padding:10px;
+    height:52px;
+}
+#main .cron-mode h4
+{
+    float:left;margin-left:10px;
+}
+#main .cron-mode img
+{
+    float:left;
+}
+
+#main .cron-prestashop
+{
+    position:relative;
+    top:5px;
+}
+
+#prestashop-cronjobs-lines
+{
+    display: block;
+    font-family: monospace;
+    color: black;
+    white-space: pre;
+    word-wrap:break-word;
+    margin: 1em 0px;
+}
+
+#cronjob-loader
+{
+    display:none;
+    float:right;
+    margin-right:30px;
+    position:relative;
+    top:8px;
+}
+
+#conf-mapping .feature-mapping-item-action a:hover
+{
+    text-decoration: none;
+}
+#conf-mapping .feature-mapping-item-action
+{
+    font-size: 11px;
+    text-decoration: none;
+    color: navy;
+    white-space: nowrap;
+}
+
+/*
+ * Prestashop 1.6
+ */
+
+
+#content.bootstrap #conf-models .specifics-container table tr td:last-child select
+{
+    right: 10px;
+    position: relative;
+}
+#content.bootstrap #conf-models .specifics-container table tr:nth-child(even) > td
+{
+    background-color: #f0f0f0;
+}
+#content.bootstrap #conf-models .specifics-container table tr > td
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#content.bootstrap #conf-models .specifics-container table tr:first-child
+{
+    font-style: normal;
+    font-size:1.1em;
+}
+
+#content.bootstrap #conf-models .specifics-container table tr td
+{
+    font-style: italic;
+    text-align:right;
+}
+#content.bootstrap #conf-models .specifics-container table tr td select
+{
+    font-style: normal;
+    font-size:1.2em;
+}
+
+#content.bootstrap .model-content
+{
+    border:1px dotted silver;
+    margin:20px;
+}
+#content.bootstrap .model-content .control-label, #content.bootstrap #model-items .control-label
+{
+    padding-right: 10px;
+}
+#content.bootstrap .model-content .margin-form .model-help, #content.bootstrap #model-items .margin-form .model-help
+{
+    margin:5px 0 5px 0;
+    color:green;
+}
+#content.bootstrap .model-content .margin-form:nth-child(even), #content.bootstrap #model-items .margin-form:nth-child(even)
+{
+    background-color:#f0f0f0;
+    padding: 15px;
+}
+#content.bootstrap .model-content .margin-form:nth-child(odd), #content.bootstrap #model-items .margin-form:nth-child(odd)
+{
+    padding: 15px;
+    width:74%;
+}
+#content.bootstrap #model-items .model-header .margin-form
+{
+    padding: 0;
+}
+#content.bootstrap .model-content .model-header
+{
+    border:none;
+}
+
+
+#content.bootstrap .profile-create, .model-create
+{
+    background-color: initial;
+}
+#content.bootstrap .profile-content
+{
+    border:1px dotted silver;
+    margin:20px;
+}
+#content.bootstrap .profile-content .control-label, #content.bootstrap #profile-container  .control-label
+{
+    padding-right: 10px;
+}
+#content.bootstrap .profile-content .margin-form .profile-help, #content.bootstrap #profile-container .margin-form .profile-help
+{
+    margin:5px 0 5px 0;
+    color:green;
+}
+#content.bootstrap .profile-content .margin-form:nth-child(even), #content.bootstrap #profile-container .margin-form:nth-child(even)
+{
+    background-color:#f0f0f0;
+    padding: 15px;
+    width:74%;
+}
+#content.bootstrap .profile-content .margin-form:nth-child(odd), #content.bootstrap #profile-container .margin-form:nth-child(odd)
+{
+    padding: 15px;
+    width:74%;
+}
+#content.bootstrap #profile-container .profile-header .margin-form
+{
+    padding: 0px;
+}
+#content.bootstrap .profile-content .profile-header
+{
+    border:none;
+}
+/*
+ * Chosen
+ */
+#conf-profiles .chosen-container
+{
+    width:300px;
+}
+
+/*
+ * Mapping Select Box
+ */
+
+
+#main select.select-mapping-entry.filled
+{
+    border:1px solid green;
+}
+
+#main .mapping-box
+{
+    display:none;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    width:680px;
+    height:450px;
+    margin-left: -340px;
+    margin-top: -225px;
+    border:12px solid #f0f0f0;
+    background-color:white;
+    z-index:1000;
+}
+#main .mapping-box label
+{
+    display:block;
+    width:100%;
+    clear:both;
+    text-align:left;
+    margin-bottom:10px;
+}
+#main .mapping-box .main-box
+{
+    width:100%;
+    height:100%;
+    border:1px solid silver;
+    padding:0 0 0 10px;
+}
+
+#main .mapping-box button
+{
+    width:260px;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+#main .mapping-box label
+{
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#main .mapping-box .close-box
+{
+    position:absolute;
+    cursor:pointer;
+    right:20px;
+    top:5px;
+    color:#c0c0c0;
+}
+#main .mapping-box .selectors
+{
+    margin:15px;
+}
+
+#main .mapping-box .mapping-box-values
+{
+    position:relative;
+    float: left;
+}
+
+#main .mapping-box .mapping-box-values .mapping-box-values-loader
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:transparent url('../img/loading.gif') no-repeat center center ;
+}
+
+#main .mapping-box .mapping-box-values span
+{
+    width: 260px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom:5px;
+}
+#main .mapping-box .selected-values  {
+    float: left;
+    overflow: auto;
+    width: 260px !important;
+    height: 280px !important;
+    resize: vertical;
+}
+#main .mapping-box .available-values {
+     float: left;
+     overflow: auto;
+     width: 280px !important;
+     height: 280px !important;
+     resze: vertical;
+ }
+#main .mapping-box .values-search
+{
+    clear:left;
+    float:left;
+    margin-top:10px;
+    width:280px !important;
+}
+#main .mapping-box .sep-values
+{
+    opacity: 0.5;
+    position: relative;
+    top: 100px;
+    float: left;
+    height: 200px;
+    margin: auto 10px auto 10px;
+}
+
+#conf-mapping .size-mapping-item
+{
+    white-space: nowrap;
+}
+#conf-mapping .size-mapping-item{
+    white-space: nowrap;
+}
+#main .mapping-box-search:hover
+{
+    cursor:pointer;
+    border:1px solid green;
+    opacity:0.7;
+}
+#main .mapping-box-search
+{
+    padding:5px;
+    cursor:pointer;
+    margin-left:5px;
+}
+#main .mapping-box-search img
+{
+    width:16px;
+    height:16px;
+}
+
+
+#main .expert
+{
+    margin-left:5px;
+    position:relative;
+    top:-8px;
+    font-style: italic;
+    font-size: 0.8em;
+    color:red;
+}
+
+#main .header-logo img:first-child
+{
+	float:left;
+	width:500px;
+	position:relative;
+	left:10px;
+	top:10px;
+
+}
+#main .header-logo img:nth-child(2)
+{
+	float:right;
+	position:relative;
+	right:20px;
+    top:15px;
+
+}
+
+
+#conf-categories input[type=checkbox] {
+    width:20px;
+    height: 20px;
+}
+
+#content .multichannel ul {
+    -webkit-padding-start: 0;
+}
+#content .multichannel ul li {
+    list-style: none;
+    display: inline;
+}
+#content .multichannel ul li:nth-last-child(1) {
+    margin-left:30px;
+}
+
+#content .multichannel .mc-checkbox {
+    position:relative;
+}
+
+#content .multichannel .mc-checkbox input {
+    width: 20px;
+    height: 20px;
+}
+#content .multichannel .mc-checkbox span {
+    position:absolute;
+    top:0;
+    left:0;
+}
+#content .multichannel .mc-title {
+    position:relative;
+    top:-5px;
+    margin-left:10px;
+}

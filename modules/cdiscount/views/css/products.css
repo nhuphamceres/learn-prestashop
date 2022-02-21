@@ -1,0 +1,417 @@
+.tabItem {
+    display: none;
+}
+
+#tabList {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #efefef;
+    border: 1px solid #CCC;
+}
+
+li > a > span > img, h3 > img {
+    vertical-align: middle !important;
+}
+
+/* FOR PS 1.2 */
+#content .error {
+    border: 1px solid #EC9B9B;
+    background-color: #FAE2E3;
+}
+
+#content .conf, #content .warn, #content .error {
+    color: #383838;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    line-height: 20px;
+    padding: 10px 15px 5px 50px;
+}
+
+.hasDatepicker {
+    max-width: 200px;
+    display: inline !important;
+}
+
+/* Create Mode */
+#create-products-form table td, #create-products-form table th {
+    padding: 3px 5px;
+}
+
+#conf-create h3 {
+    text-align: center;
+    margin: 10px 0 0 0;
+    color: navy;
+}
+
+.panel input[type="text"], .panel select {
+    max-width: 200px;
+    display: inline !important;
+}
+
+hr {
+    margin-bottom: 20px;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.ccb-title {
+    font-size: 1.2em;
+    position: relative;
+    top: -5px;
+    padding-left: 5px;
+
+}
+
+#result-create {
+    display: none;
+    width: 700px;
+    left: 80px;
+    position: relative;
+}
+
+#create-products {
+    width: 150px;
+    float: right;
+    margin-right: 25px
+}
+
+.create-dt {
+    font-size: 1.2em;
+    position: relative;
+    top: 2px;
+}
+
+/* Create Mode */
+#conf-csv h3 {
+    text-align: center;
+    margin: 10px 0 0 0;
+    color: navy;
+}
+
+#result-csv {
+    display: none;
+    width: 700px;
+    left: 80px;
+    position: relative;
+}
+
+#csv-products {
+    width: 150px;
+    float: right;
+    margin-right: 25px
+}
+
+.csv-dt {
+    font-size: 1.2em;
+    position: relative;
+    top: 2px;
+}
+
+/* Update Mode */
+#conf-update h3 {
+    text-align: center;
+    margin: 10px 0 0 0;
+    color: navy;
+}
+
+#result-update {
+    display: none;
+    width: 700px;
+    left: 80px;
+    position: relative;
+}
+
+#update-products {
+    position: relative;
+    float: right;
+    padding: 5px;
+    margin: 10px;
+}
+
+.update-dt {
+    font-size: 1.2em;
+    position: relative;
+    top: 2px;
+}
+
+.limit-pdt {
+    position: relative;
+    top: 2px;
+}
+
+#conf-create {
+    position: relative;
+}
+
+#conf-update {
+    position: relative;
+}
+
+#conf-csv {
+    position: relative;
+}
+
+#create-loader {
+    position: relative;
+    display: none;
+    left: 50%;
+    width: 32px;
+    height: 32px;
+    background: transparent url(../img/loading.gif) no-repeat;
+}
+
+#send-loader, #csv-loader {
+    display: none;
+    left: 50%;
+    margin-left: 50%;
+    width: 100%;
+    height: 32px;
+    background: transparent url(../img/loading.gif) no-repeat;
+}
+
+#content #create-products-result {
+    width: 90%;
+}
+
+#send-products-result div.conf {
+    width: 90%;
+}
+
+#update-loader {
+    position: relative;
+    left: 50%;
+    display: none;
+    width: 32px;
+    height: 32px;
+    background: transparent url(../img/loading.gif) no-repeat;
+}
+
+#debug-loader {
+    display: none;
+    width: 32px;
+    height: 32px;
+    background: transparent url(../img/loading.gif) no-repeat;
+}
+
+#console {
+    background-color: black;
+    border: 1px solid white;
+    min-height: 500px;
+    width: 95%;
+    margin: 20px 20px;
+    padding: 10px;
+    color: white;
+}
+
+.cleaner {
+    clear: both;
+}
+
+#purge-warning {
+    display: none;
+    color: red;
+    position: relative;
+    top: 2px;
+    border: 1px solid #FBB;
+    background-color: #FFFFBE;
+    padding: 2px 10px 2px 10px;
+    margin-left: 10px;
+}
+
+#send-products {
+    width: 150px;
+    float: right;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+/*For prestashop 1.6*/
+#create-products-form .warn {
+    min-height: 32px;
+    background: #FEEFB3 url(../img/icon-attention.png) no-repeat 6px 6px;
+    border: 1px solid #9e6014;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+    color: #9e6014;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#create-products-form .cdiscount-info {
+    min-height: 32px;
+    background: #DFF2BF url(../img/icon-valid.png) no-repeat 6px 6px;
+    border: 1px solid #4F8A10;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+    color: #4F8A10;
+    font-size: 1.2em;
+}
+
+#main .conf {
+    background: #DFF2BF url(../img/icon-valid.png) no-repeat scroll 6px 6px;
+    border: 1px solid #4F8A10;
+    color: #4F8A10;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    line-height: 20px;
+    padding: 13px 5px 5px 40px;
+    margin: 5px;
+    min-height: 28px;
+    border-radius: 3px;
+}
+
+#main .error {
+    min-height: 32px;
+    background: #FFBABA url(../img/icon-cancel.png) no-repeat 6px 6px;
+    border: 1px solid #CC0000;
+    padding: 8px 5px 5px 50px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+#main pre {
+    display: block;
+    padding: 8px;
+    margin: 5px;
+    font-size: 11px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    line-height: 1.42857;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333333;
+    background-color: whitesmoke;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+#main #update-products-latest {
+    margin-left: 10px;
+}
+
+#update-products-history {
+    display: block;
+    padding: 8px;
+    margin: 5px;
+    font-size: 11px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    line-height: 1.42857;
+    color: #333333;
+    background-color: whitesmoke;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+#update-products-history h4 {
+    border-bottom: 1px solid silver;
+    padding-left: 30px;
+    padding-bottom: 8px;
+    margin: 10px;
+}
+
+#main #batch_ressources {
+    margin-left: 50px;
+}
+
+#main #batch_ressources li {
+    margin-bottom: 8px;
+}
+
+#main #batch_history {
+    width: 70%;
+    margin-left: 50px;
+}
+
+#main #batch_history thead tr td {
+    font-weight: bold;
+    color: navy;
+}
+
+#main #batch_history tr td {
+    color: black;
+    margin: 1em 0px;
+}
+
+#main #batch_history tr td.reportid {
+    cursor: pointer;
+    color: navy;
+}
+
+#main #batch_history tr td.reportid:hover {
+    text-decoration: underline;
+}
+
+#main #batch_history img {
+    position: relative;
+    top: -2px;
+    width: 12px;
+
+}
+
+#main pre {
+    display: block;
+    padding: 8px;
+    margin: 5px;
+    font-size: 11px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    line-height: 1.42857;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333333;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+#history-report-content pre {
+    margin-left: 35px;
+}
+
+#history-history {
+    position: relative; /* Keep it for the #history-loader ! */
+}
+
+#history-loader {
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    width: 32px;
+    height: 32px;
+    background: transparent url(../img/loading.gif) no-repeat;
+    display: none;
+}
+
+#main .support-msg {
+    color: green;
+    border: 1px solid silver;
+    background: white;
+    margin: 5px 5px 20px 5px;
+    padding: 5px;
+}
+
+#update-products-channels
+{
+    float:left;
+    margin:10px;
+}
+#update-products-channels select
+{
+    width:250px;
+}
+#update-products-channels td:first-child
+{
+    min-width:100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+#menu-csv
+{
+    opacity: 0.2;
+}
+
+#content input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}

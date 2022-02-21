@@ -1,0 +1,5 @@
+Veuillez ajouter un bref commentaire pour mieux décrire l'état de votre article. Vous êtes limité à 200 caractères.
+
+Exemple sur Cdiscount :
+
+<img src="../modules/cdiscount/views/img/tips/fr/condition_note_example.png" />

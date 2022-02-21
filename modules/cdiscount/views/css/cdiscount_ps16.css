@@ -1,0 +1,432 @@
+/* todo: Maybe not used */
+/* Fix models and profiles tab when edit on of them, page as the same width so the buttons don't move */
+hr {
+    overflow-y: scroll;
+}
+
+.tabItem {
+    display: none;
+}
+
+#menuTab li a :focus
+{
+    background-color: transparent;
+}
+#conf-cdiscount {
+    line-height: 140%;
+    font-size: 1.1em;
+}
+
+#conf-cdiscount ul li {
+    line-height: 160%;
+}
+
+#main input, #main select {
+    display: inline-block;
+    padding: 2px;
+}
+
+#connection-check {
+    width: 200px;
+    padding: 5px 0;
+}
+
+#menudiv-informations > .cd-info p {
+    font-size: 1.1em;
+}
+
+#menudiv-informations div.cd-info p.cd-info-level-error {
+    min-height: 62px;
+    background: #FFBABA url(../img/icon-cancel.png) no-repeat 6px 6px;
+    border: 1px solid #CC0000;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+}
+
+#menudiv-informations div.cd-info p.cd-info-level-warn, #content .warn {
+    min-height: 42px;
+    background: #FEEFB3 url(../img/icon-attention.png) no-repeat 6px 6px;
+    border: 1px solid #9e6014;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+}
+
+#menudiv-informations div.cd-info p.cd-info-level-ok {
+    min-height: 50px;
+    background: #DFF2BF url(../img/icon-valid.png) no-repeat 6px 6px;
+    border: 1px solid #4F8A10;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+}
+
+#menudiv-informations p.cd-info-text-error {
+    color: red;
+    font-weight: bold;
+}
+
+#menudiv-informations p.cd-info-text-warn {
+    color: #9e6014;
+    font-weight: bold;
+}
+
+#menudiv-informations p.cd-info-text-ok {
+    color: #4F8A10;
+}
+
+/*Configuration - Information: Download support info file*/
+#support-information-download .support-url {
+    text-decoration: none;
+}
+#support-information-download p {
+    margin-top: 10px;
+}
+#support-information-download {
+    display: none;
+}
+
+#model-add, #profile-add {
+    color: green;
+    float: right;
+    font-size: 1.3em;
+    position: relative;
+    top: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#model-import p {
+    font-size: 12px;
+    color: red;
+}
+
+.category-loader, .model-universe-loader, .model-category-loader, .model-public-loader, .model-gender-loader {
+    position: relative;
+    top: -4px;
+    left: +15px;
+    display: none;
+}
+
+.required {
+    margin-left: 10px;
+    font-size: 1.4em;
+    color: red;
+    font-family: "Courier New", Courier;
+}
+
+.cd-info-level-reload {
+    min-height: 45px;
+    background: whitesmoke url(../img/control_repeat.png) no-repeat 6px 6px;
+    border: 1px solid #CECECE;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+}
+
+.specific-row {
+    border: 2px solid transparent;
+}
+
+.profile-table {
+    width: 90%;
+    margin-left: 10px;
+}
+
+.profile-header > div, .model-header > div {
+    margin-top: 0;
+}
+
+.profile-header, .model-header {
+    background-color: whitesmoke;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    height: 60px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.profile-header .title, .model-header .title {
+    font-size: 1.2em;
+    color: navy
+}
+
+.profile-header .type, .model-header .type {
+    font-size: 1.2em;
+}
+
+.profile-obj-title, .model-obj-title {
+    position: relative;
+    top: 5px;
+    text-align: right;
+}
+
+.profile-help, .model-help {
+    font-size: 1em;
+}
+
+#profile-items, #model-items {
+    height: 100%;
+}
+
+.profile-create, .model-create {
+    background-color: lavender;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.profile-create h2, .model-create h2 {
+    margin: 5px 30px 10px 30px;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+}
+
+.profile-del-2, .model-del-2 {
+    color: red;
+    float: right;
+    font-size: 1.3em;
+    position: relative;
+    top: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.profile-del-img, .model-del-img {
+    border: 1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.profile-del-img:hover, .model-del-img:hover {
+    border: 1px solid navy;
+}
+
+.profile-del-img2, .model-del-img2 {
+    position: relative;
+    border: 1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.profile-del-img2:hover, .model-del-img2:hover {
+    border: 1px solid navy;
+}
+
+.profile-edit, .model-edit {
+    position: relative;
+    top: +2px;
+}
+
+.profile-edit-img, .model-edit-img {
+    margin-left: 15px;
+    border: 1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.profile-edit-img:hover, .model-edit-img:hover {
+    border: 1px solid navy;
+}
+
+.mapping-next {
+    position: relative;
+    opacity: 0.5;
+    top: -1px;
+}
+
+.mapping-next img {
+    width: 20px;
+}
+
+#attribute-mapping .addnewmapping {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+#attribute-mapping .addnewmapping:hover {
+    border: 1px solid navy;
+}
+
+#attribute-mapping .removemapping {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+#attribute-mapping .removemapping:hover {
+    border: 1px solid navy;
+}
+
+.addnew-feature-mapping {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+.addnew-feature-mapping:hover {
+    border: 1px solid navy;
+}
+
+.remove-feature-mapping {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+.remove-feature-mapping:hover {
+    border: 1px solid navy;
+}
+
+.carrier-params {
+    position: relative;
+    top: -2px;
+    width: 60px;
+    margin-left: 20px;
+    padding: 1px;
+    border: 1px solid gainsboro;
+    opacity: 0.3;
+}
+
+.carrier-mandatory {
+    opacity: 1;
+    border: 1px solid red;
+    background-color: whitesmoke;
+
+}
+
+.carrier-info .titles tr td {
+    font-weight: bold;
+    color: navy;
+}
+
+.condition-next {
+    position: relative;
+    top: -4px;
+    opacity: 0.5;
+    width: 16px;
+    height: 16px;
+}
+
+.manufacturer-heading {
+    width: 600px;
+}
+
+.manufacturer-heading span {
+    display: inline-block;
+    width: 260px;
+    text-align: center;
+    padding: 10px;
+}
+
+.available-manufacturers, .selected-manufacturers, .available-suppliers, .selected-suppliers, .excluded-manufacturers {
+    float: left;
+    width: 250px !important;
+    height: 180px !important;
+    resize: vertical;
+    overflow: auto;
+}
+
+.supplier-heading {
+    width: 600px;
+}
+
+.supplier-heading span {
+    display: inline-block;
+    width: 260px;
+    text-align: center;
+    padding: 10px;
+}
+
+.sep {
+    position: relative;
+    float: left;
+    height: 200px;
+    margin: auto 10px auto 10px;
+    top: 45px;
+}
+
+.move {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid transparent;
+    height: 40px;
+}
+
+.move:hover {
+    padding: 5px;
+    border: 1px solid silver;
+    background-color: gainsboro;
+}
+
+/* Bootstrap Override */
+.control-label {
+    font-weight: bold !important;
+}
+
+.col-lg-3 h2 {
+    margin: 10px 0 0 0;
+}
+
+.col-lg-9 {
+    margin-top: 6px;
+}
+
+span[id$="-collapse"] a:hover {
+    text-decoration: none;
+}
+
+#main label span.label-option {
+    font-weight: normal;
+    font-style: italic;
+    margin-left: 10px;
+    color: grey;
+}
+
+#main .cron-mode
+{
+    cursor:pointer;
+    border:1px silver dotted;
+    padding:10px;
+    height:52px;
+}
+#main .cron-mode h4
+{
+    float:left;margin-left:10px;
+}
+#main .cron-mode img
+{
+    float:left;
+}
+
+#main .cron-prestashop
+{
+    position:relative;
+    top:5px;
+}
+
+#prestashop-cronjobs-lines
+{
+    display: block;
+    font-family: monospace;
+    color: black;
+    white-space: pre;
+    word-wrap:break-word;
+    margin: 1em 0px;
+}
+
+#cronjob-loader
+{
+    display:none;
+    float:right;
+    margin-right:30px;
+    position:relative;
+    top:8px;
+}
+
+#conf-categories input[type=checkbox] {
+    width:20px;
+    height: 20px;
+}

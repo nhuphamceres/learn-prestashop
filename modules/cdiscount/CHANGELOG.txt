@@ -1,0 +1,259 @@
+4.4.35
+Fixed: Order import: Compatible with PS >= 1.7.6
+
+4.4.34
+Updated: Order import: Ignore FBC orders
+
+4.4.32
+Updated: Move model webservice debug to proper place
+
+4.4.31
+Added: Product updating: Logger
+
+4.4.30
+Updated: Order import: Casino orders: Transform carrier on the fly "Standard" --> "STD"
+
+4.4.29
+Updated: Offer updating: Ignore warning about weight
+
+4.4.28
+Updated: Context improvement
+Added: Configuration detailed debug
+
+4.4.26
+Updated: Product export: Allow https image URLs
+
+4.4.25
+Fixed: Multi-stores: Cannot load model
+
+4.4.24
+Fixed: Wrong function names
+
+4.4.23
+Fixed: PS1.7.7: Configuration: Settings: Cannot change product condition
+
+4.4.20
+Added: Orders import: CLogistic: Add carrier `COX`
+
+4.4.19
+Fixed: Product updating: Show error about carrier weight
+
+4.4.18
+Fixed: Configuration: Long description only takes effect when Marketing Description enable
+
+4.4.17
+Added: Support bundle: Show all overrides if any
+
+4.4.16
+Changed: Product creation: Limit description to 420 characters
+
+4.4.15
+Added: Product creation: Add option to export title by name + attributes with label
+
+4.4.13
+Fixed: Configuration error since 4.4.11
+
+4.4.12
+Changed: Admin order: Simplify mp_order_id hook
+
+4.4.11
+Fixed: Compatible with outdated Amazon
+
+4.4.10
+Fixed: Empty image in support zip file
+
+4.4.09
+Added: AGK carrier (C Logistique)
+Added: Shipping service for Amazon
+Fixed: Debug mode in load allowed category tree
+
+4.4.08
+Fixed: Debug on order listing
+
+4.4.06
+Added: More debug info on cron import
+
+4.4.05
+Fixed: Admin orders: Cannot search by mp_order_id PS1.6.1 - PS1.7.6
+
+4.4.04
+Fixed: Admin orders: Each module show mp_order_id independent
+
+4.4.03
+Fixed: Translation error in CDiscount admin order
+
+4.4.02
+Changed: Load models on demand to reduce configuration workload
+
+4.3.10
+Fixed: Slowly & safety upgrade
+
+4.3.09
+Fixed: Check field existence by cache.
+
+4.3.07
+Fixed: Imported order had marketplace order ID = 0.
+
+4.3.06
+* Added: DPS, CHJ, DPD carriers for C Logistique.
+
+4.3.03
+* Added: Other mappings: Copy from PrestaShop to CDiscount.
+
+4.3.02
+* Fixed: Categories not load in product export.
+
+4.3.01
+* Added: Shipping dates / delivery dates of order.
+
+4.2.03
+* Fixed: File not found (admin_configure), remove merchant's specific file.
+
+v4.2.002
+* Changed: GetAllModelList is no longer available
+
+v4.1.012
+* Added possibility to invalidate old certificates
+
+v4.1.011
+* Update SSL certificate
+
+v4.1.007
+* Fix language context causes fatal error
+
+v4.1.005
+* Added multiple models support
+
+v4.1.004
+* Fixed: error 'the local is invalid'
+
+v4.1.003
+* Fixed: predefined carrier RIM (change from Relay to EnMagasin)
+
+v3.9.145
+
++ Added workaround/improved support for OpenSI
+
+v3.9.146
+
++ Added diags in Informations tab
+
+v3.9.148
+
++  Added: usleep prior to import order to prevent an order to be imported twice if two concurrent script are ran concurrently
+
+v3.9.149
+
++  Added: send or not marketing description
+
+v3.9.150
+
+*  Fixed: out of stock orders were wrongly accepted
+
+v3.9.152
+
++  Added: customer groups
+
+v3.9.160
+
+*  Fixed: multibyte issues
+
+v3.9.167
+
+* CDAV - CDiscount à volonté
+* Filtering URL in descriptions
+* Extra fees as a virtual product
+
+v3.9.169
+
+* Fixed: if product is disabled remove the EAN to prevent automatic offer creation
+
+v3.9.172
+
+* Fixed: Man in a middle security threat fixed
+
+v3.9.174
+
+* Fixed: Import of orders
+
+v3.9.178
+
+* Added: Option "Do not destock" for C Logistique Orders
+
+v3.9.190
+
+* Fixed: checkByMpId : set cache to false to prevent duplicated imports
+
+3.9.199
+
++ Added: Preparation Time
++ Added: Shipping Override
++ Added: Seller Status
+
+3.9.201
+
+* Fixed: Some configurations not saved
+* Improved: js, img, tpl moved into views directory
+
+3.9.204
+
+* Fixed: TLS issue with PHP gt 5.6 lt 5.6.19
+
+3.9.205
+
+* Import orders crashes fixed
+
+3.9.208
+
+* Too many problem with TLSv_x with PHP <7
+
+3.9.215
++ Added: Since parameters for offers update
+
+3.9.217
+* Performances improvements
+
+4.0.01
++ Prestashop 1.7 compatibility
+
+4.0.02
+* Length condition added to CDiscountOrder::getMarketplaceOrdersStatesByIdLang
+
+4.0.06
+* Added big parcels, mondial relay bug fixed
+* Multistore issue fixed
+
+4.0.35
+* Tracking number no longer mandatory
+* Carrier Mapping for Orders Statuses
+
+v4.0.38
+* Download offers and exclude them from product creation: it prevents to send an existing product
+
+v4.0.52
+* Address fix (Building, Appartement)
+
+v4.0.55
+* On Sale Issue
+
+v4.0.57
+* Do not skip products with URL in description, just ignore marketing description
+
+v4.0.58
+* Smart Rounding on sales
+
+v4.0.60
+* Fix issue importing in pickup points (SoColissimo)
+
+v4.0.80
+* Image issue in multistore environment
+
+v4.0.122
+* Removed marketplace fields from ps_orders
+
+v4.0.156
+* GDPR compliance.
+* Remove Carriers/Modules option. All carriers are listed in tab Transport.
+* Update common classes.
+* Provide full support information.
+* Admin Orders: Show column Marketplace Order ID.

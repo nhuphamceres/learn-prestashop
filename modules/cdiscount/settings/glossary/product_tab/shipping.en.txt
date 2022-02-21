@@ -1,0 +1,5 @@
+Shipping Override
+
+Overrides shipping fees calculated by the module, 
+the shipping fees for this product will be replaced by this value
+

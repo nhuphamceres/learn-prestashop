@@ -1,0 +1,66 @@
+
+#productmarketplace-options img {
+    position: relative;
+    top: -2px;
+}
+
+#productmarketplace-options:hover {
+    padding: 5px;
+    background-color: #ffe1d3;
+    border: 1px solid silver;
+    cursor: pointer;
+}
+
+.marketplace-details {
+    display: none;
+}
+
+.propagate {
+    color: navy;
+}
+
+.propagate:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+#cdiscount .marketplace-details input
+{
+    margin:4px;
+    padding:4px;
+}
+#cdiscount .marketplace-details input[type=checkbox]
+{
+    width:20px;
+    height:20px;
+    cursor:pointer;
+}
+
+ .column-left {
+  display: inline-block;
+  min-width: 140px;  
+  padding-right: 10px;  
+}
+
+#productmarketplace-options img:nth-child(1)
+{
+    position: relative;
+    top: -2px;
+
+    width:24px;
+    height:24px;
+}
+
+#productmarketplace-options
+{
+    padding:5px;
+    font-size:1.2em;
+}
+/*For prestashop 1.6*/
+#product-informations tr.marketplace-details td:first-child {
+    padding-right: 6px;
+}
+
+#product-informations .marketplace-details input {
+    display: inline-block;
+}

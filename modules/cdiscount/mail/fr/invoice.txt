@@ -1,0 +1,11 @@
+Bonjour {firstname} {lastname},
+
+Vous trouverez ci-joint la facture relative à votre commande CDiscount N°{cdiscount_order_id} du {cdiscount_order_date} effectuée sur CDiscount et déjà réglée.
+
+Cette facture est au format universel PDF, vous pouvez utiliser un lecteur PDF pour la visualiser.
+
+Conservez cette facture et, pensez à l'environnement, ne l'imprimez qu'en cas de nécessité.
+
+Cordialement,
+Le Service Client
+{shop_name}

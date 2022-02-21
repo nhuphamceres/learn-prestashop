@@ -1,0 +1,4 @@
+Délai de traitement (en jours) 
+
+Il s'agit du temps dont vous aurez besoin pour préparer le produit à l'envoi (en jours) après la commande du client.
+

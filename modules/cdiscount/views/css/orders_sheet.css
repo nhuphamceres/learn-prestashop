@@ -1,0 +1,70 @@
+.cd_label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    font-weight: bold;
+    line-height: 250%;
+}
+
+.cd_text {
+    margin-left: 5px;
+}
+
+#cd-action {
+    width: 150px;
+}
+
+#cd-valid {
+    position: relative;
+    padding: 8px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+#cd-valid:hover {
+    border: 1px solid blue;
+    background-color: #efefef;
+}
+
+#cd-valid-loader {
+    position: relative;
+    padding: 8px;
+    border: 1px dashed grey;
+}
+
+#cd-update {
+    position: relative;
+    padding: 8px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+#cd-update:hover {
+    border: 1px solid blue;
+    background-color: #efefef;
+}
+
+#cd-update-loader {
+    position: relative;
+    padding: 8px;
+    border: 1px dashed grey;
+}
+
+#main .bootstrap legend {
+    font-family: "Ubuntu Condensed", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: inherit;
+    background-color: transparent;
+    position: relative;
+    top: 16px;
+    display: block;
+    padding: 0 0 0 5px;
+    border: 0;
+    border-bottom: 1px solid #eeeeee;
+    border-top: 1px solid #e5e5e5;
+    font-size: 1.2em;
+    line-height: 2.2em;
+    height: 2.2em;
+    text-transform: uppercase;
+    margin: -20px -16px 15px -16px;
+}
