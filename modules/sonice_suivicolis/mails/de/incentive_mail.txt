@@ -1,0 +1,17 @@
+Gute Tag {firstname} {lastname},
+
+die Auswahl führt Sie durch Ihre Einkäufe über {shop_name}, doch
+ ist auch für Ihre zukünftigen Einkäufe im Geschäft nützlich.
+
+Außerdem wären wir Ihnen sehr dankbar, wenn Sie unsere Leistung bewerten würden.
+
+Dies können Sie in wenigen Augenblicken tun, indem Sie Ihr Konto aufrufen: 
+{service_notation_url}
+
+Folgen Sie einfach den Instruktionen.
+
+Wir möchten Ihnen für Ihr Vertrauen danken und freuen uns sehr, wenn wir Sie bald wieder in unserem Geschäft begrüßen zu dürfen.
+
+Mit freundlichen Grüßen
+Ihr Kundenservice
+{shop_name}

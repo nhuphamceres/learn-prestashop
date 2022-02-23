@@ -1,0 +1,11 @@
+Gute Tag {firstname} {lastname},
+
+Sie werden die Anlieferung auf Ihrer Bestellung Nr {order_reference} von {order_date} auf unserem Geschäft gemacht anbei.
+
+Diese Lieferung ist das universelle PDF-Format, können Sie einen PDF-Reader verwenden, um es anzuzeigen.
+
+Bewahren Sie diese Lieferung und denken über die Umwelt, die es nicht drucken, wenn nötig.
+
+Mit freundlichen Grüßen,
+Ihr Kundenservice
+{shop_name}

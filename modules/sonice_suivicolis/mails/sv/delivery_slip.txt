@@ -1,0 +1,11 @@
+Hello {firstname} {lastname},
+
+You will find enclosed the delivery slip on your order No. {order_name} from {order_date} performed on our shop.
+
+This delivery slip is in the universal PDF format, you can use a PDF reader to view it.
+
+Keep this delivery slip and think about the environment, do not print it unless necessary.
+
+Best Regards
+Customer Service
+{shop_name}

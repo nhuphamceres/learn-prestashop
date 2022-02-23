@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns1:trackResponse xmlns:ns1="http://chargeur.tracking.geopost.com/">
+            <return>
+                <errorCode>0</errorCode>
+                <eventCode>LIVCFM</eventCode>
+                <eventDate>2013-12-06T00:00:00+01:00</eventDate>
+                <eventLibelle>Votre colis est livré</eventLibelle>
+                <eventSite>Centre Courrier 37</eventSite>
+                <recipientCity>TOURS CEDEX 2</recipientCity>
+                <recipientCountryCode>FR</recipientCountryCode>
+                <recipientZipCode>37073</recipientZipCode>
+                <skybillNumber>9V0215617642</skybillNumber>
+            </return>
+        </ns1:trackResponse>
+    </soap:Body>
+</soap:Envelope>

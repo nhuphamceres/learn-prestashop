@@ -1,0 +1,12 @@
+Hello {firstname} {lastname},
+
+Your order with reference {order_reference} has just been delivered, here are the latest tracking information that we received from La Poste;
+
+{date_status}
+{text_status}
+
+Thank you for entrusting us and hope to see you soon at our shop.
+
+Best Regards
+Customer Service
+{shop_name}

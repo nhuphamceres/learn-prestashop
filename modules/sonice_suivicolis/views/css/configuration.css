@@ -1,0 +1,370 @@
+/**
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to a commercial license from Common-Services Co., Ltd.
+ * Use, copy, modification or distribution of this source file without written
+ * license agreement from the SARL SMC is strictly forbidden.
+ * In order to obtain a license, please contact us: contact@common-services.com
+ * ...........................................................................
+ * INFORMATION SUR LA LICENCE D'UTILISATION
+ *
+ * L'utilisation de ce fichier source est soumise a une licence commerciale
+ * concedee par la societe Common-Services Co., Ltd.
+ * Toute utilisation, reproduction, modification ou distribution du present
+ * fichier source sans contrat de licence ecrit de la part de la Common-Services Co. Ltd. est
+ * expressement interdite.
+ * Pour obtenir une licence, veuillez contacter Common-Services Co., Ltd. a l'adresse: contact@common-services.com
+ * ...........................................................................
+ *
+ * @author    Alexandre D.
+ * @copyright Copyright (c) 2011-2015 Common Services Co Ltd - 90/25 Sukhumvit 81 - 10260 Bangkok - Thailand
+ * @license   Commercial license
+ * Support by mail  :  support.sonice@common-services.com
+ */
+
+/* QTIP */
+#configuration label.tip span {
+    text-decoration: none;
+    font-style: inherit;
+    border-bottom: 1px dashed rgba(255, 150, 0, 0.40);
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+#conf-sonice > div:nth-child(1) > label > h2 {
+    float: left;
+    margin: 0;
+}
+
+#conf-sonice {
+    line-height: 140%;
+    font-size: 1.1em;
+}
+
+#conf-sonice ul li {
+    line-height: 160%;
+}
+
+#conf-sonice .col-lg-9 {
+    padding-top: 4px;
+}
+
+.nobootstrap fieldset {
+    width: 81%;
+}
+
+.nobootstrap input[type="tel"], .nobootstrap input[type="email"] {
+    border: 1px solid #cccccc;
+    background-color: white;
+    padding: 2px 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+
+hr {
+    border-bottom: 1px solid silver;
+    background-color: transparent;
+    height: 1px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.cleaner {
+  clear:both;
+  margin:5px;
+}
+
+.snsc_button {
+    margin: 0 !important;
+    padding: 5px 10px !important;
+}
+
+.clear-both-clean {
+    clear: both;
+    height: 0px;
+    width: 100%;
+}
+
+.sohint {
+  min-height: 32px;
+  background: #BDE5F8 url(../img/icon-info.png) no-repeat 6px 6px;
+  border: 1px solid #00529B;
+  padding: 8px 5px 5px 50px;
+  border-radius: 3px;
+  color: black;
+}
+
+table tbody tr td p {
+    height: 15px;
+}
+
+.cron_task {
+    width: 70%;
+}
+
+.snsc_licence {
+    color: #ff502d;
+    font-weight: bold;
+}
+
+.snsc_licenceContact {
+    color: #6a6a6a;
+    font-weight: bold;
+}
+
+.snsc_logo {
+    margin: 30px 0;
+}
+
+.snsc_module_name {
+    font-size: 4em !important;
+}
+
+.snsc_orange {
+    color: #ff502d;
+}
+
+.snsc_grey {
+    color: #8c8c8c;
+}
+
+.snsc_black {
+    color: black;
+}
+
+.snsc_typo {
+    font-size: 1em !important;
+    margin-top: -4px;
+}
+
+.snsc_typo_conftab {
+    font-size: 1em !important;
+    color: #585A69;
+}
+
+.snsc_typo_conftab table tbody tr td p span, .snsc_typo_conftab p span {
+    color: red;
+    font-size: 2em !important;
+    vertical-align: -7px;
+    margin-left: 5px;
+}
+
+.snsc_typo_conftab table {
+    margin-top: -6px;
+}
+
+.snsc_typo_conftab table td {
+    padding-right: 15px;
+}
+
+.snsc_typo_conftab table td input, .snsc_typo_conftab .connectParam {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #DDDDDD;
+    
+    /*Applying CSS3 gradient*/
+    background: -moz-linear-gradient(center top, #FFFFFF, #EEEEEE 1px, #FFFFFF 20px);
+    background: -webkit-gradient(linear, left top, left 20, from(#FFFFFF), color-stop(5%, #EEEEEE) to(#FFFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FBFBFB', endColorstr='#FFFFFF');
+    
+    /*Applying CSS 3radius*/   
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+    /*Applying CSS3 box shadow*/
+    -moz-box-shadow: 0 0 2px #DDDDDD;
+    -webkit-box-shadow: 0 0 2px #DDDDDD;
+    box-shadow: 0 0 2px #DDDDDD;
+}
+
+.snsc_typo_conftab .connectParam {
+    width: 100px;
+}
+
+.snsc_documentation_list {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.snsc_documentation_list td {
+    width: 50px;
+}
+
+.snsc_documentation_list img {
+    cursor: pointer;
+}
+
+.snsc_documentation_warning {
+    width: 100% !important;
+    float: left;
+    cursor: default !important;
+    margin-top: 5px;
+}
+
+.snsc_documentation_warning span {
+    font-size: 1.2em !important;
+}
+
+.submitconf {
+    float: right;
+    margin: 20px;
+    width: 150px;
+}
+
+.snsc-info p {
+  font-size:1.1em !important;
+}
+
+.so-warning {
+    font-size: 13px !important;
+    margin-top: 5px;
+    display: block;
+    color: navy;
+}
+
+.snsc_multi_select {
+    width: 250px !important;
+    height: 250px !important;
+}
+
+.snsc_multi_select_heading {
+    width: 600px;
+    text-align: center;
+    letter-spacing: 300px;
+}
+
+.no_typo_div {
+    margin-left: 260px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.snsc_sep {
+    margin: 70px 20px 0 20px;
+}
+
+.snsc_ps_state {
+    display: inline-block;
+    border: 1px solid gainsboro;
+    background: white;
+    color: black;
+    padding: 1px 1px 1px 3px;
+    min-width: 200px;
+}
+
+.snsc_next {
+    margin: 6px 5px 0 10px;
+    opacity:0.5;
+    height:20px;
+}
+
+.snsc_state_info {
+    margin: 15px 0 0 235px;
+    max-width: 560px;
+    min-height: 50px;
+    color: navy;
+}
+
+.snsc_state_env {
+    margin-bottom: 5px;
+}
+
+.snsc_move {
+    cursor: pointer;
+    padding:5px !important;
+    border:1px solid transparent;
+}
+
+.snsc_move:hover {
+    padding: 5px;
+    border: 1px solid silver;
+    background-color: whitesmoke;
+}
+
+#snsc_configuration_div hr {
+    border-top: 1px solid #ccc!important;
+    margin: 20px;
+}
+
+.snsc_options
+{
+    padding:5px ;
+    display:block;
+}
+#configuration input, #configuration select
+{
+    margin:5px 0;
+    padding:5px;
+}
+#configuration .snsc_ps_state
+{
+    margin:5px;
+    padding:2px;
+}
+
+/* Prestashop 1.6 */
+
+.bootstrap input:not(.cron_task),
+.bootstrap select:not(.mapping_selector):not(.snsc_multi_select) {
+    max-width: 190px !important;
+    display: inline !important;
+    margin: 5px 5px 5px 0 !important;
+}
+
+.bootstrap input.cron_task {
+    display: inline !important;
+}
+
+.alert.alert-info {
+    /* Fix alert-info to the same design as other alert */
+    border: 1px solid transparent !important;
+    border-left: 3px solid #81cfe6 !important;
+}
+
+.bootstrap #tabList label {
+    font-weight: bold;
+}
+
+/* Cron tab */
+#main .cron-mode  {
+    cursor:pointer;
+    border:1px silver dotted;
+    padding:10px;
+    height:52px;
+}
+
+#main .cron-mode h4  {
+    float:left;margin-left:10px;
+}
+
+#main .cron-mode img  {
+    float:left;
+}
+
+#main .cron-prestashop  {
+    position:relative;
+    top:5px;
+}
+
+#prestashop-cronjobs-lines  {
+    display: block;
+    font-family: monospace;
+    color: black;
+    word-wrap:break-word;
+    margin: 1em 0px;
+}
+
+#cronjob-loader  {
+    display:none;
+    float:right;
+    margin-right:30px;
+    position:relative;
+    top:8px;
+}

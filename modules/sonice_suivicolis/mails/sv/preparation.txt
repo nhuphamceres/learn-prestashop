@@ -1,0 +1,12 @@
+Hello {firstname} {lastname},
+
+Your order with reference {order_reference} is currently being prepared.
+
+You will soon receive information related to the progress of the delivery.
+
+Also, you can look up your order in "My Order History" in the "My Account" section on our website:
+{shop_url}
+
+Best Regards
+Customer Service
+{shop_name}

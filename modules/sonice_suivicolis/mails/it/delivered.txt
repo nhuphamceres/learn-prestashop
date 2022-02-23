@@ -1,0 +1,12 @@
+Gentile {firstname} {lastname},
+
+il tuo ordine con numero di riferimento {order_reference} è appena stato consegnato, ecco le ultime informazioni di tracking che abbiamo ricevuto da La Poste;
+
+{date_status}
+{text_status}
+
+Ti ringraziamo di averci dato fiducia e speriamo di rivederti molto presto nel nostro negozio.
+
+Cordiali saluti,
+Il Servizio Clienti
+{shop_name}

@@ -1,0 +1,14 @@
+Gute Tag {firstname} {lastname},
+
+Ihre Bestellung mit der Bestellnummer {order_reference} wird gerade aufgegeben.
+
+Sie erhalten in Kürze einen Link, der Ihnen erlaubt, Ihr Paket zu überwachen. Außerdem informieren wir Sie per E-Mail genau über den Zustellungsstatus Ihrer Sendung.
+
+Darüber hinaus können Sie auch in „Verlauf meiner Bestellungen" im Bereich „Mein Konto" auf unserer Seite alle Informationen einsehen:
+ {shop_url}
+
+Anliegend erhalten Sie den Einlieferungsbeleg Ihrer Sendung. Bei Übernahme Ihres Pakets erhalte Sie auch die Rechnung. 
+
+Mit freundlichen Grüßen
+Ihr Kundenservice
+{shop_name}

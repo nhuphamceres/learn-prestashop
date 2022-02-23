@@ -1,0 +1,56 @@
+Su paquete está ya en manos de La Poste. Está en proceso de envío.
+Su paquete está listo para ser enviado. Aún no está en manos de La Poste.
+Su paquete está de camino a su lugar de distribución.
+Su paquete ha sido depositado en el puesto de expedición.
+Su paquete llegó a otro lugar por error. Está en proceso de ser reenviado a su lugar de distribución.
+Su paquete ha llegado a su sitio de distribución.
+Su paquete está a su disposición en casilla de correos.
+Su paquete ha sido entregado.
+Su paquete fue entregado de nuevo al remitente.
+El destinatario no estaba presente en el momento de la entrega. Intentaremos entregarle de nuevo su paquete el próximo día laboral.
+Su paquete no ha podido ser entregado por falta de información. Le rogamos que se ponga en contacto con el Servicio de Atención al Cliente mediante el formulario disponible en internet, para proporcionarnos los datos que necesitamos.
+Su paquete fue entregado de nuevo al remitente tras ser rechazado por el destinatario.
+Su paquete está disponible en su oficina postal. El destinatario tendrá 10 días laborables para retirar su paquete tras presentar su recibo de retirada y un documento acreditativo de su identidad.
+La dirección de su paquete está incompleta. Estamos buscando la parte que falta para entregarlo.
+El destinatario del paquete no vive en la dirección indicada. El paquete ha sido devuelto al remitente.
+El paquete ha sido enviado de vuelta al destinatario a la dirección de su elección.
+El paquete ha sido devuelto al remitente. El destinatario se negó a pagar el pago contrarreembolso.
+Su paquete está disponible en la oficina postal. El destinatario, una vez haya recibido un aviso de paquete, dispondrá de 10 días laborables para retirarlo presentando un documento acreditativo de su identidad.
+Su paquete ha sido enviado a un punto de retirada. Se ha enviado un correo informativo al destinatario.
+La entrega de su paquete se ha retrasado por ausencia del destinatario o caso de fuerza mayor.
+Su paquete está a la espera de distribución y será entregado próximamente.
+El paquete ha sido devuelto al remitente.
+Su paquete no fue retirado de la oficina postal en el plazo de 10 días laborables. Ha sido devuelto al remitente.
+Su paquete no ha podido ser entregado, ha sido devuelto al remitente.
+Su paquete está disponible en el espacio Cityssimo durante cinco días.
+Su paquete no puede ser entregado en un espacio Cityssimo. El destinatario no está abonado al servicio.
+Su paquete no puede ser entregado en un espacio Cityssimo. La cuenta del destinatario no está activada.
+Su paquete no ha sido retirado del espacio Colis Cityssimo en el plazo estipulado. Ha sido enviado al domicilio del destinatario.
+Su paquete no puede ser entregado en un espacio Cityssimo. Ha sido enviado al domicilio del destinatario.
+Su paquete no es Colissimo, y no puede entregarse en un espacio Cityssimo. Ha sido enviado al domicilio del destinatario.
+Su paquete no es compatible con el envío a un espacio Cityssimo. Ha sido enviado al domicilio del destinatario.
+Su paquete es demasiado voluminoso para el espacio Cityssimo. Ha sido enviado al domicilio del destinatario.
+El espacio Colis Cityssimo está temporalmente fuera de servicio. El paquete ha sido enviado al domicilio del destinatario.
+No hay casilleros disponibles en el espacio Cityssimo. El paquete ha sido enviado al domicilio del destinatario.
+Su paquete es defectuoso, y no puede entregarse en un espacio Cityssimo. Ha sido enviado al domicilio del destinatario.
+Su paquete ha llegado a Francia.
+Su paquete ha llegado al país de destino.
+Su paquete ha salido del centro de intercambio. Está en camino al país de destino.
+Falta el formulario de aduana (DAU), su paquete está siendo retenido en la aduana. Informe de dossier por la aduana.
+Certificado de origen incorrecto, su paquete está siendo retenido en aduana. Informe de dossier por la aduana.
+Falta el certificado de origen, su paquete está siendo retenido en aduana. Informe de dossier por la aduana.
+Formulario de declaración aduanera CN23 incorrecto, su paquete está siendo retenido en aduana. Informe de dossier por la aduana.
+Su paquete está retenido en aduana por trámites aduaneros.
+La aduana requiere los datos de transferencia, el paquete está siendo retenido.
+Sus paquetes están siendo retenidos en la aduana. El número de paquetes no se corresponde con la declaración. Informe de dossier por la aduana.
+Factura incorrecta, su paquete está siendo retenido en aduana. Informe de dossier por la aduana.
+Falta la factura, su paquete está siendo retenido en aduana. Informe de dossier por la aduana.
+El contenido de su paquete está siendo identificado, su paquete está siendo retenido en aduana.
+Se requiere la información de trámites aduaneros, su paquete está siendo retenido en aduana. Informe de dossier por la aduana.
+A la espera del número de IVA o del número de importación, su paquete está siendo retenido en aduana. Informe de dossier por la aduana.
+El contenido de su paquete está prohibido en el país de destino, su paquete está siendo retenido en aduana. Informe de dossier por la aduana.
+Se requiere la licencia de importación, su paquete está siendo retenido en aduana. Informe de dossier por la aduana.
+Su paquete está a punto de abandonar el país de origen.
+Su paquete está ya en manos de La Poste. Está en proceso de envío.
+Su paquete está de camino a su lugar de distribución.
+El paquete ha sido devuelto al remitente.

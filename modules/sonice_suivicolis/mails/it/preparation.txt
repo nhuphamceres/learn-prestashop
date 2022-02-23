@@ -1,0 +1,12 @@
+Gentile {firstname} {lastname},
+
+il tuo ordine con numero di riferimento {order_reference} è in corso di preparazione.
+
+Riceverai presto informazioni sullo stato di avanzamento della consegna.
+
+Inoltre, potrai consultare il tuo ordine sul nostro sito, nella sezione "Storico dei miei ordini", sotto la voce "Il mio conto":
+{shop_url}
+
+Cordiali saluti,
+Il Servizio Clienti
+{shop_name}

@@ -1,0 +1,56 @@
+Votre colis est pris en charge par La Poste. Il est en cours d'acheminement.,
+Votre colis est prêt à être expédié. Il n'est pas encore pris en charge par La Poste.
+Votre colis est en cours d'acheminement vers son site de distribution.
+Votre colis a été déposé au bureau de poste d'expédition.
+Votre colis est arrivé par erreur sur un site. Il est en cours de réacheminement vers son site de distribution.
+Votre colis est arrivé sur son site de distribution.
+Votre colis est à disposition en boîte postale.
+Votre colis est livré
+Le colis est livré à l'expéditeur suite à un retour.
+Le destinataire était absent lors de la livraison. Votre colis sera présenté une nouvelle fois le prochain jour ouvré.
+Votre colis n'a pas pu être distribué par manque d'information. Merci de prendre contact avec notre Service Client via le formulaire disponible sur Internet, afin de fournir les compléments nécessaires.
+Le colis est retourné à l'expéditeur suite à un refus du destinataire.
+Votre colis est disponible dans votre bureau de poste. Le destinataire dispose de 10 jours ouvrés pour retirer son colis sur présentation de son bon de retrait et d'une pièce d'identité.
+L'adresse de votre colis est incomplète. Nous recherchons la partie non renseignée pour le livrer.
+Le destinataire du colis n'habite pas à l'adresse indiquée. Le colis est retourné à l'expéditeur.
+Le colis est réexpédié à la demande du destinataire vers l'adresse de son choix.
+Le colis est retourné à l'expéditeur. Le destinataire a refusé de payer le contre-remboursement.
+Votre colis est disponible au bureau de poste. Le destinataire, une fois l'avis d'instance reçu, dispose de 10 jours ouvrés pour retirer le colis sur présentation d'une pièce d'identité.
+Votre colis est redirigé vers un point de retrait. Un courrier informatif est envoyé au destinataire.
+La livraison de votre colis a été reportée pour absence du destinataire ou cas de force majeure.
+Votre colis est en attente de distribution et sera livré prochainement.
+Le colis est retourné à l'expéditeur.
+Votre colis n'a pas été retiré au bureau de poste dans les délais d'instance de 10 jours ouvrés. Il est retourné à l'expéditeur.
+Le colis n'a pu être livré, il est retourné à l'expéditeur.
+Votre colis est disponible dans l'espace Cityssimo pendant 5 jours.
+La livraison de votre colis dans un espace Cityssimo est impossible. Le destinataire n'est pas abonné à ce service.
+La livraison de votre colis dans un espace Cityssimo est impossible. Le compte du destinataire n'est pas activé.
+Votre colis n'a pas été retiré de l'espace Colis Cityssimo dans les délais. Il est réexpédié au domicile du destinataire.
+La livraison de votre colis dans un espace Cityssimo est impossible. Il est réexpédié au domicile du destinataire.
+Votre colis n'est pas un Colissimo et ne peut pas être livré dans un espace Cityssimo. Il est réexpédié au domicile du destinataire.
+Votre colis n'est pas compatible avec une livraisondans un espace Cityssimo. Il est réexpédié au domicile du destinataire.
+Votre colis est trop volumineux pour être accepté dans l'espace Cityssimo. Il est réexpédié au domicile du destinataire.
+L'espace Colis Cityssimo est momentanément hors service. Le colis est réexpédié au domicile du destinataire.
+Il n'y a plus de casier disponible dans l'espace Cityssimo. Le colis est réexpédié au domicile du destinataire.
+Votre colis est défectueux et ne peut être livré dans un espace Cityssimo. Il est éexpédié au domicile du destinataire.
+Votre colis est arrivé en France.
+Votre colis est arrivé dans le pays de destination.
+Votre colis est sorti du bureau d'échange. Il est en cours d'acheminement dans le pays de destination.
+Formulaire douanier manquant (DAU), votre colis est retenu en douane. Etude du dossier par la douane.
+Certificat d'origine incorrect, votre colis est retenu en douane. Etude du dossier par la douane.
+Certificat d'origine manquant, votre colis est retenu en douane. Etude du dossier par la douane.
+Formulaire de déclaration douanière CN23 incorrect,votre colis est retenu en douane. Etude du dossier par la douane.
+Votre colis est retenu en douane pour dédouanement.
+Données de virements demandées par la douane, votre colis est retenu en douane.
+Vos colis sont retenus en douane. Le nombre de colis ne correspond pas à la déclaration. Etude du dossier par la douane.
+Facture incorrecte, votre colis est retenu en douane. Etude du dossier par la douane.
+Facture manquante, votre colis est retenu en douane. Etude du dossier par la douane.
+Identification du contenu de votre colis en cours, il est retenu en douane.
+Informations de dédouanement requises, votre colis est retenu en douane. Etude du dossier par la douane.
+En attente du numéro de TVA ou du numéro d'import, votre colis est retenu en douane. Etude du dossier par la douane.
+Le contenu de votre colis est prohibé dans le pays de destination, il est retenu en douane. Etude du dossier par la douane.
+Licence d'importation requise, votre colis est retenu en douane. Etude du dossier par la douane.
+Votre colis s'apprête à sortir du pays d'origine.
+Votre colis est pris en charge par La Poste. Il est en cours d'acheminement.
+Votre colis est cours d'acheminement vers son site de distribution.
+Le colis est retourné à l'expéditeur.        

@@ -1,0 +1,16 @@
+Bonjour {firstname} {lastname},
+
+La livraison de votre commande est en cours, voici la dernière information de suivi que nous avons reçu de La Poste ;
+
+{date_status}
+{text_status}
+
+Vous pouvez également suivre en permanence l'avancement de la livraison à l'adresse suivante : 
+{followup}
+
+Aussi, vous pouvez consulter votre commande dans "Historique de mes commandes" de la rubrique "Mon compte" sur notre site: 
+{shop_url}
+
+Cordialement,
+Le Service Client
+{shop_name}

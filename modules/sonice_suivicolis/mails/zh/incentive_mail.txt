@@ -1,0 +1,17 @@
+Bonjour {firstname} {lastname},
+
+Les évaluations vous guident dans vos achats sur {shop_name} mais
+votre évaluation sera également utile aux futurs acheteurs de la boutique.
+
+Ainsi, nous vous saurions reconnaissant de bien vouloir évaluer notre prestation.
+
+Vous pouvez le faire en quelques instants, en vous rendant sur votre compte à l'adresse :
+{service_notation_url}
+
+Suivez simplement les instructions.
+
+Nous vous remercions de nous avoir accordé votre confiance, et souhaitons vous revoir très bientôt sur notre boutique.
+
+Cordialement,
+Le Service Client
+{shop_name}

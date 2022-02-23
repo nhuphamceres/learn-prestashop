@@ -1,0 +1,11 @@
+Bonjour {firstname} {lastname},
+
+Vous trouverez ci-joint la facture relative à votre commande N°{order_reference} du {order_date} effectuée sur notre boutique.
+
+Cette facture est au format universel PDF, vous pouvez utiliser un lecteur PDF pour la visualiser.
+
+Conservez cette facture et, pensez à l'environnement, ne l'imprimez qu'en cas de nécessité.
+
+Cordialement,
+Le Service Client
+{shop_name}

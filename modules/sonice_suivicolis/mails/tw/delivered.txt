@@ -1,0 +1,12 @@
+Bonjour {firstname} {lastname},
+
+Votre commande ayant pour référence {order_reference} est livrée, voici la dernière information de suivi que nous avons reçu de La Poste ;
+
+{date_status}
+{text_status}
+
+Nous vous remercions de nous avoir accordé votre confiance, et souhaitons vous revoir très bientôt sur notre boutique.
+
+Cordialement,
+Le Service Client
+{shop_name}

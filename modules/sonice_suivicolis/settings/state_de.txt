@@ -1,0 +1,56 @@
+Ihre Paketbestellung wurde von La Poste aufgenommen.Es wird zurzeit weitergeleitet.
+Ihr Paket ist bereit, um versandt zu werden.Die Paketbestellung wurde noch nicht von La Poste aufgenommen. 
+Ihr Paket wird zurzeit zur Verteilungsstation transportiert. 
+Ihr Paket wurde im Büro der Versandstation abgeladen.
+Ihr Paket ist aus Versehen in diesem Standort gelandet. Es wird zurzeit an die richtige Verteilungsstelle umgeleitet.
+Ihr Paket ist an der richtigen Verteilungsstelle angekommen.
+Ihr Paket ist im Postfach verfügbar.
+Ihr Paket wird geliefert.
+Es wurde eine Rücksendung an den Absender eingeleitet. --------------------------
+Der Empfänger war während der Zustellung abwesend. Ihr Paket wird erneut am nächsten Werktag zugestellt.
+Ihr Paket konnte mangels ausreichender Informationen nicht zugestellt werden. Kontaktieren Sie bitte unseren Kundendienst. Verwenden Sie hierfür das im Internet verfügbare Formular, um die notwendigen Daten zu ergänzen. 
+Wegen Weigerung des Empfängers, die Sendung entgegenzunehmen, wurde eine Rücksendung an den Absender eingeleitet. 
+Ihr Paket ist in Ihrem örtlichen Postamt verfügbar. Dem Empfänger werden 10 Arbeitstage eingeräumt, um die Sendung gegen Vorlage des Abholscheins und eines Personalausweises abzuholen. 
+Die Adresse Ihres Pakets ist unvollständig. Wir suchen die fehlenden Angaben, um es zuzustellen.
+Der Empfänger des Pakets ist nicht unter der angegebenen Adresse wohnhaft. Das Paket ist an den Absender zurückgesandt worden. 
+Das Paket wurde auf Anfrage des Empfängers an die Adresse seiner Wahl zugestellt. 
+Das Paket ist an den Absender zurückgesandt worden. Der Empfänger hat sich geweigert, die Vorauskasse zu begleichen.
+Ihr Paket ist in Ihrem örtlichen Postamt verfügbar. Dem Empfänger werden nach Erhalt der Mitteilung der Versandbereitschaft 10 Arbeitstage eingeräumt, um die Sendung gegen Vorlage eines Personalausweises abzuholen. 
+Ihr Paket wird an eine Abholstelle umgeleitet. Ein informativer Brief wurde an den Empfänger gesendet.
+Ihr Paket konnte aufgrund der Abwesenheit des Empfängers oder höherer Gewalt nicht zugestellt werden. 
+Ihr Paket befindet sich in der Verteilungsstelle und wird demnächst ausgeliefert.    
+Das Paket ist an den Absender zurückgesandt worden. 
+Ihr Paket wurde beim Postamt nicht innerhalb der festgelegten 10 Werktage abgeholt. Es wurde an den Absender zurückgeschickt. 
+Das Paket konnte nicht zugestellt werden, es wurde an den Absender zurückgesandt.
+Ihr Paket ist 5 Tage lang im Cityssimo-Bereich verfügbar.
+Die Zustellung Ihres Pakets an einen Cityssimo-Bereich ist nicht möglich. Der Empfänger hat diesen Dienst nicht abonniert.
+Die Zustellung Ihres Pakets an einen Cityssimo-Bereich ist nicht möglich. Das Konto des Empfängers ist nicht aktiviert.
+Ihr Paket wurde nicht innerhalb der festgelegten Frist im Colis Cityssimo-Bereich abgeholt. Es wird an die Adresse des Empfängers zurückgesandt.  
+Die Zustellung Ihres Pakets an einen Cityssimo-Bereich ist nicht möglich. Es wird an die Adresse des Empfängers zurückgesandt.  
+Ihr Paket ist kein Colissimo und kann nicht an einen Cityssimo-Bereich zugestellt werden. Es wird an die Adresse des Empfängers zurückgesandt.  
+Ihr Paket ist nicht kompatibel mit einer Zustellung an einen Cityssimo-Bereich. Es wird an die Adresse des Empfängers zurückgesandt.  
+Ihr Paket ist zu groß, um in einem Cityssimo-Bereich akzeptiert werden zu können. Es wird an die Adresse des Empfängers zurückgesandt.  
+Der Colis Cityssimo-Bereich ist vorübergehend aufgehoben.Die Sendung wird an die Adresse des Empfängers zurückgesandt.  
+Im Cityssimo-Bereich sind keine freien Fächer mehr verfügbar. Die Sendung wird an die Adresse des Empfängers zurückgesandt.  
+Ihr Paket ist defekt und kann nicht an einen Cityssimo-Bereich gesendet werden. Es wird an die Adresse des Empfängers zurückgesandt.
+Ihr Paket ist in Frankreich angekommen.
+Ihr Paket ist im Zielland angekommen.
+Ihr Paket hat das Tauschbüro verlassen. Es wird zurzeit in das Zielland versandt.
+Es fehlt das Zollformular (DAU), Ihr Paket wird beim Zoll einbehalten. Das Zollamt überprüft die Unterlagen. 
+Das Ursprungszertifikat enthält falsche Angaben, Ihr Paket wird beim Zoll eingehalten.Das Zollamt überprüft die Unterlagen. 
+Das Ursprungszertifikat fehlt, Ihr Paket wird beim Zoll einbehalten. Das Zollamt überprüft die Unterlagen. 
+Das Zollerklärungsformular CN23 enthält falsche Angaben, Ihr Paket wird beim Zoll einbehalten.  Das Zollamt überprüft die Unterlagen. 
+Ihr Paket wird beim Zoll zur Zollabfertigung einbehalten.
+Die vom Zoll geforderten Übertragungsdaten fehlen, Ihr Paket wird beim Zoll einbehalten.
+Ihre Pakte werden beim Zoll einbehalten. Die Anzahl der Pakete stimmt nicht mit der Erklärung überein.  Das Zollamt überprüft die Unterlagen. 
+Falsche Rechnung, Ihr Paket wird beim Zoll einbehalten. Das Zollamt überprüft die Unterlagen. 
+Fehlende Rechnung, Ihr Paket wird beim Zoll einbehalten. Das Zollamt überprüft die Unterlagen. 
+Überprüfung des Paketinhalts ist in Gange, es wird beim Zoll einbehalten
+Informationen bezüglich der Zollabfertigung sind erforderlich, Ihr Paket wird beim Zoll einbehalten. Das Zollamt überprüft die Unterlagen. 
+Während die TVA (MwSt-Nr.) oder die Importnummer überprüft werden, wird Ihr Paket beim Zoll einbehalten. Das Zollamt überprüft die Unterlagen. 
+Die Einfuhr des Paketinhalts ist in das Zielland verboten, die Sendung wird beim Zoll einbehalten. Das Zollamt überprüft die Unterlagen. 
+Importlizenz erforderlich, Ihr Paket wird beim Zoll einbehalten. Das Zollamt überprüft die Unterlagen.
+Ihr Paket ist bereit, das Ursprungsland zu verlassen.
+Ihre Paketbestellung wurde von La Poste aufgenommen. Zurzeit wird es zugestellt.
+Ihr Paket wird gerade an die Verteilungsstation geschickt.
+Das Paket ist an den Absender zurückgesandt worden.

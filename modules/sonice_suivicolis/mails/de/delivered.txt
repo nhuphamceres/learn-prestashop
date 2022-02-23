@@ -1,0 +1,12 @@
+Gute Tag {firstname} {lastname},
+
+Ihre Bestellung mit der Bestellnummer {order_reference} befindet sich kurz vor der Zustellung, anliegend erhalten Sie die neuesten Informationen, die wir von der Post erhalten haben:
+
+{date_status}
+{text_status}
+
+Wir möchten Ihnen für Ihr Vertrauen danken und freuen uns sehr, wenn wir Sie bald wieder in unserem Geschäft begrüßen zu dürfen.
+
+Mit freundlichen Grüßen
+Ihr Kundenservice
+{shop_name}

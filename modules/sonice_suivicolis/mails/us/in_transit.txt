@@ -1,0 +1,16 @@
+Hello {firstname} {lastname},
+
+Delivery of your order is in progress, here's the latest tracking information that we received from La Poste;
+
+{date_status}
+{text_status}
+
+You can also continuously monitor the progress of the delivery at the following address:
+{followup}
+ 
+Also, you can look up your order in "My Order History" in the "My Account" section on our website:
+{shop_url}
+
+Best Regards
+Customer Service
+{shop_name}

@@ -1,0 +1,301 @@
+/**
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to a commercial license from Common-Services Co., Ltd.
+ * Use, copy, modification or distribution of this source file without written
+ * license agreement from the SARL SMC is strictly forbidden.
+ * In order to obtain a license, please contact us: contact@common-services.com
+ * ...........................................................................
+ * INFORMATION SUR LA LICENCE D'UTILISATION
+ *
+ * L'utilisation de ce fichier source est soumise a une licence commerciale
+ * concedee par la societe Common-Services Co., Ltd.
+ * Toute utilisation, reproduction, modification ou distribution du present
+ * fichier source sans contrat de licence ecrit de la part de la Common-Services Co. Ltd. est
+ * expressement interdite.
+ * Pour obtenir une licence, veuillez contacter Common-Services Co., Ltd. a l'adresse: contact@common-services.com
+ * ...........................................................................
+ *
+ * @author    Alexandre D.
+ * @copyright Copyright (c) 2011-2015 Common Services Co Ltd - 90/25 Sukhumvit 81 - 10260 Bangkok - Thailand
+ * @license   Commercial license
+ * Support by mail  :  support.sonice@common-services.com
+ */
+
+/* CUSTOM FROM PS1.6 */
+#main * {
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.clearfix:before,
+.container-fluid:before,
+.container-fluid:after {
+    content: " ";
+    display: table;
+}
+
+.container-fluid:after {
+    clear: both;
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #FCFDFE;
+    border: 1px solid #e1ebf5;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+h3:not(.modal-title), .panel-heading {
+    border: none;
+    font-size: 1.2em;
+    line-height: 2.2em;
+    height: 2.2em;
+    text-transform: uppercase;
+    border-bottom: solid 1px #eee;
+    padding: 0 0 0 5px;
+    margin: -20px -16px 15px -16px;
+}
+
+.col-lg-8,
+.col-lg-2 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.col-lg-8 {
+    float: left;
+    width: 66.66667%;
+}
+
+.col-lg-2 {
+    float: left;
+    width: 16.66667%;
+}
+
+.box-stats {
+    text-align: center;
+    height: 65px;
+    padding-top: 10px;
+    border: 1px solid transparent;
+    margin-bottom: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.panel {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #d3d8db;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+/* !CUSTOM FROM PS1.6 */
+
+#order_list .suivicolis table thead tr th {
+    font-weight: bold;
+}
+
+#order_list .suivicolis table tr:hover > td {
+    background-color: transparent;
+}
+
+#order_list .suivicolis table th,
+#order_list .suivicolis table td {
+    border-bottom: transparent;
+}
+
+.snsc_overlay {
+    display: none;
+    background-color: white;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    filter: alpha(opacity=60);
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+}
+
+.snsc-info-level-error {
+  min-height: 32px;
+  background: #FFBABA url('../img/icon-cancel.png') no-repeat 6px 6px;
+  border: 1px solid #CC0000;
+  padding: 8px 5px 5px 50px;
+  border-radius: 3px;
+}
+
+.snsc-info-level-warn {
+  min-height: 32px;
+  background: #FEEFB3 url('../img/icon-attention.png') no-repeat 6px 6px;
+  border: 1px solid #9e6014;
+  padding: 8px 5px 5px 50px;
+  border-radius: 3px;
+}
+
+.snsc-info-level-ok {
+  min-height: 32px;
+  background: #DFF2BF url('../img/icon-valid.png') no-repeat 6px 6px;
+  border: 1px solid #4F8A10;
+  padding: 8px 5px 5px 50px;
+  border-radius: 3px;
+}
+
+.mail_red {
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+/*.row_hover_alternative {
+    background-color: #f8f8ff;
+}*/
+
+#table_orders .row_hover_alternative td {
+	background-color: rgb(248,248,255);
+}
+
+td.left.customer {
+	text-transform: uppercase;
+}
+
+.snsc_date, .snsc_description, .snsc_location {
+    color: green;
+}
+
+#msg_update_done {
+    position: fixed;
+    -webkit-box-shadow: 1px 1px 12px black;
+    -moz-box-shadow: 1px 1px 12px black;
+    box-shadow: 1px 1px 12px black;
+    background: #fbfbfb;
+    background-clip: padding-box;
+    border: 1px solid #acacac;
+    border: 1px solid rgba(0,0,0,.333);
+    outline: 0;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    width: 400px;
+    height: 30px;
+    margin-left: -200px !important;
+    margin-top: -30px !important;
+    z-index: 11;
+}
+
+.snsc_mail span {
+    float: right;
+    width: 32px;
+    margin-right: 10px;
+}
+
+.snsc_h3 {
+    font-size: large;
+}
+
+.pageTitle .legend {
+    line-height: 0;
+}
+
+.legend {
+    font-size: 12px;
+}
+
+.legend tr td {
+    padding: 5px;
+}
+
+.red_clock {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#one_checkbox_to_rule_them_all,
+.snsc_checkbox {
+    display:inline;
+    width: 20px;
+    height: 20px;
+    vertical-align: sub;
+}
+
+.snsc_loader {
+    display:none;
+}
+
+td.left.id_order:hover {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.go_left, .go_right {
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* PS15 */
+div:not(.bootstrap) .panel-heading {
+    font-weight: 400;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #555555;
+    height: 32px;
+    line-height: 2.2em;
+    text-transform: uppercase;
+    border-bottom: solid 1px #eeeeee;
+    padding: 0 0 0 5px;
+}
+div:not(.bootstrap) #content > div:nth-child(25) > form > div {
+    margin-top: 15px;
+}
+
+/* PS16 */
+.bootstrap .box-stats {
+    text-align: center;
+    height: 65px;
+    padding-top: 10px;
+    border: 1px solid transparent;
+    margin-bottom: 0;
+}
+.bootstrap .box-stats:hover {
+    background-color: whitesmoke;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+}
+.bootstrap .table-container {
+    padding: 0;
+}

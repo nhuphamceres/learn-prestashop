@@ -1,0 +1,14 @@
+Bonjour {firstname} {lastname},
+
+Votre commande ayant pour référence {order_reference} vient d'être expédiée.
+
+Vous recevrez prochainement un lien qui vous permettra de suivre votre colis et successivement des mails vous indiquant l'état et l'avancement de votre livraison.
+
+Vous pouvez aussi consulter votre commande dans "Historique de mes commandes" de la rubrique "Mon compte" sur notre site: 
+{shop_url}
+
+Vous trouverez ci-joint votre bordereau de livraison, ensuite, à réception de votre colis, vous recevrez également la facture. 
+
+Cordialement,
+Le Service Client
+{shop_name}

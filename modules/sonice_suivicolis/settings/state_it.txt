@@ -1,0 +1,56 @@
+Il vostro pacco è stato preso in consegna dalla Posta. È in corso di spedizione.
+Il vostro pacco è pronto per essere spedito.Non è ancora stato preso in consegna dalla Posta.
+Il vostro pacco è in corso di spedizione verso il sito di smistamento.
+Il vostro pacco è stato depositato presso l’ufficio postale di spedizione.
+Il vostro pacco è arrivato per errore a un altro sito. È in corso di spedizione verso il suo sito di smistamento.
+Il vostro pacco è arrivato al suo sito di smistamento.
+Il vostro pacco è disponibile nella cassetta postale.
+Il vostro pacco è stato consegnato.
+Il pacco è stato rispedito al mittente dopo essere stato respinto.
+Il destinatario era assente al momento della consegna. Il vostro pacco sarà rispedito nuovamente il giorno lavorativo successivo.
+Non è stato possibile smistare il vostro pacco per mancanza di informazioni. Vi invitiamo a contattare il nostro Servizio Clienti tramite modulo online per fornire i dettagli mancanti richiesti.
+Il pacco è stato rispedito al mittente dopo essere stato respinto dal destinatario.
+Il vostro pacco è disponibile presso il vostro ufficio postale. Il destinatario dispone di 10 giorni lavorativi per ritirare il pacco dietro presentazione del buono di ritiro e di un documento d’identità.
+L'indirizzo del vostro pacco è incompleto. Abbiamo bisogno delle informazioni mancanti per consegnarlo.
+Il destinatario del pacco non abita all’indirizzo indicato. Il pacco viene rispedito al mittente.
+Il pacco è stato rispedito dietro richiesta del destinatario a un indirizzo di sua scelta.
+Il pacco è stato rispedito al mittente. Il destinatario ha rifiutato il pagamento alla consegna.
+Il vostro pacco è disponibile presso l’ufficio postale. Il destinatario, una volta ricevuto l’avviso di giacenza ha a disposizione 10 giorni lavorativi per ritirare il pacco dietro presentazione di un documento d’identità.
+Il vostro pacco è rispedito verso un punto di ritiro. Una notifica viene inviata al destinatario.
+La consegna del vostro pacco è stata annullata per assenza del destinatario o per cause di forza maggiore.
+Il vostro pacco è in attesa di essere smistato e sarà consegnato in seguito.
+Il pacco è rinviato al mittente.
+Il vostro pacco non è stato ritirato da un ufficio postale nei 10 giorni lavorativi previsti dal termine di giacenza. È stato rinviato al mittente.
+Non è stato possibile consegnare il pacco. È stato rispedito al mittente.
+Il vostro pacco è a disposizione nello spazio Cityssimo per 5 giorni.
+La consegna del vostro pacco presso uno spazio Cityssimo è impossibile. Il destinatario non è abbonato a questo servizio.
+La consegna del vostro pacco presso uno spazio Cityssimo è impossibile. L’iscrizione del destinatario non è attiva.
+Il vostro pacco non è stato ritirato dallo spazio Colis Cityssimo nei termini previsti. Viene rispedito al domicilio del destinatario.
+La consegna del vostro pacco presso uno spazio Cityssimo è impossibile. Viene rispedito al domicilio del destinatario.
+Il vostro pacco non è un Colissimo e non può essere spedito a uno spazio Cityssimo. Viene rispedito al domicilio del destinatario.
+Il vostro pacco non è compatibile con una consegna presso uno spazio Cityssimo. Viene rispedito al domicilio del destinatario.
+Il vostro pacco è troppo voluminoso per essere preso in consegna presso uno spazio Cityssimo. Viene rispedito al domicilio del destinatario.
+Lo spazio Colis Cityssimo è momentaneamente fuori servizio. Il pacco è rispedito all’indirizzo del destinatario.
+Non ci sono cassette disponibili presso lo spazio Cityssimo. Il pacco viene rispedito al domicilio del destinatario.
+Il vostro pacco è difettoso e non può essere consegnato presso uno spazio Cityssimo. Viene rispedito al domicilio del destinatario.
+Il vostro pacco è arrivato in Francia.
+Il vostro pacco è arrivato nel paese di destinazione.
+Il vostro pacco è uscito dall’ufficio di scambio. È in corso di spedizione nel paese di destinazione.
+Modulo dogana mancante (DAU), il vostro pacco viene trattenuto presso la dogana. Studio della pratica presso la dogana.
+Certificato di origine non corretto, il vostro pacco viene trattenuto presso la dogana. Studio della pratica presso la dogana.
+Certificato d'origine mancante, il vostro pacco viene trattenuto presso la dogana. Studio della pratica presso la dogana.
+Modulo dichiarazione dogana CN23 non corretto, il vostro pacco viene trattenuto presso la dogana. Studio della pratica presso la dogana.
+Il vostro pacco viene trattenuto dalla dogana per lo sdoganamento.
+Dati bonifico richiesti dalla dogana, il vostro pacco è trattenuto presso la dogana.
+I vostri pacchi sono trattenuti presso la dogana. Il numero di pacchi non corrisponde alla dichiarazione. Studio della pratica presso la dogana.
+Fattura non corretta, il vostro pacco è trattenuto presso la dogana. Studio della pratica presso la dogana.
+Fattura mancante, il vostro pacco è trattenuto presso la dogana. Studio della pratica presso la dogana.
+Identificazione del contenuto del vostro pacco in corso, il pacco è trattenuto presso la dogana.
+Informazioni di sdoganamento richieste, il vostro pacco è trattenuto presso la dogana. Studio della pratica presso la dogana.
+In attesa del numero IVA o del numero di importazione, il vostro pacco è trattenuto presso la dogana. Studio della pratica presso la dogana.
+Il contenuto del vostro pacco è proibito nel paese di destinazione, il pacco è trattenuto presso la dogana. Studio della pratica presso la dogana.
+Licenza d'importazione richiesta, il vostro pacco è trattenuto in dogana. Studio della pratica presso la dogana.
+Il vostro pacco sta per uscire dal paese di origine.
+Il vostro pacco è stato preso in consegna dalla Posta. È in corso di spedizione.
+Il vostro pacco è in corso di spedizione verso il suo sito di smistamento.
+Il pacco è rispedito al mittente.

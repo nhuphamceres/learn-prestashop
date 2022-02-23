@@ -1,0 +1,116 @@
+/**
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to a commercial license from Common-Services Co., Ltd.
+ * Use, copy, modification or distribution of this source file without written
+ * license agreement from the SARL SMC is strictly forbidden.
+ * In order to obtain a license, please contact us: contact@common-services.com
+ * ...........................................................................
+ * INFORMATION SUR LA LICENCE D'UTILISATION
+ *
+ * L'utilisation de ce fichier source est soumise a une licence commerciale
+ * concedee par la societe Common-Services Co., Ltd.
+ * Toute utilisation, reproduction, modification ou distribution du present
+ * fichier source sans contrat de licence ecrit de la part de la Common-Services Co. Ltd. est
+ * expressement interdite.
+ * Pour obtenir une licence, veuillez contacter Common-Services Co., Ltd. a l'adresse: contact@common-services.com
+ * ...........................................................................
+ *
+ * @author    Alexandre D.
+ * @copyright Copyright (c) 2011-2015 Common Services Co Ltd - 90/25 Sukhumvit 81 - 10260 Bangkok - Thailand
+ * @license   Commercial license
+ * Support by mail  :  support.sonice@common-services.com
+ */
+
+.main-timeline-section{
+    position: relative;
+    width: 100%;
+    margin:auto;
+    height:300px;
+}
+.main-timeline-section .timeline-start,
+.main-timeline-section .timeline-end{
+    position: absolute;
+    background: darkgreen;
+    border-radius:100px;
+    top:50%;
+    transform: translateY(-50%);
+    width:30px;
+    height:30px;
+}
+.main-timeline-section .timeline-end{
+    right:0px;
+}
+.main-timeline-section .conference-center-line{
+    position: absolute;
+    width:100%;
+    height:5px;
+    top:50%;
+    transform: translateY(-50%);
+    background: darkgreen;
+}
+.timeline-article{
+    width: 20%;
+    position: relative;
+    min-height: 300px;
+    float:right;
+}
+.timeline-article .content-date{
+    position: absolute;
+    top: 35%;
+    left: -30px;
+    font-size:18px;
+}
+.timeline-article .meta-date{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+    background:#fff;
+    border:1px solid darkgreen;
+}
+.timeline-article .content-box{
+    box-shadow: 2px 2px 4px 0px #c1c1c1;
+    border:1px solid darkgreen;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 180px;
+    position: absolute;
+    top: 60%;
+    left: -80px;
+    padding:10px;
+}
+.timeline-article-top .content-box:before{
+    content: " ";
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:-20px;
+    border:10px solid transparent;
+    border-bottom-color: darkgreen;
+}
+.timeline-article-bottom .content-date{
+    top: 59%;
+}
+.timeline-article-bottom .content-box{
+    top: 0%;
+}
+.timeline-article-bottom .content-box:before{
+    content: " ";
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    bottom:-20px;
+    border:10px solid transparent;
+    border-top-color:darkgreen;
+}
+
+
+@media (max-width:460px){
+    /*body{*/
+         /*display: none;*/
+     /*}*/
+}

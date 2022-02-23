@@ -1,0 +1,16 @@
+Gentile {firstname} {lastname},
+
+la consegna del tuo ordine è in corso, ecco le ultime informazioni di tracking che abbiamo ricevuto da La Poste;
+
+{date_status}
+{text_status}
+
+Potrai inoltre seguire costantemente lo stato di avanzamento della consegna al seguente indirizzo: 
+{followup}
+
+Inoltre, potrai consultare il tuo ordine sul nostro sito, nella sezione "Storico dei miei ordini", sotto la voce "Il mio conto": 
+{shop_url}
+
+Cordiali saluti,
+Il Servizio Clienti
+{shop_name}

@@ -1,0 +1,16 @@
+Hello {firstname} {lastname},
+
+Feedback can guide you through your purchases on {shop_name} but your rating will also be useful to future buyers of the shop.
+
+Thus, we would be much grateful if would could evaluate our service.
+
+You can do this in a few seconds by going to your account at:
+{service_notation_url}
+
+Simply follow the instructions.
+
+Thank you for entrusting us and hope to see you soon at our shop.
+
+Best Regards,
+Customer Service
+{shop_name}

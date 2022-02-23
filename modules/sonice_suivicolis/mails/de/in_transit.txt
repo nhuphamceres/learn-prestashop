@@ -1,0 +1,17 @@
+Gute Tag {firstname} {lastname},
+
+Die Auslieferung Ihrer Bestellung wird gerade bearbeitet, anbei erhalten Sie die letzten Informationen, die wir von der Post erhalten haben:
+
+{date_status}
+{text_status}
+
+Sie können auch kontinuierlich den Fortschritt der Lieferung überwachen:
+ {followup}
+
+Außerdem haben Sie die Möglichkeit, Ihre Sendung einzusehen, indem Sie „Verlauf meiner Bestellungen" im Bereich „Mein Konto" auf unserer Seite aufrufen:
+ {shop_url}
+
+Mit freundlichen Grüßen
+Ihr Kundenservice
+{shop_name}
+

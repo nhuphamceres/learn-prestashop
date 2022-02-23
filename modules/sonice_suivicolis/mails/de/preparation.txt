@@ -1,0 +1,12 @@
+Gute Tag {firstname} {lastname},
+
+Ihre Bestellung mit der Bestellnummer {order_reference} wird gerade vorbereitet.
+
+Sie erhalten in Kürze verbindliche Informationen über die Ankunft Ihrer Lieferung.
+
+Außerdem haben Sie die Möglichkeit, Ihre Sendung einzusehen, indem Sie „Verlauf meiner Bestellungen" im Bereich „Mein Konto" auf unserer Seite aufrufen:
+ {shop_url}
+
+Mit freundlichen Grüßen
+Ihr Kundenservice
+{shop_name}

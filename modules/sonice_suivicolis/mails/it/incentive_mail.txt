@@ -1,0 +1,16 @@
+Gentile {firstname} {lastname},
+
+le valutazioni ti guidano nei tuoi acquisti su {shop_name}, ma anche la tua valutazione potrà essere utile ai futuri acquirenti del negozio.
+
+Per questo, ti saremmo grati se potessi esprimere la tua valutazione sul nostro servizio.
+
+Puoi farlo in pochi minuti, accedendo al tuo conto al seguente indirizzo:
+{service_notation_url}
+
+Non devi far altro che seguire le istruzioni.
+
+Ti ringraziamo di averci dato fiducia e speriamo di rivederti molto presto nel nostro negozio.
+
+Cordiali saluti,
+Il Servizio Clienti
+{shop_name}

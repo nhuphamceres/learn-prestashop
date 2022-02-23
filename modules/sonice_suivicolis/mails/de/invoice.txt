@@ -1,0 +1,14 @@
+Gute Tag {firstname} {lastname},
+
+
+anliegend erhalten Sie die Rechnung zu Ihrer Bestellung Nr. {order_reference} vom {order_date}, die von uns ausgestellt wurde.
+
+Diese Rechnung ist im PDF-Format, das Sie mit einem PDF-Programm öffnen können.
+
+Bewahren Sie diese Rechnung bitte gut auf und denken Sie an die Umwelt: Drucken Sie sie nicht aus, wenn dies nicht unbedingt erforderlich ist.
+
+Mit freundlichen Grüßen,
+
+Ihr Kundenservice
+
+{shop_name}

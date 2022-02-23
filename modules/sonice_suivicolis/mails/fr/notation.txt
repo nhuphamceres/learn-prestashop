@@ -1,0 +1,12 @@
+Bonjour {firstname} {lastname},
+
+Merci pour votre commande, nous vous serions reconnaissans si vous acceptiez de nous noter sur {service_notation_url}
+
+Vous recevrez prochainement des informations liées à l'avancement de la livraison.
+
+Aussi, vous pouvez consulter votre commande dans "Historique de mes commandes" de la rubrique "Mon compte" sur notre site: 
+{shop_url}
+
+Cordialement,
+Le Service Client
+{shop_name}

@@ -1,0 +1,14 @@
+Gentile {firstname} {lastname},
+
+il tuo ordine con numero di riferimento {order_reference} è appena stato spedito.
+
+Riceverai presto un link che ti permetterà di tracciare il tuo pacco e, in seguito, delle e-mail che ti indicheranno lo stato e l'avanzamento della consegna.
+
+Puoi anche consultare il tuo ordine sul nostro sito, nella sezione "Storico dei miei ordini", sotto la voce "Il mio conto": 
+{shop_url}
+
+Troverai in allegato la bolla di consegna; al ricevimento del pacco, riceverai anche la fattura. 
+
+Cordiali saluti,
+Il Servizio Clienti
+{shop_name}

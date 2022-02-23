@@ -1,0 +1,181 @@
+NOTICE OF LICENSE
+
+This source file is subject to a commercial license from Common-Services Co., Ltd.
+Use, copy, modification or distribution of this source file without written
+license agreement from the SARL SMC is strictly forbidden.
+In order to obtain a license, please contact us: contact@common-services.com
+
+INFORMATION SUR LA LICENCE D'UTILISATION
+
+L'utilisation de ce fichier source est soumise a une licence commerciale concedee par la societe Common-Services Co., Ltd.
+Toute utilisation, reproduction, modification ou distribution du present fichier source sans contrat de licence ecrit de la part de la
+Common-Services Co. Ltd. est expressement interdite.
+Pour obtenir une licence, veuillez contacter Common-Services Co., Ltd. a l'adresse: contact@common-services.com
+
+@package    SoNice_SuiviColis
+@copyright  Copyright (c) 2011-2015 Common Services Co Ltd - 90/25 Sukhumvit 81 - 10260 Bangkok - Thailand
+@author     Alexandre D.
+@license    Commercial license
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+####################################
+# v2.0.8 - (2020-08-12)
+####################################
+
+Fixed bugs:
+
+[*] FIX : N/A
+
+Improved/changed features:
+
+[*] CORE : Moved 1/3 cron tasks to a ModuleFrontController (the 2 others in the next versions)
+
+
+####################################
+# v2.0.06 - (2018-07-02)
+####################################
+
+Fixed bugs:
+
+[*] FIX : N/A
+
+Improved/changed features:
+
+[*] CORE : Added PrestaTrust compatibility
+[*] CORE : Updated files' licence to comply with PS 1.7
+[*] BO : N/A
+
+
+####################################
+# v2.0.05 - (2018-04-02)
+####################################
+
+Fixed bugs:
+
+[*] FIX : Display of package [destination] field in hookDisplayAdminOrder()
+
+Improved/changed features:
+
+[*] CORE : Documentation updated
+[*] CORE : README updated (documentation)
+[*] CORE : Added tracking number on order list.
+[*] CORE : Bigger checkboxes
+
+
+####################################
+# v2.0.04 - (2017-11-29)
+####################################
+
+Fixed bugs:
+
+[*] FIX : Incentive mail cron task
+[*] FIX : Order sheet tracking update in "All Shops" context
+[*] FIX : eventSite on Order Page
+[*] FIX : Default configuration and mapping on installation
+
+Improved/changed features:
+
+[*] CORE : Added token for Ajax calls
+
+
+
+####################################
+# v2.0.03 - (2017-04-10)
+####################################
+
+Fixed bugs:
+
+[*] FIX : Remove spaces in shipping number (caused error : Numéro de colis invalide)
+[*] FIX : Incentive mails cron task
+[*] FIX : Employee in context for StockMvt in cron task
+[*] FIX : Problem with tables collation
+
+Improved/changed features:
+
+[*] CORE : N/A
+[*] BO : N/A
+
+
+
+####################################
+# v2.0.02 - (2016-09-19)
+####################################
+
+Fixed bugs:
+
+[*] FIX : Token in Order sheet
+[*] FIX : Carrier update in multi-shop optimized
+[*] FIX : Cronjobs context shop during installation
+[*] FIX : Added inovert code LIVGAR (Votre colis a été livré au gardien)
+
+Improved/changed features:
+
+[*] CORE : PrestaShop 1.7 compliant
+[*] BO : N/A
+
+
+
+####################################
+# v2.0.01 - (2016-08-18)
+####################################
+
+Fixed bugs:
+
+[*] FIX : Cron task security check when token is not set in database or in cron URL
+[*] FIX : Cron task was stopped after 3 orders
+
+Improved/changed features:
+
+[*] CORE : Completed missing mail translations
+[*] BO : N/A
+
+
+
+####################################
+# v2.0.00 - (2016-08-04)
+####################################
+
+Fixed bugs:
+
+[*] FIX : Added security for cron task
+[*] FIX : Query error when context shop is "All shops"
+
+Improved/changed features:
+
+[*] CORE : Implemented new mapping method via INOVERT code instead of string comparison
+[*] CORE : Cron task now uses same file as in Orders > SoNice Suivi
+[*] BO : New mapping method for INOVERT
+
+
+
+####################################
+# v1.0.14 - (2016-03-??)
+####################################
+
+Fixed bugs:
+
+[*] FIX : Cronjobs intervals
+[*] FIX : Incentive mail interval calculation
+
+Improved/changed features:
+
+[*] CORE : N/A
+[*] BO : N/A
+
+
+
+####################################
+# v1.0.14 - (2016-01-11)
+####################################
+
+Fixed bugs:
+
+[*] FIX : Context in multi-shop
+[*] FIX : Context in multi-shop
+
+Improved/changed features:
+
+[*] CORE : Coliposte status are now saved on DropBox and loaded regularly in the module to keep status up to date
+
+[*] BO : Tooltips are now used in configuration to display information about the option

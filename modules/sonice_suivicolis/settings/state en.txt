@@ -1,0 +1,55 @@
+Your package has been taken up by La Poste. It is being routed.
+Your package is ready to be sent. It has not yet been taken up by La Poste.
+Your package is being routed to its distribution site.
+Your package has been dropped off at the sending post office.
+Your package has arrived to a site in error. It is being rerouted to its distribution site.
+Your package has arrived at its distribution site.
+Your package is available at the post office box.
+Your package has been delivered.
+The package has been sent back to the sender following a return.
+The receiver was absent for delivery. Your package will be delivered once more on the following working day.
+Your package could not be delivered due to missing information. Please contact Customer Service using the form on the website to provide the required information.
+The package has been returned to the sender because the receiver refused it.
+Your package is available at your post office. The receiver has 10 working days to pick up the package upon presentation of the pickup slip and identification.
+The address of your package is incomplete. We are searching for the missing portion for delivery.
+The receiver of the package does not live at the address indicated. The package has been returned to the sender.
+The package has been resent upon request of the receiver to their selected address.
+The package has been returned to the sender. The receiver refused to pay the delivery charge.
+Your package is available at your post office. Once notice is received, the receiver has 10 working days to pick up the package upon presentation of identity.
+Your package has been redirected to another pickup point. An explanatory letter has been sent to the receiver.
+Delivery of your package has been delayed because the receiver was absent or due to extraordinary outside circumstances.
+Your package is awaiting distribution and will soon be delivered.
+The package has been returned to sender.
+Your package was not picked up at the post office within the period of 10 working days. It has been returned to sender.
+The package could not be delivered. It has been returned to sender.
+Your package will be available at the Cityssimo point for 5 days.
+Delivery of your package to a Cityssimo point is impossible. The receiver is not subscribed to this service.
+Delivery of your package to a Cityssimo point is impossible. The receiver’s account has not been activated.
+Your package was not picked up from the Cityssimo point within the appropriate timeframe. It has been resent to the receiver’s home address.
+Delivery of your package to a Cityssimo point is impossible. It has been resent to the receiver’s home address.
+Your package is not a Colissimo and cannot be delivered to a Cityssimo point. It has been resent to the receiver’s home address.
+Your package is not compatible with delivery to a Cityssimo point. It has been resent to the receiver’s home address.
+Your package is too large for a Cityssimo point. It has been resent to the receiver’s home address.
+The Cityssimo point is temporarily out of service. The package has been resent to the receiver’s home address.
+There are no more available lockers at the Cityssimo point. The package has been resent to the receiver’s home address.
+Your package is faulty and cannot be delivered to a Cityssimo point. It has been resent to the receiver’s home address.
+Your package has arrived in France.
+Your package has arrived to the destination country.
+Your package has left the exchange office. It is being routed to the destination country.
+Missing customs form (DAU). Your package is being held at customs. The case is being reviewed by customs officials.
+Incorrect certificate of origin. Your package is being held at customs. The case is being reviewed by customs officials.
+Missing certificate of origin. Your package is being held at customs. The case is being reviewed by customs officials.
+Incorrect customs declaration form CN23. Your package is being held at customs. The case is being reviewed by customs officials.
+Your package is being held in customs for clearance.
+Bank transfer data has been requested by customs.  Your package is being held at customs.
+Your packages are being held by customs. The number of packages does not match the declaration. The case is being reviewed by customs officials.
+Incorrect invoice. Your package is being held at customs. The case is being reviewed by customs officials.
+Missing invoice. Your package is being held at customs. The case is being reviewed by customs officials.
+Package contents are being identified. It is being held in customs.
+Customs clearance information required. Your package is being held at customs. The case is being reviewed by customs officials.
+Waiting for VAT number or import number. Your package is being held at customs. The case is being reviewed by customs officials.
+Import license required. Your package is being held at customs. The case is being reviewed by customs officials.
+Your package is ready to leave the country of origin.
+Your package has been taken up by La Poste. It is being routed.
+Your package is being routed to its distribution site.
+The package has been returned to sender.        

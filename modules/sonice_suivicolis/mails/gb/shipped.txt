@@ -1,0 +1,14 @@
+Hello {firstname} {lastname},
+
+Your order with reference {order_reference} has just been shipped. 
+
+You will soon receive a link which will allow you to track your package and subsequently emails indicating the status and progress of your order.
+
+You can also view your order under "Order History" in the "My Account" section on our website:
+{shop_url}
+
+Enclosed, you will find your delivery note, and then, upon receipt of your package, you will also receive the invoice.
+
+Best Regards
+Customer Service
+{shop_name}
