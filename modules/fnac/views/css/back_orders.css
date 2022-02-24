@@ -1,0 +1,138 @@
+/**
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to a commercial license from Common-Services Co., Ltd.
+ * Use, copy, modification or distribution of this source file without written
+ * license agreement from the SARL SMC is strictly forbidden.
+ * In order to obtain a license, please contact us: contact@common-services.com
+ * ...........................................................................
+ * INFORMATION SUR LA LICENCE D'UTILISATION
+ *
+ * L'utilisation de ce fichier source est soumise a une licence commerciale
+ * concedee par la societe Common-Services Co., Ltd.
+ * Toute utilisation, reproduction, modification ou distribution du present
+ * fichier source sans contrat de licence ecrit de la part de la Common-Services Co. Ltd. est
+ * expressement interdite.
+ * Pour obtenir une licence, veuillez contacter Common-Services Co., Ltd. a l'adresse: contact@common-services.com
+ * ...........................................................................
+ *
+ * @package   soflexibilite
+ * @author    Alexandre D.
+ * @copyright Copyright (c) 2011-2015 Common Services Co Ltd - 90/25 Sukhumvit 81 - 10260 Bangkok - Thailand
+ * @license   Commercial license
+ * Support by mail  :  support.soflexibilite@common-services.com
+ */
+
+#sf_tab_icon {
+    max-width: 18px;
+}
+
+#soflexibilite .float-right {
+    float: right;
+}
+
+#soflexibilite .sf_delivery_mode {
+    color: #fb4f14;
+    margin-top: 0;
+}
+
+#soflexibilite .font-italic {
+    font-style: italic !important;
+}
+
+#soflexibilite .text-uppercase {
+    text-transform: uppercase !important;
+}
+
+#soflexibilite .input-group {
+    margin: 0 0 10px;
+}
+
+/* Modal */
+.modal-dialog-centered {
+    display: grid;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: calc(100% - (.5rem * 2));
+}
+
+#sf-modal-dialog{
+    max-width: 80%;
+    width: 80%;
+}
+
+#sf-modal-dialog .modal-content {
+    height: 90%;
+}
+
+#sf-modal-dialog .modal-body,
+#sf-modal-dialog .modal-body > .row,
+#sf-modal-dialog .modal-body > .row .sf_gmaps {
+    height: 100%;
+}
+
+#sf_gmaps {
+    width: 100%;
+    height: 100%;
+}
+
+.sf_select {
+    float: right;
+}
+
+.sf_select {
+    padding: .25rem .5rem;
+    font-size: initial;
+    font-weight: initial;
+    box-shadow: initial;
+    text-transform: initial;
+}
+
+/* Search control */
+.pac-container {
+    z-index: 10000 !important;
+}
+
+.sf-controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 40px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+}
+
+#sf-pac-input {
+    background-color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 13px;
+    text-overflow: ellipsis;
+    width: 50%;
+    height: 40px;
+}
+
+#sf-center-button,
+#sf-close-button {
+    margin-right: 10px;
+}
+
+#sf-center-button,
+#sf-pac-button,
+#sf-close-button {
+    margin-top: 10px;
+    height: 40px;
+}
+
+#sf-close-button {
+    width: 40px;
+}
+
+#sf-pac-button {
+    min-width: 130px;
+}

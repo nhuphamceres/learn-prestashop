@@ -1,0 +1,358 @@
+/**
+* NOTICE OF LICENSE
+*
+* This source file is subject to a commercial license from Common-Services Co., Ltd.
+* Use, copy, modification or distribution of this source file without written
+* license agreement from the SARL SMC is strictly forbidden.
+* In order to obtain a license, please contact us: contact@common-services.com
+* ...........................................................................
+* INFORMATION SUR LA LICENCE D'UTILISATION
+*
+* L'utilisation de ce fichier source est soumise a une licence commerciale
+* concedee par la societe Common-Services Co., Ltd.
+* Toute utilisation, reproduction, modification ou distribution du present
+* fichier source sans contrat de licence ecrit de la part de la Common-Services Co. Ltd. est
+* expressement interdite.
+* Pour obtenir une licence, veuillez contacter Common-Services Co., Ltd. a l'adresse: contact@common-services.com
+* ...........................................................................
+*
+* @package   FNAC
+* @author    Alexandre D. & Olivier B.
+* @copyright Copyright (c) 2011-2015 Common Services Co Ltd - 90/25 Sukhumvit 81 - 10260 Bangkok - Thailand
+* @license   Commercial license
+* Support by mail  :  contact@common-services.com
+*/
+
+#menuTab {
+    float: left;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+#menuTab li {
+    text-align: left;
+    float: left;
+    display: inline;
+    padding: 5px;
+    padding-right: 10px;
+    background: #EFEFEF;
+    font-weight: bold;
+    cursor: pointer;
+    border-left: 1px solid #EFEFEF;
+    border-right: 1px solid #EFEFEF;
+    border-top: 1px solid #EFEFEF;
+}
+
+#menuTab li.menuTabButton.selected {
+    background: #FFF6D3;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+}
+
+#menuTab li.menuTabButton:hover {
+    background: #ffb700;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+}
+
+#tabList {
+    clear: left;
+}
+
+.tabItem {
+    display: none;
+}
+
+.tabItem {
+    padding: 0 10px 10px 0px;
+}
+
+.tabItem.selected {
+    display: block;
+    padding: 0 10px 10px 0px;
+}
+
+/* FOR PS 1.2 */
+#content .error {
+    border: 1px solid #EC9B9B;
+    background-color: #FAE2E3;
+}
+
+#content .conf, #content .warn, #content .error {
+    color: #383838;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    line-height: 20px;
+    padding: 10px 15px 5px 50px;
+}
+
+.fnac-country-title {
+    font-size: 12px;
+}
+
+.fnac-country-title img {
+    position: relative;
+    top: -2px;
+}
+
+/* Create Mode */
+#menudiv-masscsv h3 {
+    text-align: center;
+    margin: 10px 0 0 0;
+    color: navy;
+}
+
+hr {
+    margin-bottom: 20px;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.ccb-title {
+    font-size: 1.2em;
+    position: relative;
+    top: +2px;
+    padding-left: 5px;
+
+}
+
+#result-create {
+    display: none;
+    width: 700px;
+    left: 80px;
+    position: relative;
+}
+
+#masscsv-products {
+    width: 150px;
+    float: right;
+    margin-right: 25px
+}
+
+.masscsv-dt {
+    font-size: 1.2em;
+    position: relative;
+    top: 2px;
+}
+
+/* Create Mode */
+#menudiv-csv h3 {
+    text-align: center;
+    margin: 10px 0 0 0;
+    color: navy;
+}
+
+#result-csv {
+    display: none;
+    width: 700px;
+    left: 80px;
+    position: relative;
+}
+
+#csv-products {
+    width: 150px;
+    float: right;
+    margin-right: 25px
+}
+
+.csv-dt {
+    font-size: 1.2em;
+    position: relative;
+    top: 2px;
+}
+
+/* Update Mode */
+#menudiv-update h3 {
+    text-align: center;
+    margin: 10px 0 0 0;
+    color: navy;
+}
+
+#result-update {
+    display: none;
+    width: 700px;
+    left: 80px;
+    position: relative;
+}
+
+.update-products {
+    width: 200px;
+    margin-right: 25px
+}
+
+.update-dt {
+    font-size: 1.2em;
+    position: relative;
+    top: 2px;
+}
+
+.limit-pdt {
+    font-size: 1.0em;
+    position: relative;
+    top: 2px;
+}
+
+#menudiv-masscsv {
+    position: relative;
+}
+
+#menudiv-update {
+    position: relative;
+}
+
+#menudiv-csv {
+    position: relative;
+}
+
+#masscsv-loader {
+    position: absolute;
+    display: none;
+    top: 70px;
+    left: 50%;
+    width: 32px;
+    height: 32px;
+    background: transparent url(../img/loading.gif) no-repeat;
+}
+
+#send-loader, #csv-loader {
+    display: none;
+    left: 50%;
+    margin-left: 50%;
+    width: 100%;
+    height: 32px;
+    background: transparent url(../img/loading.gif) no-repeat;
+}
+
+#content #masscsv-products-result {
+    width: 90%;
+}
+
+#send-products-result div.conf {
+    width: 90%;
+}
+
+#update-loader {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 400px;
+    width: 32px;
+    height: 32px;
+    background: transparent url(../img/loading.gif) no-repeat;
+}
+
+#debug-loader {
+    display: none;
+    width: 32px;
+    height: 32px;
+    background: transparent url(../img/loading.gif) no-repeat;
+}
+
+/* for PS < 1.4 */
+#masscsv-products-error {
+    border: 1px solid #EC9B9B;
+    background-color: #FAE2E3;
+    color: #383838;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    line-height: 20px;
+    padding: 10px 15px;
+}
+
+#console {
+    background-color: black;
+    border: 1px solid white;
+    min-height: 500px;
+    width: 95%;
+    margin: 20px 20px;
+    padding: 10px;
+    color: white;
+}
+
+.cleaner {
+    clear: both;
+}
+
+#purge-warning {
+    display: none;
+    color: red;
+    position: relative;
+    top: +2px;
+    border: 1px solid #FBB;
+    background-color: #FFFFBE;
+    padding: 2px 10px 2px 10px;
+    margin-left: 10px;
+}
+
+#send-products {
+    width: 150px;
+    float: right;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+#content fieldset label {
+    font-weight: bold;
+}
+
+.fnac-tab-info {
+    min-height: 32px;
+    background: #BDE5F8 url(../img/icon-info.png) no-repeat 6px 6px;
+    border: 1px solid #00529B;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+}
+
+/*For prestashop 1.6*/
+#create-products-form .warn {
+    min-height: 32px;
+    background: #FEEFB3 url(../img/icon-attention.png) no-repeat 6px 6px;
+    border: 1px solid #9e6014;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+    color: #9e6014;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#create-products-form .fnac-info {
+    min-height: 32px;
+    background: #DFF2BF url(../img/icon-valid.png) no-repeat 6px 6px;
+    border: 1px solid #4F8A10;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+    color: #4F8A10;
+    font-size: 1.2em;
+}
+
+/* 1.6 */
+#main .bootstrap legend {
+    font-family: "Ubuntu Condensed", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: inherit;
+    background-color: transparent;
+    position: relative;
+    top: 16px;
+    display: block;
+    padding: 0 0 0 5px;
+    border: 0;
+    border-bottom: 1px solid #eeeeee;
+    border-top: 1px solid #e5e5e5;
+    font-size: 1.2em;
+    line-height: 2.2em;
+    /*height: 2.2em;*/
+    text-transform: uppercase;
+    margin: -20px -16px 15px -16px;
+}
+
+#datepickerFrom1, #datepickerTo1, #datepickerFrom2, #datepickerTo2 {
+    width: 100px;
+    display: inline-block;
+}
+
+ps-panel-divider hr {
+    width: 30%;
+}

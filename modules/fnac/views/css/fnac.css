@@ -1,0 +1,512 @@
+/**
+* NOTICE OF LICENSE
+*
+* This source file is subject to a commercial license from Common-Services Co., Ltd.
+* Use, copy, modification or distribution of this source file without written
+* license agreement from the SARL SMC is strictly forbidden.
+* In order to obtain a license, please contact us: contact@common-services.com
+* ...........................................................................
+* INFORMATION SUR LA LICENCE D'UTILISATION
+*
+* L'utilisation de ce fichier source est soumise a une licence commerciale
+* concedee par la societe Common-Services Co., Ltd.
+* Toute utilisation, reproduction, modification ou distribution du present
+* fichier source sans contrat de licence ecrit de la part de la Common-Services Co. Ltd. est
+* expressement interdite.
+* Pour obtenir une licence, veuillez contacter Common-Services Co., Ltd. a l'adresse: contact@common-services.com
+* ...........................................................................
+*
+* @package   FNAC
+* @author    Alexandre D. & Olivier B.
+* @copyright Copyright (c) 2011-2015 Common Services Co Ltd - 90/25 Sukhumvit 81 - 10260 Bangkok - Thailand
+* @license   Commercial license
+* Support by mail  :  contact@common-services.com
+*/
+
+#menuTab {
+    float: left;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    background-color: #efefef
+}
+
+#menuTab li {
+    text-align: left;
+    float: left;
+    display: inline;
+    padding: 15px 15px 10px;
+    background: #EFEFEF;
+    font-weight: bold;
+    cursor: pointer;
+    border-left: 1px solid #EFEFEF;
+    border-right: 1px solid #efefef;
+    border-top: 1px solid #efefef;
+}
+
+#menuTab li.menuTabButton.active {
+    background: #FFF6D3;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+}
+
+#menuTab li.menuTabButton:hover {
+    background: #ffb700;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+}
+
+#tabList {
+    clear: left;
+}
+
+.tabItem {
+    display: none;
+}
+
+.tabItem.active {
+    display: block;
+}
+
+.menuTabButton {
+    height: 16px;
+}
+
+.cleaner {
+    clear: both;
+}
+
+.fnac-country-tab {
+    float: left;
+    width: 175px;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+    text-align: center;
+    padding: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: lavender;
+    opacity: 0.5;
+    display: inherit;
+}
+
+.fnac-country-tab.active {
+    background-color: #d3def9;
+    opacity: 0.8;
+}
+
+.fnac-country-tab:hover {
+    background-color: #d3def9;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#menudiv-credentials ul.nav-pills {
+    list-style: none;
+    padding-left: 25%;
+}
+
+.fnac-country-container {
+    clear: both;
+    padding: 20px 20px 0 20px;
+}
+
+hr {
+    height: 0px;
+    border: 1px inset
+}
+
+.hint {
+    display: block;
+}
+
+.master-disabled {
+    color: silver;
+    background-color: #efefef;
+}
+
+.master-enabled {
+    color: black;
+    background-color: white;
+}
+
+.bcallback {
+    position: relative;
+    margin-left: 20px;
+    bottom: 10px;
+}
+
+.ecallback-disabled {
+    color: silver;
+    background-color: #efefef;
+}
+
+.check-loader {
+    position: relative;
+    top: -5px;
+    margin-left: 30px;
+}
+
+.server-response {
+    display: none;
+    min-height: 18px;
+    width: 300px;
+    border: 1px solid grey;
+    background-color: #fffefb;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+.addnewmapping {
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+    padding: 2px;
+    border: 1px solid transparent;
+}
+
+.addnewmapping:hover {
+    border: 1px solid navy;
+}
+
+.removemapping {
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+    padding: 2px;
+    border: 1px solid transparent;
+}
+
+.removemapping:hover {
+    border: 1px solid navy;
+}
+
+.input_note {
+    color: grey;
+    font-size: 0.8em
+}
+
+label {
+    padding-right: 5px;
+}
+
+/* PS 1.5 */
+
+#menudiv-categories .table tr td {
+    border-bottom: none;
+}
+
+.profile-obj-title {
+    position: relative;
+    top: +3px;
+    text-align: right;
+}
+
+.profile-help {
+    font-size: 1em;
+}
+
+.profile-name {
+    color: navy;
+    font-weight: bold;
+}
+
+.profile-add {
+    float: right;
+    position: relative;
+    top: 7px;
+    margin-left: 15px;
+}
+
+.profile-add-img {
+    float: right;
+    margin-right: 10px;
+}
+
+.profile-add-img img {
+    border: 1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.profile-add-img img:hover {
+    border: 1px solid navy;
+}
+
+.profile-del {
+    position: relative;
+    top: +2px;
+}
+
+.profile-del-img img {
+    margin-left: 15px;
+    border: 1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    top: +3px;
+}
+
+.profile-del-img img:hover {
+    border: 1px solid navy;
+}
+
+#reset-categories {
+    cursor: pointer;
+}
+
+.model-obj-title {
+    position: relative;
+    top: +3px;
+    text-align: right;
+}
+
+.model-help {
+    font-size: 1em;
+}
+
+.model-name {
+    color: navy;
+    font-weight: bold;
+}
+
+.model-add {
+    float: right;
+    position: relative;
+    top: 7px;
+    margin-left: 15px;
+}
+
+.model-add-img {
+    float: right;
+    margin-right: 10px;
+}
+
+.model-add-img img {
+    border: 1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.model-add-img img:hover {
+    border: 1px solid navy;
+}
+
+.model-del {
+    position: relative;
+    top: +2px;
+}
+
+.model-del-img img {
+    margin-left: 15px;
+    border: 1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    top: +3px;
+}
+
+.model-del-img img:hover {
+    border: 1px solid navy;
+}
+
+.specific-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.specific-row {
+    font-size: 1.2em;
+}
+
+.adv-ship-method {
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+.adv-ship-method tr td {
+    padding-right: 15px;
+}
+
+.adv-ship-item-title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.adv-ship-item-line td {
+    padding-left: 30px;
+}
+
+.adv-ship-sep {
+    width: 150px;
+    height: 5px;
+    line-height: 10px;
+    letter-spacing: 150px;
+    text-align: center;
+    color: silver;
+    text-decoration: line-through;
+}
+
+.adv-ship-add img {
+    border: 1px solid transparent;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.adv-ship-add img:hover {
+    border: 1px solid navy;
+}
+
+.adv-ship-del img {
+    border: 1px solid transparent;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.adv-ship-del img:hover {
+    border: 1px solid yellow;
+}
+
+#adv-ship-container .advship-readonly, .adv-ship .advship-readonly {
+    border: 1px solid #E2DFDF;
+    background-color: whitesmoke;
+}
+
+.mandatory {
+    color: red;
+    font-size: 2em;
+    line-height: 0;
+    position: relative;
+    top: +5px;
+}
+
+#model-import {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+#model-import p {
+    font-size: 12px;
+    color: red;
+}
+
+#reset-categories {
+    color: red;
+}
+
+#import-schema {
+    border: 2px solid rgb(255, 186, 186);
+    margin: 15px;
+    padding: 30px;
+}
+
+fnac-info p {
+    font-size: 1.1em;
+}
+
+.fnac-info-level-error {
+    min-height: 32px;
+    background: #FFBABA url(../img/icon-cancel.png) no-repeat 6px 6px;
+    border: 1px solid #CC0000;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+}
+
+.fnac-info-level-warn {
+    min-height: 32px;
+    background: #FEEFB3 url(../img/icon-attention.png) no-repeat 6px 6px;
+    border: 1px solid #9e6014;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+}
+
+.fnac-info .fnac-info-level-ok {
+    min-height: 32px;
+    background: #DFF2BF url(../img/icon-valid.png) no-repeat 6px 6px;
+    border: 1px solid #4F8A10;
+    padding: 8px 5px 5px 50px;
+    border-radius: 3px;
+}
+
+.fnac-info-text-error {
+    color: red;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.fnac-info-text-warn {
+    color: #9e6014;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.fnac-info-text-ok {
+    color: #4F8A10;
+}
+
+#content .confirm {
+    /*background: url('../img/icon-valid.png') no-repeat scroll 6px center #DFFAD3;*/
+    /*padding: 13px 5px 5px 40px;*/
+}
+
+.width600 {
+    width: 600px;
+}
+
+#main .cron-mode {
+    cursor: pointer;
+    border: 1px silver dotted;
+    padding: 10px;
+    height: 52px;
+}
+
+#main .cron-mode h4 {
+    float: left;
+    margin-left: 10px;
+}
+
+#main .cron-mode img {
+    float: left;
+}
+
+#main .cron-prestashop {
+    position: relative;
+    top: 5px;
+}
+
+#prestashop-cronjobs-lines {
+    display: block;
+    font-family: monospace;
+    color: black;
+    white-space: pre;
+    word-wrap: break-word;
+    margin: 1em 0px;
+}
+
+#cronjob-loader {
+    display: none;
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    top: 8px;
+}
+
+#cronjob-loader, #cronjob-loader-es, #cronjob-loader-pt {
+    display: none;
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    top: 8px;
+}
+
+.img-flag {
+
+    vertical-align: middle;
+    float: left;
+}

@@ -1,0 +1,65 @@
+<order>
+    <shop_id>D3864328-CC2C-EC17-428F-E9C9CDFA90D1</shop_id>
+    <client_id>b12b374b-0011-4af3-907e-4e179363ea62</client_id>
+    <client_firstname><![CDATA[Peggy]]></client_firstname>
+    <client_lastname><![CDATA[preteceille]]></client_lastname>
+    <client_email><![CDATA[c-12874204-f7852b32@marketplace.fnac.com]]></client_email>
+    <order_id>07UECQZEC4T70</order_id>
+    <state>ToShip</state>
+    <created_at>2015-10-06T19:25:36+02:00</created_at>
+    <fees>3.68</fees>
+    <vat_rate>20</vat_rate>
+    <nb_messages>0</nb_messages>
+    <delivery_note>
+        https://vendeur.fnac.com/api.php/delivery-note/49B649A4-57AB-81FE-3CFB-7BABC9284FDC/D3864328-CC2C-EC17-428F-E9C9CDFA90D1/CE300114-0F64-07C1-D1CE-6B70ABD0F843/07UECQZEC4T70
+    </delivery_note>
+    <shipping_address>
+        <firstname><![CDATA[Peggy]]></firstname>
+        <lastname><![CDATA[preteceille]]></lastname>
+        <company><![CDATA[]]></company>
+        <address1><![CDATA[Chez Etienne Ratgras -36 AVENUE DU MONT BLANC]]></address1>
+        <address2><![CDATA[]]></address2>
+        <address3><![CDATA[]]></address3>
+        <zipcode><![CDATA[01220]]></zipcode>
+        <city><![CDATA[DIVONNE-LES-BAINS]]></city>
+        <country><![CDATA[FRA]]></country>
+        <phone><![CDATA[]]></phone>
+        <mobile><![CDATA[0664907665]]></mobile>
+    </shipping_address>
+    <billing_address>
+        <firstname><![CDATA[Peggy]]></firstname>
+        <lastname><![CDATA[preteceille]]></lastname>
+        <company><![CDATA[]]></company>
+        <address1><![CDATA[route de bassins100]]></address1>
+        <address2><![CDATA[]]></address2>
+        <address3><![CDATA[]]></address3>
+        <zipcode><![CDATA[1269]]></zipcode>
+        <city><![CDATA[bassins]]></city>
+        <country><![CDATA[CHE]]></country>
+        <phone><![CDATA[0223667132]]></phone>
+        <mobile><![CDATA[0664907665]]></mobile>
+    </billing_address>
+    <order_detail>
+        <product_name><![CDATA[Pokemon - cahier range cartes - silhouettes - 360 cartes ( Jeux de sociÃ©tÃ© ) - ]]></product_name>
+        <order_detail_id>1</order_detail_id>
+        <state>ToShip</state>
+        <quantity>1</quantity>
+        <price>21</price>
+        <fees>3.68</fees>
+        <product_fnac_id>24837088</product_fnac_id>
+        <offer_fnac_id>ED69024A-BF12-2CA2-5783-AA2765C07E50</offer_fnac_id>
+        <offer_seller_id><![CDATA[0074427843731]]></offer_seller_id>
+        <product_state>11</product_state>
+        <description><![CDATA[Vendeur Professionel - Produit rÃ©ellement en Stock expÃ©diÃ© sous 24 heures]]></description>
+        <internal_comment><![CDATA[]]></internal_comment>
+
+        <shipping_price>4.59</shipping_price>
+        <shipping_method>21</shipping_method>
+        <created_at>2015-10-06T19:25:36+02:00</created_at>
+        <debited_at>2015-10-06T20:00:30+02:00</debited_at>
+        <received_at/>
+        <product_url><![CDATA[http://www4.fnac.com/marketplace/articleoffers.aspx?prid=24837088&ref=MarketPlace]]></product_url>
+        <image><![CDATA[http://static.fnac-static.com/multimedia/Images/FR/MC/e0/fb/7a/24837088/1501-1.jpg]]></image>
+        <tracking_number><![CDATA[]]></tracking_number>
+    </order_detail>
+</order>

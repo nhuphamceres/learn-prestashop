@@ -1,0 +1,500 @@
+/**
+* NOTICE OF LICENSE
+*
+* This source file is subject to a commercial license from Common-Services Co., Ltd.
+* Use, copy, modification or distribution of this source file without written
+* license agreement from the SARL SMC is strictly forbidden.
+* In order to obtain a license, please contact us: contact@common-services.com
+* ...........................................................................
+* INFORMATION SUR LA LICENCE D'UTILISATION
+*
+* L'utilisation de ce fichier source est soumise a une licence commerciale
+* concedee par la societe Common-Services Co., Ltd.
+* Toute utilisation, reproduction, modification ou distribution du present
+* fichier source sans contrat de licence ecrit de la part de la Common-Services Co. Ltd. est
+* expressement interdite.
+* Pour obtenir une licence, veuillez contacter Common-Services Co., Ltd. a l'adresse: contact@common-services.com
+* ...........................................................................
+*
+* @package   FNAC
+* @author    Alexandre D. & Olivier B.
+* @copyright Copyright (c) 2011-2015 Common Services Co Ltd - 90/25 Sukhumvit 81 - 10260 Bangkok - Thailand
+* @license   Commercial license
+* Support by mail  :  contact@common-services.com
+*/
+
+#menuTab {
+    float: left;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+#menuTab li {
+    text-align: left;
+    float: left;
+    display: inline;
+    padding: 5px;
+    padding-right: 10px;
+    background: #EFEFEF;
+    font-weight: bold;
+    cursor: pointer;
+    border-left: 1px solid #EFEFEF;
+    border-right: 1px solid #EFEFEF;
+    border-top: 1px solid #EFEFEF;
+}
+
+#menuTab li.menuTabButton.selected {
+    background: #FFF6D3;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+}
+
+#menuTab li.menuTabButton:hover {
+    background: #ffb700;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+}
+
+#tabList {
+    clear: left;
+}
+
+.tabItem {
+    display: none;
+}
+
+.tabItem {
+    border: 1px solid #CCCCCC;
+    padding: 0 10px 10px 10px;
+    background-color: whitesmoke
+}
+
+.tabItem.selected {
+    display: block;
+    border: 1px solid #CCCCCC;
+    padding: 0 10px 10px 10px;
+    background-color: whitesmoke
+}
+
+.fnac-country-title {
+    font-size: 12px;
+}
+
+.fnac-country-title img {
+    position: relative;
+    top: -2px;
+}
+
+.fnac-platform {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+#menudiv-import fieldset.lookup {
+    /*width: 550px;*/
+}
+
+#content fieldset label {
+    font-weight: bold;
+}
+
+#menudiv-import fieldset {
+    /*font-size: 13px;*/
+    /*margin: 20px 20px 20px 0;*/
+    /*border: 1px solid snow;*/
+}
+
+hr {
+    margin-bottom: 20px;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.ccb-title {
+    font-size: 1.2em;
+    position: relative;
+    top: +2px;
+    padding-left: 5px;
+
+}
+
+a.order_link:hover {
+    text-decoration: underline;
+}
+
+/* Update Mode */
+#menudiv-import h3 {
+    text-align: center;
+    margin: 10px 0 0 0;
+    color: navy;
+}
+
+#result-import {
+    display: none;
+    width: 700px;
+    left: 80px;
+    position: relative;
+}
+
+#result-accept {
+    display: none;
+    width: 700px;
+    left: 80px;
+    position: relative;
+}
+
+#accept-orders {
+    width: 180px;
+    float: right;
+    margin-right: 25px
+}
+
+#accept-order {
+    display: none;
+    width: 180px;
+    float: right;
+    margin-right: 25px
+}
+
+#import-orders {
+    width: 180px;
+    float: right;
+    margin-right: 25px
+}
+
+#import-order {
+    display: none;
+    width: 150px;
+    float: right;
+    margin-right: 25px
+}
+
+.import-dt {
+    font-size: 1.2em;
+    position: relative;
+    top: 2px;
+}
+
+.url {
+    color: navy;
+}
+
+#menudiv-import {
+    position: relative;
+}
+
+#result .floader, #result2 .floader {
+    margin-left: 50%;
+}
+
+#import-loader {
+    display: none;
+    position: relative;
+    margin-left: 200px;
+    width: 32px;
+    height: 32px;
+    background: transparent url(../img/loading.gif) no-repeat;
+}
+
+#accept-loader {
+    display: none;
+    position: relative;
+    margin-left: 200px;
+    width: 32px;
+    height: 32px;
+    background: transparent url(../img/loading.gif) no-repeat;
+}
+
+#debug-loader {
+    display: none;
+    width: 32px;
+    height: 32px;
+    background: transparent url(../img/loading.gif) no-repeat;
+}
+
+#console {
+    background-color: black;
+    border: 1px solid white;
+    min-height: 500px;
+    width: 95%;
+    margin: 20px 20px;
+    padding: 10px;
+    color: white;
+}
+
+.istatus {
+    position: relative;
+    top: -1px;
+    margin: 0 5px 0 10px;
+}
+
+/*
+ * Main Orders Table
+ */
+
+.import-table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 11px;
+    width: 800px;
+    text-align: left;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 15px;
+}
+
+.import-table tr {
+    /*
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+    */
+    cursor: pointer;
+    margin: 0;
+}
+
+.import-table thead td {
+    font-weight: normal;
+    font-size: 11px;
+    background-color: #eceade;
+    color: #039;
+    padding: 5px;
+    border: 1px solid silver;
+}
+
+.import-table tbody {
+    background: #e8edff;
+}
+
+.import-table tfoot {
+    background: #e9e9e9;
+}
+
+.import-table tbody td {
+    padding: 3px;
+    color: #669;
+    border: 1px solid silver;
+    padding: 5px;
+}
+
+.import-table tbody tr.item {
+    background-color: white;
+    border: none;
+    display: none;
+}
+
+.import-table tbody tr.orderl:hover td {
+    color: #339;
+    background: #d0dafd;
+}
+
+.import-table tbody tr.import-error td {
+    background: #FFE6E6;
+}
+
+.import-table tbody tr.imported td {
+    background: #CCFFCD;
+}
+
+.import-table tbody tr.order-item:hover td {
+    color: #339;
+    background: #C6C8CA;
+}
+
+.order-item {
+    background-color: #D7DADD;
+}
+
+.import-table tfoot em {
+    position: relative;
+    top: +7px;
+}
+
+/* product table too ! */
+.import-table tr.imported-item td {
+    border: 1px dotted silver;
+}
+
+.import-table tr.heading td {
+    font-size: 10px;
+    color: #039;
+    padding: 5px;
+    border: 1px solid silver;
+    background-color: #efefef;
+}
+
+.product-table {
+    float: left;
+    width: 810px;
+    text-align: left;
+    border-collapse: collapse;
+    border: none;
+    float: right;
+    /*    display:none;*/
+}
+
+.product-table tr {
+    cursor: pointer;
+    border: none;
+    margin: 0;
+}
+
+.product-table td {
+    font-size: 10px;
+    padding: 2px;
+    background-color: white;
+}
+
+.product-table tr.item {
+    background-color: white;
+    border: none;
+}
+
+.quick-access {
+    margin-left: 30px;
+}
+
+.quick-access {
+
+}
+
+.quick-access a {
+    color: navy;
+}
+
+.quick-access a:hover {
+    text-decoration: underline;
+}
+
+/*
+ * Accept Table
+ */
+
+.accept-table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 11px;
+    width: 800px;
+    text-align: left;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 15px;
+    min-height: 150px;
+}
+
+.accept-table tr {
+    cursor: pointer;
+    margin: 0;
+}
+
+.accept-table thead td {
+    font-weight: normal;
+    font-size: 11px;
+    background-color: #eceade;
+    color: #039;
+    padding: 5px;
+    border: 1px solid silver;
+}
+
+.accept-table tbody {
+    background: #e8edff;
+}
+
+.accept-table tfoot {
+    background: #e9e9e9;
+}
+
+.accept-table tbody td {
+    padding: 3px;
+    color: #669;
+    border: 1px solid silver;
+    padding: 5px;
+}
+
+.accept-table tbody tr.item {
+    background-color: white;
+    border: none;
+    display: none;
+}
+
+.accept-table tbody tr.orderl:hover td {
+    color: #339;
+    background: #d0dafd;
+}
+
+.accept-table tbody tr.accept-error td {
+    background: #FFE6E6;
+}
+
+.accept-table tbody tr.imported td {
+    background: #CCFFCD;
+}
+
+.accept-table tbody tr.order-item:hover td {
+    color: #339;
+    background: #C6C8CA;
+}
+
+.order-item {
+    background-color: #D7DADD;
+}
+
+.accept-table tfoot em {
+    position: relative;
+    top: +7px;
+}
+
+/* product table too ! */
+.accept-table tr.imported-item td {
+    border: 1px dotted silver;
+}
+
+.accept-table tr.heading td {
+    font-size: 10px;
+    color: #039;
+    padding: 5px;
+    border: 1px solid silver;
+    background-color: #efefef;
+}
+
+#accept-orders-success {
+    display: none;
+    background-color: #DAEAFF;
+    border: 1px solid #AFC5FC;
+    width: 80%;
+    margin-left: 20px;
+    padding: 10px 0 10px 25px;
+}
+
+#accept-orders-error {
+    width: 80%;
+    margin-left: 20px;
+}
+
+/* PS 1.6 */
+#main .bootstrap legend {
+    font-family: "Ubuntu Condensed", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: inherit;
+    background-color: transparent;
+    position: relative;
+    top: 16px;
+    display: block;
+    padding: 0 0 0 5px;
+    border: 0;
+    border-bottom: 1px solid #eeeeee;
+    border-top: 1px solid #e5e5e5;
+    font-size: 1.2em;
+    line-height: 2.2em;
+    /*height: 2.2em;*/
+    text-transform: uppercase;
+    margin: -20px -16px 15px -16px;
+    width: 103%;
+}
+
+#datepickerFrom, #datepickerTo {
+    width: 100px;
+    display: inline-block;
+}
