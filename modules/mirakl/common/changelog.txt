@@ -1,0 +1,24 @@
+1.0.7
+Update copyright header
+
+1.0.6
+Zip: Allow override
+
+1.0.5: 2020-12-21
+Tools: Check field existence by cache.
+
+v1.0.4: 2020-07-16
+* Enable debug mode to be overrode
+
+v1.0.3: Jun-08
+* Enhance certificates handling
+
+v1.0.2: May-06
+* Fix save / load configs of multi-store on PS1.5
+
+v1.0.1: Nov-08
+* Fix bug import order.
+
+v1.0.0: Aug-23
+* Apply style PSR2.
+* Escape all queries.

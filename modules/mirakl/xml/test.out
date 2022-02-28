@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mirakl_errors>
+  <error_code>10</error_code>
+  <service>Offers</service>
+  <service_child>Imports</service_child>
+  <service_code>OF01</service_code>
+  <service_method>POST</service_method>
+  <error>SOURCE_FILE_MISSING</error>
+  <serverity_level>1</serverity_level>
+  <error_end>Client Side</error_end>
+  <error_details>Error encountered, please check Service_Code to track down the problem.</error_details>
+</mirakl_errors>

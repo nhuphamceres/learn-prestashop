@@ -1,0 +1,1671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mirakl_orders>
+  <orders>
+    <acceptance_decision_date>2015-09-08T07:22:10Z</acceptance_decision_date>
+    <commercial_id>100042398</commercial_id>
+    <created_date>2015-09-07T12:38:50Z</created_date>
+    <customer>
+      <billing_address>
+        <city>SAINT AVOLD</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>SANDRA</firstname>
+        <lastname>AMANN </lastname>
+        <phone>0387902146</phone>
+        <state></state>
+        <street_1>35</street_1>
+        <street_2></street_2>
+        <zip_code>57500</zip_code>
+      </billing_address>
+      <civility></civility>
+      <customer_id>102415</customer_id>
+      <firstname>SANDRA</firstname>
+      <lastname>AMANN </lastname>
+      <shipping_address>
+        <additional_info></additional_info>
+        <city>SAINT AVOLD</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>SANDRA</firstname>
+        <lastname>AMANN </lastname>
+        <phone>0387902146</phone>
+        <state></state>
+        <street_1>35</street_1>
+        <street_2></street_2>
+        <zip_code>57500</zip_code>
+      </shipping_address>
+    </customer>
+    <has_customer_message>false</has_customer_message>
+    <has_incident>false</has_incident>
+    <has_invoice>false</has_invoice>
+    <last_updated_date>2015-09-09T07:14:12Z</last_updated_date>
+    <order_id>100042398-A</order_id>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>4</category_code>
+      <category_label>Maquillage</category_label>
+      <commission_fee>3.74</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.75</commission_vat>
+      <created_date>2015-09-07T12:38:50Z</created_date>
+      <debited_date>2015-09-08T07:25:02Z</debited_date>
+      <description>Le Rouge Divin de Miss Europe est un rouge à lèvres longue-tenue à la formule riche en pigments et à la texture soyeuse pour un rendu ultra-chic.
+Le Rouge Divin offre une bonne couvrance et un effet satiné pour une finition brillance naturelle. Sa texture non-desséchante, légère et fondante garantit une application facile et uniforme sur les lèvres.
+Grâce au Rouge à Lèvres Divin, les lèvres sont sublimées et galbées naturellement.
+Le Rouge Divin se décline en de multiples teintes tendances, allant du nude au plus sophistiqué.</description>
+      <last_updated_date>2015-09-09T07:14:12Z</last_updated_date>
+      <offer_id>18461</offer_id>
+      <offer_sku>011001024</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042398-A-1</order_line_id>
+      <order_line_index>1</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>8.97</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>2.99</price_unit>
+      <product_sku>11001024</product_sku>
+      <product_title>Rouge Divin n°24 Écarlate</product_title>
+      <quantity>3</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-09T07:14:12Z</shipped_date>
+      <shipping_price>6</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>4.49</total_commission>
+      <total_price>14.97</total_price>
+    </order_lines>
+    <order_state>SHIPPED</order_state>
+    <order_state_reason_code></order_state_reason_code>
+    <order_state_reason_label></order_state_reason_label>
+    <paymentType>PayPal</paymentType>
+    <payment_type>PayPal</payment_type>
+    <price>8.97</price>
+    <shipping_company>Colissimo</shipping_company>
+    <shipping_price>6</shipping_price>
+    <shipping_tracking>6A13145748379</shipping_tracking>
+    <shipping_tracking_url></shipping_tracking_url>
+    <shipping_type_code>COLISSIMO6</shipping_type_code>
+    <shipping_type_label>Colissimo 72h - 6€</shipping_type_label>
+    <shipping_zone_code>FR</shipping_zone_code>
+    <shipping_zone_label>France métropolitaine et Monaco</shipping_zone_label>
+    <total_commission>4.49</total_commission>
+    <total_price>14.97</total_price>
+  </orders>
+  <orders>
+    <acceptance_decision_date>2015-09-08T07:22:10Z</acceptance_decision_date>
+    <commercial_id>100042429</commercial_id>
+    <created_date>2015-09-07T14:55:09Z</created_date>
+    <customer>
+      <billing_address>
+        <city>GLANDON</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>Estelle</firstname>
+        <lastname>SYLVAIN</lastname>
+        <phone>0676100456</phone>
+        <state></state>
+        <street_1>Le Gravier de Férignac</street_1>
+        <street_2></street_2>
+        <zip_code>87500</zip_code>
+      </billing_address>
+      <civility></civility>
+      <customer_id>102413</customer_id>
+      <firstname>Estelle</firstname>
+      <lastname>SYLVAIN</lastname>
+      <shipping_address>
+        <additional_info></additional_info>
+        <city>GLANDON</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>Estelle</firstname>
+        <lastname>SYLVAIN</lastname>
+        <phone>0676100456</phone>
+        <state></state>
+        <street_1>Le Gravier de Férignac</street_1>
+        <street_2></street_2>
+        <zip_code>87500</zip_code>
+      </shipping_address>
+    </customer>
+    <has_customer_message>false</has_customer_message>
+    <has_incident>false</has_incident>
+    <has_invoice>false</has_invoice>
+    <last_updated_date>2015-09-09T07:15:45Z</last_updated_date>
+    <order_id>100042429-B</order_id>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>4</category_code>
+      <category_label>Maquillage</category_label>
+      <commission_fee>1.97</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.39</commission_vat>
+      <created_date>2015-09-07T14:55:09Z</created_date>
+      <debited_date>2015-09-08T07:25:02Z</debited_date>
+      <description>Le Crayon Khôl Waterproof Noir de Miss Europe est le produit yeux indispensable pour un maquillage longue tenue en toutes circonstances ! Il possède une texture crémeuse et non-sèche, formulée à base de Cires Végétales pour une application confortable et facile en un seul trait.
+Baignades pendant l’été, natation pour les sportives, larmes ou fous-rires… votre maquillage dure et reste impeccable !
+Le Crayon Khôl Waterproof Noir résiste à l’eau et dure longtemps sous forte chaleur.
+Hautement concentré en pigments, ce crayon pour les yeux intensifie et souligne le regard ; les yeux sont mis en valeur et sublimés. Il est utilisable autant à l’extérieur qu’à l’intérieur du ras des cils.</description>
+      <last_updated_date>2015-09-09T07:15:45Z</last_updated_date>
+      <offer_id>18125</offer_id>
+      <offer_sku>002301001</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042429-B-1</order_line_id>
+      <order_line_index>1</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>1.87</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>1.87</price_unit>
+      <product_sku>2301001</product_sku>
+      <product_title>Crayon Khôl Waterproof Noir</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-09T07:15:45Z</shipped_date>
+      <shipping_price>6</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>2.36</total_commission>
+      <total_price>7.87</total_price>
+    </order_lines>
+    <order_state>SHIPPED</order_state>
+    <order_state_reason_code></order_state_reason_code>
+    <order_state_reason_label></order_state_reason_label>
+    <paymentType>Credit card</paymentType>
+    <payment_type>Credit card</payment_type>
+    <price>1.87</price>
+    <shipping_company>Colissimo</shipping_company>
+    <shipping_price>6</shipping_price>
+    <shipping_tracking>6A13145748386</shipping_tracking>
+    <shipping_tracking_url></shipping_tracking_url>
+    <shipping_type_code>COLISSIMO6</shipping_type_code>
+    <shipping_type_label>Colissimo 72h - 6€</shipping_type_label>
+    <shipping_zone_code>FR</shipping_zone_code>
+    <shipping_zone_label>France métropolitaine et Monaco</shipping_zone_label>
+    <total_commission>2.36</total_commission>
+    <total_price>7.87</total_price>
+  </orders>
+  <orders>
+    <acceptance_decision_date>2015-09-08T09:17:10Z</acceptance_decision_date>
+    <commercial_id>100042550</commercial_id>
+    <created_date>2015-09-08T07:59:39Z</created_date>
+    <customer>
+      <billing_address>
+        <city>AUCH</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>LAURENCE</firstname>
+        <lastname>CUNHA</lastname>
+        <phone>0672193028</phone>
+        <state></state>
+        <street_1>3 RUE HENRI MATISSE AU PETIT MOULIOT</street_1>
+        <street_2></street_2>
+        <zip_code>32000</zip_code>
+      </billing_address>
+      <civility></civility>
+      <customer_id>102595</customer_id>
+      <firstname>LAURENCE</firstname>
+      <lastname>CUNHA</lastname>
+      <shipping_address>
+        <additional_info></additional_info>
+        <city>AUCH</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>LAURENCE</firstname>
+        <lastname>CUNHA</lastname>
+        <phone>0672193028</phone>
+        <state></state>
+        <street_1>3 RUE HENRI MATISSE AU PETIT MOULIOT</street_1>
+        <street_2></street_2>
+        <zip_code>32000</zip_code>
+      </shipping_address>
+    </customer>
+    <has_customer_message>false</has_customer_message>
+    <has_incident>false</has_incident>
+    <has_invoice>false</has_invoice>
+    <last_updated_date>2015-09-09T07:20:14Z</last_updated_date>
+    <order_id>100042550-A</order_id>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>4</category_code>
+      <category_label>Maquillage</category_label>
+      <commission_fee>2.87</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.57</commission_vat>
+      <created_date>2015-09-08T07:59:39Z</created_date>
+      <debited_date>2015-09-08T09:20:02Z</debited_date>
+      <description>Le Rouge à Lèvres Feutre de Miss Europe teinte les lèvres sans effet de matière, sensation lèvres nues, pour les rehausser naturellement.
+Sa formule semi-permanente résiste à l’eau, ne file pas et offre une tenue de plus de 24 heures*.
+Le Rouge à Lèvres Feutre est disponible en 4 teintes tendances et donne un fini mat aux lèvres.
+Son embout feutre permet une application facile, fraîche et agréable. Il peut être également utilisé pour redessiner le contour des lèvres.
+*Test réalisé sur 30 femmes pendant 14 jours – Résultat obtenu pour 83% des femmes.</description>
+      <last_updated_date>2015-09-09T07:18:59Z</last_updated_date>
+      <offer_id>18495</offer_id>
+      <offer_sku>011008002</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042550-A-1</order_line_id>
+      <order_line_index>1</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>5.49</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>5.49</price_unit>
+      <product_sku>11008002</product_sku>
+      <product_title>Rouge à Lèvres Feutre n°02 Bois de Rose</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-09T07:18:59Z</shipped_date>
+      <shipping_price>6</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>3.44</total_commission>
+      <total_price>11.49</total_price>
+    </order_lines>
+    <order_state>SHIPPED</order_state>
+    <order_state_reason_code></order_state_reason_code>
+    <order_state_reason_label></order_state_reason_label>
+    <paymentType>Credit card</paymentType>
+    <payment_type>Credit card</payment_type>
+    <price>5.49</price>
+    <shipping_company>Colissimo</shipping_company>
+    <shipping_price>6</shipping_price>
+    <shipping_tracking>6A13145748393</shipping_tracking>
+    <shipping_tracking_url>http://www.coliposte.net/particulier/suivi_particulier.jsp?colispart=6A13145748393</shipping_tracking_url>
+    <shipping_type_code>COLISSIMO6</shipping_type_code>
+    <shipping_type_label>Colissimo 72h - 6€</shipping_type_label>
+    <shipping_zone_code>FR</shipping_zone_code>
+    <shipping_zone_label>France métropolitaine et Monaco</shipping_zone_label>
+    <total_commission>3.44</total_commission>
+    <total_price>11.49</total_price>
+  </orders>
+  <orders>
+    <acceptance_decision_date>2015-09-08T09:17:10Z</acceptance_decision_date>
+    <commercial_id>100042560</commercial_id>
+    <created_date>2015-09-08T09:08:40Z</created_date>
+    <customer>
+      <billing_address>
+        <city>PARIS</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>ISABELLE</firstname>
+        <lastname>ATTALI</lastname>
+        <phone>0660293289</phone>
+        <state></state>
+        <street_1>9 PASSAGE SAINT SEBASTIEN</street_1>
+        <street_2></street_2>
+        <zip_code>75011</zip_code>
+      </billing_address>
+      <civility></civility>
+      <customer_id>102611</customer_id>
+      <firstname>ISABELLE</firstname>
+      <lastname>ATTALI</lastname>
+      <shipping_address>
+        <additional_info></additional_info>
+        <city>PARIS</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>ISABELLE</firstname>
+        <lastname>ATTALI</lastname>
+        <phone>0660293289</phone>
+        <state></state>
+        <street_1>BOUTIQUE ALIS REZ DE CHAUSSÉE-34 BD BEAUMARCHAIS</street_1>
+        <street_2></street_2>
+        <zip_code>75011</zip_code>
+      </shipping_address>
+    </customer>
+    <has_customer_message>false</has_customer_message>
+    <has_incident>false</has_incident>
+    <has_invoice>false</has_invoice>
+    <last_updated_date>2015-09-09T07:21:52Z</last_updated_date>
+    <order_id>100042560-C</order_id>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>4</category_code>
+      <category_label>Maquillage</category_label>
+      <commission_fee>2.75</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.55</commission_vat>
+      <created_date>2015-09-08T09:08:40Z</created_date>
+      <debited_date>2015-09-08T09:20:02Z</debited_date>
+      <description>Le Duo Gloss &amp;amp; Rouge à Lèvres de Miss Europe est un produit astucieux 2-en-1 : il dispose sur un côté d’un rouge à lèvres et de l’autre côté d’un gloss, aux teintes assorties et éclatantes.
+Le Duo Gloss &amp;amp; Rouge à Lèvres offre une extrême brillance pour une bouche illuminée et sublimée !
+Utilisez les deux côtés ensemble ou séparément selon vos envies !
+Ce duo est disponible en 4 teintes ultra-tendances : Prune, Rose, Orange et Rouge Métallique.</description>
+      <last_updated_date>2015-09-09T07:21:52Z</last_updated_date>
+      <offer_id>18068</offer_id>
+      <offer_sku>001113002</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042560-C-1</order_line_id>
+      <order_line_index>1</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>4.99</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>4.99</price_unit>
+      <product_sku>1113002</product_sku>
+      <product_title>Duo Gloss &amp; Rouge à Lèvres n°02 Rose</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-09T07:21:52Z</shipped_date>
+      <shipping_price>6</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>3.3</total_commission>
+      <total_price>10.99</total_price>
+    </order_lines>
+    <order_state>SHIPPED</order_state>
+    <order_state_reason_code></order_state_reason_code>
+    <order_state_reason_label></order_state_reason_label>
+    <paymentType>PayPal</paymentType>
+    <payment_type>PayPal</payment_type>
+    <price>4.99</price>
+    <shipping_company>Colissimo</shipping_company>
+    <shipping_price>6</shipping_price>
+    <shipping_tracking>6A13145748409</shipping_tracking>
+    <shipping_tracking_url></shipping_tracking_url>
+    <shipping_type_code>COLISSIMO6</shipping_type_code>
+    <shipping_type_label>Colissimo 72h - 6€</shipping_type_label>
+    <shipping_zone_code>FR</shipping_zone_code>
+    <shipping_zone_label>France métropolitaine et Monaco</shipping_zone_label>
+    <total_commission>3.3</total_commission>
+    <total_price>10.99</total_price>
+  </orders>
+  <orders>
+    <acceptance_decision_date>2015-09-08T11:04:49Z</acceptance_decision_date>
+    <commercial_id>100042570</commercial_id>
+    <created_date>2015-09-08T09:54:40Z</created_date>
+    <customer>
+      <billing_address>
+        <city>Dainville</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>Delphine</firstname>
+        <lastname>Deketelaere</lastname>
+        <phone>0643895903</phone>
+        <state></state>
+        <street_1>3 rue condorcet</street_1>
+        <street_2></street_2>
+        <zip_code>52000</zip_code>
+      </billing_address>
+      <civility></civility>
+      <customer_id>102620</customer_id>
+      <firstname>Delphine</firstname>
+      <lastname>Dek</lastname>
+      <shipping_address>
+        <additional_info></additional_info>
+        <city>Dainville</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>Delphine</firstname>
+        <lastname>Deketelaere</lastname>
+        <phone>0643895903</phone>
+        <state></state>
+        <street_1>3 rue condorcet</street_1>
+        <street_2></street_2>
+        <zip_code>52000</zip_code>
+      </shipping_address>
+    </customer>
+    <has_customer_message>false</has_customer_message>
+    <has_incident>false</has_incident>
+    <has_invoice>false</has_invoice>
+    <last_updated_date>2015-09-09T07:23:18Z</last_updated_date>
+    <order_id>100042570-B</order_id>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>4</category_code>
+      <category_label>Maquillage</category_label>
+      <commission_fee>1</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.2</commission_vat>
+      <created_date>2015-09-08T09:54:40Z</created_date>
+      <debited_date>2015-09-08T11:05:02Z</debited_date>
+      <description>L’Eyeliner Pointe Feutre Noir de Miss Europe permet de réaliser un tracé net et précis pour un regard intense effet "oeil de biche".
+La pointe feutre de cet eyeliner liquide offre une haute précision à l’application pour un maquillage des yeux impeccable et sa concentration en pigments donne un résultat intense.
+L’Eyeliner Pointe Feutre Noir est ultra-pratique car il est très rapide à sécher après l’application ; il offre également une excellente tenue.</description>
+      <last_updated_date>2015-09-09T07:23:18Z</last_updated_date>
+      <offer_id>18535</offer_id>
+      <offer_sku>012251001</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042570-B-1</order_line_id>
+      <order_line_index>1</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>3.99</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>3.99</price_unit>
+      <product_sku>12251001</product_sku>
+      <product_title>Eyeliner Pointe Feutre Noir</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-09T07:23:18Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>1.2</total_commission>
+      <total_price>3.99</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>687</category_code>
+      <category_label>Ongles</category_label>
+      <commission_fee>0.75</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.15</commission_vat>
+      <created_date>2015-09-08T09:54:40Z</created_date>
+      <debited_date>2015-09-08T11:05:02Z</debited_date>
+      <description>Le Fixateur de Miss Europe, incolore, améliore nettement la tenue du vernis en formant un film effet barrière qui le fixe et le protège.
+Le Fixateur permet d'éviter au maximum l'écaillement du vernis, de le préserver et lui procure de la brillance.
+Ce produit pour les ongles possède un pinceau arrondi qui permet un écoulement régulier du produit pour une application facile.</description>
+      <last_updated_date>2015-09-09T07:23:18Z</last_updated_date>
+      <offer_id>18050</offer_id>
+      <offer_sku>000010028</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042570-B-2</order_line_id>
+      <order_line_index>2</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>2.99</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>2.99</price_unit>
+      <product_sku>10028</product_sku>
+      <product_title>Fixateur</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-09T07:23:18Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>0.9</total_commission>
+      <total_price>2.99</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>687</category_code>
+      <category_label>Ongles</category_label>
+      <commission_fee>2.25</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.45</commission_vat>
+      <created_date>2015-09-08T09:54:40Z</created_date>
+      <debited_date>2015-09-08T11:05:02Z</debited_date>
+      <description>Véritable soin pour les ongles, la Base Correctrice de Miss Europe est à appliquer avant la pose du vernis pour tout d'abord augmenter la tenue de ce dernier et protéger des tâches dûes aux pigments, mais aussi pour réparer la surface de l’ongle et atténuer les stries.
+Cette base soin agit comme un « lisseur » et un « flouteur » pour corriger les imperfections de l’ongle.
+La Base Correctrice possède un pinceau arrondi qui permet un écoulement régulier du produit pour une application facile.</description>
+      <last_updated_date>2015-09-09T07:23:18Z</last_updated_date>
+      <offer_id>18048</offer_id>
+      <offer_sku>000010016</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042570-B-3</order_line_id>
+      <order_line_index>3</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>2.99</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>2.99</price_unit>
+      <product_sku>10016</product_sku>
+      <product_title>Base Correctrice</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-09T07:23:18Z</shipped_date>
+      <shipping_price>6</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>2.7</total_commission>
+      <total_price>8.99</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>687</category_code>
+      <category_label>Ongles</category_label>
+      <commission_fee>1.75</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.35</commission_vat>
+      <created_date>2015-09-08T09:54:40Z</created_date>
+      <debited_date>2015-09-08T11:05:02Z</debited_date>
+      <description>Le Stylo Dissolvant de Miss Europe est l’accessoire indispensable pour réaliser des manucures nettes et précises !
+Grâce à son embout feutre arrondi imbibé de produit, le Stylo Dissolvant est ultra-pratique et efface les bavures et les débordements de vernis pour un résultat impeccable ; il corrige les erreurs en respectant le pourtour de l’ongle.
+Le Stylo Dissolvant est idéal, avec son embout fin et sa prise en main facile, pour corriger les erreurs en nail art.
+La formule du Stylo Dissolvant contient de l'acétone et est donc exclusivement réservée aux ongles naturels.</description>
+      <last_updated_date>2015-09-09T07:23:18Z</last_updated_date>
+      <offer_id>18055</offer_id>
+      <offer_sku>000099002</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042570-B-4</order_line_id>
+      <order_line_index>4</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>6.98</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>3.49</price_unit>
+      <product_sku>99002</product_sku>
+      <product_title>Stylo Dissolvant</product_title>
+      <quantity>2</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-09T07:23:18Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>2.1</total_commission>
+      <total_price>6.98</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>1283</category_code>
+      <category_label>Soin</category_label>
+      <commission_fee>0.75</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.15</commission_vat>
+      <created_date>2015-09-08T09:54:40Z</created_date>
+      <debited_date>2015-09-08T11:05:02Z</debited_date>
+      <description>Le Gommage Visage de la gamme SPA de Miss Europe est une crème exfoliante parfumée qui permet d'éliminer en douceur les cellules mortes et de désincruster les pores de l’épiderme. La peau du visage est ainsi nette et éclatante.
+Le Gommage Visage, déclinés dans les 8 parfums habituels de la ligne SPA, purifie en profondeur et laisse la peau douce.
+Le soin du visage n’a jamais été aussi sensoriel !
+Pour tout achat de 3 produits minimum dans la gamme SPA Miss Europe Corps &amp;amp; Bain, un Sac de Shopping vous est offert pour en faire une jolie présentation ! (sac ajouté automatiquement à votre panier et coloris sélectionné par nos soins en fonction des parfums choisis dans vos produits).</description>
+      <last_updated_date>2015-09-09T07:23:18Z</last_updated_date>
+      <offer_id>18698</offer_id>
+      <offer_sku>086119006</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042570-B-5</order_line_id>
+      <order_line_index>5</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>2.99</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>2.99</price_unit>
+      <product_sku>2006-086119006</product_sku>
+      <product_title>Gommage Visage - Miel &amp; Fleur d'Oranger</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-09T07:23:18Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>0.9</total_commission>
+      <total_price>2.99</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>1283</category_code>
+      <category_label>Soin</category_label>
+      <commission_fee>0.75</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.15</commission_vat>
+      <created_date>2015-09-08T09:54:40Z</created_date>
+      <debited_date>2015-09-08T11:05:02Z</debited_date>
+      <description>Le Gommage Visage de la gamme SPA de Miss Europe est une crème exfoliante parfumée qui permet d'éliminer en douceur les cellules mortes et de désincruster les pores de l’épiderme. La peau du visage est ainsi nette et éclatante.
+Le Gommage Visage, déclinés dans les 8 parfums habituels de la ligne SPA, purifie en profondeur et laisse la peau douce.
+Le soin du visage n’a jamais été aussi sensoriel !
+Pour tout achat de 3 produits minimum dans la gamme SPA Miss Europe Corps &amp;amp; Bain, un Sac de Shopping vous est offert pour en faire une jolie présentation ! (sac ajouté automatiquement à votre panier et coloris sélectionné par nos soins en fonction des parfums choisis dans vos produits).</description>
+      <last_updated_date>2015-09-09T07:23:18Z</last_updated_date>
+      <offer_id>18699</offer_id>
+      <offer_sku>086119007</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042570-B-6</order_line_id>
+      <order_line_index>6</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>2.99</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>2.99</price_unit>
+      <product_sku>2006-086119007</product_sku>
+      <product_title>Gommage Visage - Framboise &amp; Grenade</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-09T07:23:18Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>0.9</total_commission>
+      <total_price>2.99</total_price>
+    </order_lines>
+    <order_state>SHIPPED</order_state>
+    <order_state_reason_code></order_state_reason_code>
+    <order_state_reason_label></order_state_reason_label>
+    <paymentType>Credit card</paymentType>
+    <payment_type>Credit card</payment_type>
+    <price>22.93</price>
+    <shipping_company>Colissimo</shipping_company>
+    <shipping_price>6</shipping_price>
+    <shipping_tracking>6A13145748416</shipping_tracking>
+    <shipping_tracking_url></shipping_tracking_url>
+    <shipping_type_code>COLISSIMO6</shipping_type_code>
+    <shipping_type_label>Colissimo 72h - 6€</shipping_type_label>
+    <shipping_zone_code>FR</shipping_zone_code>
+    <shipping_zone_label>France métropolitaine et Monaco</shipping_zone_label>
+    <total_commission>8.7</total_commission>
+    <total_price>28.93</total_price>
+  </orders>
+  <orders>
+    <acceptance_decision_date>2015-09-08T11:04:50Z</acceptance_decision_date>
+    <commercial_id>100042572</commercial_id>
+    <created_date>2015-09-08T10:04:42Z</created_date>
+    <customer>
+      <billing_address>
+        <city>courbevoie</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>jeanne</firstname>
+        <lastname>clement</lastname>
+        <phone>0665666464</phone>
+        <state></state>
+        <street_1>56 rue jean pierre timbaud</street_1>
+        <street_2></street_2>
+        <zip_code>92400</zip_code>
+      </billing_address>
+      <civility></civility>
+      <customer_id>102623</customer_id>
+      <firstname>jeanne</firstname>
+      <lastname>clement</lastname>
+      <shipping_address>
+        <additional_info></additional_info>
+        <city>courbevoie</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>jeanne</firstname>
+        <lastname>clement</lastname>
+        <phone>0665666464</phone>
+        <state></state>
+        <street_1>56 rue jean pierre timbaud</street_1>
+        <street_2></street_2>
+        <zip_code>92400</zip_code>
+      </shipping_address>
+    </customer>
+    <has_customer_message>false</has_customer_message>
+    <has_incident>false</has_incident>
+    <has_invoice>false</has_invoice>
+    <last_updated_date>2015-09-09T07:24:24Z</last_updated_date>
+    <order_id>100042572-A</order_id>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>4</category_code>
+      <category_label>Maquillage</category_label>
+      <commission_fee>2.37</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.47</commission_vat>
+      <created_date>2015-09-08T10:04:42Z</created_date>
+      <debited_date>2015-09-08T11:05:02Z</debited_date>
+      <description>L’Ombre Féerique de Miss Europe est un fard à paupières à la texture ultra-douce et gorgée de nacres pour un maquillage lumineux et éclatant.
+Laissez-vous séduire par le large choix de couleurs intense et au fini irisé scintillant qui s’associeront parfaitement avec vos autres ombres à paupières.
+Les Ombres à paupières Féeriques sublimeront votre regard et offriront une longue tenue à votre maquillage des yeux.
+L’Ombre Féerique est disposée dans un petit boitier très pratique à glisser dans sa trousse de maquillage.</description>
+      <last_updated_date>2015-09-09T07:24:24Z</last_updated_date>
+      <offer_id>18504</offer_id>
+      <offer_sku>012015002</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042572-A-1</order_line_id>
+      <order_line_index>1</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>3.49</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>3.49</price_unit>
+      <product_sku>12015002</product_sku>
+      <product_title>Ombre Féerique n°02 Turquoise</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-09T07:24:24Z</shipped_date>
+      <shipping_price>6</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>2.84</total_commission>
+      <total_price>9.49</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>4</category_code>
+      <category_label>Maquillage</category_label>
+      <commission_fee>0.87</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.17</commission_vat>
+      <created_date>2015-09-08T10:04:42Z</created_date>
+      <debited_date>2015-09-08T11:05:02Z</debited_date>
+      <description>L’Ombre Féerique de Miss Europe est un fard à paupières à la texture ultra-douce et gorgée de nacres pour un maquillage lumineux et éclatant.
+Laissez-vous séduire par le large choix de couleurs intense et au fini irisé scintillant qui s’associeront parfaitement avec vos autres ombres à paupières.
+Les Ombres à paupières Féeriques sublimeront votre regard et offriront une longue tenue à votre maquillage des yeux.
+L’Ombre Féerique est disposée dans un petit boitier très pratique à glisser dans sa trousse de maquillage.</description>
+      <last_updated_date>2015-09-09T07:24:24Z</last_updated_date>
+      <offer_id>18509</offer_id>
+      <offer_sku>012015007</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042572-A-2</order_line_id>
+      <order_line_index>2</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>3.49</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>3.49</price_unit>
+      <product_sku>12015007</product_sku>
+      <product_title>Ombre Féerique n°07 Violet</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-09T07:24:24Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>1.04</total_commission>
+      <total_price>3.49</total_price>
+    </order_lines>
+    <order_state>SHIPPED</order_state>
+    <order_state_reason_code></order_state_reason_code>
+    <order_state_reason_label></order_state_reason_label>
+    <paymentType>Credit card</paymentType>
+    <payment_type>Credit card</payment_type>
+    <price>6.98</price>
+    <shipping_company>Colissimo</shipping_company>
+    <shipping_price>6</shipping_price>
+    <shipping_tracking>6A13145748423</shipping_tracking>
+    <shipping_tracking_url></shipping_tracking_url>
+    <shipping_type_code>COLISSIMO6</shipping_type_code>
+    <shipping_type_label>Colissimo 72h - 6€</shipping_type_label>
+    <shipping_zone_code>FR</shipping_zone_code>
+    <shipping_zone_label>France métropolitaine et Monaco</shipping_zone_label>
+    <total_commission>3.88</total_commission>
+    <total_price>12.98</total_price>
+  </orders>
+  <orders>
+    <acceptance_decision_date>2015-09-08T14:24:19Z</acceptance_decision_date>
+    <commercial_id>100042602</commercial_id>
+    <created_date>2015-09-08T13:47:20Z</created_date>
+    <customer>
+      <billing_address>
+        <city>Louvres</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>sophie</firstname>
+        <lastname>gaudino</lastname>
+        <phone>06 88 71 87 05</phone>
+        <state></state>
+        <street_1>28 rue Branly</street_1>
+        <street_2></street_2>
+        <zip_code>95380</zip_code>
+      </billing_address>
+      <civility></civility>
+      <customer_id>102671</customer_id>
+      <firstname>sophie</firstname>
+      <lastname>gaudino</lastname>
+      <shipping_address>
+        <additional_info></additional_info>
+        <city>Louvres</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>sophie</firstname>
+        <lastname>gaudino</lastname>
+        <phone>06 88 71 87 05</phone>
+        <state></state>
+        <street_1>28 rue Branly</street_1>
+        <street_2></street_2>
+        <zip_code>95380</zip_code>
+      </shipping_address>
+    </customer>
+    <has_customer_message>false</has_customer_message>
+    <has_incident>false</has_incident>
+    <has_invoice>false</has_invoice>
+    <last_updated_date>2015-09-10T07:03:23Z</last_updated_date>
+    <order_id>100042602-B</order_id>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>4</category_code>
+      <category_label>Maquillage</category_label>
+      <commission_fee>2.62</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.52</commission_vat>
+      <created_date>2015-09-08T13:47:20Z</created_date>
+      <debited_date>2015-09-08T14:25:03Z</debited_date>
+      <description>Découvrez l’alliance parfaite du soin et du maquillage ! La Light BB Cream Perfecteur de Teint de Miss Europe est une base quotidienne multifonctions : elle unifie, corrige, protège et illumine le teint en un seul geste.
+Sa formule ultra-légère et confortable offre un fini parfait et naturel effet seconde peau.
+Enrichie en actifs hydratants, en Vitamine E antioxydante et composée de filtres solaires, la BB Cream maintient l’hydratation de la peau et prévient du vieillissement cutané. Elle est adaptée aux peaux les plus sensibles.
+La Light BB Cream dispose d’une teinte universelle qui, à l’application, va se fondre avec toutes les carnations pour donner un effet bonne mine immédiat. C’est une couvrance idéale et légère, pour un résultat naturel indétectable.</description>
+      <last_updated_date>2015-09-10T07:03:23Z</last_updated_date>
+      <offer_id>18557</offer_id>
+      <offer_sku>013190001</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042602-B-1</order_line_id>
+      <order_line_index>1</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>4.49</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>4.49</price_unit>
+      <product_sku>13190001</product_sku>
+      <product_title>Light BB Cream</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-10T07:03:23Z</shipped_date>
+      <shipping_price>6</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>3.14</total_commission>
+      <total_price>10.49</total_price>
+    </order_lines>
+    <order_state>SHIPPED</order_state>
+    <order_state_reason_code></order_state_reason_code>
+    <order_state_reason_label></order_state_reason_label>
+    <paymentType>Credit card</paymentType>
+    <payment_type>Credit card</payment_type>
+    <price>4.49</price>
+    <shipping_company>Colissimo</shipping_company>
+    <shipping_price>6</shipping_price>
+    <shipping_tracking>6A13145748447</shipping_tracking>
+    <shipping_tracking_url></shipping_tracking_url>
+    <shipping_type_code>COLISSIMO6</shipping_type_code>
+    <shipping_type_label>Colissimo 72h - 6€</shipping_type_label>
+    <shipping_zone_code>FR</shipping_zone_code>
+    <shipping_zone_label>France métropolitaine et Monaco</shipping_zone_label>
+    <total_commission>3.14</total_commission>
+    <total_price>10.49</total_price>
+  </orders>
+  <orders>
+    <acceptance_decision_date>2015-09-09T13:36:59Z</acceptance_decision_date>
+    <commercial_id>100042895</commercial_id>
+    <created_date>2015-09-09T11:49:16Z</created_date>
+    <customer>
+      <billing_address>
+        <city>CELON</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>LUDOVIC</firstname>
+        <lastname>ZOT</lastname>
+        <phone>0254253056</phone>
+        <state></state>
+        <street_1>2 route des granges</street_1>
+        <street_2></street_2>
+        <zip_code>36200</zip_code>
+      </billing_address>
+      <civility></civility>
+      <customer_id>102866</customer_id>
+      <firstname>LUDOVIC</firstname>
+      <lastname>ZOT</lastname>
+      <shipping_address>
+        <additional_info></additional_info>
+        <city>CELON</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>LUDOVIC</firstname>
+        <lastname>ZOT</lastname>
+        <phone>0254253056</phone>
+        <state></state>
+        <street_1>2 route des granges</street_1>
+        <street_2></street_2>
+        <zip_code>36200</zip_code>
+      </shipping_address>
+    </customer>
+    <has_customer_message>false</has_customer_message>
+    <has_incident>false</has_incident>
+    <has_invoice>false</has_invoice>
+    <last_updated_date>2015-09-10T07:09:23Z</last_updated_date>
+    <order_id>100042895-A</order_id>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>4</category_code>
+      <category_label>Maquillage</category_label>
+      <commission_fee>0.56</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.11</commission_vat>
+      <created_date>2015-09-09T11:49:16Z</created_date>
+      <debited_date>2015-09-09T13:40:02Z</debited_date>
+      <description>Le Rouge à Lèvres Magique de Miss Europe est un produit longue tenue aux couleurs très fun qui, au contact des lèvres, se transforme en un joli rose, variant du clair au plus foncé selon le pH des lèvres.
+Laissez-vous surprendre par les coloris originaux et flashy du raisin : Vert, Bleu ou Jaune.
+Grâce au Rouge à Lèvres Magique, la couleur des lèvres est alors unique et personnalisée, le résultat très naturel.
+Il est possible de moduler et rendre plus intense la couleur des lèvres en appliquant à plusieurs reprises le Rouge à Lèvres Magique.</description>
+      <last_updated_date>2015-09-10T07:09:23Z</last_updated_date>
+      <offer_id>18493</offer_id>
+      <offer_sku>011003004</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042895-A-1</order_line_id>
+      <order_line_index>1</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>2.25</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>2.25</price_unit>
+      <product_sku>11003004</product_sku>
+      <product_title>Rouge à Lèvres Magique n°04 Jaune</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-10T07:09:23Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>0.67</total_commission>
+      <total_price>2.25</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>4</category_code>
+      <category_label>Maquillage</category_label>
+      <commission_fee>2.06</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.41</commission_vat>
+      <created_date>2015-09-09T11:49:16Z</created_date>
+      <debited_date>2015-09-09T13:40:02Z</debited_date>
+      <description>Le Rouge Divin de Miss Europe est un rouge à lèvres longue-tenue à la formule riche en pigments et à la texture soyeuse pour un rendu ultra-chic.
+Le Rouge Divin offre une bonne couvrance et un effet satiné pour une finition brillance naturelle. Sa texture non-desséchante, légère et fondante garantit une application facile et uniforme sur les lèvres.
+Grâce au Rouge à Lèvres Divin, les lèvres sont sublimées et galbées naturellement.
+Le Rouge Divin se décline en de multiples teintes tendances, allant du nude au plus sophistiqué.</description>
+      <last_updated_date>2015-09-10T07:09:23Z</last_updated_date>
+      <offer_id>18470</offer_id>
+      <offer_sku>011001070</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042895-A-2</order_line_id>
+      <order_line_index>2</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>2.24</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>2.24</price_unit>
+      <product_sku>11001070</product_sku>
+      <product_title>Rouge Divin n°70 Orange</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-10T07:09:23Z</shipped_date>
+      <shipping_price>6</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>2.47</total_commission>
+      <total_price>8.24</total_price>
+    </order_lines>
+    <order_state>SHIPPED</order_state>
+    <order_state_reason_code></order_state_reason_code>
+    <order_state_reason_label></order_state_reason_label>
+    <paymentType>Credit card</paymentType>
+    <payment_type>Credit card</payment_type>
+    <price>4.49</price>
+    <shipping_company>Colissimo</shipping_company>
+    <shipping_price>6</shipping_price>
+    <shipping_tracking>6A13145748430</shipping_tracking>
+    <shipping_tracking_url></shipping_tracking_url>
+    <shipping_type_code>COLISSIMO6</shipping_type_code>
+    <shipping_type_label>Colissimo 72h - 6€</shipping_type_label>
+    <shipping_zone_code>FR</shipping_zone_code>
+    <shipping_zone_label>France métropolitaine et Monaco</shipping_zone_label>
+    <total_commission>3.14</total_commission>
+    <total_price>10.49</total_price>
+  </orders>
+  <orders>
+    <acceptance_decision_date>2015-09-09T18:41:26Z</acceptance_decision_date>
+    <commercial_id>100042928</commercial_id>
+    <created_date>2015-09-09T14:12:10Z</created_date>
+    <customer>
+      <billing_address>
+        <city>Paris</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>AUDREY</firstname>
+        <lastname>FUNARO</lastname>
+        <phone>0660454197</phone>
+        <state></state>
+        <street_1>4 Rue Jules Bourdais</street_1>
+        <street_2></street_2>
+        <zip_code>75017</zip_code>
+      </billing_address>
+      <civility></civility>
+      <customer_id>102902</customer_id>
+      <firstname>AUDREY</firstname>
+      <lastname>FUNARO</lastname>
+      <shipping_address>
+        <additional_info></additional_info>
+        <city>Paris</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>AUDREY</firstname>
+        <lastname>FUNARO</lastname>
+        <phone>0660454197</phone>
+        <state></state>
+        <street_1>4 Rue Jules Bourdais</street_1>
+        <street_2></street_2>
+        <zip_code>75017</zip_code>
+      </shipping_address>
+    </customer>
+    <has_customer_message>false</has_customer_message>
+    <has_incident>false</has_incident>
+    <has_invoice>false</has_invoice>
+    <last_updated_date>2015-09-11T07:10:02Z</last_updated_date>
+    <order_id>100042928-A</order_id>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>687</category_code>
+      <category_label>Ongles</category_label>
+      <commission_fee>2.37</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.47</commission_vat>
+      <created_date>2015-09-09T14:12:10Z</created_date>
+      <debited_date>2015-09-09T18:45:02Z</debited_date>
+      <description>Le Stylo Dissolvant de Miss Europe est l’accessoire indispensable pour réaliser des manucures nettes et précises !
+Grâce à son embout feutre arrondi imbibé de produit, le Stylo Dissolvant est ultra-pratique et efface les bavures et les débordements de vernis pour un résultat impeccable ; il corrige les erreurs en respectant le pourtour de l’ongle.
+Le Stylo Dissolvant est idéal, avec son embout fin et sa prise en main facile, pour corriger les erreurs en nail art.
+La formule du Stylo Dissolvant contient de l'acétone et est donc exclusivement réservée aux ongles naturels.</description>
+      <last_updated_date>2015-09-11T07:10:02Z</last_updated_date>
+      <offer_id>18055</offer_id>
+      <offer_sku>000099002</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042928-A-1</order_line_id>
+      <order_line_index>1</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>3.49</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>3.49</price_unit>
+      <product_sku>99002</product_sku>
+      <product_title>Stylo Dissolvant</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-11T07:10:02Z</shipped_date>
+      <shipping_price>6</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>2.84</total_commission>
+      <total_price>9.49</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>687</category_code>
+      <category_label>Ongles</category_label>
+      <commission_fee>0.75</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.15</commission_vat>
+      <created_date>2015-09-09T14:12:10Z</created_date>
+      <debited_date>2015-09-09T18:45:02Z</debited_date>
+      <description>A vous la ligne de Vernis Professionnel Shimmer de Miss Europe !
+Ces vernis à ongles offrent une texture shimmer : ils contiennent des micro-paillettes et déposent ainsi une couleur irisée sur les ongles. Cet effet brillant donne du caractère et de la profondeur à la base colorée du vernis.
+Trouvez la teinte adaptée à votre look parmi une large palette : foncé, pop, nude, pastel… et obtenez une jolie manucure lumineuse !
+Ces vernis assurent une longue tenue sur les ongles.
+De haute qualité, chaque Vernis Professionnel Shimmer promet un séchage ultra-rapide, ainsi qu’un éclat immédiat. Ils disposent d’un pinceau à la tige arrondie pour permettre un écoulement régulier du produit et une application impeccable.</description>
+      <last_updated_date>2015-09-11T07:10:02Z</last_updated_date>
+      <offer_id>18305</offer_id>
+      <offer_sku>010009001</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042928-A-2</order_line_id>
+      <order_line_index>2</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>2.99</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>2.99</price_unit>
+      <product_sku>10009001</product_sku>
+      <product_title>Vernis Professionnel Métallisé n°01 Rouge</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-11T07:10:02Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>0.9</total_commission>
+      <total_price>2.99</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>687</category_code>
+      <category_label>Ongles</category_label>
+      <commission_fee>0.75</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.15</commission_vat>
+      <created_date>2015-09-09T14:12:10Z</created_date>
+      <debited_date>2015-09-09T18:45:02Z</debited_date>
+      <description>Craquez pour la ligne de Vernis Professionnel Crème de Miss Europe !
+Ces vernis à ongles offrent une texture crème : ils déposent sur l’ongle une couleur unie, pure et couvrante, au fini lisse et laqué.
+Trouvez la couleur adaptée à vos looks et à vos envies parmi une large palette : pop, foncé, nude, classique, néon… et obtenez une manucure simple et efficace !
+Ces vernis assurent une longue tenue sur les ongles et sont adaptés à la technique du watermarble.
+De haute qualité, chaque Vernis Professionnel Crème promet une formule riche en pigments, un séchage ultra-rapide, ainsi qu’une brillance et un éclat immédiat. Ils disposent d’un pinceau à la tige arrondie pour permettre un écoulement régulier du produit et une application impeccable.</description>
+      <last_updated_date>2015-09-11T07:10:02Z</last_updated_date>
+      <offer_id>18381</offer_id>
+      <offer_sku>010016075</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042928-A-3</order_line_id>
+      <order_line_index>3</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>2.99</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>2.99</price_unit>
+      <product_sku>10016075</product_sku>
+      <product_title>Vernis Professionnel Fashion n°75 Papaye</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-11T07:10:02Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>0.9</total_commission>
+      <total_price>2.99</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>1283</category_code>
+      <category_label>Soin</category_label>
+      <commission_fee>0.87</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.17</commission_vat>
+      <created_date>2015-09-09T14:12:10Z</created_date>
+      <debited_date>2015-09-09T18:45:02Z</debited_date>
+      <description>Le Gommage Corps de la gamme SPA de Miss Europe est une gelée exfoliante parfumée qui permet d'éliminer délicatement les cellules mortes et impuretés de la peau. La peau du corps est ainsi plus lisse, satinée et douce.
+Cet exfoliant purifie le corps en profondeur, après le rasage et l'épilation il évite l'apparition de poils incarnés, avant l'application d'un autobronzant il prévient des tâches, ou encore avant une exposition solaire il optimise le bronzage.
+Pour tout achat de 3 produits minimum dans la gamme SPA Miss Europe Corps &amp;amp; Bain, un Sac de Shopping vous est offert pour en faire une jolie présentation ! (sac ajouté automatiquement à votre panier et coloris sélectionné par nos soins en fonction des parfums choisis dans vos produits).</description>
+      <last_updated_date>2015-09-11T07:10:02Z</last_updated_date>
+      <offer_id>18652</offer_id>
+      <offer_sku>086112004</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042928-A-4</order_line_id>
+      <order_line_index>4</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>3.49</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>3.49</price_unit>
+      <product_sku>86112004</product_sku>
+      <product_title>Gommage Corps - Passion &amp; Corail</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-11T07:10:02Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>1.04</total_commission>
+      <total_price>3.49</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>1283</category_code>
+      <category_label>Soin</category_label>
+      <commission_fee>0.87</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.17</commission_vat>
+      <created_date>2015-09-09T14:12:10Z</created_date>
+      <debited_date>2015-09-09T18:45:02Z</debited_date>
+      <description>Le Gel Douche de la gamme SPA de Miss Europe nettoie le corps en douceur pour un moment de réel plaisir sous la douche grâce à son parfum délicat.
+Le Gel Douche se décline en 8 parfums différents : Argan &amp;amp; Rose, Lotus &amp;amp; Thé Blanc, Cactus &amp;amp; Citron Vert, Passion &amp;amp; Corail, Tiaré &amp;amp; Vanille, Miel &amp;amp; Fleur d'Oranger, Framboise &amp;amp; Grenade et Caramel Croquant.
+La formule ultra-douce de ce nettoyant élimine les impuretés de la peau sans la dessécher et dépose un voile parfumé.
+Pour tout achat de 3 produits minimum dans la gamme SPA Miss Europe Corps &amp;amp; Bain, un sac Shopping Bag vous est offert pour en faire une jolie présentation ! (sac ajouté automatiquement à votre panier et coloris sélectionné par nos soins en fonction des parfums choisis dans vos produits).</description>
+      <last_updated_date>2015-09-11T07:10:02Z</last_updated_date>
+      <offer_id>18636</offer_id>
+      <offer_sku>086110004</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042928-A-5</order_line_id>
+      <order_line_index>5</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>3.49</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>3.49</price_unit>
+      <product_sku>86110004</product_sku>
+      <product_title>Gel Douche - Passion &amp; Corail</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-11T07:10:02Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>1.04</total_commission>
+      <total_price>3.49</total_price>
+    </order_lines>
+    <order_state>SHIPPED</order_state>
+    <order_state_reason_code></order_state_reason_code>
+    <order_state_reason_label></order_state_reason_label>
+    <paymentType>Credit card</paymentType>
+    <payment_type>Credit card</payment_type>
+    <price>16.45</price>
+    <shipping_company>Colissimo</shipping_company>
+    <shipping_price>6</shipping_price>
+    <shipping_tracking>6A13145748522</shipping_tracking>
+    <shipping_tracking_url></shipping_tracking_url>
+    <shipping_type_code>COLISSIMO6</shipping_type_code>
+    <shipping_type_label>Colissimo 72h - 6€</shipping_type_label>
+    <shipping_zone_code>FR</shipping_zone_code>
+    <shipping_zone_label>France métropolitaine et Monaco</shipping_zone_label>
+    <total_commission>6.72</total_commission>
+    <total_price>22.45</total_price>
+  </orders>
+  <orders>
+    <acceptance_decision_date>2015-09-09T18:41:26Z</acceptance_decision_date>
+    <commercial_id>100042937</commercial_id>
+    <created_date>2015-09-09T14:54:21Z</created_date>
+    <customer>
+      <billing_address>
+        <city>rigny sur arroux</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>Chloé</firstname>
+        <lastname>VIALLY</lastname>
+        <phone>0644249728</phone>
+        <state></state>
+        <street_1>22 rue de la chennevière</street_1>
+        <street_2></street_2>
+        <zip_code>71160</zip_code>
+      </billing_address>
+      <civility></civility>
+      <customer_id>101882</customer_id>
+      <firstname>Chloé</firstname>
+      <lastname>VIALLY</lastname>
+      <shipping_address>
+        <additional_info></additional_info>
+        <city>rigny sur arroux</city>
+        <company></company>
+        <country>France</country>
+        <country_iso_code></country_iso_code>
+        <firstname>Chloé</firstname>
+        <lastname>VIALLY</lastname>
+        <phone>0644249728</phone>
+        <state></state>
+        <street_1>22 rue de la chennevière</street_1>
+        <street_2></street_2>
+        <zip_code>71160</zip_code>
+      </shipping_address>
+    </customer>
+    <has_customer_message>false</has_customer_message>
+    <has_incident>false</has_incident>
+    <has_invoice>false</has_invoice>
+    <last_updated_date>2015-09-11T07:10:31Z</last_updated_date>
+    <order_id>100042937-A</order_id>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>687</category_code>
+      <category_label>Ongles</category_label>
+      <commission_fee>0.56</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.11</commission_vat>
+      <created_date>2015-09-09T14:54:21Z</created_date>
+      <debited_date>2015-09-09T18:45:02Z</debited_date>
+      <description>Le Vernis Séchage Rapide de Miss Europe est un produit 2-en-1, incolore, il permet de faire sécher le vernis deux fois plus rapidement et de lui apporter un rendu lisse et brillant, pour une manucure parfaite et express !
+Ce produit permet également d'optimiser la résistance et la tenue du vernis.
+Le Vernis Séchage Rapide possède un pinceau arrondi permettant un écoulement régulier du produit pour une application facile.</description>
+      <last_updated_date>2015-09-11T07:10:31Z</last_updated_date>
+      <offer_id>18053</offer_id>
+      <offer_sku>000010034</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042937-A-1</order_line_id>
+      <order_line_index>1</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>2.24</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>2.24</price_unit>
+      <product_sku>10034</product_sku>
+      <product_title>Vernis Séchage Rapide</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-11T07:10:31Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>0.67</total_commission>
+      <total_price>2.24</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>687</category_code>
+      <category_label>Ongles</category_label>
+      <commission_fee>0.56</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.11</commission_vat>
+      <created_date>2015-09-09T14:54:21Z</created_date>
+      <debited_date>2015-09-09T18:45:02Z</debited_date>
+      <description>Le Vernis Effet Faux Ongles de Miss Europe est un top coat incolore qui permet de donner un effet lisse et ultra-brillant à sa manucure.
+Ce produit offre aux ongles vernis une finition laquée et éclatante qui se rapproche de celle des faux ongles en gel acrylique. Sa formule fixe et protège également le vernis pour une meilleure tenue.
+Le Vernis Effet Faux Ongles possède un pinceau arrondi permettant un écoulement régulier du produit pour une application facile.</description>
+      <last_updated_date>2015-09-11T07:10:31Z</last_updated_date>
+      <offer_id>18054</offer_id>
+      <offer_sku>000010035</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042937-A-2</order_line_id>
+      <order_line_index>2</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>2.24</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>2.24</price_unit>
+      <product_sku>10035</product_sku>
+      <product_title>Vernis Effet Faux Ongles</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-11T07:10:31Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>0.67</total_commission>
+      <total_price>2.24</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>4</category_code>
+      <category_label>Maquillage</category_label>
+      <commission_fee>1.13</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.23</commission_vat>
+      <created_date>2015-09-09T14:54:21Z</created_date>
+      <debited_date>2015-09-09T18:45:02Z</debited_date>
+      <description>Le Rouge Divin de Miss Europe est un rouge à lèvres longue-tenue à la formule riche en pigments et à la texture soyeuse pour un rendu ultra-chic.
+Le Rouge Divin offre une bonne couvrance et un effet satiné pour une finition brillance naturelle. Sa texture non-desséchante, légère et fondante garantit une application facile et uniforme sur les lèvres.
+Grâce au Rouge à Lèvres Divin, les lèvres sont sublimées et galbées naturellement.
+Le Rouge Divin se décline en de multiples teintes tendances, allant du nude au plus sophistiqué.</description>
+      <last_updated_date>2015-09-11T07:10:31Z</last_updated_date>
+      <offer_id>18477</offer_id>
+      <offer_sku>011001113</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042937-A-3</order_line_id>
+      <order_line_index>3</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>4.5</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>2.25</price_unit>
+      <product_sku>11001113</product_sku>
+      <product_title>Rouge Divin n°113 Framboise Dorée</product_title>
+      <quantity>2</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-11T07:10:31Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>1.36</total_commission>
+      <total_price>4.5</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>687</category_code>
+      <category_label>Ongles</category_label>
+      <commission_fee>0.56</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.11</commission_vat>
+      <created_date>2015-09-09T14:54:21Z</created_date>
+      <debited_date>2015-09-09T18:45:02Z</debited_date>
+      <description>Craquez pour la ligne de Vernis Professionnel Crème de Miss Europe !
+Ces vernis à ongles offrent une texture crème : ils déposent sur l’ongle une couleur unie, pure et couvrante, au fini lisse et laqué.
+Trouvez la couleur adaptée à vos looks et à vos envies parmi une large palette : pop, foncé, nude, classique, néon… et obtenez une manucure simple et efficace !
+Ces vernis assurent une longue tenue sur les ongles et sont adaptés à la technique du watermarble.
+De haute qualité, chaque Vernis Professionnel Crème promet une formule riche en pigments, un séchage ultra-rapide, ainsi qu’une brillance et un éclat immédiat. Ils disposent d’un pinceau à la tige arrondie pour permettre un écoulement régulier du produit et une application impeccable.</description>
+      <last_updated_date>2015-09-11T07:10:31Z</last_updated_date>
+      <offer_id>18345</offer_id>
+      <offer_sku>010016037</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042937-A-4</order_line_id>
+      <order_line_index>4</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>2.24</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>2.24</price_unit>
+      <product_sku>10016037</product_sku>
+      <product_title>Vernis Professionnel Fashion n°37 Prune</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-11T07:10:31Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>0.67</total_commission>
+      <total_price>2.24</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>4</category_code>
+      <category_label>Maquillage</category_label>
+      <commission_fee>0.84</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.17</commission_vat>
+      <created_date>2015-09-09T14:54:21Z</created_date>
+      <debited_date>2015-09-09T18:45:02Z</debited_date>
+      <description>Le Mascara Transparent de Miss Europe possède une texture incolore qui va permettre de discipliner les cils et les sourcils pour un maquillage net et impeccable.
+Le Mascara Transparent brosse et sépare les cils un à un pour les mettre en valeur naturellement. Il sera parfait pour un maquillage nude.
+Le Mascara Transparent permet également de brosser et fixer les sourcils, qu’ils soient maquillés ou non. Il dompte les poils rebelles et améliore la tenue des pigments du fard ou crayon à sourcils.
+Sa brosse élastomère est ultra-pratique : elle possède deux tailles différentes de picots qui s’utilisent en fonction des cils ou sourcils. Cette brosse gaine et coiffe parfaitement et de façon naturelle.</description>
+      <last_updated_date>2015-09-11T07:10:31Z</last_updated_date>
+      <offer_id>18528</offer_id>
+      <offer_sku>012210001</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042937-A-5</order_line_id>
+      <order_line_index>5</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>3.37</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>3.37</price_unit>
+      <product_sku>12210001</product_sku>
+      <product_title>Mascara Transparent</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-11T07:10:31Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>1.01</total_commission>
+      <total_price>3.37</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>1283</category_code>
+      <category_label>Soin</category_label>
+      <commission_fee>1.31</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.26</commission_vat>
+      <created_date>2015-09-09T14:54:21Z</created_date>
+      <debited_date>2015-09-09T18:45:02Z</debited_date>
+      <description>Le Gommage Corps de la gamme SPA de Miss Europe est une gelée exfoliante parfumée qui permet d'éliminer délicatement les cellules mortes et impuretés de la peau. La peau du corps est ainsi plus lisse, satinée et douce.
+Cet exfoliant purifie le corps en profondeur, après le rasage et l'épilation il évite l'apparition de poils incarnés, avant l'application d'un autobronzant il prévient des tâches, ou encore avant une exposition solaire il optimise le bronzage.
+Pour tout achat de 3 produits minimum dans la gamme SPA Miss Europe Corps &amp;amp; Bain, un Sac de Shopping vous est offert pour en faire une jolie présentation ! (sac ajouté automatiquement à votre panier et coloris sélectionné par nos soins en fonction des parfums choisis dans vos produits).</description>
+      <last_updated_date>2015-09-11T07:10:31Z</last_updated_date>
+      <offer_id>18654</offer_id>
+      <offer_sku>086112006</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042937-A-6</order_line_id>
+      <order_line_index>6</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>5.24</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>2.62</price_unit>
+      <product_sku>86112006</product_sku>
+      <product_title>Gommage Corps - Miel &amp; Fleur d'Oranger</product_title>
+      <quantity>2</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-11T07:10:31Z</shipped_date>
+      <shipping_price>0</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>1.57</total_commission>
+      <total_price>5.24</total_price>
+    </order_lines>
+    <order_lines>
+      <can_refund>true</can_refund>
+      <category_code>2150</category_code>
+      <category_label>Bien-être</category_label>
+      <commission_fee>2.16</commission_fee>
+      <commission_rate_vat>20</commission_rate_vat>
+      <commission_vat>0.43</commission_vat>
+      <created_date>2015-09-09T14:54:21Z</created_date>
+      <debited_date>2015-09-09T18:45:02Z</debited_date>
+      <description>Le Sel de Bain de la gamme SPA de Miss Europe se dissout rapidement dans le bain et assure un moment de bien-être et relaxation au corps et à l'esprit.
+Le Sel de Bain se décline en 8 parfums différents : Argan &amp;amp; Rose, Lotus &amp;amp; Thé Blanc, Cactus &amp;amp; Citron Vert, Passion &amp;amp; Corail, Tiaré &amp;amp; Vanille, Miel &amp;amp; Fleur d'Oranger, Framboise &amp;amp; Grenade et Caramel Croquant.
+Ces petits cristaux colorés adoucissent l'eau du bain et la parfument délicatement.
+Pour tout achat de 3 produits minimum dans la gamme SPA Miss Europe Corps &amp;amp; Bain, un Sac de Shopping vous est offert pour en faire une jolie présentation ! (sac ajouté automatiquement à votre panier et coloris sélectionné par nos soins en fonction des parfums choisis dans vos produits).</description>
+      <last_updated_date>2015-09-11T07:10:31Z</last_updated_date>
+      <offer_id>17728</offer_id>
+      <offer_sku>086113006</offer_sku>
+      <offer_state_code>11</offer_state_code>
+      <order_line_additional_fields/>
+      <order_line_id>100042937-A-7</order_line_id>
+      <order_line_index>7</order_line_index>
+      <order_line_state>SHIPPED</order_line_state>
+      <order_line_state_reason_code></order_line_state_reason_code>
+      <order_line_state_reason_label></order_line_state_reason_label>
+      <price>2.62</price>
+      <price_additional_info></price_additional_info>
+      <price_unit>2.62</price_unit>
+      <product_sku>2006-086113006</product_sku>
+      <product_title>Sel de Bain - Miel &amp; Fleur d'Oranger</product_title>
+      <quantity>1</quantity>
+      <received_date></received_date>
+      <refunds/>
+      <shipped_date>2015-09-11T07:10:31Z</shipped_date>
+      <shipping_price>6</shipping_price>
+      <shipping_price_additional_unit></shipping_price_additional_unit>
+      <shipping_price_unit></shipping_price_unit>
+      <shipping_taxes/>
+      <taxes/>
+      <total_commission>2.59</total_commission>
+      <total_price>8.62</total_price>
+    </order_lines>
+    <order_state>SHIPPED</order_state>
+    <order_state_reason_code></order_state_reason_code>
+    <order_state_reason_label></order_state_reason_label>
+    <paymentType>Credit card</paymentType>
+    <payment_type>Credit card</payment_type>
+    <price>22.45</price>
+    <shipping_company>Colissimo</shipping_company>
+    <shipping_price>6</shipping_price>
+    <shipping_tracking>6A13145748539</shipping_tracking>
+    <shipping_tracking_url></shipping_tracking_url>
+    <shipping_type_code>COLISSIMO6</shipping_type_code>
+    <shipping_type_label>Colissimo 72h - 6€</shipping_type_label>
+    <shipping_zone_code>FR</shipping_zone_code>
+    <shipping_zone_label>France métropolitaine et Monaco</shipping_zone_label>
+    <total_commission>8.54</total_commission>
+    <total_price>28.45</total_price>
+  </orders>
+  <total_count>16</total_count>
+</mirakl_orders>

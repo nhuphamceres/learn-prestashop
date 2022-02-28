@@ -1,0 +1,870 @@
+/**
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to a commercial license from Common-Services Co., Ltd.
+ * Use, copy, modification or distribution of this source file without written
+ * license agreement from the SARL SMC is strictly forbidden.
+ * In order to obtain a license, please contact us: contact@common-services.com
+ * ...........................................................................
+ * INFORMATION SUR LA LICENCE D'UTILISATION
+ *
+ * L'utilisation de ce fichier source est soumise a une licence commerciale
+ * concedee par la societe Common-Services Co., Ltd.
+ * Toute utilisation, reproduction, modification ou distribution du present
+ * fichier source sans contrat de licence ecrit de la part de la Common-Services Co. Ltd. est
+ * expressement interdite.
+ * Pour obtenir une licence, veuillez contacter Common-Services Co., Ltd. a l'adresse: contact@common-services.com
+ *
+ * @package   Mirakl
+ * @author    Olivier B.
+ * @copyright Copyright (c) 2011-2015 Common Services Co Ltd - 90/25 Sukhumvit 81 - 10260 Bangkok - Thailand
+ * @license   Commercial license
+ * Support by mail  :  support.mirakl@common-services.com
+ */
+
+ /*
+ * Prestashop 1.6
+ */
+
+ #content input[type=checkbox], #content input[type=radio]
+ {
+	width:20px;
+	height:20px;
+	cursor:pointer;
+ }
+
+ #content input[type=checkbox] + span, #content input[type=radio] + span
+ {
+	position:relative;
+	top:-6px;
+ }
+ 
+ 
+#content.bootstrap #conf-models .specifics-container table tr td:last-child select
+{
+    right: 10px;
+    position: relative;
+}
+#content.bootstrap #conf-models .specifics-container table tr:nth-child(even) > td
+{
+    background-color: #f0f0f0;
+}
+#content.bootstrap #conf-models .specifics-container table tr > td
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#content.bootstrap #conf-models .specifics-container table tr:first-child
+{
+    font-style: normal;
+    font-size:1.1em;
+}
+
+#content.bootstrap #conf-models .specifics-container table tr td
+{
+    font-style: italic;
+    text-align:right;
+}
+#content.bootstrap #conf-models .specifics-container table tr td select
+{
+    font-style: normal;
+    font-size:1.2em;
+}
+
+#content.bootstrap .model-content
+{
+    border:1px dotted silver;
+    margin:20px;
+}
+#content.bootstrap .model-content .control-label, #content.bootstrap #model-container  .control-label
+{
+    padding-right: 10px;
+}
+#content.bootstrap .model-content .margin-form .model-help, #content.bootstrap #model-container .margin-form .model-help
+{
+    margin:5px 0 5px 0;
+    color:green;
+}
+#content.bootstrap .model-content .margin-form:nth-child(even), #content.bootstrap #model-container .margin-form:nth-child(even)
+{
+    background-color:#f0f0f0;
+    padding: 15px;
+    width:74%;
+}
+#content.bootstrap .model-content .margin-form:nth-child(odd), #content.bootstrap #model-container .margin-form:nth-child(odd)
+{
+    padding: 15px;
+    width:74%;
+}
+#content.bootstrap #model-container .model-header .margin-form
+{
+    padding: 0px;
+}
+#content.bootstrap .model-content .model-header
+{
+    border:none;
+}
+
+
+#content.bootstrap .profile-create, .model-create
+{
+    background-color: initial;
+}
+#content.bootstrap .profile-content
+{
+    border:1px dotted silver;
+    margin:20px;
+}
+#content.bootstrap .profile-content .control-label, #content.bootstrap #profile-container  .control-label
+{
+    padding-right: 10px;
+}
+#content.bootstrap .profile-content .margin-form .profile-help, #content.bootstrap #profile-container .margin-form .profile-help
+{
+    margin:5px 0 5px 0;
+    color:green;
+}
+#content.bootstrap .profile-content .margin-form:nth-child(even), #content.bootstrap #profile-container .margin-form:nth-child(even)
+{
+    background-color:#f0f0f0;
+    padding: 15px;
+    width:74%;
+}
+#content.bootstrap .profile-content .margin-form:nth-child(odd), #content.bootstrap #profile-container .margin-form:nth-child(odd)
+{
+    padding: 15px;
+    width:74%;
+}
+#content.bootstrap #profile-container .profile-header .margin-form
+{
+    padding: 0px;
+}
+#content.bootstrap .profile-content .profile-header
+{
+    border:none;
+}
+/*
+ * Chosen
+ */
+#conf-profiles .chosen-container
+{
+    width:300px;
+}
+
+#main input, #main select
+{
+    padding:4px;
+    margin:4px;
+}
+.cleaner {  clear:both; }
+#menuTab li a:focus,#menuTab li a:visited {
+    background: none;
+}
+hr
+{
+    height: 0px;  
+    border: 1px inset
+}
+.hint
+{
+    display:block;
+}
+.master-disabled
+{
+  color:silver;
+  background-color:#efefef;
+}
+.master-enabled
+{
+  color:black;
+  background-color:white;
+}
+
+.bcallback
+{
+  position:relative;
+  margin-left:20px;
+  bottom:10px;
+}
+
+.ecallback-disabled
+{
+  color:silver;
+  background-color:#efefef;
+}
+.check-loader
+{
+  position:relative;
+  top:-5px;
+  margin-left:30px;
+}
+.server-response
+{
+  display:none;
+  min-height:18px;
+  width:300px;
+  border:1px solid grey;
+  background-color:#fffefb;
+  padding-left:5px;
+  padding-top:3px;
+}
+
+.addnewmapping
+{
+  position:relative;
+  top:-2px;
+  cursor:pointer;
+  padding:2px;
+  border:1px solid transparent;
+}
+.addnewmapping:hover
+{
+  border:1px solid navy;
+}
+.removemapping
+{
+  position:relative;
+  top:-2px;
+  cursor:pointer;
+  padding:2px;
+  border:1px solid transparent;
+}
+.removemapping:hover
+{
+  border:1px solid navy;
+}
+.input_note
+{
+    color:grey;
+}
+
+label
+{
+  padding-right:5px; 
+}
+/* PS 1.5 */
+
+#menudiv-categories .table tr td
+{
+    border-bottom:none;    
+}
+.mirakl-details
+{
+  width:100%;
+}
+#profile-add
+{
+    color: green;
+    float: right;
+    font-size: 1.3em;
+    position: relative;
+    top: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.profile-table {
+    width: 90%;
+    margin-left: 10px;
+}
+.profile-header > div {
+    margin-top: 0;
+}
+.profile-header {
+    background-color: whitesmoke;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    height: 60px;
+    border-bottom: 1px solid gainsboro;
+}
+.profile-header .title
+{
+    font-size: 1.2em;
+    color:navy
+}
+.profile-header .type
+{
+    font-size: 1.2em;
+}
+
+.profile-obj-title
+{
+    position:relative;
+    top: 5px;
+    text-align:right;
+}
+.profile-help
+{
+    font-size:1em;
+}
+.profile-create
+{
+    background-color: lavender;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.profile-create h2
+{
+    margin:5px 30px 10px 30px ;  
+    border-bottom: 1px solid silver;
+    padding:10px;
+}
+.profile-del-2
+{
+    color: red;
+    float: right;
+    font-size: 1.3em;
+    position: relative;
+    top: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.profile-del-img
+{
+    border: 1px solid transparent;
+    padding:5px;
+    cursor:pointer ;
+}
+.profile-del-img:hover
+{
+    border: 1px solid navy;
+}
+.profile-del-img2
+{
+    position:relative;
+    border: 1px solid transparent;
+    padding:5px;
+    cursor:pointer ;
+}
+.profile-del-img2:hover
+{
+    border: 1px solid navy;
+}
+.profile-edit
+{
+    position: relative;
+    top:+2px;
+}
+.profile-edit-img
+{
+    margin-left:15px;
+    border: 1px solid transparent;
+    padding:5px;
+    cursor:pointer ;
+    position:relative;
+}
+.profile-edit-img:hover
+{
+  border: 1px solid navy;
+}
+
+/*
+ * General Price Rules
+ */
+#main .price_rule-type 
+{
+    width:100px;
+    padding:4px;
+    float:left;
+}
+#main .default-price-rule .price-rule-slash, #main .default-price-rule .price-rule-next
+{
+    width:20px;
+    height:20px;
+    opacity:0.5;
+    position:relative;
+}
+#main .default-price-rule select
+{
+    padding:4px;
+    position:relative;
+    top:1px;
+}
+#main .default-price-rule
+{
+    float:left;
+    margin-left:10px;
+}
+#main .price-rule-type
+{
+    float:left;
+    padding:4px;
+    margin-right: 15px; 
+    position:relative;
+    top:1px;
+}
+#main .price-rule-add, #main .price-rule-remove
+{
+    margin-left:10px;
+}
+#main .price-rule-add img, #main .price-rule-remove img,
+#main .incoming_carrier_mapping_add img, #main .incoming_carrier_mapping_remove img
+{
+    position: relative;
+    border:1px solid gainsboro;
+    padding: 4px;
+    cursor:pointer;
+    background-color:whitesmoke;  
+    border-radius:2px;
+    -webkit-opacity: 0.7;
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+#main .incoming_carrier_mapping_add img {
+    left: 4px;
+}
+#main .incoming_carrier_mapping_remove img {
+    top: 6px;
+}
+#main .price-rule-add img:hover, #main .price-rule-remove img:hover,
+#main .incoming_carrier_mapping_add img:hover, #main .incoming_carrier_mapping_remove img:hover
+{
+    border:1px solid lavender;
+    background-color: lightgray;
+}
+#main .price-rule input.required 
+{
+    border:1px solid red;
+}
+
+#reset-categories
+{
+  cursor:pointer;
+}
+
+.model-obj-title
+{
+  position:relative;
+  top:+3px;
+  text-align:right;
+}
+.model-help
+{
+    font-size:1em;
+}
+
+.model-name
+{
+  color:navy;
+  font-weight:bold;
+}
+
+.model-add
+{
+  float: right;
+  position: relative;
+  top: 7px;
+  margin-left: 15px;
+}
+.model-add-img
+{
+  float: right;
+  margin-right: 10px;
+}
+.model-add-img img
+{
+  border: 1px solid transparent;
+  padding:5px;
+  cursor:pointer ;
+  margin-right:30px;
+}
+.model-add-img img:hover
+{
+  border: 1px solid navy;
+}
+
+.model-del
+{
+  position: relative;
+  top:+2px;
+}
+.model-del-img img
+{
+  margin-left:15px;
+  border: 1px solid transparent;
+  padding:5px;
+  cursor:pointer ;
+  position:relative;
+  top:+3px;
+}
+.model-del-img img:hover
+{
+  border: 1px solid navy;
+}
+.specific-title
+{
+    font-size:1.2em;
+    font-weight:bold;
+}
+.specific-row
+{
+    font-size:1.2em;
+}
+
+
+.adv-ship-method
+{
+  font-size:12px;
+  color:black;
+  font-weight:bold;
+}
+.adv-ship-method tr td
+{
+  padding-right:15px;
+}
+
+.adv-ship-item-title
+{
+ font-size:12px;
+ font-weight:bold;
+}
+.adv-ship-item-line td
+{
+  padding-left:30px;
+}
+.adv-ship-sep
+{
+    width:150px;
+    height:5px;
+    line-height:10px;
+    letter-spacing:150px;
+    text-align:center;
+    color:silver;
+    text-decoration: line-through;
+}
+
+.adv-ship-add img
+{
+  border: 1px solid transparent;
+  padding:1px;
+  cursor:pointer ;
+}
+.adv-ship-add img:hover
+{
+  border: 1px solid navy;
+}
+
+.adv-ship-del img
+{
+  border: 1px solid transparent;
+  padding:1px;
+  cursor:pointer ;
+}
+.adv-ship-del img:hover
+{
+  border: 1px solid yellow;
+}
+#adv-ship-container .advship-readonly, .adv-ship .advship-readonly
+{
+  border: 1px solid #E2DFDF;
+  background-color: whitesmoke;
+}
+.mandatory
+{
+    color:red;
+    font-size:2em;
+    line-height: 0;
+    position:relative;
+    top:+5px;
+}
+#model-import
+{
+   margin-top: 15px;
+   font-size:12px;
+}
+#model-import p
+{
+   font-size:12px;
+   color:red;
+}
+#reset-categories
+{
+  color:red;
+}
+.me-info-level-reload
+{
+  min-height: 32px;
+  background: whitesmoke url(../../views/img/control_repeat.png) no-repeat 6px 6px;
+  border: 1px solid #CECECE;
+  padding: 8px 5px 5px 50px;
+  border-radius: 3px;
+}
+
+.me-info-level-info
+{
+  min-height: 32px;
+  background: #BDE5F8 url(../../views/img/icon-info.png) no-repeat 6px 6px;
+  border: 1px solid #00529B;
+  padding: 8px 5px 5px 50px;
+  border-radius: 3px;
+}
+.me-info-text-error
+{
+  color:red;
+  font-weight:bold;
+}
+.me-info-text-warn
+{
+  color:#9e6014;
+  font-weight:bold;
+}
+.me-info-text-ok
+{
+  color:#4F8A10;
+}
+
+/* Features Mapping */
+.addnew-feature-mapping
+{
+  position:relative;
+  top:-2px;
+  cursor:pointer;
+  padding:2px;
+  border:1px solid transparent;
+}
+.addnew-feature-mapping:hover
+{
+  border:1px solid navy;
+}
+.remove-feature-mapping
+{
+  cursor:pointer;
+  padding:2px;
+  border:1px solid transparent;
+}
+.remove-feature-mapping:hover
+{
+  border:1px solid navy;
+}
+#feature-mapping
+{
+  display:none;
+}
+#attribute-mapping-collapse, #attribute-mapping-collapse a, #attribute-mapping-collapse:hover #feature-mapping-collapse, #feature-mapping-collapse a, #feature-mapping-collapse a:hover
+{
+  text-decoration:none;
+  color:navy;
+  font-size:11px;
+}
+table.mirakl-variant
+{
+  min-width:300px;
+}
+table.mirakl-variant thead tr
+{
+  font-weight:bold;
+  text-align:center;
+}
+table.mirakl-variant tbody select
+{
+  min-width:150px;
+}
+.category-loader, .model-public-loader, .model-gender-loader
+{
+    position:relative;
+    top:-4px;left:+15px;
+    display:none;
+}
+.required
+{
+    margin-left:10px;
+    font-size: 1.4em;
+    color:red;
+    font-family: "Courier New", Courier ;
+}
+.select-error
+{
+    background-color: red;
+    color: yellow;
+}
+
+/*
+ * Filters
+ */
+.manufacturer-heading
+{
+    width:600px;
+}
+.manufacturer-heading span
+{
+    display:inline-block;
+    width:260px;
+    text-align:center;
+    padding:10px;
+}
+.available-manufacturers, .selected-manufacturers, .available-suppliers, .selected-suppliers, .excluded-manufacturers
+{
+    float:left;
+    width:250px !important;
+    height:180px !important;
+    resize:vertical;
+    overflow:auto;
+}
+.supplier-heading
+{
+    width:600px;
+}
+.supplier-heading span
+{
+    display:inline-block;
+    width:260px;
+    text-align:center;
+    padding:10px;
+}
+.sep
+{
+    position:relative;
+    float:left;
+    height:200px;
+    margin:auto 10px auto 10px;
+    top:45px;
+}
+.move
+{
+    cursor:pointer;
+    padding:5px;
+    border:1px solid transparent;
+}
+.bootstrap .move {
+    height: 40px;
+}
+.move {
+    height: 30px;
+}
+.move:hover
+{
+    padding:5px;
+    border:1px solid silver;
+    background-color: gainsboro;
+}
+/* #conf-mirakl */
+body[style] #conf-mirakl .margin-form.col-lg-9 {
+    padding-top: 4px;
+}
+#conf-mirakl {
+    line-height: 140%;
+    font-size: 1.1em;
+}
+#conf-mirakl ul li {
+    line-height: 160%;
+}
+#conf-mirakl > div:nth-child(1) > label > h2 {
+    float: left;
+    margin: 0;
+}
+/* PS16x */
+.bootstrap #tabList input, .bootstrap #tabList select {
+    display: inline-block;
+    padding: 2px;
+/*    max-width: 250px;*/
+}
+.bootstrap #conf-cron input {
+    max-width: 100% !important;
+}
+.bootstrap #tabList label {
+    font-weight: bold !important;
+}
+.bootstrap label.control-label {
+    padding-top: 0 !important;
+}
+.bootstrap .margin-form {
+    margin-bottom: 5px;
+}
+
+#main .bootstrap .alert-info
+{
+    border:none;
+    border-left: solid 3px #81cfe6;
+}
+
+#main ul
+{
+    list-style-type: none;
+}
+#main .alert-info em
+{
+    color:black;
+}
+
+#main .arrow-cat-duplicate:hover
+{
+    border:1px solid navy;
+    background-color:aliceblue;
+    opacity:1;
+}
+#main .arrow-cat-duplicate
+{
+    position:relative;
+    top:4px;
+    display:inline-block;
+    background: transparent url(../img/down-double-arrow.png) no-repeat 3px 3px;
+    background-size:9px 11px;
+    height:16px;
+    width: 16px;
+    border:1px solid transparent;
+    cursor:pointer;
+    opacity:0.8;
+}
+
+#main .cron-mode
+{
+    cursor:pointer;
+    border:1px silver dotted;
+    padding:10px;
+    height:52px;
+}
+#main .cron-mode h4
+{
+    float:left;margin-left:10px;
+}
+#main .cron-mode img
+{
+    float:left;
+}
+
+#main .cron-prestashop
+{
+    position:relative;
+    top:5px;
+}
+
+#prestashop-cronjobs-lines
+{
+    display: block;
+    font-family: monospace;
+    color: black;
+    /*white-space: pre;*/
+    word-wrap:break-word;
+    margin: 1em 0px;
+}
+
+#cronjob-loader
+{
+    display:none;
+    float:right;
+    margin-right:30px;
+    position:relative;
+    top:8px;
+}
+#main .support-informations-loader {
+    display: none;
+    position: relative;
+    top: -2px;
+    margin-left: 10px;
+}
+
+#support-informations-prestashop, #support-informations-php
+{
+	min-width:180px;
+}
+
+#mkp-selector {
+    margin-bottom: 10px;
+}
+#mkp-selector .form-group {
+    margin-bottom: 0;
+}

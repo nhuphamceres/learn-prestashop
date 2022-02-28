@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mirakl_errors>
+  <error_code>404</error_code>
+  <service>Errors</service>
+  <service_child>Accept</service_child>
+  <service_code>OR21</service_code>
+  <service_method>PUT</service_method>
+  <error>SERVER_RESPONSE_WITH_ERROR</error>
+  <serverity_level>3</serverity_level>
+  <error_end>Server Side</error_end>
+  <error_details>Error encountered, please check Service_Code to track down the problem.</error_details>
+</mirakl_errors>

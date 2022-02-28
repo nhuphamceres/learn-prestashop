@@ -1,0 +1,428 @@
+/**
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to a commercial license from Common-Services Co., Ltd.
+ * Use, copy, modification or distribution of this source file without written
+ * license agreement from the SARL SMC is strictly forbidden.
+ * In order to obtain a license, please contact us: contact@common-services.com
+ * ...........................................................................
+ * INFORMATION SUR LA LICENCE D'UTILISATION
+ *
+ * L'utilisation de ce fichier source est soumise a une licence commerciale
+ * concedee par la societe Common-Services Co., Ltd.
+ * Toute utilisation, reproduction, modification ou distribution du present
+ * fichier source sans contrat de licence ecrit de la part de la Common-Services Co. Ltd. est
+ * expressement interdite.
+ * Pour obtenir une licence, veuillez contacter Common-Services Co., Ltd. a l'adresse: contact@common-services.com
+ *
+ * @package   Mirakl
+ * @author    Olivier B.
+ * @copyright Copyright (c) 2011-2015 Common Services Co Ltd - 90/25 Sukhumvit 81 - 10260 Bangkok - Thailand
+ * @license   Commercial license
+ * Support by mail  :  support.mirakl@common-services.com
+ */
+
+#menuTab a
+{
+    text-decoration: none;
+}
+.tabItem {
+    background: whitesmoke;
+    border: 1px solid #CCCCCC;
+    padding: 0 10px 10px 10px;
+}
+.tabItem input, .tabItem select {
+    max-width: 190px;
+}
+li > a > span > img, h3 > img {
+    vertical-align: middle !important;
+}
+hr
+{
+    margin-bottom:20px;
+    border-style: inset;
+    border-width: 1px;
+}
+.ccb-title
+{
+    font-size:1.2em;
+    position:relative;
+    top:+2px;
+    padding-left:5px;
+
+}
+
+a.order_link:hover
+{
+    text-decoration:underline;
+}
+
+/* Update Mode */
+#menudiv-import h3
+{
+  text-align: center;
+  margin: 10px 0 0 0;
+  color: navy;
+}
+#result-import
+{
+  display:none;
+  width:700px;
+  left: 80px;
+  position: relative;
+}
+#result-accept
+{
+  display:none;
+  width:700px;
+  left: 80px;
+  position: relative;
+}
+
+#accept-orders-form .margin-form{
+    padding: 0;
+    text-align: center;
+}
+#accept-orders-search
+{
+    width:180px;
+    float:right;
+    margin-right:25px
+}
+#accept-order-button
+{
+  display:none;
+  width:180px; 
+  float:right;
+  margin-right:25px
+}
+
+#import-orders
+{
+    width:280px;
+    float:right;
+    margin-right:25px
+}
+
+#import-order
+{
+    width:280px;
+    max-width: 300px;
+    float:right;
+    margin-right:25px
+}
+#import-order
+{
+    display:none;
+}
+
+.import-dt
+{
+    font-size:1.2em;
+    position:relative;
+    top:2px;
+}
+.url
+{
+    color:navy;
+}
+#menudiv-import
+{
+    position:relative;
+}
+#import-loader
+{
+    display:none;
+    position:relative;
+    margin-left:200px;
+    width:32px;
+    height:32px;
+    background: transparent url(../../views/img/loading.gif) no-repeat;
+}
+#accept-loader
+{
+    display:none;
+    position:relative;
+    margin-left:50%;
+    width:32px;
+    height:32px;
+    background: transparent url(../../views/img/loading.gif) no-repeat;
+}
+
+#debug-loader
+{
+    display:none;
+    width:32px;
+    height:32px;
+    background: transparent url(../../views/img/loading.gif) no-repeat;
+}
+
+#console
+{
+    background-color:black;
+    border: 1px solid white;
+    min-height:500px;
+    width:95%;
+    margin:20px 20px;
+    padding:10px;
+    color:white;
+}
+.istatus
+{
+    position: relative;
+    top: -1px;
+    margin: 0 5px 0 10px;
+}
+
+
+/*
+ * Main Orders Table
+ */
+
+.import-table
+{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 11px;
+    width:100%;
+    text-align: left;
+    border-collapse: collapse;
+    padding:10px;
+    margin:5px;
+}
+.import-table tr
+{
+    /*
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+    */
+    cursor:pointer;
+    margin:0;
+}
+
+.import-table thead td
+{
+	font-weight: normal;
+	font-size: 11px;
+    background-color:#eceade;
+	color: #039;
+    padding:5px;
+	border: 1px solid silver;
+}
+.import-table tbody
+{
+	background: #e8edff;
+}
+.import-table tbody tr td table
+{
+    margin:0;
+}
+
+
+.import-table tfoot
+{
+	background: #e9e9e9;
+}
+
+.import-table tbody td
+{
+	padding: 3px;
+	color: #669;
+	border: 1px solid silver;
+    padding:5px;
+}
+.import-table tbody tr.item
+{
+    background-color:white;
+    border:none;
+    display:none;
+}
+.import-table tbody tr.orderl:hover td
+{
+	color: #339;
+	background: #d0dafd;
+}
+.import-table tbody tr.import-error td
+{
+	background: #FFE6E6;
+}
+.import-table tbody tr.imported td
+{
+	background: #CCFFCD;
+}
+
+.import-table tbody tr.order-item:hover td
+{
+	color: #339;
+	background: #C6C8CA;
+}
+.order-item
+{
+  background-color:#D7DADD;
+}
+.import-table tfoot em
+{
+    position:relative;
+    top:+7px;
+}
+
+/* product table too ! */
+.import-table tr.imported-item td
+{
+  border:1px dotted silver;
+}
+
+.import-table tr.heading td
+{
+	font-size: 10px;
+	color: #039;
+    padding:5px;
+	border: 1px solid silver;
+    background-color:#efefef;
+}
+
+.product-table
+{
+    float:left;
+	width: 810px;
+	text-align: left;
+	border-collapse: collapse;
+    border:none;
+    float:right;
+/*    display:none;*/
+}
+.product-table tr
+{
+    cursor:pointer;
+    border:none;
+    margin:0;
+}
+
+.product-table td
+{
+	font-size: 10px;
+	padding: 2px;
+	background-color: white;
+}
+.product-table tr.item
+{
+    background-color:white;
+    border:none;
+}
+.quick-access {
+margin-left: 30px;
+}
+.quick-access {
+
+}
+.quick-access a {
+color:navy;
+}
+.quick-access a:hover
+{
+  text-decoration:underline;
+}
+
+/*
+ * Accept Table
+ */
+
+
+.accept-table
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 11px;
+  width:90%;
+	text-align: left;
+	border-collapse: collapse;
+  padding:10px;
+  margin:15px;
+  min-height:150px;
+}
+.accept-table tr
+{
+    cursor:pointer;
+    margin:0;
+}
+
+.accept-table thead td
+{
+	font-weight: normal;
+	font-size: 11px;
+    background-color:#eceade;
+	color: #039;
+    padding:5px;
+	border: 1px solid silver;
+}
+.accept-table tbody
+{
+	background: #e8edff;
+}
+.accept-table tfoot
+{
+	background: #e9e9e9;
+}
+
+.accept-table tbody td
+{
+	padding: 3px;
+	color: #669;
+	border: 1px solid silver;
+    padding:5px;
+}
+.accept-table tbody tr.item
+{
+    background-color:white;
+    border:none;
+    display:none;
+}
+.accept-table tbody tr.orderl:hover td
+{
+	color: #339;
+	background: #d0dafd;
+}
+.accept-table tbody tr.accept-error td
+{
+	background: #FFE6E6;
+}
+.accept-table tbody tr.imported td
+{
+	background: #CCFFCD;
+}
+
+.accept-table tbody tr.order-item:hover td
+{
+	color: #339;
+	background: #C6C8CA;
+}
+.order-item
+{
+  background-color:#D7DADD;
+}
+.accept-table tfoot em
+{
+    position:relative;
+    top:+7px;
+}
+
+/* product table too ! */
+.accept-table tr.imported-item td
+{
+  border:1px dotted silver;
+}
+
+.accept-table tr.heading td
+{
+	font-size: 10px;
+	color: #039;
+    padding:5px;
+	border: 1px solid silver;
+    background-color:#efefef;
+}
+
+#accept-orders-form select, #import-orders-form select {
+    margin-left: 5px;
+    width: 250px;
+}
+

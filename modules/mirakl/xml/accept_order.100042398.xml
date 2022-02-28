@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mirakl_errors>
+  <error_code>401</error_code>
+  <service>Orders</service>
+  <service_child>Accept</service_child>
+  <service_code>OR21</service_code>
+  <service_method>PUT</service_method>
+  <error>{"message":"Authentication Failed: No authentication key given or no user was found with given API key","status":401}</error>
+  <serverity_level>3</serverity_level>
+  <error_end>Server Side</error_end>
+  <error_details>Error encountered, please check Service_Code to track down the problem.</error_details>
+</mirakl_errors>
