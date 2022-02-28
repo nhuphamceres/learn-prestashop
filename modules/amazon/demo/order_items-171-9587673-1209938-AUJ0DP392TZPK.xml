@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ListOrderItemsResponse xmlns="https://mws.amazonservices.com/Orders/2013-09-01">
+  <ListOrderItemsResult>
+    <OrderItems>
+      <OrderItem>
+        <QuantityOrdered>1</QuantityOrdered>
+        <Title>Porte Cl&#xE9;s Doctor Who Tardis avec Lampe Torche</Title>
+        <PromotionDiscount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>0.00</Amount>
+        </PromotionDiscount>
+        <ASIN>B0083U70U2</ASIN>
+        <SellerSKU>5024095216769</SellerSKU>
+        <OrderItemId>21002120947107</OrderItemId>
+        <QuantityShipped>1</QuantityShipped>
+        <ItemPrice>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>15.70</Amount>
+        </ItemPrice>
+        <ItemTax>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>0.00</Amount>
+        </ItemTax>
+      </OrderItem>
+    </OrderItems>
+    <AmazonOrderId>171-9587673-1209938</AmazonOrderId>
+  </ListOrderItemsResult>
+  <ResponseMetadata>
+    <RequestId>7531ad29-88de-4aad-9fa3-2fc0c5dcf5f8</RequestId>
+  </ResponseMetadata>
+</ListOrderItemsResponse>

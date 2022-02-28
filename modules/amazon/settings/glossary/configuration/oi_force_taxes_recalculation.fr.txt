@@ -1,0 +1,4 @@
+Lors de commandes d'importation, forcez le recalcul des taxes en fonction des paramètres de votre PrestaShop.
+Utile en cas de taxes erronées sur Amazon, et que vous ne pouvez pas les contrôler.
+
+Exemple : Un produit n'est pas créé par vous mais a une mauvaise taxe sur Amazon.

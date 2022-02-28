@@ -1,0 +1,1 @@
+Aggiornare il numero di partita IVA dell'acquirente utilizzando i dati VCS

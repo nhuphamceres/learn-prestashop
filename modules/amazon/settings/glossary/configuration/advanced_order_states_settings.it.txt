@@ -1,0 +1,1 @@
+Le impostazioni avanzate hanno una priorità maggiore rispetto alle impostazioni rapide (Stati degli ordini) di cui sopra.

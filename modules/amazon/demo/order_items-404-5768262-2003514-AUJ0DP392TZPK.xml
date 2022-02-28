@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ListOrderItemsResponse xmlns="https://mws.amazonservices.com/Orders/2013-09-01">
+  <ListOrderItemsResult>
+    <OrderItems>
+      <OrderItem>
+        <QuantityOrdered>1</QuantityOrdered>
+        <Title>Mr Patate R2D2 Star Wars</Title>
+        <PromotionDiscount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>0.00</Amount>
+        </PromotionDiscount>
+        <ASIN>B00IUZ7HJY</ASIN>
+        <SellerSKU>0801452502629</SellerSKU>
+        <OrderItemId>29489452785819</OrderItemId>
+        <QuantityShipped>1</QuantityShipped>
+        <ItemPrice>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>28.75</Amount>
+        </ItemPrice>
+        <ItemTax>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>0.00</Amount>
+        </ItemTax>
+      </OrderItem>
+    </OrderItems>
+    <AmazonOrderId>404-5768262-2003514</AmazonOrderId>
+  </ListOrderItemsResult>
+  <ResponseMetadata>
+    <RequestId>954fd2ef-54a6-448a-a81b-76394bbb1cf9</RequestId>
+  </ResponseMetadata>
+</ListOrderItemsResponse>

@@ -1,0 +1,2 @@
+Si eres elegible para el programa Amazon Prime, puedes configurar un estado de pedido alternativo para los pedidos Prime
+http://documentation.common-services.com/amazonv4/commandes-amazon-prime/?lang=es

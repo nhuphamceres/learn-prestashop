@@ -1,0 +1,1 @@
+Los ajustes avanzados tienen mayor prioridad que los ajustes rápidos (estados de los pedidos) anteriores.

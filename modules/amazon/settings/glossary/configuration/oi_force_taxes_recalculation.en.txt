@@ -1,0 +1,4 @@
+When import orders, force to recalculate taxes based on your PrestaShop settings.
+Helpful in case of wrong taxes on Amazon, and you can't control them.
+
+Example: A product is not created by you but has wrong tax on Amazon.

@@ -1,0 +1,2 @@
+Permitir el uso de VCS
+https://documentation.common-services.com/amazonv4/amazon-vat-calculation-service-vcs/?lang=en

@@ -1,0 +1,2 @@
+Verwenden Sie diese Währung beim Senden von Preisen an Amazon.
+Leer lassen, um die Standardeinstellung zu verwenden.

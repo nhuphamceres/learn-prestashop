@@ -1,0 +1,2 @@
+Utilice esta moneda al enviar los precios a Amazon.
+Dejar vacío para usar la configuración por defecto.

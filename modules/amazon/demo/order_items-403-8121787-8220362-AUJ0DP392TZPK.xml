@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ListOrderItemsResponse xmlns="https://mws.amazonservices.com/Orders/2013-09-01">
+  <ListOrderItemsResult>
+    <OrderItems>
+      <OrderItem>
+        <QuantityOrdered>1</QuantityOrdered>
+        <Title>Funko - Figurine Pop Television Sherlock Holmes 286 - Jim Moriarty</Title>
+        <PromotionDiscount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>0.00</Amount>
+        </PromotionDiscount>
+        <ASIN>B012U03Q2G</ASIN>
+        <SellerSKU>0849803060541</SellerSKU>
+        <OrderItemId>28888781304051</OrderItemId>
+        <QuantityShipped>1</QuantityShipped>
+        <ItemPrice>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>16.65</Amount>
+        </ItemPrice>
+        <ItemTax>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>0.00</Amount>
+        </ItemTax>
+      </OrderItem>
+    </OrderItems>
+    <AmazonOrderId>403-8121787-8220362</AmazonOrderId>
+  </ListOrderItemsResult>
+  <ResponseMetadata>
+    <RequestId>aeb74b67-b4ab-4ff7-8051-1c8c585c129e</RequestId>
+  </ResponseMetadata>
+</ListOrderItemsResponse>

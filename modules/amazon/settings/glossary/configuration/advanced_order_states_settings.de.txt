@@ -1,0 +1,1 @@
+Die erweiterten Einstellungen haben eine höhere Priorität als die obigen Schnelleinstellungen (Auftragsstatus).

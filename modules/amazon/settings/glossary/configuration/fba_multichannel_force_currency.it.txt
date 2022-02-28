@@ -1,0 +1,2 @@
+Usa questa valuta per inviare i prezzi ad Amazon.
+Lasciare vuoto per utilizzare l'impostazione predefinita.

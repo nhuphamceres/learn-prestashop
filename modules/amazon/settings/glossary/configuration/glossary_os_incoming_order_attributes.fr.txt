@@ -1,0 +1,6 @@
+En utilisation avancée, utilisez cette fonction pour définir l'état PrestaShop de la commande Amazon entrante en fonction de ses attributs (FBA, Prime, Business,...).
+Exemple :
+- Prime + Business --> Etat de la commande 1.
+- FBA + Business --> Etat de la commande 2.
+...
+(Le lieu le plus élevé a la priorité la plus élevée)

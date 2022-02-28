@@ -1,0 +1,2 @@
+Use this currency while sending prices to Amazon.
+Leave empty to use default setting.

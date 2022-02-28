@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ListOrderItemsResponse xmlns="https://mws.amazonservices.com/Orders/2013-09-01">
+  <ListOrderItemsResult>
+    <OrderItems>
+      <OrderItem>
+        <QuantityOrdered>1</QuantityOrdered>
+        <Title>Bioworld - Sac Besace Zelda - Golden Triforce - 8718526050356</Title>
+        <PromotionDiscount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>0.00</Amount>
+        </PromotionDiscount>
+        <ASIN>B00YRSVA8W</ASIN>
+        <SellerSKU>8718526050356</SellerSKU>
+        <OrderItemId>44877935993571</OrderItemId>
+        <QuantityShipped>1</QuantityShipped>
+        <ItemPrice>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>34.23</Amount>
+        </ItemPrice>
+        <ItemTax>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>0.00</Amount>
+        </ItemTax>
+      </OrderItem>
+    </OrderItems>
+    <AmazonOrderId>171-5896145-9517151</AmazonOrderId>
+  </ListOrderItemsResult>
+  <ResponseMetadata>
+    <RequestId>d94b580c-daec-4df7-af96-18ede15ba705</RequestId>
+  </ResponseMetadata>
+</ListOrderItemsResponse>

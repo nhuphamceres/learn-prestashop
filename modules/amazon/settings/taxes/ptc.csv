@@ -1,0 +1,391 @@
+A_BABY_BIBCLOTH;en;Baby Bibs - A_BABY_BIBCLOTH
+A_BABY_CARSEAT;en;Car Seats - A_BABY_CARSEAT
+A_BABY_NAPPIES;en;Nappies and Diapers - A_BABY_NAPPIES
+A_BOOK_ATLAS;en;Atlases and Maps - A_BOOK_ATLAS
+A_BOOK_ADULT;en;Adult Activity Books without Explicit Material - A_BOOK_ADULT
+A_BOOK_AUDIOBOOK;en;Audiobooks in the physical format - A_BOOK_AUDIOBOOK
+A_BOOK_GLOBE;en;Globes - A_BOOK_GLOBE
+A_BOOK_MAGAZINE;en;Magazines - A_BOOK_MAGAZINE
+A_BOOK_MAP;en;Maps - A_BOOK_MAP
+A_CLTH_PROTECTIVE;en;Protective Clothing - A_CLTH_PROTECTIVE
+A_FOOD_ANIMALFOOD;en;Food for Farm Animals - A_FOOD_ANIMALFOOD
+A_FOOD_ANIMALMED;en;Medicine for Farm Animals - A_FOOD_ANIMALMED
+A_FOOD_ANIMALVITAMINS;en;Vitamins for Farm Animals - A_FOOD_ANIMALVITAMINS
+A_FOOD_CAKEDECOR;en;Edible Cake Decoration - A_FOOD_CAKEDECOR
+A_FOOD_CANFRUIT;en;Canned Fruits and Vegetables - A_FOOD_CANFRUIT
+A_FOOD_CEREALBARS;en;Cereal Bars - A_FOOD_CEREALBARS
+A_FOOD_CEREALCHOCBARS;en;Chocolate Cereal Bars - A_FOOD_CEREALCHOCBARS
+A_FOOD_CHOCEREAL;en;Chocolate Cereal - A_FOOD_CHOCEREAL
+A_FOOD_CNDY;en;Candy - A_FOOD_CNDY
+A_FOOD_COFFEE;en;Coffee - A_FOOD_COFFEE
+A_FOOD_DAIRY;en;Milk and other Dairy Foods - A_FOOD_DAIRY
+A_FOOD_DESSERT;en;Desserts without Chocolate - A_FOOD_DESSERT
+A_FOOD_DRIEDFRUIT;en;Dried Fruits and Vegetables - A_FOOD_DRIEDFRUIT
+A_FOOD_FLOUR;en;Flour - A_FOOD_FLOUR
+A_FOOD_MEATCHICKEN;en;Chicken or other Meats - A_FOOD_MEATCHICKEN
+A_FOOD_MISCBEVERAGE;en;Carbonated Water or other Non-Soda / Juice Drinks - A_FOOD_MISCBEVERAGE
+A_FOOD_NAAN;en;Naan - A_FOOD_NAAN
+A_FOOD_NCARBWTR;en;Non-Carbonated Water - A_FOOD_NCARBWTR
+A_FOOD_OIL;en;Oils - A_FOOD_OIL
+A_FOOD_PASTANOODLE;en;Pasta and Noodles - A_FOOD_PASTANOODLE
+A_FOOD_PASTRYCASE;en;Pastry - A_FOOD_PASTRYCASE
+A_FOOD_PETFOOD;en;Food for Pets - A_FOOD_PETFOOD
+A_FOOD_PLAINBISCUIT;en;Plain Biscuits - A_FOOD_PLAINBISCUIT
+A_FOOD_PLAINCRACKER;en;Plain Crackers - A_FOOD_PLAINCRACKER
+A_FOOD_PLAINNUT;en;Plain Nuts - A_FOOD_PLAINNUT
+A_FOOD_RICE;en;Rice - A_FOOD_RICE
+A_FOOD_SEASONINGS;en;Salt, Pepper, and other Seasonings - A_FOOD_SEASONINGS
+A_FOOD_SNACK;en;Non-chocolate Snacks and Treats - A_FOOD_SNACK
+A_FOOD_SODAJUICE;en;Sodas and Juices - A_FOOD_SODAJUICE
+A_FOOD_SPREAD;en;Spreadable Food - A_FOOD_SPREAD
+A_FOOD_SWEETNER;en;Sugar and other Sweeteners - A_FOOD_SWEETNER
+A_FOOD_TEA;en;Tea - A_FOOD_TEA
+A_FOOD_VEGETABLE;en;Fresh or Frozen Fruits and Vegetables - A_FOOD_VEGETABLE
+A_HLTH_NUTRITIONBAR;en;Nutrition Bar - A_HLTH_NUTRITIONBAR
+A_HLTH_NUTRITIONDRINK;en;Nutrition Drink - A_HLTH_NUTRITIONDRINK
+A_HLTH_PILLCAPSULETABLET;en;Pills and Capsules - A_HLTH_PILLCAPSULETABLET
+A_HLTH_SMOKINGCESSATION;en;Smoking Cessation Aids - A_HLTH_SMOKINGCESSATION
+A_HLTH_SMOKINGGUM;en;Smoking Cessation Gum - A_HLTH_SMOKINGGUM
+A_HLTH_VITAMINS;en;Vitamins and Minerals - A_HLTH_VITAMINS
+A_HPC_CONTRACEPTIVE;en;Condoms and other Contraceptive Aids - A_HPC_CONTRACEPTIVE
+A_HPC_DIETARYSUPPL;en;Dietary Supplements - A_HPC_DIETARYSUPPL
+A_HPC_INCONTINENCE;en;Adult Diapers and Incontinence Aids - A_HPC_INCONTINENCE
+A_HPC_MEDICINE;en;Other Medicines - A_HPC_MEDICINE
+A_HPC_SANITARYPRODUCTS;en;Female Hygienic and other Sanitary Products - A_HPC_SANITARYPRODUCTS
+A_HPC_WALKINGSTICK;en;Walking Sticks and other Mobility Aids - A_HPC_WALKINGSTICK
+A_OUTDOOR_FERTILIZER;en;Plant Fertilizers - A_OUTDOOR_FERTILIZER
+A_OUTDOOR_LAWNCONTROL;en;Insecticides, Herbicides, Fungicides - A_OUTDOOR_LAWNCONTROL
+A_OUTDOOR_PLANTFOOD;en;Plant Food - A_OUTDOOR_PLANTFOOD
+A_OUTDOOR_PLANTS;en;Plants - A_OUTDOOR_PLANTS
+A_OUTDOOR_SEEDS;en;Plant Seeds - A_OUTDOOR_SEEDS
+A_GEN_NOTAX;en;Outside the scope of VAT - A_GEN_NOTAX
+A_GEN_STANDARD;fr;Toujours imposable au taux standard - A_GEN_STANDARD
+A_BOOKS_GEN;fr;Livres imprimés - A_BOOKS_GEN
+A_FOOD_GEN;fr;Produits d'alimentation générale - A_FOOD_GEN
+A_CLTH_CHILD;fr;Vêtements pour enfants - A_CLTH_CHILD
+A_CLTH_BABY;fr;Vêtements pour bébés - A_CLTH_BABY
+A_BABY_BIBCLOTH;fr;Bavettes bébé - A_BABY_BIBCLOTH
+A_BABY_CARSEAT;fr;Sièges de voiture - A_BABY_CARSEAT
+A_BABY_NAPPIES;fr;Nappes et couches - A_BABY_NAPPIES
+A_BOOK_ATLAS;fr;Atlas et cartes - A_BOOK_ATLAS
+A_BOOK_ADULT;fr;Livres d'activité pour adultes sans matériel explicite - A_BOOK_ADULT
+A_BOOK_AUDIOBOOK;fr;Livres audio en format physique - A_BOOK_AUDIOBOOK
+A_BOOK_GLOBE;fr;Globes - A_BOOK_GLOBE
+A_BOOK_MAGAZINE;fr;Les magazines - A_BOOK_MAGAZINE
+A_BOOK_MAP;fr;Cartes - A_BOOK_MAP
+A_CLTH_PROTECTIVE;fr;Vêtements de protection - A_CLTH_PROTECTIVE
+A_FOOD_ANIMALFOOD;fr;Aliments pour animaux de ferme - A_FOOD_ANIMALFOOD
+A_FOOD_ANIMALMED;fr;Médecine pour les animaux de ferme - A_FOOD_ANIMALMED
+A_FOOD_ANIMALVITAMINS;fr;Vitamines pour animaux de ferme - A_FOOD_ANIMALVITAMINS
+A_FOOD_CAKEDECOR;fr;Décoration de gâteau comestible - A_FOOD_CAKEDECOR
+A_FOOD_CANFRUIT;fr;Fruits et légumes en conserve - A_FOOD_CANFRUIT
+A_FOOD_CEREALBARS;fr;Barres de céréales - A_FOOD_CEREALBARS
+A_FOOD_CEREALCHOCBARS;fr;Barres de céréales au chocolat - A_FOOD_CEREALCHOCBARS
+A_FOOD_CHOCEREAL;fr;Céréales au chocolat - A_FOOD_CHOCEREAL
+A_FOOD_CNDY;fr;Bonbons - A_FOOD_CNDY
+A_FOOD_COFFEE;fr;café - A_FOOD_COFFEE
+A_FOOD_DAIRY;fr;Lait et autres produits laitiers - A_FOOD_DAIRY
+A_FOOD_DESSERT;fr;Desserts sans chocolat - A_FOOD_DESSERT
+A_FOOD_DRIEDFRUIT;fr;Fruits et légumes secs - A_FOOD_DRIEDFRUIT
+A_FOOD_FLOUR;fr;Farine - A_FOOD_FLOUR
+A_FOOD_MEATCHICKEN;fr;Poulet ou autres viandes - A_FOOD_MEATCHICKEN
+A_FOOD_MISCBEVERAGE;fr;L'eau gazéifiée ou d'autres boissons non -soda / jus - A_FOOD_MISCBEVERAGE
+A_FOOD_NAAN;fr;Naan - A_FOOD_NAAN
+A_FOOD_NCARBWTR;fr;Eau non gazéifiée - A_FOOD_NCARBWTR
+A_FOOD_OIL;fr;Huiles - A_FOOD_OIL
+A_FOOD_PASTANOODLE;fr;Pâtes et nouilles - A_FOOD_PASTANOODLE
+A_FOOD_PASTRYCASE;fr;Pâtisserie - A_FOOD_PASTRYCASE
+A_FOOD_PETFOOD;fr;Nourriture pour les animaux domestiques - A_FOOD_PETFOOD
+A_FOOD_PLAINBISCUIT;fr;Biscuits simples - A_FOOD_PLAINBISCUIT
+A_FOOD_PLAINCRACKER;fr;Crackers simples - A_FOOD_PLAINCRACKER
+A_FOOD_PLAINNUT;fr;Noix plates - A_FOOD_PLAINNUT
+A_FOOD_RICE;fr;Riz - A_FOOD_RICE
+A_FOOD_SEASONINGS;fr;Sel, poivre et autres assaisonnements - A_FOOD_SEASONINGS
+A_FOOD_SNACK;fr;Snacks et friandises sans chocolat - A_FOOD_SNACK
+A_FOOD_SODAJUICE;fr;Sodas et Jus - A_FOOD_SODAJUICE
+A_FOOD_SPREAD;fr;Aliments répandus - A_FOOD_SPREAD
+A_FOOD_SWEETNER;fr;Sucre et autres édulcorants - A_FOOD_SWEETNER
+A_FOOD_TEA;fr;thé - A_FOOD_TEA
+A_FOOD_VEGETABLE;fr;Fruits et légumes frais ou surgelés - A_FOOD_VEGETABLE
+A_HLTH_NUTRITIONBAR;fr;Bar de nutrition - A_HLTH_NUTRITIONBAR
+A_HLTH_NUTRITIONDRINK;fr;Boisson nutritionnelle - A_HLTH_NUTRITIONDRINK
+A_HLTH_PILLCAPSULETABLET;fr;Pilules et capsules - A_HLTH_PILLCAPSULETABLET
+A_HLTH_SMOKINGCESSATION;fr;Aides à la cessation du tabagisme - A_HLTH_SMOKINGCESSATION
+A_HLTH_SMOKINGGUM;fr;Gum de cessation de fumer - A_HLTH_SMOKINGGUM
+A_HLTH_VITAMINS;fr;Vitamines et minéraux - A_HLTH_VITAMINS
+A_HPC_CONTRACEPTIVE;fr;Préservatifs et autres produits contraceptifs - A_HPC_CONTRACEPTIVE
+A_HPC_DIETARYSUPPL;fr;Compléments alimentaires - A_HPC_DIETARYSUPPL
+A_HPC_INCONTINENCE;fr;Lingettes pour adultes et produits pour l'incontinence - A_HPC_INCONTINENCE
+A_HPC_MEDICINE;fr;Autres médicaments - A_HPC_MEDICINE
+A_HPC_SANITARYPRODUCTS;fr;Hygiène féminine et autres produits sanitaires - A_HPC_SANITARYPRODUCTS
+A_HPC_WALKINGSTICK;fr;Bâtons de marche et autres aides à la mobilité - A_HPC_WALKINGSTICK
+A_OUTDOOR_FERTILIZER;fr;Engrais pour plantes - A_OUTDOOR_FERTILIZER
+A_OUTDOOR_LAWNCONTROL;fr;Insecticides, Herbicides, Fongicides - A_OUTDOOR_LAWNCONTROL
+A_OUTDOOR_PLANTFOOD;fr;Aliment végétal - A_OUTDOOR_PLANTFOOD
+A_OUTDOOR_PLANTS;fr;Les plantes - A_OUTDOOR_PLANTS
+A_OUTDOOR_SEEDS;fr;Des graines de plantes - A_OUTDOOR_SEEDS
+A_GEN_NOTAX;fr;Non prévu par la TVA - A_GEN_NOTAX
+A_GEN_STANDARD;de;Immer zum Standardsatz zu versteuern - A_GEN_STANDARD
+A_BOOKS_GEN;de;Gedruckte Bücher - A_BOOKS_GEN
+A_FOOD_GEN;de;Allgemeine Lebensmittelprodukte - A_FOOD_GEN
+A_CLTH_CHILD;de;Kinderkleidung allgemein - A_CLTH_CHILD
+A_CLTH_BABY;de;Babykleidung allgemein - A_CLTH_BABY
+A_BABY_BIBCLOTH;de;Lätzchen - A_BABY_BIBCLOTH
+A_BABY_CARSEAT;de;Babyschalen und Kinderautositze - A_BABY_CARSEAT
+A_BABY_NAPPIES;de;Baby - und Kinderwindeln - A_BABY_NAPPIES
+A_BOOK_ATLAS;de;Atlanten - A_BOOK_ATLAS
+A_BOOK_ADULT;de;Mal - und Activity -Bücher für Erwachsene - A_BOOK_ADULT
+A_BOOK_AUDIOBOOK;de;Audiobooks in pyhsicher Form - A_BOOK_AUDIOBOOK
+A_BOOK_GLOBE;de;Sphärische Weltkarten und Diagramme - A_BOOK_GLOBE
+A_BOOK_MAGAZINE;de;Zeitschriften - A_BOOK_MAGAZINE
+A_BOOK_MAP;de;Schematische Darstellung von Land oder Meer - A_BOOK_MAP
+A_CLTH_PROTECTIVE;de;Sport - und Arbeitskleidung - A_CLTH_PROTECTIVE
+A_FOOD_ANIMALFOOD;de;Tiernahrung für die Landwirtschaft - A_FOOD_ANIMALFOOD
+A_FOOD_ANIMALMED;de;Arzneimittel für die Landwirtschaft - A_FOOD_ANIMALMED
+A_FOOD_ANIMALVITAMINS;de;Vitamine für die Landwirtschaft - A_FOOD_ANIMALVITAMINS
+A_FOOD_CAKEDECOR;de;Lebensmittel als Kuchendeko - A_FOOD_CAKEDECOR
+A_FOOD_CANFRUIT;de;Konservenobst und -gemüse - A_FOOD_CANFRUIT
+A_FOOD_CEREALBARS;de;Müsliriegel - A_FOOD_CEREALBARS
+A_FOOD_CEREALCHOCBARS;de;Schoko -Müsliriegel - A_FOOD_CEREALCHOCBARS
+A_FOOD_CHOCEREAL;de;Schokocerealien - A_FOOD_CHOCEREAL
+A_FOOD_CNDY;de;Süßigkeiten - A_FOOD_CNDY
+A_FOOD_COFFEE;de;Kaffee - A_FOOD_COFFEE
+A_FOOD_DAIRY;de;Milch und andere Milchprodukte - A_FOOD_DAIRY
+A_FOOD_DESSERT;de;Desserts ohne Schokolade - A_FOOD_DESSERT
+A_FOOD_DRIEDFRUIT;de;Trockenobst und -gemüse - A_FOOD_DRIEDFRUIT
+A_FOOD_FLOUR;de;Mehl - A_FOOD_FLOUR
+A_FOOD_MEATCHICKEN;de;Hähnchen und anderes Fleisch - A_FOOD_MEATCHICKEN
+A_FOOD_MISCBEVERAGE;de;Mineralwasser und Getränke/Säfte ohne Kohlensäure - A_FOOD_MISCBEVERAGE
+A_FOOD_NAAN;de;Naan - A_FOOD_NAAN
+A_FOOD_NCARBWTR;de;Mineralwasser und Getränke/Säfte ohne Kohlensäure - A_FOOD_NCARBWTR
+A_FOOD_OIL;de;Öle - A_FOOD_OIL
+A_FOOD_PASTANOODLE;de;Nudeln und Teigwaren - A_FOOD_PASTANOODLE
+A_FOOD_PASTRYCASE;de;Backwaren - A_FOOD_PASTRYCASE
+A_FOOD_PETFOOD;de;Tiernahrung - A_FOOD_PETFOOD
+A_FOOD_PLAINBISCUIT;de;Kekse natur - A_FOOD_PLAINBISCUIT
+A_FOOD_PLAINCRACKER;de;Kräcker natur - A_FOOD_PLAINCRACKER
+A_FOOD_PLAINNUT;de;Nüsse natur - A_FOOD_PLAINNUT
+A_FOOD_RICE;de;Reis - A_FOOD_RICE
+A_FOOD_SEASONINGS;de;Salz, Pfeffer und andere Gewürze - A_FOOD_SEASONINGS
+A_FOOD_SNACK;de;Snacks und Knabberzeug ohne Schokolade - A_FOOD_SNACK
+A_FOOD_SODAJUICE;de;Kohlensäurehaltige Getränke und Säfte - A_FOOD_SODAJUICE
+A_FOOD_SPREAD;de;Brotaufstrich - A_FOOD_SPREAD
+A_FOOD_SWEETNER;de;Zucker und andere Süßungsmittel - A_FOOD_SWEETNER
+A_FOOD_TEA;de;Tee - A_FOOD_TEA
+A_FOOD_VEGETABLE;de;Frisches und Tiefkühlobst und -gemüse - A_FOOD_VEGETABLE
+A_HLTH_NUTRITIONBAR;de;Sportriegel - A_HLTH_NUTRITIONBAR
+A_HLTH_NUTRITIONDRINK;de;Sportgetränke - A_HLTH_NUTRITIONDRINK
+A_HLTH_PILLCAPSULETABLET;de;Tabletten und Kapseln - A_HLTH_PILLCAPSULETABLET
+A_HLTH_SMOKINGCESSATION;de;Produkte zur Raucherentwöhnung - A_HLTH_SMOKINGCESSATION
+A_HLTH_SMOKINGGUM;de;Nikotinkaugummi - A_HLTH_SMOKINGGUM
+A_HLTH_VITAMINS;de;Vitamine und Mineralstoffe - A_HLTH_VITAMINS
+A_HPC_CONTRACEPTIVE;de;Kondome und andere Verhütungsmittel - A_HPC_CONTRACEPTIVE
+A_HPC_DIETARYSUPPL;de;Nahrungsergänzungsmittel - A_HPC_DIETARYSUPPL
+A_HPC_INCONTINENCE;de;Erwachsenenwindeln und Inkontinenzprodukte - A_HPC_INCONTINENCE
+A_HPC_MEDICINE;de;Andere Medikamente - A_HPC_MEDICINE
+A_HPC_SANITARYPRODUCTS;de;Frauen - und andere Hygieneprodukte - A_HPC_SANITARYPRODUCTS
+A_HPC_WALKINGSTICK;de;Gehstöcke und andere Gehhilfen - A_HPC_WALKINGSTICK
+A_OUTDOOR_FERTILIZER;de;Pflanzendünger - A_OUTDOOR_FERTILIZER
+A_OUTDOOR_LAWNCONTROL;de;Insektizide, Herbizide, Fungizide - A_OUTDOOR_LAWNCONTROL
+A_OUTDOOR_PLANTFOOD;de;Pflanzendünger - A_OUTDOOR_PLANTFOOD
+A_OUTDOOR_PLANTS;de;Zwiebeln und andere Pflanzen - A_OUTDOOR_PLANTS
+A_OUTDOOR_SEEDS;de;Pflanzensamen - A_OUTDOOR_SEEDS
+A_GEN_NOTAX;de;Nicht von der Umsatzsteuer erfasst - A_GEN_NOTAX
+A_GEN_STANDARD;es;Siempre sujeto a impuestos (de tipo estándar) - A_GEN_STANDARD
+A_BOOKS_GEN;es;Libros impresos - A_BOOKS_GEN
+A_FOOD_GEN;es;Productos alimenticios - A_FOOD_GEN
+A_CLTH_CHILD;es;Ropa para niños - A_CLTH_CHILD
+A_CLTH_BABY;es;Ropa para babes - A_CLTH_BABY
+A_BABY_BIBCLOTH;es;Baberos de bebé - A_BABY_BIBCLOTH
+A_BABY_CARSEAT;es;Asientos de carro - A_BABY_CARSEAT
+A_BABY_NAPPIES;es;Pañales y Pañales - A_BABY_NAPPIES
+A_BOOK_ATLAS;es;Atlas y Mapas - A_BOOK_ATLAS
+A_BOOK_ADULT;es;Libros de actividad para adultos sin material explícito - A_BOOK_ADULT
+A_BOOK_AUDIOBOOK;es;Audiolibros en formato físico - A_BOOK_AUDIOBOOK
+A_BOOK_GLOBE;es;Globos - A_BOOK_GLOBE
+A_BOOK_MAGAZINE;es;Revistas - A_BOOK_MAGAZINE
+A_BOOK_MAP;es;Mapas - A_BOOK_MAP
+A_CLTH_PROTECTIVE;es;Ropa protectora - A_CLTH_PROTECTIVE
+A_FOOD_ANIMALFOOD;es;Alimentos para Animales de Granja - A_FOOD_ANIMALFOOD
+A_FOOD_ANIMALMED;es;Medicina para animales de granja - A_FOOD_ANIMALMED
+A_FOOD_ANIMALVITAMINS;es;Vitaminas para animales de granja - A_FOOD_ANIMALVITAMINS
+A_FOOD_CAKEDECOR;es;Decoración de pasteles comestibles - A_FOOD_CAKEDECOR
+A_FOOD_CANFRUIT;es;Frutas y verduras enlatadas - A_FOOD_CANFRUIT
+A_FOOD_CEREALBARS;es;Barras de cereal - A_FOOD_CEREALBARS
+A_FOOD_CEREALCHOCBARS;es;Barras de cereales de chocolate - A_FOOD_CEREALCHOCBARS
+A_FOOD_CHOCEREAL;es;Cereal de Chocolate - A_FOOD_CHOCEREAL
+A_FOOD_CNDY;es;Caramelo - A_FOOD_CNDY
+A_FOOD_COFFEE;es;café - A_FOOD_COFFEE
+A_FOOD_DAIRY;es;Leche y otros productos lácteos - A_FOOD_DAIRY
+A_FOOD_DESSERT;es;Postres sin Chocolate - A_FOOD_DESSERT
+A_FOOD_DRIEDFRUIT;es;Frutas y Verduras Secas - A_FOOD_DRIEDFRUIT
+A_FOOD_FLOUR;es;Harina - A_FOOD_FLOUR
+A_FOOD_MEATCHICKEN;es;Pollo u otras carnes - A_FOOD_MEATCHICKEN
+A_FOOD_MISCBEVERAGE;es;Agua carbonatada u otras bebidas no soda / jugos - A_FOOD_MISCBEVERAGE
+A_FOOD_NAAN;es;naan - A_FOOD_NAAN
+A_FOOD_NCARBWTR;es;Agua no carbonatada - A_FOOD_NCARBWTR
+A_FOOD_OIL;es;Aceites - A_FOOD_OIL
+A_FOOD_PASTANOODLE;es;Pasta y fideos - A_FOOD_PASTANOODLE
+A_FOOD_PASTRYCASE;es;Pasteles - A_FOOD_PASTRYCASE
+A_FOOD_PETFOOD;es;Alimentos para mascotas - A_FOOD_PETFOOD
+A_FOOD_PLAINBISCUIT;es;Galletas llanas - A_FOOD_PLAINBISCUIT
+A_FOOD_PLAINCRACKER;es;Galletas sencillas - A_FOOD_PLAINCRACKER
+A_FOOD_PLAINNUT;es;Nueces lisas - A_FOOD_PLAINNUT
+A_FOOD_RICE;es;Arroz - A_FOOD_RICE
+A_FOOD_SEASONINGS;es;Sal, pimienta y otros condimentos - A_FOOD_SEASONINGS
+A_FOOD_SNACK;es;Snacks y dulces sin chocolate - A_FOOD_SNACK
+A_FOOD_SODAJUICE;es;Sodas y Jugos - A_FOOD_SODAJUICE
+A_FOOD_SPREAD;es;Spreadable Alimentación - A_FOOD_SPREAD
+A_FOOD_SWEETNER;es;Azúcar y otros edulcorantes - A_FOOD_SWEETNER
+A_FOOD_TEA;es;Té - A_FOOD_TEA
+A_FOOD_VEGETABLE;es;Frutas y hortalizas frescas o congeladas - A_FOOD_VEGETABLE
+A_HLTH_NUTRITIONBAR;es;Barra de nutrición - A_HLTH_NUTRITIONBAR
+A_HLTH_NUTRITIONDRINK;es;Bebida Nutricional - A_HLTH_NUTRITIONDRINK
+A_HLTH_PILLCAPSULETABLET;es;Píldoras y Cápsulas - A_HLTH_PILLCAPSULETABLET
+A_HLTH_SMOKINGCESSATION;es;Ayuda para dejar de fumar - A_HLTH_SMOKINGCESSATION
+A_HLTH_SMOKINGGUM;es;Goma para dejar de fumar - A_HLTH_SMOKINGGUM
+A_HLTH_VITAMINS;es;Vitaminas y minerales - A_HLTH_VITAMINS
+A_HPC_CONTRACEPTIVE;es;Preservativos y otros Aceptos Anticonceptivos - A_HPC_CONTRACEPTIVE
+A_HPC_DIETARYSUPPL;es;Suplementos Dietéticos - A_HPC_DIETARYSUPPL
+A_HPC_INCONTINENCE;es;Pañales para adultos y ayudas para la incontinencia - A_HPC_INCONTINENCE
+A_HPC_MEDICINE;es;Otros Medicamentos - A_HPC_MEDICINE
+A_HPC_SANITARYPRODUCTS;es;Productos higiénicos femeninos y otros productos sanitarios - A_HPC_SANITARYPRODUCTS
+A_HPC_WALKINGSTICK;es;Bastones y otras ayudas para la movilidad - A_HPC_WALKINGSTICK
+A_OUTDOOR_FERTILIZER;es;Fertilizantes - A_OUTDOOR_FERTILIZER
+A_OUTDOOR_LAWNCONTROL;es;Insecticidas, Herbicidas y Fungicidas - A_OUTDOOR_LAWNCONTROL
+A_OUTDOOR_PLANTFOOD;es;Alimentos de origen vegetal - A_OUTDOOR_PLANTFOOD
+A_OUTDOOR_PLANTS;es;Plantas - A_OUTDOOR_PLANTS
+A_OUTDOOR_SEEDS;es;Semillas de planta - A_OUTDOOR_SEEDS
+A_GEN_NOTAX;es;Siempre exento de impuestos - A_GEN_NOTAX
+A_GEN_STANDARD;it;Sempre soggette all'aliquota d'imposta standard - A_GEN_STANDARD
+A_BOOKS_GEN;it;Libri stampati - A_BOOKS_GEN
+A_FOOD_GEN;it;Prodotti alimentari vari - A_FOOD_GEN
+A_CLTH_CHILD;it;Abbigliamento per bambini - A_CLTH_CHILD
+A_CLTH_BABY;it;Abbigliamento per bebè - A_CLTH_BABY
+A_BABY_BIBCLOTH;it;Bavaglino - A_BABY_BIBCLOTH
+A_BABY_CARSEAT;it;Sedili per auto - A_BABY_CARSEAT
+A_BABY_NAPPIES;it;Nappie e Pannolini - A_BABY_NAPPIES
+A_BOOK_ATLAS;it;Atlanti e mappe - A_BOOK_ATLAS
+A_BOOK_ADULT;it;Libri per attività adulti senza materiale esplicito - A_BOOK_ADULT
+A_BOOK_AUDIOBOOK;it;Audiolibri in formato fisico - A_BOOK_AUDIOBOOK
+A_BOOK_GLOBE;it;Globes - A_BOOK_GLOBE
+A_BOOK_MAGAZINE;it;riviste - A_BOOK_MAGAZINE
+A_BOOK_MAP;it;Mappe - A_BOOK_MAP
+A_CLTH_PROTECTIVE;it;Indumenti protettivi - A_CLTH_PROTECTIVE
+A_FOOD_ANIMALFOOD;it;Cibo per gli animali da fattoria - A_FOOD_ANIMALFOOD
+A_FOOD_ANIMALMED;it;Medicina per gli animali da fattoria - A_FOOD_ANIMALMED
+A_FOOD_ANIMALVITAMINS;it;Vitamine per gli animali da fattoria - A_FOOD_ANIMALVITAMINS
+A_FOOD_CAKEDECOR;it;Decorazione torta commestibile - A_FOOD_CAKEDECOR
+A_FOOD_CANFRUIT;it;Frutta e verdura in scatola - A_FOOD_CANFRUIT
+A_FOOD_CEREALBARS;it;Cereali - A_FOOD_CEREALBARS
+A_FOOD_CEREALCHOCBARS;it;Barra di cereali di cioccolato - A_FOOD_CEREALCHOCBARS
+A_FOOD_CHOCEREAL;it;Cereali di cioccolato - A_FOOD_CHOCEREAL
+A_FOOD_CNDY;it;caramella - A_FOOD_CNDY
+A_FOOD_COFFEE;it;caffè - A_FOOD_COFFEE
+A_FOOD_DAIRY;it;Latte e altri prodotti lattiero -caseari - A_FOOD_DAIRY
+A_FOOD_DESSERT;it;Dessert senza cioccolato - A_FOOD_DESSERT
+A_FOOD_DRIEDFRUIT;it;Frutta secca e verdure - A_FOOD_DRIEDFRUIT
+A_FOOD_FLOUR;it;Farina - A_FOOD_FLOUR
+A_FOOD_MEATCHICKEN;it;Pollo o altre carni - A_FOOD_MEATCHICKEN
+A_FOOD_MISCBEVERAGE;it;Acqua Carbonata o altre Bevande non Soda / Juice - A_FOOD_MISCBEVERAGE
+A_FOOD_NAAN;it;naan - A_FOOD_NAAN
+A_FOOD_NCARBWTR;it;Acqua non carbonica - A_FOOD_NCARBWTR
+A_FOOD_OIL;it;oli - A_FOOD_OIL
+A_FOOD_PASTANOODLE;it;Pasta e tagliatelle - A_FOOD_PASTANOODLE
+A_FOOD_PASTRYCASE;it;Pasticcino - A_FOOD_PASTRYCASE
+A_FOOD_PETFOOD;it;Cibo per animali domestici - A_FOOD_PETFOOD
+A_FOOD_PLAINBISCUIT;it;Biscotti semplici - A_FOOD_PLAINBISCUIT
+A_FOOD_PLAINCRACKER;it;Crackers semplici - A_FOOD_PLAINCRACKER
+A_FOOD_PLAINNUT;it;Plain Nuts - A_FOOD_PLAINNUT
+A_FOOD_RICE;it;Riso - A_FOOD_RICE
+A_FOOD_SEASONINGS;it;Sale, pepe e altre stagioni - A_FOOD_SEASONINGS
+A_FOOD_SNACK;it;Spuntini e cibi non di cioccolato - A_FOOD_SNACK
+A_FOOD_SODAJUICE;it;Sodas e Succhi - A_FOOD_SODAJUICE
+A_FOOD_SPREAD;it;Alimento spandibile - A_FOOD_SPREAD
+A_FOOD_SWEETNER;it;Zucchero e altri dolcificanti - A_FOOD_SWEETNER
+A_FOOD_TEA;it;Tè - A_FOOD_TEA
+A_FOOD_VEGETABLE;it;Frutta e verdura fresca o congelata - A_FOOD_VEGETABLE
+A_HLTH_NUTRITIONBAR;it;Bar di nutrizione - A_HLTH_NUTRITIONBAR
+A_HLTH_NUTRITIONDRINK;it;Bevanda di nutrizione - A_HLTH_NUTRITIONDRINK
+A_HLTH_PILLCAPSULETABLET;it;Pillole e capsule - A_HLTH_PILLCAPSULETABLET
+A_HLTH_SMOKINGCESSATION;it;Aiuti alla cessazione del fumo - A_HLTH_SMOKINGCESSATION
+A_HLTH_SMOKINGGUM;it;Gomma di cessazione del fumo - A_HLTH_SMOKINGGUM
+A_HLTH_VITAMINS;it;Vitamine e sali minerali - A_HLTH_VITAMINS
+A_HPC_CONTRACEPTIVE;it;Preservativi e altri farmaci contraccettivi - A_HPC_CONTRACEPTIVE
+A_HPC_DIETARYSUPPL;it;Additivi Alimentari - A_HPC_DIETARYSUPPL
+A_HPC_INCONTINENCE;it;Pillole per adulti e aiuti per l'incontinenza - A_HPC_INCONTINENCE
+A_HPC_MEDICINE;it;Altri medicinali - A_HPC_MEDICINE
+A_HPC_SANITARYPRODUCTS;it;Prodotti igienici femminili ed altri prodotti sanitari - A_HPC_SANITARYPRODUCTS
+A_HPC_WALKINGSTICK;it;Bastoni da passeggio e altri ausili per la mobilità - A_HPC_WALKINGSTICK
+A_OUTDOOR_FERTILIZER;it;Concime per piante - A_OUTDOOR_FERTILIZER
+A_OUTDOOR_LAWNCONTROL;it;Insetticidi, Diserbanti, Funghicidi - A_OUTDOOR_LAWNCONTROL
+A_OUTDOOR_PLANTFOOD;it;Pianta alimentare - A_OUTDOOR_PLANTFOOD
+A_OUTDOOR_PLANTS;it;Piante - A_OUTDOOR_PLANTS
+A_OUTDOOR_SEEDS;it;Semi di piante - A_OUTDOOR_SEEDS
+A_GEN_NOTAX;it;Sempre non soggette a imposta - A_GEN_NOTAX
+A_BABY_BIBCLOTH;nl;Slabbetjes - A_BABY_BIBCLOTH
+A_BABY_CARSEAT;nl;Autostoeltjes - A_BABY_CARSEAT
+A_BABY_NAPPIES;nl;Luiers en luiers - A_BABY_NAPPIES
+A_BOOK_ATLAS;nl;Atlassen en kaarten - A_BOOK_ATLAS
+A_BOOK_ADULT;nl;Activiteitenboeken voor volwassenen zonder expliciet materiaal - A_BOOK_ADULT
+A_BOOK_AUDIOBOOK;nl;Audioboeken in fysiek formaat - A_BOOK_AUDIOBOOK
+A_BOOK_GLOBE;nl;Globes - A_BOOK_GLOBE
+A_BOOK_MAGAZINE;nl;Tijdschriften - A_BOOK_MAGAZINE
+A_BOOK_MAP;nl;Kaarten - A_BOOK_MAP
+A_CLTH_PROTECTIVE;nl;Beschermende kleding - A_CLTH_PROTECTIVE
+A_FOOD_ANIMALFOOD;nl;Voedsel voor boerderijdieren - A_FOOD_ANIMALFOOD
+A_FOOD_ANIMALMED;nl;Geneeskunde voor boerderijdieren - A_FOOD_ANIMALMED
+A_FOOD_ANIMALVITAMINS;nl;Vitaminen voor boerderijdieren - A_FOOD_ANIMALVITAMINS
+A_FOOD_CAKEDECOR;nl;Eetbare taartdecoratie - A_FOOD_CAKEDECOR
+A_FOOD_CANFRUIT;nl;Ingeblikte groenten en fruit - A_FOOD_CANFRUIT
+A_FOOD_CEREALBARS;nl;Graanrepen - A_FOOD_CEREALBARS
+A_FOOD_CEREALCHOCBARS;nl;Chocolade Graanrepen - A_FOOD_CEREALCHOCBARS
+A_FOOD_CHOCEREAL;nl;Chocoladegranen - A_FOOD_CHOCEREAL
+A_FOOD_CNDY;nl;Snoep - A_FOOD_CNDY
+A_FOOD_COFFEE;nl;Koffie - A_FOOD_COFFEE
+A_FOOD_DAIRY;nl;Melk en andere zuivelproducten - A_FOOD_DAIRY
+A_FOOD_DESSERT;nl;Desserts zonder chocolade - A_FOOD_DESSERT
+A_FOOD_DRIEDFRUIT;nl;Gedroogde groenten en fruit - A_FOOD_DRIEDFRUIT
+A_FOOD_FLOUR;nl;Meel - A_FOOD_FLOUR
+A_FOOD_MEATCHICKEN;nl;Kip of ander vlees - A_FOOD_MEATCHICKEN
+A_FOOD_MISCBEVERAGE;nl;Koolzuurhoudend water of andere dranken zonder frisdrank / sap - A_FOOD_MISCBEVERAGE
+A_FOOD_NAAN;nl;Naan - A_FOOD_NAAN
+A_FOOD_NCARBWTR;nl;Niet-koolzuurhoudend water - A_FOOD_NCARBWTR
+A_FOOD_OIL;nl;Oliën - A_FOOD_OIL
+A_FOOD_PASTANOODLE;nl;Pasta en noedels - A_FOOD_PASTANOODLE
+A_FOOD_PASTRYCASE;nl;Gebak - A_FOOD_PASTRYCASE
+A_FOOD_PETFOOD;nl;Voer voor huisdieren - A_FOOD_PETFOOD
+A_FOOD_PLAINBISCUIT;nl;Gewone koekjes - A_FOOD_PLAINBISCUIT
+A_FOOD_PLAINCRACKER;nl;Gewoon Crackers - A_FOOD_PLAINCRACKER
+A_FOOD_PLAINNUT;nl;Gewone moeren - A_FOOD_PLAINNUT
+A_FOOD_RICE;nl;Rijst - A_FOOD_RICE
+A_FOOD_SEASONINGS;nl;Zout, peper en andere kruiden - A_FOOD_SEASONINGS
+A_FOOD_SNACK;nl;Snacks en traktaties zonder chocolade - A_FOOD_SNACK
+A_FOOD_SODAJUICE;nl;Frisdrank en sappen - A_FOOD_SODAJUICE
+A_FOOD_SPREAD;nl;Smeerbaar voedsel - A_FOOD_SPREAD
+A_FOOD_SWEETNER;nl;Suiker en andere zoetstoffen - A_FOOD_SWEETNER
+A_FOOD_TEA;nl;Thee - A_FOOD_TEA
+A_FOOD_VEGETABLE;nl;Vers of bevroren fruit en groenten - A_FOOD_VEGETABLE
+A_HLTH_NUTRITIONBAR;nl;Voedingsreep - A_HLTH_NUTRITIONBAR
+A_HLTH_NUTRITIONDRINK;nl;Voedingsdrank - A_HLTH_NUTRITIONDRINK
+A_HLTH_PILLCAPSULETABLET;nl;Pillen en capsules - A_HLTH_PILLCAPSULETABLET
+A_HLTH_SMOKINGCESSATION;nl;Hulpmiddelen om te stoppen met roken - A_HLTH_SMOKINGCESSATION
+A_HLTH_SMOKINGGUM;nl;Gom om te stoppen met roken - A_HLTH_SMOKINGGUM
+A_HLTH_VITAMINS;nl;Vitaminen en mineralen - A_HLTH_VITAMINS
+A_HPC_CONTRACEPTIVE;nl;Condooms en andere anticonceptiemiddelen - A_HPC_CONTRACEPTIVE
+A_HPC_DIETARYSUPPL;nl;Voedingssupplementen - A_HPC_DIETARYSUPPL
+A_HPC_INCONTINENCE;nl;Luiers voor volwassenen en incontinentiehulpmiddelen - A_HPC_INCONTINENCE
+A_HPC_MEDICINE;nl;Andere geneesmiddelen - A_HPC_MEDICINE
+A_HPC_SANITARYPRODUCTS;nl;Hygiënische en andere sanitaire producten voor vrouwen - A_HPC_SANITARYPRODUCTS
+A_HPC_WALKINGSTICK;nl;Wandelstokken en andere mobiliteitshulpmiddelen - A_HPC_WALKINGSTICK
+A_OUTDOOR_FERTILIZER;nl;Plantenmeststoffen - A_OUTDOOR_FERTILIZER
+A_OUTDOOR_LAWNCONTROL;nl;Insecticiden, herbiciden, fungiciden - A_OUTDOOR_LAWNCONTROL
+A_OUTDOOR_PLANTFOOD;nl;Plantenvoeding - A_OUTDOOR_PLANTFOOD
+A_OUTDOOR_PLANTS;nl;Planten - A_OUTDOOR_PLANTS
+A_OUTDOOR_SEEDS;nl;Plant zaden - A_OUTDOOR_SEEDS
+A_GEN_NOTAX;nl;Buiten het btw-bereik - A_GEN_NOTAX
+A_GEN_STANDARD;nl;Altijd belastbaar (standaard type) - A_GEN_STANDARD
+A_BOOKS_GEN;nl;Gedrukte boeken - A_BOOKS_GEN
+A_CLTH_BABY;nl;Kleding voor baby's - A_CLTH_BABY
+A_CLTH_CHILD;nl;Kinderkleding - A_CLTH_CHILD
+A_FOOD_GEN;nl;Voedselproducten - A_FOOD_GEN

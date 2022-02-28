@@ -1,0 +1,2 @@
+Wenn Sie sich für das Amazon Prime Programm qualifizieren, können Sie einen alternativen Bestellstatus für Prime Orders konfigurieren
+http://documentation.common-services.com/amazonv4/commandes-amazon-prime/?lang=de

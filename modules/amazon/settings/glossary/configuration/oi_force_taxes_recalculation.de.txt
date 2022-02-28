@@ -1,0 +1,4 @@
+Wenn Sie Bestellungen importieren, erzwingen Sie die Neuberechnung der Steuern basierend auf Ihren PrestaShop-Einstellungen.
+Hilfreich im Falle falscher Steuern bei Amazon, und Sie können diese nicht kontrollieren.
+
+Beispiel: Ein Produkt wird nicht von Ihnen erstellt, hat aber eine falsche Steuer bei Amazon.

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ListOrderItemsResponse xmlns="https://mws.amazonservices.com/Orders/2013-09-01">
+  <ListOrderItemsResult>
+    <OrderItems>
+      <OrderItem>
+        <QuantityOrdered>1</QuantityOrdered>
+        <Title>Funko Pop! TV: Sherlock - Sherlock Holmes</Title>
+        <PromotionDiscount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>0.00</Amount>
+        </PromotionDiscount>
+        <ASIN>B012U0WA0K</ASIN>
+        <SellerSKU>0849803060503</SellerSKU>
+        <OrderItemId>04679573781611</OrderItemId>
+        <QuantityShipped>1</QuantityShipped>
+        <ItemPrice>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>17.14</Amount>
+        </ItemPrice>
+        <ItemTax>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>0.00</Amount>
+        </ItemTax>
+      </OrderItem>
+    </OrderItems>
+    <AmazonOrderId>402-5605727-7561130</AmazonOrderId>
+  </ListOrderItemsResult>
+  <ResponseMetadata>
+    <RequestId>59730a17-4816-4147-b2dd-af50e7eaecbe</RequestId>
+  </ResponseMetadata>
+</ListOrderItemsResponse>

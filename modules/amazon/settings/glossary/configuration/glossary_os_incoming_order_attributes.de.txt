@@ -1,0 +1,6 @@
+Im fortgeschrittenen Gebrauch können Sie dies verwenden, um den PrestaShop status der eingehenden Amazon-Bestellung anhand seiner Attribute (FBA, Prime, Business,...).
+Beispiel:
+- Prime + Business --> Bestellstatus 1.
+- FBA + Business --> Status der Bestellung 2.
+...
+(Höherer Platz hat höhere Priorität)

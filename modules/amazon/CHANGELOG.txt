@@ -1,0 +1,1405 @@
+4.9.466
+Fixed: PS1.6 fails to restore controller in context, which causes the error `Use of undefined constant _PS_BO_ALL_THEMES_DIR_`
+
+4.9.465
+Fixed: Use wrong id of FBA multi-channel order since 4.9.396. PS core error `Kernel Container is not available`.
+
+4.9.464
+Updated: VCS: Upload: Stop if throttled. Increase frequency freely (30 min recommended)
+
+4.9.463
+Added: Add standard carrier `std-intl`
+
+4.9.462
+Added: Order update: More log when failed.
+
+4.9.461
+Sizename/Colorname are mapped as Size/Color, because Amazon expects these values to be included in request
+
+4.9.460
+Fixed: Product export: Business price: Send delete message
+
+4.9.459
+Fixed: Order updating: Unknown carrier due to carrier modifying
+
+4.9.458
+Fixed: prevent duplicate tag of "ItemPackageQuantity" when is selected as variation theme
+
+4.9.457
+Fixed: Order import: Failed to acknowledge if an order appears both in failed list and incoming list
+
+4.9.456
+Updated: Order import: Shipping rate should respect product rate if any. More debug & detailed logs.
+
+4.9.455
+Added: Egypt marketplace
+
+4.9.454
+Fixed: Variation theme values are in lowercase for some product types, now instead of defining specific exceptions, variation theme values are used as defined in XSD
+
+4.9.453
+Added: UnitCount attribute unitOfMeasure added for Home Universe
+
+4.9.452
+Added: Order report: Get fulfillment center ID for FBA orders
+
+4.9.451
+Fixed: Variation theme values are in lowercase for some product types of definition: Baby
+
+4.9.450
+Fixed: Product export: Business price: Should be disabled when Parameters > Discount has been deactivated
+
+4.9.449
+Fixed: Default unitOfMeasure value is "Count" instead of "count" for countries outside of EU5
+
+4.9.448
+Added: Support zip file: Add all logs. Auto clear old logs
+
+4.9.445
+Added: Order import cron: Add order status parameter
+
+4.9.444
+Fix: Fix query to find product at database (product/product_attribute)
+
+4.9.443
+Update: CountryOfOrigin is required for NL
+
+4.9.442
+Update: Inactive products are not excluded from orders/product import
+
+4.9.441
+Updated: Admin order listing: Duplicate field selection in rare case
+
+4.9.440
+Added: Filter: New option to allow export inactive products / offers or not
+
+4.9.439
+Fixed: AdminControllers: Failed to load assets because of virtual URL
+
+4.9.435
+Updated: Order import: Resolve state for countries other than ES, IT
+
+4.9.434
+Add: Order import logger:
+- Calculate product tax
+- Debug details on admin order
+
+4.9.433
+Updated: Order importing: Cron failed orders: Collapse list by default. Added function to clear the list.
+
+4.9.432
+Update: Include NumberOfItems as recommended field
+
+4.9.431
+Fixed: Recalculate numOfSteps for next condition: if ($numOfSteps > 0)
+
+4.9.430
+Fixed: Merge problem
+
+4.9.429
+Added: Configuration: Cronjobs: Possible parameters
+
+4.9.428
+Fixed: Preorder configuration is obtained from new configuration table (old version was commented)
+
+4.9.427
+Fixed: Order importing: Duplicate orders while handling previous failed orders
+
+4.9.426
+Fixed: UnitOfMeasure is included even when field has no value. A default value is set fo UnitCount
+
+4.9.425
+Added: Order import: Amazon carrier `MFN Std`
+
+4.9.424
+Updated: Include debug messages on Product actions display (product tab)
+
+4.9.423
+Updated: Include UnitCount attribute unitOfMeasure for universe: Office
+
+4.9.422
+Fixed: Order import: Failed because of rounding
+
+4.9.421
+Updated: Context improvement, to prevent conflict with other modules
+
+4.9.420
+Fixed: strlen is used in function stripInvalidXml to validate current number bytes of a string. This fixes missing chars on spanish titles in XML feed
+
+4.9.419
+Updated: VCS: Improve report request flow: Get report by request ID
+
+4.9.418
+Fixed: checkProduct issues on undefined variable
+
+4.9.417
+Fixed: Product export: AmazonTools::displayPrice() messes up currency context
+
+4.9.416
+fix: checkProduct excludes products marked as "disable" in marketplace_product_option table
+
+4.9.415
+update: As "reprice" is an action which can be executed with a creation/update, may exist more than 1 action for a product.
+Noe before adding a record to AMAZON_PRODUCT_ACTION, previous records (with same action) are deleted, to allow more than 1 action
+for 1 single product
+
+4.9.414
+update: include ProductExpirationType as part of Description Data element
+
+4.9.413
+update: include additional fields as recommended: WarrantyDescription, SizeName
+
+4.9.412
+Fixed: unitOfMeasure was automatically added to UnitCount, but as part of DescriptionData this field has no attributes.
+
+4.9.411
+Include UnitCount and PPUCountType at DescriptionData element.
+
+4.9.410
+Fixed: Fields which could be included more than once in Feed were not exactly identified.
+This caused a problem in data structure when XML feed was being built. This update solves this problem.
+
+4.9.409
+Changed: Business price
+    Use standard price if first step has quantity bound.
+    Previous price must be greater than remaining.
+    Proper quantity step
+
+4.9.408
+Fixed: Change "condition to evaluate null", with "isset" function. To prevent undefined index warning/error
+
+4.9.406
+Update: UnitCount is configured per universe/country in amazon/settings/json/CustomSizeAttributes.json
+
+4.9.405
+Fixed: Keep recommended and featured fields after saving a profile
+
+4.9.404
+Fixed: Import valid values: Notice "ob_end_clean(): failed to delete buffer"
+
+4.9.403
+update: EnergyEfficiencyRating and EuEnergyLabelEfficiencyClass are now displayed as recommended fields
+
+4.9.402
+Compatibility: SpecificPriceCore::formatIntInQuery was not included in PS 1.6.0.9
+
+4.9.401
+Fixed: CountryOfOrigin was included in a wrong place in parent products when combinations were configured
+
+4.9.400
+Updated: Order fulfillment: Add shipping methods for Australia
+
+4.9.399
+Updated: Order Import: If total amount is zero and no currency is included in order XML, default marketplace currency is used, and order is imported with 0 as amount, but inventory is decreased normally
+
+4.9.398
+Updated: Product export: If parent product is disabled or inactive, it will be skipped in feed
+
+4.9.396
+Updated: FBA multi-channel: Display PS order ID + reference
+
+4.9.395
+Update: Include IsExpirationDatedProduct as recommended field by default to EU5
+
+4.9.394
+Update: Set CountryOfOrigin as required for FR, ES, IT, DE & UK
+
+4.9.393
+Fix: recommended fields CountryOfOrigin and IsExpirationDatedProduct were not being displayed, and cofig.xml file is deleted so i'll be generated by Prestashop
+
+4.9.392
+Fix: Generic recommended fields were not being displayed whena profile is being modified
+
+4.9.391
+Update: Do not import orders when the Channel is AFN and Non-Amazon and there is no price
+
+4.9.390
+Fixed: FBA multi-channels: CreateFulfillmentOrder: Explicitly define marketplace ID the order is placed against
+
+4.9.389
+Updated: Order import: EU sale to other country: Use PS tax if Amazon does not have
+
+4.9.388
+Fixed: Order fulfillment: Use GMT time. Provide timezone information in log
+
+4.9.387
+Updated: Order import: Try to get address's state. Update Amazon states automatically on saving configuration.
+
+4.9.386
+Fixed: Order import: Payment title by region not showing
+
+4.9.384
+Updated: vat_number is now stored in PS Address information when it's included in Amazon order info.
+Fixed: when no attributes exist for a lang configuration "reset() expects parameter 1 to be array" was obtained. Now it's solved
+
+4.9.383
+Fixed: Product XML feed had some inconsistencies because fields paths were referenced to ProductTypes different than ComsumerElectronics
+
+4.9.382
+Fixed: Delete outdated XSD files
+
+4.9.381
+Fixed: UnitOfMeasure was not being displayed, because type was not being set on types which used "extension". e.g. FcShelfLife
+
+4.9.380
+Added: Parameters: Get configuration without cache
+
+4.9.379
+Fixed: IsExpirationDatedProduct can be selected from optional fields list, when it's required by any Universe configuration
+
+4.9.378
+Fixed: Attributes lik IsHeatSensitive and MeltingTemperature appear as expected, and include required attributes.
+It's required to Delete these files:
+ - modules/amazon/validate/xsd/amzn-base.xsd.gz
+ - modules/amazon/validate/xsd/Product.xsd.gz
+
+
+4.9.377
+Fixed: "Illegal string offset" error when no tax is detected on item order import
+
+4.9.376
+Fixed: Order import: Free shipping causes fatal error
+
+4.9.375
+Fixed: Order import: Failed to save DeemedResellerCategory
+
+4.9.374
+Added: FBA multi-channels: Override currency while sending prices on multichannel
+
+4.9.373
+Update: Include fields defined out of producType scope (at Product level). e.g. IsHeatSensitive
+
+4.9.372
+Fixed: Prevent error caused by missing column on ps_amazon_vidr_shipment
+
+4.9.371
+Fixed: Prevent any validation on disabled products
+
+4.9.370
+Changed: EU sale to other country: Show VAT rate by delivery country
+
+4.9.369
+Fixed: remove "undefined index" warning when products imported do not contain required fields
+
+4.9.368
+Changed: PS1.7.7: Update DB charset & collation for 6 module tables (order_items, orders, product_action, product_option, vidr_shipment, vidr_shipment_order)
+
+4.9.367
+Fixed: obtain right country code on Shipping method
+
+4.9.366
+update: include shipping method validation for Australia
+
+4.9.365
+Fixed: Fix business price when "specific price" is negative and reduction_type = percentage
+
+4.9.364
+Fix: Shipping method is not validated for countries where it's not required
+
+4.9.363
+Add: Orders importing: VAT strategy (IOSS / OSS)
+
+4.9.362
+Fixed: Fix business price when reduction_type = amount
+
+4.9.361
+Fixed: Orders import: Get address's state if possible
+
+4.9.360
+Fixed: Variation theme values are in lowercase for most product types of definitino: Home
+
+4.9.359
+Remove custom size fields from parent product
+
+4.9.358
+Include FcShelfLife field in FoodAndBeverages universe
+
+4.9.357
+Include MarketplaceId in _ListInventorySupply function
+
+4.9.356
+Fixed: Failed to execute hook `actionValidateOrder`
+
+4.9.355
+Changed: Shipping method: Update list of carriers / methods for all marketplaces. Method should be selected from a list.
+
+4.9.354
+Fixed: Orders import: Wrongly calculate tax on business orders
+
+4.9.353
+Fixed: PS1.7.6: Orders: Failed to get controller's container
+
+4.9.352
+Changed: VCS: Remove duplicate shipments in database
+
+4.9.351
+Added: Product export: Setting for ignore product condition
+
+4.9.350
+Fixed: Order cancellation: Wrong cron URL
+
+4.9.349
+Added: VCS: Ignore IT non-business orders as soon as they come
+
+4.9.348
+Fixed: Import products: link_rewrite is not valid
+
+4.9.347
+Fixed: Include xml required fields in product feed for parent product, according to each universe configuration
+
+4.9.346
+Added: Shipping service instruction / validation
+
+4.9.345
+Release: May 20th, 2021
+
+4.9.344
+Fixed: Attributes of fields like "Diameter" now are displayed. e.g. UnitOfMeasure
+
+4.9.343
+Fixed: VCS: Wrong lang parameter for UK
+
+4.9.342
+Fixed: Include ClassificationData (required on universes like: Shoes)
+
+4.9.341
+Fixed: Include ProductType and ClasificationData in parent product
+
+4.9.331
+Fixed: Kernel container not found when import order
+
+4.9.330
+Added: Apparel size attributes now are available for product type: SocksHosiery
+
+4.9.329
+Fixed: Cannot place order because of kernel initialization from v4.9.314
+
+4.9.326
+Upgrade: Product action: MySQL8 does not accept empty date
+
+4.9.325
+Fixed: include ClothingType in ClassificationData, on parent SKU's
+
+4.9.324
+Fixed: Excludes fields which are not needed by Amazon in parent Product, and instead they should be excluded from feed (on Parent)
+
+4.9.323
+Fixed: "ItemDimensions" was duplicated in ProductDescription and ProductData blocks
+
+4.9.322
+Changed: add advanced parameter "Include attribute name in title" in advanced parameters tab
+
+4.9.321
+Fixed: missing employee on products/orders import: "Determining the active language requires a contextual employee instance"
+
+4.9.320
+Fixed: Missing translation for Dutch (nl) causes exception
+
+4.9.319
+Fixed: Layout compatible to PS1.7.7
+
+4.9.317
+Fixed: Multistore: Context language
+
+4.9.316
+Changed: VCS: Stop uploading for Italian non-business order
+
+4.9.315
+Fixed: Too much http requests on internal remote xsd
+
+4.9.314
+Fixed: Prevent error due to Prestashop bug: Uncaught Exception: Kernel Container is not available
+
+4.9.313
+Fixed: Orders import: Wrong customer's language
+
+4.9.312
+Fixed: Bulk order cancel was only considering 1 order to be cancelled
+
+4.9.311
+Changed: Admin order: Proper hook for PS1.7.7
+
+4.9.31
+Fixed: on PS > 1.7.6, controller context was being initialized, causing problems in currency conversion when fed includes more that 1 product.
+This call was commented, and current context is sent as argument to AmazonTools::displayPrice function to obtain current product price
+
+4.9.301
+Fixed: SQL error since 4.8
+
+4.9.29
+Fixed: Orders import: Customer name with square brackets
+
+4.9.28
+Fixed: ItemVolume is included in ProductData instead of DescriptionData, for WineAndAlcohol universe
+
+4.9.27
+Fixed: Order listing: Wrongly detect empty result list
+
+4.9.26
+Added: Customization: Display quantity in invoice
+
+4.9.25
+Added: Shipping service: Default for each outgoing carrier
+
+4.9.24
+Added: Product tax codes for NL
+
+4.9.23
+Added: Multichannel iso codes: ES, AE, BR, SG
+
+4.9.22
+Added: Orders import: Italy: Also import state / province when it's as same as the city
+
+4.9.21
+Fixed: Customization misses custom values "colorName", "fontFamily"
+
+4.9.20
+Added: Merchant fulfillment: Add instruction to solve common errors
+
+4.9.19
+Fixed: MSRP and MSRPWithTax where not included as part of DescriptionData, instead they were included inside ProductData
+
+4.9.18
+Fixed: Messaging: Test mail error
+
+4.9.17
+Changed: Admin order: Simplify mp_order_id hook
+
+4.9.16
+Fix: Default value for parameters with a class type hint can only be NULL
+
+4.9.15
+Changed: Parameters: Bring "Taxes" option to Quick Settings
+
+4.9.14
+Fixed: Improve markeplace_action log
+
+4.9.13
+Fixed: Empty image in support zip file
+
+4.9.12
+Updated: Documentation
+
+4.9.11
+Fixed: Rename AmazonCart function "getOrderTotal" to "getAmazonOrderTotal"
+and addition of views/js/jquery.qtip.min.js.map to avoid warnings on PS 1.7.7 with PHP 7.3
+
+4.9.10
+Fixed: Addition of ItemShape and ItemTypeName for ProductClothing
+
+4.9.09
+Fixed: Poland marketplace not fully integrated (since 4.9)
+
+4.9.08
+Fixed: Set default id_shop = 1 for product_action & product_option. Since 4.7
+
+4.9.07
+Added: Products import: Allow override product visibility
+
+4.9.06
+Update: Jewelry XSD file is updated
+
+4.9.05
+Fixed: Cannot change credentials of US marketplace
+
+4.9.04
+Fixed: Prestashop validator errors
+
+4.9.03
+Fixed: Undefined method when generate invoice PDF
+
+4.9.01
+Added: Poland marketplace
+
+4.8.01
+Added: Shipping service / delivery service / ship method is required on ship confirm
+
+4.7.32
+Fixed: VCS: Update billing address and buyer VAT number at once for each order. Not update VAT number for shipping address
+
+4.7.31
+Fixed: Target audience was not being included in XML Feed
+
+4.7.30
+Fixed: Orders import cron: Revert change on v4.7.28
+
+4.7.29
+Fixed: Admin orders: Cannot search by mp_order_id PS1.6.1 - PS1.7.6
+
+4.7.28
+Changed: Orders import cron filter criteria to prevent missing orders
+
+4.7.27
+Fixed: VCS API version
+
+4.7.26
+Fixed: PS1.7.7 not showing mp_order_id in order list
+
+4.7.25
+Fixed: VCS context in PS1.7 - PS1.7.6.0
+
+4.7.24
+Use REPLACE instead of INSERT, beacause an error is retunred on Products Delete
+
+4.7.23
+Replace was not working as expected, that's why DELETE and INSERT are executed instead
+
+4.7.22
+Fixed: Syntax error in upgrade-4.6.77 since v4.7.14
+
+4.7.21
+Fixed: Admin orders: Each module show mp_order_id independent
+
+4.7.20
+Fixed: Remove reference to wrong Sweden marketplace ID A2GWEXBRC83P52
+
+4.7.19
+Added: Orders listing: Show API warning if any.
+
+4.7.18
+Update: Consumer Electronics XSD definition updated to include: VersionForCountry, TargetRegion, ModelName
+
+4.7.17
+Fixed: StyleName attribute was included as exception of DescriptionData
+
+4.7.16
+Fixed: SizeMap attribute was included by Amazon under 2 elements DescriptionData and ClassificationData, this fix prevents misplaced SizeMap Attribute when this occurs
+
+4.7.15
+Changed: VCS: No need "europe" parameter
+
+4.7.14
+Added: VCS: Update billing address
+
+4.7.12
+Fixed: DB upgrading for MariaDB < 10.2.1
+
+4.7.11
+Fixed: VCS: Get report error since 4.7.04
+
+4.7.10
+Changed: Allow order out-of-stock product on FBA order
+
+4.7.09
+Fixed: Upgrade file 4.7. `id_product` not exist on `product_attribute_shop` in PS < 1.6.1
+
+4.7.08
+Added: Debug log on cron import order
+
+4.7.07
+Added: Compatible with ps_emailalerts + Mail Alerts PDF Invoice Attachment
+
+4.7.06
+Fixed: Catchable fatal error: Argument 7 passed to PrestaShop\PrestaShop\Adapter\Module\AdminModuleDataProvider::__construct() must be an instance of Employee.
+
+4.7.05
+Update: Product Clothing XSD file and new product types configurations
+
+4.7.03
+Added: VCS: Add ability to run for a particular order id.
+
+v.4.7.02
+Added: Multi-store support for product_action & product_option
+
+v.4.6.78
+Debug: Unable to add item to ordered item table.
+
+v.4.6.77
+Fixed: Save wrong order reports data.
+
+v.4.6.76
+Added: Choose incoming order state based on multiple order attributes (FBA, Prime, Business). Allow to deselect some incoming order states.
+
+v.4.6.74
+Fixed: Remove "*" in customer name.
+
+v.4.6.73
+Added: Force taxes recalculation.
+
+v.4.6.72
+Fixed: Sweden is identifed as part of EU
+
+v.4.6.71
+Fixed: Cannot load template for PS1.4
+
+v.4.6.70
+Added: VCS: Show upload error on failure.
+
+v.4.6.69
+Fixed: Sweden flags are displayed in orders import page
+
+v4.6.67
+Fixed: add "public static" to EAN function validation
+
+v4.6.66
+Added: Shoe size configuration for Sweden (SE) and Netherlands (NL) is same as for EU (FR, IT, ES, DE)
+
+v4.6.65
+Fixed: Orders import: Wrong debug import URL.
+
+v4.6.64
+Changes: Enable EAN check for more lenghts than only 13
+
+v4.6.62
+Changed: Orders import: State priority: Pre-order > FBA > Prime > Business > Normal incoming
+
+v4.6.61
+Fixed: Include Shoes size compliance fields for Sweden
+
+v4.6.60
+Fixed: For Large Appliance, Manufacturer and ProductName are set as NULL to prevent its inclusion
+
+v4.6.59
+Fixed: Large Appliances XSD update (1.9 instead of 4.1)
+
+v4.6.58
+Fixed: Fatal error: Uncaught PrestaShopException: The length of property FeatureValue->value is currently "n" chars. It must be between 0 and 255 chars
+
+v4.6.57
+Added: VCS: Credit note prefix.
+
+v4.6.56
+Fixed: For Large Appliance, Poduct Type was not being included when no attribute values were set on profile
+
+v4.6.55
+Fixed: For Large Appliance, the attrtibutes ProductName and Manufacturer were not being included in XML, because they had NULL value, and "isset" excludes null values.
+
+v4.6.54
+Changed: VCS: Change cron order: get - update - upload - upload.
+
+v4.6.53
+Fixed: Orders import: Wrong shipping price.
+
+v4.6.52
+Fixed: Hook product delete: stdClass 500 error.
+
+v4.6.51
+Added: Orders import: Add new state for business orders.
+
+v4.6.50
+Feature: Enable Shoes compliance data for MX
+
+v4.6.49
+Fixed: FBA: Duplicated payments.
+
+v4.6.48
+Added: VCS logger.
+
+v4.6.47
+Feature: Addition of clothing custom sixe definitions, and merge shoes size compliance data in same json file. Also json fil can be updated via Tools tab "Update Custom Definitions"
+
+v4.6.46
+Changed: Orders import: Allow negative stock for normal orders.
+
+v4.6.45
+Added: Option to enable / disable shipping tax on business order.
+
+v4.6.44
+Fixed: Orders import: Product taxes ignored due to missing cart object.
+
+v4.6.43
+Update: Health.xsd is refreshed with new version, which includes product types related to Electronic Cigarrettes.
+
+v4.6.42
+Fixed: ItemLengthDescription is displayed in CLothing universe profile configuration as mandatory field
+
+v4.6.41
+Fixed: Missing product customization after import order
+
+v4.6.4
+Fixed: Different prices of product customizations.
+
+v4.6.36
+Fixed: Orders report wrong encoding.
+
+v4.6.33
+Changed: Country & language need to be consistent before configure profiles.
+
+v.4.6.30
+Fixed: VCS: 1.6 < PS < 1.6.1.1 compatible
+
+v.4.6.28
+Fix: Include Sweden as part of EU
+
+v.4.6.27
+Fix: Amazon SE markeplace ID restored to A2NODRKZP88ZB9
+
+v4.6.26
+Fix: query join to check duplicated products
+
+v4.6.25
+Changed: Prime: Truncate address to fit Amazon requirement.
+
+v4.6.24
+Compatibility: PS Kernel validation only applies to PS17
+
+v4.6.23
+Prevents: Uncaught Exception: Kernel Container is not available.
+
+v4.6.22
+Fixed: VCS invoice language context
+
+v4.6.21
+Fixed: Mismatch lang code of US in FBA
+
+v4.6.20
+Change: Sweden marketplace ID is A2GWEXBRC83P52, according to Amazon.
+
+v4.6.19
+Change: Add marketplace tabs for UAE / Saudi Arab and Sweden.
+
+v4.6.18
+Changed: VCS change invoice file name
+Added: Customer Vat number in billing address in VCS invoice
+
+v4.6.17
+Change: Include Amazon Saudi Arabia MarketplaceId & Amazon MWS Endpoint and Fix Module Link compatible code (for PS <= 1.5)
+
+v4.6.16
+Fixed: Amazon web service status was not displayed correctly for EU region
+
+v4.6.15
+Fixed: VCS get shipment not fired. Item prices / total item prices in invoices
+
+v4.6.14
+Changed: Country tab is displayed even with 1 single lang activated
+Fixed: Parentage element is added on Universe "Health" as it's a required element
+
+v4.6.13
+Changed: Amazon order details URL
+
+v4.6.12
+Fixed: Amazon Web Services Status was not being obtained, because MWS Token was not sent.
+
+v4.6.11
+Fixed: Updated PHP5.6 compat issue Updated version number Updated carrier list
+
+v4.6.10
+Fixed: VCS Lite - Use default invoice number of PS.
+
+v4.6.09
+Added: Prime instruction in certain error.
+
+v4.6.08
+Fix: Boolean values were set as "string" which caused its evaluation to always return "true".
+
+v4.6.07
+Enhanced: Prime
+
+v4.6.06
+Fix condition for mandatory element: "Count" on Beauty and Health. Element location is different on  both universes, now its separated
+
+v4.6.05
+Comment code that was causing ColorMap to be included as part of Product, when it should be part of ClassificationData (on Shoes Universe)
+
+v4.6.04
+Enhanced: adding of additional debug messages on product import
+
+v4.6.03
+Enhanced: Remove unused certificate files
+
+v4.5.045
+Fixed: - Call to a member function getNamespaces() on boolean. When Web Service request fails.
+       - warning on debug get_object_vars() expects parameter 1 to be object. On debug message
+
+v4.5.044
+Fixed: debug log  for undefined index when importing products
+
+v4.5.043
+Fixed: using INSERT instead of REPLACE, to avoid product options duplicated
+
+v4.5.042
+Added: Label carrier pri-2
+
+v4.5.41
+Fixed: Array declaration compatible with PHP 5.3 affecting orders update actions (white page).
+
+v4.5.038
+Fixed: Product shipping template
+
+v4.5.36
+Fixed: Order statuses cron failed because of old db structure.
+
+v4.5.35
+Added: Handle dni for require countries's address.
+
+v4.5.34
+Fixed: Two different orders are considered same.
+
+v4.5.33
+Fixed: Import products using Unicode encoding file
+
+v4.5.32
+Added: Truncate special character in import order's address city (#)
+
+v4.5.31
+Fixed: VCS get shipment - expired time of report request & report type
+
+v4.5.23
+Reverted: Change MSRP to Europe Currency Format (x,xx.xx)
+
+v4.5.22
+Added: VCS Lite - option to update customer VAT number
+
+v4.5.002
+Added: VCS Lite
+
+v4.4.174
+Fixed : Marketplace - The Netherlands
+v4.4.173
+Fixed : Change MSRP to Europe Currency Format (x,xx.xx)
+
+v4.4.172
+Added : Marketplace - The Netherlands
+
+v4.4.171
+Added : Fake dni when import order
+
+v4.4.170
+Fixed : Product Title return fail from Product::externalName
+
+v4.4.169
+Added : Retail Price and Retail Price with tax for MSRP (Manufacturer's suggested retail price)
+Fixed : Update Shipping groups template without serialize on the download report
+
+v4.4.168
+Fixed : import order error Cart validation failed (remove id_product from get product cart)
+Changed : import order for 4 hours
+
+v4.4.167
+Added : Merchant Fulfillment - shipping label
+Fixed : get ASIN by EAN - asinProbe
+
+v4.4.166
+Fixed : product description for Japan
+
+v4.4.165
+Fixed : get serialize batches
+
+v4.4.164
+Fixed : Order invoice customization
+
+v4.4.163
+Fixed : Order Business VAT
+Added : Double check firstname & lastname length.
+
+v4.4.162
+Removed : Filter order by Date max (order address report)
+Fixed : Duplicate unserialize on AmazonConfiguration::get
+Added : Singapore
+
+v4.4.161
+Fixed : Maximum SearchTerms at 1 line
+
+v4.4.160
+Fixed : can't save the address name with '`'
+Fixed : Parse Order Customization
+
+v4.4.159
+Fixed : error undefined profile name
+
+v4.4.158
+Fixed : Order Customization for attributes[size/color] and Invoice Display Customization Items
+
+v4.4.157
+Fixed : Profile Luggage unitOfMeasure
+
+v4.4.156
+Fixed : VAT order Business
+
+v4.4.155
+Fixed : Permission denied on profiles tab
+Fixed : Choice attribute on Product Type (profiles)
+
+v4.4.154
+Fixed : profiles configuration for multishop
+
+v4.4.153
+Fixed: Profile - display Default Shipping Template
+Fixed: acknowledge orders on 1 Marketplace
+
+v4.4.152
+Fixed: Addess name remove "/" from firstname and lastname
+
+v4.4.151
+Fixed : Error on duplicate profiles.
+
+v4.4.147
+* Fixed: AMAZON_ALTERNATIVE_CONTENT display on Parameter tab.
+
+v4.4.146
+* Changed : loading on demand allows to have almost unlimited profiles.
+
+v4.4.145
+* PrestaShop 1.7 : displayProductButtons has been renamed into displayProductAdditionalInfo.
+
+v4.4.143
+* Check the version for FrontController, on DisplayPrice
+
+v4.4.142
+* Fixed : Import order when empty product_name
+
+v4.4.141
+* Fixed : AmazonTools - display price for Prestashop > 1.7.6
+
+v4.4.140
+* Fixed repricing : Offers property is not array -merchantOfferLookup
+* Added : mazon MWS endpoints [BR, AE, IN, TR, AU]
+* Fixed : Firstname and Lastname with a numeric.
+
+v4.4.138
+* Fixed repricing : Check/Subscribe Service
+
+v4.4.137
+* Fixed error on isLoggedback
+
+v4.4.136
+* Fixed displayPrice
+* Added sleep to prevents throttling for the getMatchingProductForId
+* Fixed Size map for free text attribute
+* Skip existing product when create a new product only
+* Fixed error smarty sprintf on invoice_additional_info.tpl
+* Fixed error on function l(), due to thefunction getModuleTranslation which using the function getIsoByLocal request language code not id_lang.
+* Fixed business orders
+* Split sku parent and sku child length (32)
+* Fixed Address First name and Last name
+
+v4.4.129
+
+* Added: id_order_state on addHistory - import order
+* Fixed error smarty sprintf on invoice_additional_info.tpl
+* Fixed error on function l(), due to thefunction getModuleTranslation which using the function getIsoByLocal request language code not id_lang.
+
+v4.4.128
+
+* Fixed: AMAZON_ALTERNATIVE_CONTENT display on Parameter tab.
+
+v4.4.127
+
+* Fixed: Error import product images name longer than 128.
+
+v4.4.126
+
+* Added: return Error Message From Customer Validation
+
+v4.4.125
+
+* Fixed: Amazon status, Amazon participations - remove AWSAccessKeyID and SecretKey
+* Added: Other carrier name
+
+v4.4.124
+
+* Fixed: OrderTotal for Amazon Tax on Amazon USA
+
+v4.1.105
+
++ Added Customer Groups support
+
+v4.1.106
+
+* Fixed: checkAsin function for repricing
+* Added debug for discount/sales
+
+v4.1.107
+
+* Fixed: Bug - Variants in CE were no long possible
+
+v4.1.108
+
+* Module update notice (informations tab)
+
+v4.1.108
+
+* Fixed: Bug - id_currency could be empty in import_orders.php
+
+v4.1.109
+
+* Field validation optimizations (orders import)
+
+v4.1.110
+
+* Memory optimizations (profiles)
+
+v4.1.112
+
++ Added debugs
+
+v4.1.114
+
+* Fixed: FBA Orders statuses update
+
+v4.1.115
+
+* Fixed: FBA synch crashes when eBay module is installed
+
+v4.1.116
+
+* Fixed: issue with Books category, missing publication date field
++ Added: SKU consistency check
+
+v4.1.117
+
++ Added: account type: global and send invoice are incompatible, warning message added
+* Fixed: Specific Prices could be not exported in non multistore environment
+
+v4.1.118
+
++ Added: FBA Debug
+* Fixed: Price rounding issue when the user uses a discount management module
+
+v4.1.119
+
+* Fixed: overrides check function displayed a notice when the overrides folder was empty
+
+v4.1.120
+
+* Fixed: Luggage category Color and Size Mappings
+
+v4.1.122
+
++ Added: SKU controls reinforced in product export
+
+v4.1.123
+
++ Added: Support of STOCK_MANAGEMENT turned off
+
+v4.1.124
+
++ Added: Debug added on valid values import
+
+v4.1.125
+
+* Bug: error message when the feed was containing only 0 stock products
+
+v4.1.130
+
++ Tag Management Improved (keywords)
+
+v4.1.132
+
+* Bug: ListAllFulfillmentOrders (FBA)
+
+v4.1.133
+
+* Improvement: Allow <p> in text descriptions, convertToCurrency linefeed to <br />
+
+v4.1.134
+
+* Bug Fix: Bullet points propagation escape issue
+* Bug Fix: Handling the case getFeatures returns nothing
+* Improvement: Added supplier price in order_details for dashboard report
+
+v4.1.135
+
+* Bug Fix: Shipping Overrides for Mexico
+
+v4.1.136
+
+* Bug Fix: FBA & quantity 0 > product feed has to be sent
+
+v4.1.140
+
+* Added: FBA Delivered order state for MFN
+
+v4.1.143
+
+* Fix: Number of Items for industrial Category
+
+v4.1.144
+
+* Fix: Tools::strlen crashes the queue retrieve in the sqs callback function
+
+v4.1.145
+
+* Added: check_stock ; Fix stock inconsistencies by confronting both stocks : Amazon side and Prestashop side ; usefull for people who are using import modules which don't trigger the hook on product update
+* Added: Amazon Remote Cart: reserve products pending in cart on Amazon to prevent to sell out of stock products in case of two sales at same time
+
+v4.1.150
+
+* Fixed: Remote Cart bugs
+
+v4.1.152
+
+* Removed: Amazon Remote Cart - during high season, we do not provide software to prevent troubles
+
+v4.1.153
+
+* Fixed: Products tags for Prestashop 1.4
+* Fixed: FBA order status update
+
+v4.1.156
+
+* Fixed: Jewlery Issue (Metal Type for a product whithout variant)
+
+v4.1.157
+
+* Fixed: Encode data structure in ISO-8859-1 when sending FBA order to Amazon
+
+v4.1.157
+
+* Fixed: Encode data structure in ISO-8859-1 when sending FBA order to Amazon
+
+v4.1.158
+
+* Added: More debug in payment class
+
+v4.1.159
+
+* Fixed: arrayMapRecursive declared as static
+
+v4.1.160
+
+* Added: loggin javascript execution time
+
+v4.1.161
+
+* Fixed: various issues with FBA
+
+v4.1.166
+
++ Added: Shipping Templates and Shipping Group Names in Shipping Tab for future release (4.2)
+
+v4.1.184
+
+* Fixed: Profile Issue when the profile name contains special chars
+
+v4.1.190
+
+* Added: option to send price or stock only
+
+v4.1.191
+
+* Fixed: MfrPartNumber was not sent for parent product even the checkbox send sku as mfrpartnumber was checked
+
+v4.1.192
+
+* Fixed: SpecialFeatures instead of bullet points for ProductClothing
+
+v4.1.194
+
+* Fixed: Warning in product tab (Product Sheet Ext)
+
+v4.1.195
+
+* Fixed: Product Type > Home
+
+v4.1.196
+
+* Fixed: SpecialFeatures has a typo in ProductClothing XSD, "s" is missing
+
+v4.1.198
+
+* Fixed: Man in a middle security threat fixed
+
+v4.1.203
+
+* strstr with third parameters is not compatible with PHP 5.2 ...
+
+v4.1.204
+* amazon.certificates.class.php added
+
+v4.1.205
+* fix: replace " by ' in the address
+
+v4.1.210
+* import order failed because of address validation
+
+v4.1.211-2-3
+* minor fixes
+
+v4.1.214
++ added fba notification in FBA tab
+
+v4.1.216
++ ignore fba_value added
+
+v4.1.217
+* fixed: tax issue
+
+v4.1.219
++ added: support of updateOrderDetailTax
+
+v4.1.225
++ removed: support of updateOrderDetailTax
+
+v4.1.228
++ add: sort order to swap fistname and lastname
+
+v4.1.230
++ warning during export fixed
+
+v4.1.231
++ The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details. fixed
+
+v4.1.232
+* Sale Price rounding issue on currency convertion
+
+v4.1.233
+* Fix for mailalert
+
+v4.1.257
++ Added: Messaging Features
+
+v4.1.255
+* Fix: arrayReplace is not implemented in PHP 5.2
+
+v4.1.259
+* Fix import out of stock and AFN
+
+v4.1.260
+* Repricing bug fix (on cleaning actions)
+* Updated translation
+
+v4.1.290
++ Added ItemDimensions tag
+
+v4.1.291
++ Added Amazon Taxes
+
+v4.1.292
++ Fixed Amazon Taxes bug for USA
+
+v4.1.296
++ Fixed bug with UPC code for products without combination
+
+v4.1.298
++ Fixed C / O with spaces in address->Name
+
+v4.1.299
++ Removed PS 1.2 & 1.3 compatibility
+
+v4.2.002
++ Added Reverse Gauge & Tare in Expert Mode (shipping)
+
+4.2.006
++ Added: Gift Message for FBA multichannel orders
+
+4.2.010
++ Added: Create unexisting products (import)
+
+4.2.015
+* Improvement; load once all categories
+* Bug fix: order statuses no longer updated
+
+4.2.020
+* Combination support added to FBA Manager
+
+4.2.021
+* Fixed: Automaton (Offers Creation Wizard)
+
+4.2.022
+* Fixed: FBA set to ship then delivered
+
+4.2.049
++ Added Support of Parent Category for profile assignation
+
+4.2.051
+* Fixed: annotation/documentation tags have to be removed as they create fake children ; line 351 of AmazonXSD.php, i suffered to find the issue !
+
+v4.2.060
+* Fixed: Color map became mandatory for luggage
+
+v4.2.065
+* Fixed: Hook actionObjectStockAvailableUpdateAfter added to be compatible with a StockAvailable call through the webservice
+
+v4.2.135
+* Fixed: Product "%s" has several profiles in several categories !
+
+v4.2.151
+* Fixed: Order State date, Payment Date
+
+v4.2.168
+* Fixed: FBA Stock issue (import)
+
+v4.2.180
+* Fixed: Improved support for Amazon's VAT
+* Fixed: Images in the suitable context for multistore
+
+v4.2.186
+* Fixed: FBA duplicated orders import issue
+
+v4.2.226
+* Fixed: Taxes for outside Europe
+* Flag on orders
+* Order Info Update feature
+
+v4.2.230
+* Fixed: Shipping Item discount
+
+v4.2.252
+* Fixed: Taxes for USA
+
+v4.2.258
+* Removed: HTML tags
+
+v4.3
+* Import feature added
+
+v4.4
+* Statistic tab added
+
+v4.4.002
+* AFN orders import issue fixed
+
+v4.4.049
+* Add Report tab in Amazon Order
+
+v4.4.050
+* GDPR compliance
+
+v4.4.051
+* Fix display error of Repricing in configuration page
+
+v4.4.052
+* Fix saving automaton
+
+v4.4.053
+* Fix duplicate id in Repricing tab
+
+v4.4.056
+* Show tax in orders reports
+
+v4.4.061
+* Remove option Carriers/Modules
+
+v4.4.062
+* Calculate tax for FBA order which has different between seller's country and buyer's country
+
+v4.4.076
+* Provide full support information
+
+4.4.091
+* added alternate text and description
+
+4.4.092
+* added customization to invoice
+
+4.4.106
+* Fixed: field validation/fix
+* Added: Turkey
+
+4.4.108
+* Delete option (Product extra) and Delete Products (Configuration > Parameters) are different features.
+* Delete option is available on Expert Mode.
+
+4.4.109
+* Fix incorrect tax on order invoice.
+
+4.4.110
+* Fix different price between Amazon and PS, only round final price.
+
+4.4.111
+* Fix marketplace order ID not display in order invoice.
+
+4.4.112
+* Add feature in shop frontend: Available at Amazon.
+
+4.4.113
+* Fix profile's price rules are not displayed correctly.
+
+4.4.114
+* Fix empty ProductType for Sports universe.
+
+v4.4.124
+* Fix import products for germany
+* Fix Updated API call from Amazon (deprecation or bug of Content-MD5 hash, changed to ContentMD5Value)

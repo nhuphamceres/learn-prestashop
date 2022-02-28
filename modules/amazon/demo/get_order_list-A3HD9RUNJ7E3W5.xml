@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<ListOrdersResponse xmlns="https://mws.amazonservices.com/Orders/2011-01-01">
+  <ListOrdersResult>
+    <Orders>
+      <Order>
+        <LatestShipDate>2016-03-15T22:59:59Z</LatestShipDate>
+        <OrderType>StandardOrder</OrderType>
+        <PurchaseDate>2016-03-11T17:22:26Z</PurchaseDate>
+        <BuyerEmail>jmwsjr28kmws9fs@marketplace.amazon.fr</BuyerEmail>
+        <AmazonOrderId>403-0183405-0037117</AmazonOrderId>
+        <LastUpdateDate>2016-03-11T18:06:22Z</LastUpdateDate>
+        <ShipServiceLevel>Std FR Dom</ShipServiceLevel>
+        <NumberOfItemsShipped>0</NumberOfItemsShipped>
+        <OrderStatus>Unshipped</OrderStatus>
+        <SalesChannel>Amazon.fr</SalesChannel>
+        <ShippedByAmazonTFM>false</ShippedByAmazonTFM>
+        <NumberOfItemsUnshipped>1</NumberOfItemsUnshipped>
+        <BuyerName>Nicolas Martel</BuyerName>
+        <OrderTotal>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>7.55</Amount>
+        </OrderTotal>
+        <EarliestShipDate>2016-03-13T23:00:00Z</EarliestShipDate>
+        <MarketplaceId>A13V1IB3VIYZZH</MarketplaceId>
+        <FulfillmentChannel>MFN</FulfillmentChannel>
+        <PaymentMethod>Other</PaymentMethod>
+        <ShippingAddress>
+          <City>fontenay sous bois</City>
+          <Phone>0148765123</Phone>
+          <CountryCode>FR</CountryCode>
+          <PostalCode>94120</PostalCode>
+          <Name>martel nicolas</Name>
+          <AddressLine1>4 impasse de l'eglise</AddressLine1>
+        </ShippingAddress>
+        <ShipmentServiceLevelCategory>Standard</ShipmentServiceLevelCategory>
+        <SellerOrderId>11664</SellerOrderId>
+      </Order>
+    </Orders>
+    <LastUpdatedBefore>2016-03-12T03:16:38Z</LastUpdatedBefore>
+  </ListOrdersResult>
+  <ResponseMetadata>
+    <RequestId>acc7c2d0-0bea-4f89-951a-ade155f61020</RequestId>
+  </ResponseMetadata>
+</ListOrdersResponse>

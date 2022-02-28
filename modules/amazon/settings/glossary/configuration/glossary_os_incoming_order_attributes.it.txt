@@ -1,0 +1,6 @@
+Nell'uso avanzato, usa questo per impostare lo stato di PrestaShop dell'ordine di Amazon in arrivo in base ai suoi attributi (FBA, Prime, Business,...).
+Esempio:
+- Prime + Business --> Stato dell'ordine 1.
+- FBA + Business --> Stato dell'ordine 2.
+...
+(Il posto più alto ha una priorità più alta)

@@ -1,0 +1,2 @@
+Autoriser l'utilisation du VCS
+https://documentation.common-services.com/amazonv4/service-de-calcul-de-la-tva-amazon-vcs/

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<ListOrdersResponse xmlns="https://mws.amazonservices.com/Orders/2011-01-01">
+  <ListOrdersResult>
+    <Orders>
+      <Order>
+        <LatestShipDate>2015-11-19T22:59:59Z</LatestShipDate>
+        <OrderType>StandardOrder</OrderType>
+        <PurchaseDate>2015-11-17T13:22:11Z</PurchaseDate>
+        <BuyerEmail>fq76c4dp18g46rq@marketplace.amazon.es</BuyerEmail>
+        <AmazonOrderId>402-4347392-1438720</AmazonOrderId>
+        <LastUpdateDate>2015-11-17T19:01:09Z</LastUpdateDate>
+        <ShipServiceLevel>Std ES Dom_2</ShipServiceLevel>
+        <NumberOfItemsShipped>1</NumberOfItemsShipped>
+        <OrderStatus>Shipped</OrderStatus>
+        <SalesChannel>Amazon.es</SalesChannel>
+        <ShippedByAmazonTFM>false</ShippedByAmazonTFM>
+        <NumberOfItemsUnshipped>0</NumberOfItemsUnshipped>
+        <BuyerName>RAMON</BuyerName>
+        <OrderTotal>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>84.62</Amount>
+        </OrderTotal>
+        <EarliestShipDate>2015-11-17T23:00:00Z</EarliestShipDate>
+        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+        <FulfillmentChannel>MFN</FulfillmentChannel>
+        <PaymentMethod>Other</PaymentMethod>
+        <ShippingAddress>
+          <StateOrRegion>MADRID</StateOrRegion>
+          <City>MADRID</City>
+          <Phone>606532681</Phone>
+          <CountryCode>ES</CountryCode>
+          <PostalCode>28006</PostalCode>
+          <Name>RAMON CHECA MANZANERO</Name>
+          <AddressLine1>CALLE PADILLA 17, 6&#xBA; PLANTA</AddressLine1>
+          <AddressLine2>NOTARIA ANDRES DOMINGUEZ NAFRIA</AddressLine2>
+        </ShippingAddress>
+        <ShipmentServiceLevelCategory>Standard</ShipmentServiceLevelCategory>
+      </Order>
+      <Order>
+        <LatestShipDate>2015-11-27T22:59:59Z</LatestShipDate>
+        <OrderType>StandardOrder</OrderType>
+        <PurchaseDate>2015-11-25T13:50:30Z</PurchaseDate>
+        <AmazonOrderId>404-7107958-5924360</AmazonOrderId>
+        <LastUpdateDate>2015-11-25T14:41:16Z</LastUpdateDate>
+        <ShipServiceLevel>Std ES Dom_2</ShipServiceLevel>
+        <NumberOfItemsShipped>0</NumberOfItemsShipped>
+        <OrderStatus>Canceled</OrderStatus>
+        <SalesChannel>Amazon.es</SalesChannel>
+        <ShippedByAmazonTFM>false</ShippedByAmazonTFM>
+        <NumberOfItemsUnshipped>0</NumberOfItemsUnshipped>
+        <OrderTotal>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>57.97</Amount>
+        </OrderTotal>
+        <EarliestShipDate>2015-11-25T23:00:00Z</EarliestShipDate>
+        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+        <FulfillmentChannel>MFN</FulfillmentChannel>
+        <ShipmentServiceLevelCategory>Standard</ShipmentServiceLevelCategory>
+      </Order>
+    </Orders>
+    <LastUpdatedBefore>2015-12-04T22:59:59Z</LastUpdatedBefore>
+  </ListOrdersResult>
+  <ResponseMetadata>
+    <RequestId>7100c6a5-0009-4adf-961d-3cfe2b3b3945</RequestId>
+  </ResponseMetadata>
+</ListOrdersResponse>

@@ -1,0 +1,1 @@
+Les paramètres avancés sont plus prioritaires que les paramètres rapides (statuts des commandes) ci-dessus.

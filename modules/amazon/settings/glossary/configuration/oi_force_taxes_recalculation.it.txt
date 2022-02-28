@@ -1,0 +1,4 @@
+Quando si importano ordini, forzare il ricalcolo delle tasse in base alle impostazioni di PrestaShop.
+Utile in caso di tasse sbagliate su Amazon, e non puoi controllarle.
+
+Esempio: Un prodotto non è creato da te ma ha una tassa sbagliata su Amazon.

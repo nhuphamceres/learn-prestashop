@@ -1,0 +1,1 @@
+Käufernummer aktualisieren mit Hilfe von VCS-Daten

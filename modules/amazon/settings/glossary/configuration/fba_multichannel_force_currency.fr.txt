@@ -1,0 +1,2 @@
+Utilisez cette devise lorsque vous envoyez des prix à Amazon.
+Laissez vide pour utiliser le paramètre par défaut.

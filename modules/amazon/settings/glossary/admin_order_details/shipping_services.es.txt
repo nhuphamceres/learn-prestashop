@@ -1,0 +1,4 @@
+A partir del 2 de febrero de 2021, Amazon requiere que proporcione el servicio de entrega / servicio de envío / método de envío durante el proceso de Confirmación de Envío de los pedidos realizados por el vendedor.
+Sin esta información, no podrá confirmar el envío de su pedido.
+
+Por favor, visite la página de ayuda de las preguntas frecuentes sobre el seguimiento para obtener más detalles (https://sellercentral-europe.amazon.com/gp/help/G202068180)

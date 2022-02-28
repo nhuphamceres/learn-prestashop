@@ -1,0 +1,4 @@
+Cuando ordenes de importación, forzar a recalcular los impuestos basados en la configuración de su PrestaShop.
+Es útil en caso de impuestos equivocados en Amazon, y no puedes controlarlos.
+
+Ejemplo: Un producto no es creado por ti pero tiene un impuesto incorrecto en Amazon.

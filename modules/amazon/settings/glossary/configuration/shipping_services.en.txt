@@ -1,0 +1,4 @@
+Beginning February 2, 2021, Amazon requires you to provide the delivery service / shipping service / shipping method during the Ship Confirm process of Seller-fulfilled orders.
+Without this information, you will not be able to ship confirm your order.
+
+Please visit Tracking FAQ Help page for additional details (https://sellercentral-europe.amazon.com/gp/help/G202068180)

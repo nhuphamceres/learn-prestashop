@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<GetOrderResponse xmlns="https://mws.amazonservices.com/Orders/2011-01-01">
+  <GetOrderResult>
+    <Orders>
+      <Order>
+        <LatestShipDate>2015-11-19T22:59:59Z</LatestShipDate>
+        <OrderType>StandardOrder</OrderType>
+        <PurchaseDate>2015-11-17T13:22:11Z</PurchaseDate>
+        <BuyerEmail>fq76c4dp18g46rq@marketplace.amazon.es</BuyerEmail>
+        <AmazonOrderId>402-4347392-1438720</AmazonOrderId>
+        <LastUpdateDate>2015-11-17T19:01:09Z</LastUpdateDate>
+        <ShipServiceLevel>Std ES Dom_2</ShipServiceLevel>
+        <NumberOfItemsShipped>1</NumberOfItemsShipped>
+        <OrderStatus>Shipped</OrderStatus>
+        <SalesChannel>Amazon.es</SalesChannel>
+        <ShippedByAmazonTFM>false</ShippedByAmazonTFM>
+        <NumberOfItemsUnshipped>0</NumberOfItemsUnshipped>
+        <BuyerName>RAMON</BuyerName>
+        <OrderTotal>
+          <CurrencyCode>EUR</CurrencyCode>
+          <Amount>84.62</Amount>
+        </OrderTotal>
+        <EarliestShipDate>2015-11-17T23:00:00Z</EarliestShipDate>
+        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+        <FulfillmentChannel>MFN</FulfillmentChannel>
+        <PaymentMethod>Other</PaymentMethod>
+        <ShippingAddress>
+          <StateOrRegion>MADRID</StateOrRegion>
+          <City>MADRID</City>
+          <Phone>606532681</Phone>
+          <CountryCode>ES</CountryCode>
+          <PostalCode>28006</PostalCode>
+          <Name>RAMON CHECA MANZANERO</Name>
+          <AddressLine1>CALLE PADILLA 17, 6&#xBA; PLANTA</AddressLine1>
+          <AddressLine2>NOTARIA ANDRES DOMINGUEZ NAFRIA</AddressLine2>
+        </ShippingAddress>
+        <ShipmentServiceLevelCategory>Standard</ShipmentServiceLevelCategory>
+      </Order>
+    </Orders>
+  </GetOrderResult>
+  <ResponseMetadata>
+    <RequestId>383a5077-9708-462d-a3e4-4639a87ac821</RequestId>
+  </ResponseMetadata>
+</GetOrderResponse>

@@ -1,0 +1,1 @@
+Advanced settings take higher priority than the Quick settings (Orders Statuses) above.
